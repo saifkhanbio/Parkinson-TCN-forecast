@@ -1,6 +1,6 @@
 # Parkinson-TCN-forecast
 
-Research scripts for **Sex-Specific Transfer Learning and Forecast Reliability for Parkinson’s Disease in Saudi Arabia: A GBD 2023 Study with Gulf Benchmarking**.
+Research scripts for sex-specific Parkinson’s disease forecasting, forecast reliability and disability-care planning in Saudi Arabia, with Gulf benchmarking and supporting demographic analyses.
 
 The study evaluates whether regional pretraining with limited Saudi adaptation improves five-year forecasts of male and female GBD-estimated Parkinson’s prevalence. Saudi Arabia is the primary target; Bahrain, Kuwait, Oman, Qatar and the United Arab Emirates undergo the same evaluation. Jordan contributes regional donor data.
 
@@ -13,6 +13,7 @@ The study evaluates whether regional pretraining with limited Saudi adaptation i
 - **Comparators:** local statistical forecasts, pooled and donor-only ridge/boosting models, and compact temporal convolutional networks (TCNs) with limited target adaptation.
 - **Reliability:** chronological evaluation, donor/adaptation harm, interval coverage, width, weighted interval score, and coherent counts, age shares and sex ratios. Ages 80+ remain explicit.
 - **Demography:** population-source sensitivity, native-count reconciliation and conditional projections from the 2023 disease-data cutoff.
+- **Later extensions:** an exploratory Bayesian age–time comparator, integration of Saudi population and insurance tabulations, and decomposition of projected burden changes into population size, composition and rate contributions.
 
 Age-specific errors averaged across the eleven bands are distinct from full-age ASRs. Survival and individual patient progression are outside the study scope.
 
@@ -39,7 +40,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-Install the listed numerical/modeling packages in the environment. Reporting and acquisition scripts additionally use `matplotlib`, `lxml`, `openpyxl`, `psutil`, `requests`, and, in some scripts, `pip._vendor.requests`. PDF extraction scripts require `pdftotext`. Select a PyTorch installation appropriate to your CPU or CUDA environment; GPU support is optional for runners that expose CPU execution. Linux/WSL matches the original workflow; some supervision scripts use `fcntl`.
+Install the listed numerical/modeling packages in the environment. Reporting and acquisition scripts additionally use `matplotlib`, `lxml`, `openpyxl`, `psutil`, `requests`, and, in some scripts, `pip._vendor.requests`. The manuscript and figure tools also require `python-docx`, `Pillow` and `PyMuPDF` (imported as `fitz`); older Excel inputs require `xlrd`. PDF extraction scripts require `pdftotext`, and DOCX-to-PDF rendering requires a separate office application such as LibreOffice. Select a PyTorch installation appropriate to your CPU or CUDA environment; GPU support is optional for runners that expose CPU execution. Linux/WSL matches the original workflow; some supervision scripts use `fcntl`.
 
 Machine-specific paths, including `/home/saif/agpu_env`, must be reviewed before reuse. There is no application build or package installation step for this source tree; runners set their local import paths.
 
@@ -51,6 +52,7 @@ The complete research workspace supplies:
 2. `study_design/locked_v1/design.json`, its protocol and lock manifest, plus specifications for later analyses.
 3. Prepared tables under `data/processed/design_v1/`, including `regional_outcomes.csv`.
 4. Stage-specific test/preflight records under `work/`, implementation documents, and the completed prior-stage outputs required by each runner.
+5. For the later extensions, the bounded-extension specification and lock, Saudi demographic and insurance downloads under `data/raw/`, and their prepared tables. JDR reporting additionally reads authoring text/JSON, reference records and the example DOCX under `manuscript/JDR_GBD_PARK/`. These inputs, templates and generated documents are excluded from this repository and must be supplied separately through the study supplementary materials or their providers.
 
 Obtain data through the relevant providers, including [GBD Results](https://vizhub.healthdata.org/gbd-results/), [UN World Population Prospects](https://population.un.org/wpp/), GASTAT and GCC-Stat, observing their access and reuse terms. The scripts preserve release identifiers, units and source hashes. Raw downloads should remain unchanged.
 
@@ -88,6 +90,22 @@ Additional entry points include:
 
 The mixture pools saved complete trajectories; it does not train new models. Report and recovery scripts also require their documented prior artifacts. Inspect each script’s arguments and input checks before execution; some load configuration before argument parsing.
 
+## Later analysis and reporting scripts
+
+The October 2026 source update includes the following entry points. They require their saved inputs and earlier outputs; the table is an index, not a standalone execution sequence.
+
+| Purpose | Entry points |
+|---|---|
+| Bayesian age–time comparator and interval evaluation | `scripts/run_bayesian_age_time.py`, `scripts/report_bayesian_age_time.py` |
+| Saudi denominator audit and demographic/insurance integration | `scripts/audit_population_denominators_v2.py`, `scripts/integrate_saudi_raw_data.py`, `scripts/report_saudi_raw_integration.py` |
+| Public Saudi evidence acquisition and preparation | `supporting_data/2026-10-01_saudi_evidence/acquire_public.py`, `prepare_public.py` |
+| Source bibliography and dataset citation crosswalk | `study_design/dataset_citations_2026-10-01/acquire_references.py`, `build_citation_package.py` |
+| Exact forecast export, comparison graphics and percentage changes from 2023 | `scripts/export_forecast_comparison.py`, `scripts/plot_standalone_forecast_comparison.py`, `scripts/plot_forecast_percentage_change.py` |
+| Demographic decomposition for disability-care planning | `scripts/jdr_additional_analysis.py` |
+| JDR references, figures, manuscript assembly and package checks | `scripts/build_jdr_references.py`, `scripts/audit_jdr_data_citations.py`, `scripts/plot_jdr_figures.py`, `scripts/build_jdr_manuscript.py`, `scripts/validate_jdr_package.py` |
+
+The JDR workflow assembles eight figures and six editable tables. Its checks cover numerical agreement, source attribution, embedded image resolution, typography, caption lengths and the separate full limitations document. Run package validation only after generating the required figures/documents and rendering the corresponding PDFs. Reporting scripts write derived artifacts; they do not refit the forecasting models. The original IJE reporting builder remains available because later figure scripts reuse its plotting functions.
+
 ## Validation
 
 A source-only checkout supports Python syntax compilation:
@@ -101,6 +119,8 @@ With the required configuration and fixtures restored, run the relevant test sui
 ```bash
 python -m unittest discover -s tests -p 'test_local_baselines.py' -v
 python -m unittest discover -s tests -p 'test_distribution_mixture.py' -v
+python -m unittest discover -s tests -p 'test_bayesian_age_time.py' -v
+python -m unittest discover -s tests -p 'test_saudi_raw_integration.py' -v
 ```
 
 Many tests read excluded configuration or prior artifacts, so these commands are conditional on the complete workspace. Run without `-O`, which disables assertions. Retain fit failures, source/code hashes, chronological selection records and independent replay audits; syntax checks alone do not establish scientific validity.
