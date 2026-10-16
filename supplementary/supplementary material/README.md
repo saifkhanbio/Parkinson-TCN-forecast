@@ -2,13 +2,15 @@
 
 **Forecasting Parkinson’s disease burden in Saudi Arabia and the Gulf: retrospective model evaluation and demographic sensitivity analysis**
 
-Repository deposit assembled on 16 October 2026 from the preserved research workspace. This package maps all 54 manuscript labels: Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1. A label may contain several files. Original relative paths are retained.
+Repository deposit assembled on 16 October 2026 from the preserved research workspace. This package maps all 54 manuscript labels: Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1. A label may contain several files. Original relative paths are retained except that the deposited manuscript folder is named `manuscript/GBD_PARK/`.
 
 ## Interpretation and provenance
 
 The reported analyses were not refitted for this deposit. Conditional 2024–2028 projections use a 2023 disease-data cutoff and were calculated in 2026; they are not a real-time forecast issued in 2023. Historical protocol titles, journal names, dated statements and analysis decisions are preserved as provenance. The BMC manuscript provides the current reporting and interpretation. In particular, a protocol statement written before model fitting is not a statement about the present status of the study.
 
 Archived stage outputs include superseded and exploratory comparisons. Figures S28, S29 and S30 deliberately retain successive synthesis versions; the current manuscript identifies the selected analysis. Supplementary Software S1 contains additional exploratory code, including work not evaluated in the BMC manuscript. Its presence does not imply that every script or comparator is reported in that manuscript.
+
+The deposited manuscript folder was renamed from `manuscript/JDR_GBD_PARK/` to `manuscript/GBD_PARK/`. The current index and manifest use the new location. Original research scripts, documents, retrieval records and the original index retain their historical workspace paths as provenance; the folder rename does not alter their contents.
 
 ## Files and reuse
 
@@ -30,14 +32,14 @@ Source provenance, locked protocol and amendments.
 - [results/source_compatibility_v1/native_coverage.csv](results/source_compatibility_v1/native_coverage.csv)
 - [results/source_compatibility_v1/saudi_2023_population_comparison.csv](results/source_compatibility_v1/saudi_2023_population_comparison.csv)
 - [results/source_compatibility_v1/forecast_draw_schema.json](results/source_compatibility_v1/forecast_draw_schema.json)
-- [manuscript/JDR_GBD_PARK/references/Data_Citation_Audit.docx](manuscript/JDR_GBD_PARK/references/Data_Citation_Audit.docx)
-- [manuscript/JDR_GBD_PARK/references/data_citation_audit.csv](manuscript/JDR_GBD_PARK/references/data_citation_audit.csv)
-- [manuscript/JDR_GBD_PARK/references/provider_citation_audit/retrieval_manifest.json](manuscript/JDR_GBD_PARK/references/provider_citation_audit/retrieval_manifest.json)
-- [manuscript/JDR_GBD_PARK/references/Supplementary_Data_References.docx](manuscript/JDR_GBD_PARK/references/Supplementary_Data_References.docx)
-- [manuscript/JDR_GBD_PARK/references/data_source_register.csv](manuscript/JDR_GBD_PARK/references/data_source_register.csv)
-- [manuscript/JDR_GBD_PARK/references/data_file_citation_crosswalk.csv](manuscript/JDR_GBD_PARK/references/data_file_citation_crosswalk.csv)
-- [manuscript/JDR_GBD_PARK/references/citation_audit_validation.json](manuscript/JDR_GBD_PARK/references/citation_audit_validation.json)
-- [manuscript/JDR_GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv](manuscript/JDR_GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv)
+- [manuscript/GBD_PARK/references/Data_Citation_Audit.docx](manuscript/GBD_PARK/references/Data_Citation_Audit.docx)
+- [manuscript/GBD_PARK/references/data_citation_audit.csv](manuscript/GBD_PARK/references/data_citation_audit.csv)
+- [manuscript/GBD_PARK/references/provider_citation_audit/retrieval_manifest.json](manuscript/GBD_PARK/references/provider_citation_audit/retrieval_manifest.json)
+- [manuscript/GBD_PARK/references/Supplementary_Data_References.docx](manuscript/GBD_PARK/references/Supplementary_Data_References.docx)
+- [manuscript/GBD_PARK/references/data_source_register.csv](manuscript/GBD_PARK/references/data_source_register.csv)
+- [manuscript/GBD_PARK/references/data_file_citation_crosswalk.csv](manuscript/GBD_PARK/references/data_file_citation_crosswalk.csv)
+- [manuscript/GBD_PARK/references/citation_audit_validation.json](manuscript/GBD_PARK/references/citation_audit_validation.json)
+- [manuscript/GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv](manuscript/GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv)
 - [data/processed/design_v1/country_crosswalk.csv](data/processed/design_v1/country_crosswalk.csv)
 - [data/processed/design_v1/evaluation_calendar.csv](data/processed/design_v1/evaluation_calendar.csv)
 - [data/processed/design_v1/learning_curve_feasibility.csv](data/processed/design_v1/learning_curve_feasibility.csv)
@@ -142,9 +144,9 @@ Saudi raw-data integration methods and interpretation.
 
 JDR methods reproducibility and reporting audit.
 
-- [manuscript/JDR_GBD_PARK/Reporting_Rigor_Checklist.docx](manuscript/JDR_GBD_PARK/Reporting_Rigor_Checklist.docx)
-- [manuscript/JDR_GBD_PARK/Limitations.docx](manuscript/JDR_GBD_PARK/Limitations.docx)
-- [manuscript/JDR_GBD_PARK/analysis/validation.json](manuscript/JDR_GBD_PARK/analysis/validation.json)
+- [manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx](manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx)
+- [manuscript/GBD_PARK/Limitations.docx](manuscript/GBD_PARK/Limitations.docx)
+- [manuscript/GBD_PARK/analysis/validation.json](manuscript/GBD_PARK/analysis/validation.json)
 - [study_design/literature_review/saudi_forecast_window_2026-10-03/verification.json](study_design/literature_review/saudi_forecast_window_2026-10-03/verification.json)
 
 ### Supplementary Table S1
@@ -247,15 +249,15 @@ Exact 2024–2028 changes from matched 2023 baselines.
 
 - [forecast_percentage_change.csv](forecast_percentage_change.csv)
 - [forecast.csv](forecast.csv)
-- [manuscript/JDR_GBD_PARK/analysis/forecast_growth_decomposition.csv](manuscript/JDR_GBD_PARK/analysis/forecast_growth_decomposition.csv)
-- [manuscript/JDR_GBD_PARK/analysis/saudi_2023_burden_composition.csv](manuscript/JDR_GBD_PARK/analysis/saudi_2023_burden_composition.csv)
+- [manuscript/GBD_PARK/analysis/forecast_growth_decomposition.csv](manuscript/GBD_PARK/analysis/forecast_growth_decomposition.csv)
+- [manuscript/GBD_PARK/analysis/saudi_2023_burden_composition.csv](manuscript/GBD_PARK/analysis/saudi_2023_burden_composition.csv)
 - [reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv](reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv)
 
 ### Supplementary Table S13
 
 Resources and reporting-rigor crosswalk.
 
-- [manuscript/JDR_GBD_PARK/reporting_checklist.csv](manuscript/JDR_GBD_PARK/reporting_checklist.csv)
+- [manuscript/GBD_PARK/reporting_checklist.csv](manuscript/GBD_PARK/reporting_checklist.csv)
 
 ### Supplementary Figure S1
 

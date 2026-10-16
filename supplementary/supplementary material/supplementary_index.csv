@@ -255,23 +255,23 @@ Supplementary Material S4,Prepared demographic and insurance tables,data/process
 Supplementary Software S1,Saudi raw-data integration scripts,scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
 Supplementary Software S1,Saudi raw-data integration scripts,scripts/report_saudi_raw_integration.py,file,Unmodified source copy
 Supplementary Software S1,Scientific validation checks,tests/test_saudi_raw_integration.py,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/Data_Citation_Audit.docx,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/data_citation_audit.csv,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/provider_citation_audit/retrieval_manifest.json,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/Supplementary_Data_References.docx,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/data_source_register.csv,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/data_file_citation_crosswalk.csv,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/citation_audit_validation.json,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/Data_Citation_Audit.docx,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_citation_audit.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/provider_citation_audit/retrieval_manifest.json,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/Supplementary_Data_References.docx,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_source_register.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_file_citation_crosswalk.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/citation_audit_validation.json,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv,file,Unmodified source copy
 Supplementary Table S12,Exact 2024–2028 changes from matched 2023 baselines,forecast_percentage_change.csv,file,Unmodified source copy
 Supplementary Table S12,Exact forecasts and published projection context,forecast.csv,file,Unmodified source copy
-Supplementary Table S12,All demographic decompositions,manuscript/JDR_GBD_PARK/analysis/forecast_growth_decomposition.csv,file,Unmodified source copy
-Supplementary Table S12,Baseline burden by sex and age,manuscript/JDR_GBD_PARK/analysis/saudi_2023_burden_composition.csv,file,Unmodified source copy
+Supplementary Table S12,All demographic decompositions,manuscript/GBD_PARK/analysis/forecast_growth_decomposition.csv,file,Unmodified source copy
+Supplementary Table S12,Baseline burden by sex and age,manuscript/GBD_PARK/analysis/saudi_2023_burden_composition.csv,file,Unmodified source copy
 Supplementary Table S12,Matched scenario baseline cells,reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv,file,Unmodified source copy
-Supplementary Table S13,Resources and reporting-rigor crosswalk,manuscript/JDR_GBD_PARK/reporting_checklist.csv,file,Unmodified source copy
-Supplementary Material S5,JDR methods reproducibility and reporting audit,manuscript/JDR_GBD_PARK/Reporting_Rigor_Checklist.docx,file,Unmodified source copy
-Supplementary Material S5,Full study limitations,manuscript/JDR_GBD_PARK/Limitations.docx,file,Unmodified source copy
-Supplementary Material S5,Exploratory decomposition validation,manuscript/JDR_GBD_PARK/analysis/validation.json,file,Unmodified source copy
+Supplementary Table S13,Resources and reporting-rigor crosswalk,manuscript/GBD_PARK/reporting_checklist.csv,file,Unmodified source copy
+Supplementary Material S5,JDR methods reproducibility and reporting audit,manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx,file,Unmodified source copy
+Supplementary Material S5,Full study limitations,manuscript/GBD_PARK/Limitations.docx,file,Unmodified source copy
+Supplementary Material S5,Exploratory decomposition validation,manuscript/GBD_PARK/analysis/validation.json,file,Unmodified source copy
 Supplementary Material S5,Recent literature-window verification,study_design/literature_review/saudi_forecast_window_2026-10-03/verification.json,file,Unmodified source copy
 Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/jdr_additional_analysis.py,file,Unmodified source copy
 Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/plot_jdr_figures.py,file,Unmodified source copy
