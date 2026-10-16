@@ -4,13 +4,13 @@ Research scripts for sex-specific Parkinson’s disease forecasting, forecast re
 
 The study evaluates whether regional pretraining with limited Saudi adaptation improves five-year forecasts of male and female GBD-estimated Parkinson’s prevalence. Saudi Arabia is the primary target; Bahrain, Kuwait, Oman, Qatar and the United Arab Emirates undergo the same evaluation. Jordan contributes regional donor data.
 
-**Repository contents:** Python source plus the [BMC manuscript supplementary deposit](supplementary/BMC_Public_Health_2026/README.md). The deposit indexes Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1, including study-generated results, specifications, lock manifests, selected validation records and reports. Raw provider downloads and fitted checkpoints are not distributed. Full study execution still requires authorised upstream inputs and stage-specific prerequisites; cloning this repository alone does not reproduce every analysis.
+**Repository contents:** Python source plus the [BMC manuscript supplementary deposit](supplementary/supplementary%20material/README.md). The deposit indexes Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1, including study-generated results, specifications, lock manifests, selected validation records and reports. Raw provider downloads and fitted checkpoints are not distributed. Full study execution still requires authorised upstream inputs and stage-specific prerequisites; cloning this repository alone does not reproduce every analysis.
 
 ## Associated manuscript
 
 **Forecasting Parkinson’s disease burden in Saudi Arabia and the Gulf: retrospective model evaluation and demographic sensitivity analysis**
 
-The [supplement index](supplementary/BMC_Public_Health_2026/README.md) provides the current manuscript mapping, provenance notes, source-access instructions and checksums. The deposit preserves historical protocol and report wording and identifies the public source-verification extract.
+The [supplement index](supplementary/supplementary%20material/README.md) provides the current manuscript mapping, provenance notes, source-access instructions and checksums. The deposit preserves historical protocol and report wording and identifies the public source-verification extract.
 
 ## Study scope
 
@@ -27,7 +27,7 @@ Age-specific errors averaged across the eleven bands are distinct from full-age 
 
 | Directory | Contents |
 |---|---|
-| [`supplementary/BMC_Public_Health_2026/`](supplementary/BMC_Public_Health_2026/) | All 54 cited supplementary labels, source-access notes and checksums. |
+| [`supplementary/supplementary material/`](supplementary/supplementary%20material/) | All 54 cited supplementary labels, source-access notes and checksums. |
 | [`src/gbd_park/`](src/gbd_park/) | Forecasting models, adaptation, donor selection, scoring, intervals, demography and distribution pooling. |
 | [`scripts/`](scripts/) | Stage runners, benchmarks, source verification, reporting and finalization scripts. |
 | [`tests/`](tests/) | `unittest` checks for chronology, leakage, numerical calculations and pipeline behavior. |
