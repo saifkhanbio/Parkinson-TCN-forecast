@@ -6,17 +6,17 @@ Repository deposit assembled on 16 October 2026 from the preserved research work
 
 ## Interpretation and provenance
 
-The reported analyses were not refitted for this deposit. Conditional 2024–2028 projections use a 2023 disease-data cutoff and were calculated in 2026; they are not a real-time forecast issued in 2023. Historical protocol titles, journal names, dated statements and analysis decisions are preserved as provenance. The BMC manuscript provides the current reporting and interpretation. In particular, a protocol statement written before model fitting is not a statement about the present status of the study.
+The reported analyses were not refitted for this deposit. Conditional 2024–2028 projections use a 2023 disease-data cutoff and were calculated in 2026; they are not a real-time forecast issued in 2023. Scientific protocol content, dated analysis statements and decisions remain preserved as provenance. Submission branding and reporting paths have been normalized for reuse. The study manuscript provides the current reporting and interpretation. In particular, a protocol statement written before model fitting is not a statement about the present status of the study.
 
-Archived stage outputs include superseded and exploratory comparisons. Figures S28, S29 and S30 deliberately retain successive synthesis versions; the current manuscript identifies the selected analysis. Supplementary Software S1 contains additional exploratory code, including work not evaluated in the BMC manuscript. Its presence does not imply that every script or comparator is reported in that manuscript.
+Archived stage outputs include superseded and exploratory comparisons. Figures S28, S29 and S30 deliberately retain successive synthesis versions; the current manuscript identifies the selected analysis. Supplementary Software S1 contains additional exploratory code, including work not evaluated in the study manuscript. Its presence does not imply that every script or comparator is reported in that manuscript.
 
-The deposited manuscript folder was renamed from `manuscript/JDR_GBD_PARK/` to `manuscript/GBD_PARK/`. The current index and manifest use the new location. Original research scripts, documents, retrieval records and the original index retain their historical workspace paths as provenance; the folder rename does not alter their contents.
+Manuscript-related files use `manuscript/GBD_PARK/`. Reporting script names, output paths and submission wording are journal-neutral. Published-study citations retain their bibliographic journal names. The manifest preserves original source hashes and identifies files whose wording or paths were normalized; original file versions remain recoverable through repository history.
 
 ## Files and reuse
 
-[The machine-readable index](supplementary_index.csv) maps every label to its files. [The original index](provenance/original_supplementary_index.csv) preserves the supplied mapping. [The checksum manifest](manifest.csv) records deposited files and their source hashes. [Source access and reuse](SOURCE_ACCESS.md) explains the upstream inputs required for reconstruction.
+[The machine-readable index](supplementary_index.csv) maps every label to its files. [The source index](provenance/original_supplementary_index.csv) preserves the supplied label-to-file associations with normalized names and paths. [The checksum manifest](manifest.csv) records deposited files and their source hashes. [Source access and reuse](SOURCE_ACCESS.md) explains the upstream inputs required for reconstruction.
 
-The deposit contains study-generated analytical outputs, figures, protocols, scripts and validation records. It does not redistribute raw GBD exports, raw provider downloads, fitted checkpoints or unrelated workspace contents. The 4284-row source-verification table is a disclosed public extract: source values/bounds and differences that reconstruct those values are removed, while row identifiers and verification flags are retained. Other copied research files remain byte-for-byte unchanged. Provider data must be obtained under the applicable terms; this deposit is not a self-contained, one-command reproduction of every model fit. No new license is imposed on third-party content.
+The deposit contains study-generated analytical outputs, figures, protocols, scripts and validation records. It does not redistribute raw GBD exports, raw provider downloads, fitted checkpoints or unrelated workspace contents. The 4284-row source-verification table is a disclosed public extract: source values/bounds and differences that reconstruct those values are removed, while row identifiers and verification flags are retained. Numerical analytical results are unchanged. The manifest identifies editorial and path normalization separately from the public source-verification extract. Provider data must be obtained under the applicable terms; this deposit is not a self-contained, one-command reproduction of every model fit. No new license is imposed on third-party content.
 
 ## Supplement index
 
@@ -142,7 +142,7 @@ Saudi raw-data integration methods and interpretation.
 
 ### Supplementary Material S5
 
-JDR methods reproducibility and reporting audit.
+Study methods reproducibility and reporting audit.
 
 - [manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx](manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx)
 - [manuscript/GBD_PARK/Limitations.docx](manuscript/GBD_PARK/Limitations.docx)

@@ -9,7 +9,7 @@ from docx import Document
 from docx.shared import Inches, Pt
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'manuscript/JDR_GBD_PARK/references'
+OUT = ROOT / 'manuscript/GBD_PARK/references'
 EVIDENCE = OUT / 'provider_citation_audit'
 OLD = ROOT / 'study_design/dataset_citations_2026-10-01'
 MAPPING = {
@@ -81,13 +81,12 @@ def main():
     write_csv(OUT / 'data_citation_audit.csv', audit_rows)
     write_csv(OUT / 'data_source_register.csv', source_register)
     for row in crosswalk:
-        row['citation_review_update'] = '2026-10-03; use the current JDR data_source_register.csv for corrected provider citation wording'
+        row['citation_review_update'] = '2026-10-03; use the current study data_source_register.csv for corrected provider citation wording'
     write_csv(OUT / 'data_file_citation_crosswalk.csv', crosswalk)
 
-    pending = read_csv(ROOT / 'manuscript/ije_draft_v2_raw_integration/missing_references.csv')
+    pending = read_csv(ROOT / 'manuscript/raw_integration_draft_v2/missing_references.csv')
     pending = [row for row in pending if row['id'] != 'R1']
-    for row in pending:
-        row['action'] = row['action'].replace('IJE', 'the journal')
+    # Preserve source citation actions without venue-specific rewriting.
     write_csv(EVIDENCE / 'unresolved_metadata.csv', pending)
 
     provider_rows = [
@@ -117,7 +116,7 @@ def main():
          'Supplementary Material S1; complete file-to-citation crosswalk'),
     ]
     report = document('Data and database citation audit')
-    report.add_paragraph('Review completed 3 October 2026. This audit checks source credit and citation wording for the JDR manuscript, not forecast validity or blanket permission to redistribute third-party data.')
+    report.add_paragraph('Review completed 3 October 2026. This audit checks source credit and citation wording for the study manuscript, not forecast validity or blanket permission to redistribute third-party data.')
     report.add_heading('Conclusion', 1)
     report.add_paragraph('All data providers contributing to the reported analyses are explicitly credited in the revised main manuscript. Supplementary acquisition, eligibility and contextual resources have separate references in the complete provider bibliography. Required attribution omissions and verified citation errors have been corrected. Exact metadata for some user-supplied exports remain incomplete and are listed separately; citation coverage must not be confused with complete acquisition provenance.')
     report.add_heading('Provider checks and changes', 1)

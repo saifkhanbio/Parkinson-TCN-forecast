@@ -1,4 +1,4 @@
-"""Preserve public provider citation/attribution policies for the JDR audit."""
+"""Preserve public provider citation/attribution policies for the study audit."""
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import hashlib
@@ -8,7 +8,7 @@ from pathlib import Path
 from pip._vendor import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'manuscript/JDR_GBD_PARK/references/provider_citation_audit'
+OUT = ROOT / 'manuscript/GBD_PARK/references/provider_citation_audit'
 SOURCES = {
     'ihme_terms': 'https://www.healthdata.org/about/terms-and-conditions',
     'ihme_agreement': 'https://www.healthdata.org/data-tools-practices/data-practices/ihme-free-charge-non-commercial-user-agreement',

@@ -5,7 +5,7 @@
     "reviewed_utc": "2026-10-03T11:37:55.211591+00:00",
     "status": 200,
     "final_url": "https://www.healthdata.org/data-tools-practices/data-practices/terms-and-conditions",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/ihme_terms.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/ihme_terms.html",
     "bytes": 119272,
     "sha256": "5e5edf171460c0a2dfd2ba1e185d87b756cd11f4d6d23d99a639e2ee1ebde4c2"
   },
@@ -15,7 +15,7 @@
     "reviewed_utc": "2026-10-03T11:37:55.212021+00:00",
     "status": 200,
     "final_url": "https://www.healthdata.org/Data-tools-practices/data-practices/ihme-free-charge-non-commercial-user-agreement",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/ihme_agreement.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/ihme_agreement.html",
     "bytes": 133082,
     "sha256": "2fac03fb69c3cc713d25ae67c08059b6d701e038eaae2a9c6e6d183d544ecb5e"
   },
@@ -25,7 +25,7 @@
     "reviewed_utc": "2026-10-03T11:37:55.212386+00:00",
     "status": 200,
     "final_url": "https://stats.gov.sa/en/use-policy",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/gastat_terms.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/gastat_terms.html",
     "bytes": 202633,
     "sha256": "0116a4354f18692efa073424c58f1587d23a79d763fdfa6ddf92658e75495502"
   },
@@ -35,7 +35,7 @@
     "reviewed_utc": "2026-10-03T11:37:55.213390+00:00",
     "status": 200,
     "final_url": "https://dp.marsa.gccstat.org/terms-use",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/gccstat_terms.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/gccstat_terms.html",
     "bytes": 30320,
     "sha256": "e4cb6b880abf128bdc062836b9dd33a08b48ebac67dd61bab5a5035a76ba177d"
   },
@@ -45,7 +45,7 @@
     "reviewed_utc": "2026-10-03T11:37:55.551343+00:00",
     "status": 200,
     "final_url": "https://www.chi.gov.sa/en/open-data/Pages/requirements.aspx",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/chi_terms.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/chi_terms.html",
     "bytes": 214778,
     "sha256": "6ddce008a00631c4deda58f2bb3f514294d830c21c5eb37c3548c2ab772d010f"
   },
@@ -55,7 +55,7 @@
     "reviewed_utc": "2026-10-03T11:37:55.568464+00:00",
     "status": 200,
     "final_url": "https://www.moh.gov.sa/en/ministry/opendata/pages/default.aspx",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/moh_open_data.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/moh_open_data.html",
     "bytes": 96034,
     "sha256": "237762fa297232b0c24c7ce8b7867dc5394102e487d865f93fce80a626fd02ba"
   },
@@ -65,7 +65,7 @@
     "reviewed_utc": "2026-10-03T11:37:56.000087+00:00",
     "status": 200,
     "final_url": "https://www.moh.gov.sa/en/ministry/opendata/pages/opendatausagepolicy.aspx",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/moh_policy.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/moh_policy.html",
     "bytes": 95859,
     "sha256": "006888f64826834817a804377ed09134ecdd7bebd5e631904f46daa01d11b03f"
   },
@@ -75,7 +75,7 @@
     "reviewed_utc": "2026-10-03T11:37:56.028997+00:00",
     "status": 200,
     "final_url": "https://www.healthdata.org/research-analysis/about-gbd",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/ihme_faq.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/ihme_faq.html",
     "bytes": 149504,
     "sha256": "ca2f1147493f3ff027e7578d44b1f999afd48a03adcd81a3f2885cd1dbecf996"
   },
@@ -85,7 +85,7 @@
     "reviewed_utc": "2026-10-03T11:37:56.203287+00:00",
     "status": 404,
     "final_url": "https://population.un.org/wpp/TermsOfUse/",
-    "path": "manuscript/JDR_GBD_PARK/references/provider_citation_audit/wpp_terms.html",
+    "path": "manuscript/GBD_PARK/references/provider_citation_audit/wpp_terms.html",
     "bytes": 26012,
     "sha256": "081714e07350ddb4047087af9c7bd0b933625649ff5665e995d263231e5cb883"
   }

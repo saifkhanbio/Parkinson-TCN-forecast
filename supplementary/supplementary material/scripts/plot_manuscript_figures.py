@@ -1,6 +1,6 @@
-"""Eight JDR figures regenerated from retained numerical evidence."""
+"""Eight study figures regenerated from retained numerical evidence."""
 import os
-os.environ.setdefault('MPLCONFIGDIR','/tmp/gbd_jdr_matplotlib')
+os.environ.setdefault('MPLCONFIGDIR','/tmp/gbd_manuscript_matplotlib')
 from pathlib import Path
 import importlib.util
 import json
@@ -16,7 +16,7 @@ from matplotlib.ticker import PercentFormatter
 from PIL import Image,ImageOps,ImageDraw
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'manuscript/JDR_GBD_PARK'
+OUT=ROOT/'manuscript/GBD_PARK'
 FIG=OUT/'figures'
 TYPOGRAPHY=[]
 SELECTED=set(range(1,9))
@@ -245,7 +245,7 @@ def main(numbers=None):
                     if item['figure'] not in SELECTED)
  plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'font.weight':'bold',
   'axes.labelweight':'bold','axes.titleweight':'bold','pdf.fonttype':42,'svg.fonttype':'none'})
- old=load('build_ije_manuscript');old.FIG=FIG;old.save_figure=save
+ old=load('build_initial_manuscript');old.FIG=FIG;old.save_figure=save
  paths=['results/primary_v1/primary_age_contrasts.csv','reports/secondary_v1/endpoint_contrasts.csv',
  'reports/donor_comparisons_gpu_v1/endpoint_percent_changes_vs_gpu_reference.csv','results/learning_curves_v1/summary.csv',
  'reports/distribution_mixture_v1/rate_comparison.csv','reports/distribution_mixture_v1/burden_comparison.csv',

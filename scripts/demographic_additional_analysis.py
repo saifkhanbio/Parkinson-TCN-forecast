@@ -1,4 +1,4 @@
-"""Exploratory demographic accounting for the JDR reporting extension."""
+"""Exploratory demographic accounting for the study reporting extension."""
 import hashlib
 import itertools
 import json
@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'manuscript/JDR_GBD_PARK/analysis'
+OUT = ROOT / 'manuscript/GBD_PARK/analysis'
 
 
 def shapley(p0, p1, r0, r1):

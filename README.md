@@ -4,13 +4,13 @@ Research scripts for sex-specific Parkinson’s disease forecasting, forecast re
 
 The study evaluates whether regional pretraining with limited Saudi adaptation improves five-year forecasts of male and female GBD-estimated Parkinson’s prevalence. Saudi Arabia is the primary target; Bahrain, Kuwait, Oman, Qatar and the United Arab Emirates undergo the same evaluation. Jordan contributes regional donor data.
 
-**Repository contents:** Python source plus the [BMC manuscript supplementary deposit](supplementary/supplementary%20material/README.md). The deposit indexes Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1, including study-generated results, specifications, lock manifests, selected validation records and reports. Raw provider downloads and fitted checkpoints are not distributed. Full study execution still requires authorised upstream inputs and stage-specific prerequisites; cloning this repository alone does not reproduce every analysis.
+**Repository contents:** Python source plus the [study manuscript supplementary deposit](supplementary/supplementary%20material/README.md). The deposit indexes Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1, including study-generated results, specifications, lock manifests, selected validation records and reports. Raw provider downloads and fitted checkpoints are not distributed. Full study execution still requires authorised upstream inputs and stage-specific prerequisites; cloning this repository alone does not reproduce every analysis.
 
 ## Associated manuscript
 
 **Forecasting Parkinson’s disease burden in Saudi Arabia and the Gulf: retrospective model evaluation and demographic sensitivity analysis**
 
-The [supplement index](supplementary/supplementary%20material/README.md) provides the current manuscript mapping, provenance notes, source-access instructions and checksums. The deposit preserves historical protocol and report wording and identifies the public source-verification extract.
+The [supplement index](supplementary/supplementary%20material/README.md) provides the current manuscript mapping, provenance notes, source-access instructions and checksums. The repository uses journal-neutral submission wording and reporting paths. Published-study citations retain their original bibliographic journal names. The deposit preserves scientific provenance, identifies editorial normalization in its checksum manifest, and documents the public source-verification extract.
 
 ## Study scope
 
@@ -59,7 +59,7 @@ The complete research workspace supplies:
 2. `study_design/locked_v1/design.json`, its protocol and lock manifest, plus specifications for later analyses.
 3. Prepared tables under `data/processed/design_v1/`, including `regional_outcomes.csv`.
 4. Stage-specific test/preflight records under `work/`, implementation documents, and the completed prior-stage outputs required by each runner.
-5. For the later extensions, the bounded-extension specification and lock, Saudi demographic and insurance downloads under `data/raw/`, and their prepared tables. JDR reporting additionally reads authoring text/JSON, reference records and the example DOCX under `manuscript/JDR_GBD_PARK/` in the original workspace. The corresponding deposited supplementary files are now in [`manuscript/GBD_PARK/`](supplementary/supplementary%20material/manuscript/GBD_PARK/). Selected specifications, results and supplementary reports are now included in the indexed supplementary deposit; raw inputs, manuscript authoring templates and remaining runtime prerequisites must be supplied separately through their providers or the complete study workspace.
+5. For the later extensions, the bounded-extension specification and lock, Saudi demographic and insurance downloads under `data/raw/`, and their prepared tables. Manuscript reporting additionally reads authoring text/JSON, reference records and the example DOCX under `manuscript/GBD_PARK/` in the working directory. The corresponding deposited supplementary files are now in [`manuscript/GBD_PARK/`](supplementary/supplementary%20material/manuscript/GBD_PARK/). Selected specifications, results and supplementary reports are now included in the indexed supplementary deposit; raw inputs, manuscript authoring templates and remaining runtime prerequisites must be supplied separately through their providers or the complete study workspace.
 
 Obtain data through the relevant providers, including [GBD Results](https://vizhub.healthdata.org/gbd-results/), [UN World Population Prospects](https://population.un.org/wpp/), GASTAT and GCC-Stat, observing their access and reuse terms. The scripts preserve release identifiers, units and source hashes. Raw downloads should remain unchanged.
 
@@ -108,10 +108,10 @@ The October 2026 source update includes the following entry points. They require
 | Public Saudi evidence acquisition and preparation | `supporting_data/2026-10-01_saudi_evidence/acquire_public.py`, `prepare_public.py` |
 | Source bibliography and dataset citation crosswalk | `study_design/dataset_citations_2026-10-01/acquire_references.py`, `build_citation_package.py` |
 | Exact forecast export, comparison graphics and percentage changes from 2023 | `scripts/export_forecast_comparison.py`, `scripts/plot_standalone_forecast_comparison.py`, `scripts/plot_forecast_percentage_change.py` |
-| Demographic decomposition for disability-care planning | `scripts/jdr_additional_analysis.py` |
-| JDR references, figures, manuscript assembly and package checks | `scripts/build_jdr_references.py`, `scripts/audit_jdr_data_citations.py`, `scripts/plot_jdr_figures.py`, `scripts/build_jdr_manuscript.py`, `scripts/validate_jdr_package.py` |
+| Demographic decomposition for disability-care planning | `scripts/demographic_additional_analysis.py` |
+| Manuscript references, figures, manuscript assembly and package checks | `scripts/build_references.py`, `scripts/audit_data_citations.py`, `scripts/plot_manuscript_figures.py`, `scripts/build_manuscript.py`, `scripts/validate_manuscript_package.py` |
 
-The JDR workflow assembles eight figures and six editable tables. Its checks cover numerical agreement, source attribution, embedded image resolution, typography, caption lengths and the separate full limitations document. Run package validation only after generating the required figures/documents and rendering the corresponding PDFs. Reporting scripts write derived artifacts; they do not refit the forecasting models. The original IJE reporting builder remains available because later figure scripts reuse its plotting functions.
+The manuscript workflow assembles eight figures and six editable tables. Its checks cover numerical agreement, source attribution, embedded image resolution, typography, caption lengths and the separate full limitations document. Run package validation only after generating the required figures/documents and rendering the corresponding PDFs. Reporting scripts write derived artifacts; they do not refit the forecasting models. The initial reporting builder remains available because later figure scripts reuse its plotting functions.
 
 ## Validation
 

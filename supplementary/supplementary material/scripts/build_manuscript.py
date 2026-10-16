@@ -1,4 +1,4 @@
-"""Assemble JDR manuscripts, six editable tables and reporting documentation."""
+"""Assemble study manuscripts, six editable tables and reporting documentation."""
 from copy import deepcopy
 import csv
 import hashlib
@@ -17,7 +17,7 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'manuscript/JDR_GBD_PARK'
+OUT=ROOT/'manuscript/GBD_PARK'
 AUTH=OUT/'authoring'
 TITLE=json.loads((AUTH/'editorial_specification.json').read_text())['title']
 BODY=(AUTH/'body.txt').read_text()
@@ -62,7 +62,7 @@ def resolve(text,blind=False):
 
 def document(blind=False):
  doc=Document()
- example=Document(OUT/'Example_Manuscript_JDR.docx')
+ example=Document(OUT/'Example_Manuscript.docx')
  # Reuse the example's semantic styles without copying its text, images or relationships.
  styles=doc.styles.element
  for item in list(styles):styles.remove(item)
@@ -191,7 +191,7 @@ def tables():
  add(3,'Five-origin rate and oldest-age-share interval evaluation',
      ['Outcome','Sex','Procedure','Rate coverage (%)','Rate width','Rate WIS','80+ share covered'],rows,
      'Coverage and width refer to nominal 80% intervals; rate WIS combines 50% and 80% intervals and is expressed in rate units per 100,000. Each rate row contains 55 dependent age–origin cells; the share uses five overlapping-origin observations. Original TCN uses interpolated empirical quantiles; matched TCN and the equal-weight mixture use inverse empirical-distribution quantiles. Shares use the preceding eight-year population log trend. WIS, weighted interval score.',[.85,.55,1.10,1.1,.8,.8,1.1])
- d=read('manuscript/JDR_GBD_PARK/analysis/disability_reporting_summary.csv')
+ d=read('manuscript/GBD_PARK/analysis/disability_reporting_summary.csv')
  rows=[]
  labels={'ylds':'YLDs','ylls':'YLLs','dalys':'DALYs','deaths':'Deaths'}
  for _,r in d.iterrows():rows.append([labels[r.outcome],r.sex,f'{r.tcn_error:.5f}',f'{r.nonneural_error:.5f}',f'{r.rate_80_coverage_percent:.1f}',f'{r.forecast_80plus_share:.2f} / {r.gbd_80plus_share:.2f}',f'{round(r.share_80_coverage_percent/20)}/5'])
@@ -208,7 +208,7 @@ def tables():
  add(5,'Saudi case-count forecasts and changes from the 2023 baseline',
      ['Outcome','Sex','2023','2024','2025','2026','2027','2028','Change (%)'],rows,
      'Saudi residents aged ≥45; adapted TCN, original GBD baseline and UN population growth. Prevalence denotes prevalent cases; incidence, annual incident cases. Both sums male and female counts. Displayed counts are rounded; 2023–2028 changes use unrounded values. Disease-data cutoff: 2023; conditional projections computed in 2026. Exact values and alternatives: Supplementary Table S12.',[.95,.6,.72,.72,.72,.72,.72,.72,.80])
- dec=read('manuscript/JDR_GBD_PARK/analysis/forecast_growth_decomposition.csv')
+ dec=read('manuscript/GBD_PARK/analysis/forecast_growth_decomposition.csv')
  dec=dec.loc[dec.year.eq(2028)&dec.scenario.eq('gbd_2023_aligned_un_growth')]
  rows=[]
  for o in ['prevalence','incidence']:
@@ -231,7 +231,7 @@ def tables():
 def add_title_page(doc):
  doc.add_heading(TITLE,0)
  doc.add_paragraph('RESEARCH ARTICLE','Article Type')
- source=Document(OUT/'Example_Manuscript_JDR.docx')
+ source=Document(OUT/'Example_Manuscript.docx')
  p=doc.add_paragraph(style='Author Line')
  for i,(name,numbers) in enumerate([('Saif Khan','1,4'),('Mahvish Khan','2,4*'),('Mohtashim Lohani','3,4')]):
   if i:p.add_run(', ')
@@ -290,13 +290,13 @@ def manuscript(tables,blind=False):
  if blind:
   doc.add_paragraph('Author-identifying funding, acknowledgements, institutional and code-repository details are supplied on the separate title page. The scientific methods describe the aggregate public-data design and software versions.')
  add_references(doc,blind)
- name='JDR_Manuscript_Blinded.docx' if blind else 'JDR_Manuscript.docx'
+ name='Manuscript_Blinded.docx' if blind else 'Manuscript.docx'
  doc.save(OUT/name)
  return OUT/name
 
 
 def supplementary_index():
- old=read('manuscript/ije_draft_v2_raw_integration/supplementary_index.csv')
+ old=read('manuscript/raw_integration_draft_v2/supplementary_index.csv')
  # The current provider register supersedes the older citation wording, without editing it.
  old=old.loc[~old.archive_member.str.startswith('study_design/dataset_citations_2026-10-01/') &
              ~old.archive_member.isin(['study_design/data_source_references.md','study_design/data_file_citations.csv'])].copy()
@@ -307,19 +307,19 @@ def supplementary_index():
  for name in ['Data_Citation_Audit.docx','data_citation_audit.csv','provider_citation_audit/retrieval_manifest.json',
               'Supplementary_Data_References.docx','data_source_register.csv','data_file_citation_crosswalk.csv',
               'citation_audit_validation.json','provider_citation_audit/unresolved_metadata.csv']:
-  add('Supplementary Material S1','Provider citation and attribution audit','manuscript/JDR_GBD_PARK/references/'+name)
+  add('Supplementary Material S1','Provider citation and attribution audit','manuscript/GBD_PARK/references/'+name)
  for p,title in [('forecast_percentage_change.csv','Exact 2024–2028 changes from matched 2023 baselines'),
      ('forecast.csv','Exact forecasts and published projection context'),
-     ('manuscript/JDR_GBD_PARK/analysis/forecast_growth_decomposition.csv','All demographic decompositions'),
-     ('manuscript/JDR_GBD_PARK/analysis/saudi_2023_burden_composition.csv','Baseline burden by sex and age'),
+     ('manuscript/GBD_PARK/analysis/forecast_growth_decomposition.csv','All demographic decompositions'),
+     ('manuscript/GBD_PARK/analysis/saudi_2023_burden_composition.csv','Baseline burden by sex and age'),
      ('reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv','Matched scenario baseline cells')]:add('Supplementary Table S12',title,p)
- add('Supplementary Table S13','Resources and reporting-rigor crosswalk','manuscript/JDR_GBD_PARK/reporting_checklist.csv')
- add('Supplementary Material S5','JDR methods reproducibility and reporting audit','manuscript/JDR_GBD_PARK/Reporting_Rigor_Checklist.docx')
- add('Supplementary Material S5','Full study limitations','manuscript/JDR_GBD_PARK/Limitations.docx')
- add('Supplementary Material S5','Exploratory decomposition validation','manuscript/JDR_GBD_PARK/analysis/validation.json')
+ add('Supplementary Table S13','Resources and reporting-rigor crosswalk','manuscript/GBD_PARK/reporting_checklist.csv')
+ add('Supplementary Material S5','Study methods reproducibility and reporting audit','manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx')
+ add('Supplementary Material S5','Full study limitations','manuscript/GBD_PARK/Limitations.docx')
+ add('Supplementary Material S5','Exploratory decomposition validation','manuscript/GBD_PARK/analysis/validation.json')
  add('Supplementary Material S5','Recent literature-window verification','study_design/literature_review/saudi_forecast_window_2026-10-03/verification.json')
- for script in ['jdr_additional_analysis.py','plot_jdr_figures.py','plot_forecast_percentage_change.py','build_jdr_manuscript.py','build_jdr_references.py','jdr_reference_metadata.py']:
-  add('Supplementary Software S1','JDR reporting and exploratory analysis software','scripts/'+script)
+ for script in ['demographic_additional_analysis.py','plot_manuscript_figures.py','plot_forecast_percentage_change.py','build_manuscript.py','build_references.py','reference_metadata.py']:
+  add('Supplementary Software S1','Study reporting and exploratory analysis software','scripts/'+script)
  index=pd.concat([old,pd.DataFrame(new)],ignore_index=True)
  assert not index.archive_member.str.contains('/home/|/mnt/').any()
  for p in index.archive_member:assert (ROOT/p).exists(),p
@@ -368,7 +368,7 @@ def reporting_checklist():
 
 
 def missing_reference_metadata():
- source=read('manuscript/JDR_GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv')
+ source=read('manuscript/GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv')
  source.to_csv(OUT/'references/missing_reference_metadata.csv',index=False)
  doc=document();doc.add_heading('Reference metadata requiring source confirmation',0)
  doc.add_paragraph('Every dataset used in the manuscript has an identifiable provider citation. The GBD 2023 citation year is now resolved to 2025 by current IHME guidance. This list records the remaining publication-date and export-provenance details; these are distinguished from a missing institutional attribution. The public software URL supplies an identifier even without an archival DOI.')
@@ -399,8 +399,8 @@ def main():
  caption_counts={str(c['number']):len(f"Figure {c['number']}. {c['title']} {resolve(c['caption'])}".split()) for c in CAPTIONS}
  assert all(count<=100 for count in caption_counts.values()),caption_counts
  (OUT/'references/manuscript_reference_register.json').write_text(json.dumps(REFS,ensure_ascii=False,indent=2)+'\n')
- protected=[OUT/'Example_Manuscript_JDR.docx',OUT/'Example_SciscoreReport.pdf']
- protected += [p for folder in ['ije_draft_v1','ije_draft_v2_raw_integration'] for p in (ROOT/'manuscript'/folder).rglob('*') if p.is_file()]
+ protected=[OUT/'Example_Manuscript.docx',OUT/'Example_SciscoreReport.pdf']
+ protected += [p for folder in ['initial_draft_v1','raw_integration_draft_v2'] for p in (ROOT/'manuscript'/folder).rglob('*') if p.is_file()]
  before={str(p.relative_to(ROOT)):sha(p) for p in protected}
  ts=tables()
  table_caption_counts={str(t['number']):len(f"Table {t['number']}. {t['title']} {resolve(t['note'])}".split()) for t in ts}
@@ -411,8 +411,8 @@ def main():
  for i,t in enumerate(ts):
   if i:d.add_page_break()
   add_table(d,t)
- d.save(OUT/'JDR_Tables.docx')
- d=document();add_title_page(d);d.save(OUT/'JDR_Title_Page.docx')
+ d.save(OUT/'Tables.docx')
+ d=document();add_title_page(d);d.save(OUT/'Title_Page.docx')
  for blind in [False,True]:manuscript(ts,blind)
  d=document();d.add_heading('Figure captions and alternative text',0)
  for c in CAPTIONS:
@@ -420,10 +420,10 @@ def main():
  d.save(OUT/'Figure_Captions.docx')
  reporting_checklist();supplementary_index();missing_reference_metadata()
  notes=[
- 'JDR author review package — 3 October 2026',
+ 'Study author review package — 3 October 2026',
  'Primary title: '+TITLE,
  'Alternative title: Parkinson’s Disease, Population Ageing and Disability Care in Saudi Arabia: Evaluating Sex-Specific Forecasts Across the Gulf.',
- 'Journal website instructions checked: https://jdr.kscdr.org/about/?tab=manuscript . These specify Word, a maximum 250-word abstract, 5–8 keywords, APA 7 references and double-blind review. The ScienceOpen page differs (Harvard in-text/PLOS entries and PDF). This package follows the journal website and supplies a blinded copy and separate title page. The example guides layout and depth, not its biological methods or data.',
+ 'This is an editable manuscript template with a blinded copy and separate title page. Layout, citation style, word limits and review requirements must be checked for the selected destination before submission. The example guides layout and depth, not biological methods or data.',
  'Eight figures are embedded from the 600 dpi TIFF masters at their relevant Methods/Results locations, with complete captions and alternative text. Figure titles, panel labels, axes, tick values, legends and annotations use bold lettering to match the supplied example manuscript. Word automatic picture compression is disabled. Six editable Word tables appear beside their first substantive discussion, with greyscale headers, repeated header rows and no vertical rules. Separate 600 dpi TIFF, 300 dpi PNG and vector PDF/SVG figure files remain available.',
  'Figures 6–8 use at least 16-point lettering in the 12.6-inch masters, equivalent to 8.32 points at the 6.55-inch manuscript width. Legends, endpoint labels and notes are reflowed for readability; all annual forecast values remain plotted.',
  'Each main figure caption contains no more than 100 words, including its figure number and title. Panel definitions, interpretation, source links through Table 1 and supplementary-result links are retained. The main reference list contains only cited entries; additional reporting-guideline and software references remain in the supplementary crosswalk.',
@@ -431,7 +431,7 @@ def main():
  'The main body has '+str(len(BODY.split()))+' words before resolved citations; the abstract has '+str(len(ABSTRACT.split()))+' words. All '+str(len(REFS))+' references are author–date citations with APA-style entries and primary-source metadata.',
  'The new analysis is a post-primary arithmetic decomposition of unchanged forecasts, with no model refitting. The Discussion Limitations subsection is limited to 125 words. The complete original six-paragraph account and its citation are preserved in Limitations.docx, indexed in Supplementary Material S5. Negative results remain visible in the abstract and Results as scientific findings.',
  'The user confirmed use of the example authors/affiliations and then the funding and competing-interest declarations. No institutional approval/exemption identifier was supplied, and none is invented. Authors should verify the final ethics wording and specify their study-specific contributions before submission.',
- 'The package is prepared for author review, not uploaded to the journal. The reporting checklist is not an actual SciScore run or score. The existing IJE package and supplied examples are preserved.',
+ 'The package is prepared for author review, not uploaded to the journal. The reporting checklist is not an actual SciScore run or score. The existing initial package and supplied examples are preserved.',
  'The provider citation audit adds the IHME-required source identifier, provider-specific attribution and transformation wording, and corrections to the hierarchy and UN report citations. The current IHME FAQ explicitly confirms 2025 as the GBD 2023 citation year, resolving the prior citation-year query. Some Saudi export-level metadata remain incomplete. See references/Data_Citation_Audit.docx.',
  'IHME’s current non-commercial user agreement permits publication of analytical results but restricts providing third-party downloads of its source datasets from user-hosted facilities without written permission. The supplementary index is an inventory, not redistribution clearance. Before deposition, supply IHME source links in place of restricted raw downloads unless written permission covers redistribution. The required phrase Used with permission follows the public agreement and does not document a separate correspondence-based permission.',
  'Supplementary_Index.docx and supplementary_index.csv extend the existing archive mapping. They retain original relative folders. The full raw-data archive is not duplicated into this package; data access/reuse conditions continue to apply.',
@@ -444,7 +444,7 @@ def main():
  for p in protected:assert sha(p)==before[str(p.relative_to(ROOT))]
  for path,hashval in SOURCES.items():assert sha(ROOT/path)==hashval
  # Read-back checks include object counts and author-identifying strings.
- full=Document(OUT/'JDR_Manuscript.docx');blind=Document(OUT/'JDR_Manuscript_Blinded.docx')
+ full=Document(OUT/'Manuscript.docx');blind=Document(OUT/'Manuscript_Blinded.docx')
  assert len(full.tables)==len(blind.tables)==6
  assert len(full.inline_shapes)==len(blind.inline_shapes)==8
  assert all(s._inline.docPr.get('descr') for s in full.inline_shapes)

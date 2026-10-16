@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'manuscript/JDR_GBD_PARK'
+OUT=ROOT/'manuscript/GBD_PARK'
 
 
 def clean(text):

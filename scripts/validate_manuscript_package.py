@@ -1,4 +1,4 @@
-"""Final numerical, document, image and rendered-page checks for the JDR package."""
+"""Final numerical, document, image and rendered-page checks for the study package."""
 import csv
 import hashlib
 from io import BytesIO
@@ -15,7 +15,7 @@ from docx.oxml.ns import qn
 from PIL import Image,ImageDraw
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'manuscript/JDR_GBD_PARK'
+OUT=ROOT/'manuscript/GBD_PARK'
 
 
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -118,17 +118,17 @@ def main():
   full_rendered=rendered_body_text(full_pdf)
   assert all(normalise_rendered_text(paragraph) in full_rendered for paragraph in full_limitations.split('\n\n'))
  supplementary=pd.read_csv(OUT/'supplementary_index.csv')
- assert ((supplementary.archive_member=='manuscript/JDR_GBD_PARK/Limitations.docx') &
+ assert ((supplementary.archive_member=='manuscript/GBD_PARK/Limitations.docx') &
          (supplementary.supplementary_identifier=='Supplementary Material S5')).any()
  captions={c['number']:c for c in json.loads((OUT/'authoring/figure_captions.json').read_text())}
  caption_counts={str(n):len(f"Figure {n}. {c['title']} {c['caption']}".split()) for n,c in captions.items()}
  assert all(count<=100 for count in caption_counts.values()),caption_counts
- table_captions=validate_table_captions(Document(OUT/'JDR_Tables.docx'))
+ table_captions=validate_table_captions(Document(OUT/'Tables.docx'))
  table_caption_counts={key:record['words'] for key,record in table_captions.items()}
  for number in range(1,7):
   single=validate_table_captions(Document(OUT/'tables'/f'Table_{number}.docx'),[number])
   assert single[str(number)]==table_captions[str(number)]
- with fitz.open(OUT/'JDR_Tables.pdf') as table_pdf:
+ with fitz.open(OUT/'Tables.pdf') as table_pdf:
   assert len(table_pdf)==6
   for i,page in enumerate(table_pdf,1):
    text=normalise_rendered_text(page.get_text())
@@ -177,7 +177,7 @@ def main():
                                  'minimum_source_font_pt':round(minimum_font,2),
                                  'minimum_font_at_manuscript_width_pt':round(minimum_embedded_font,2)}
  rendered={}
- for stem in ['JDR_Manuscript','JDR_Manuscript_Blinded']:
+ for stem in ['Manuscript','Manuscript_Blinded']:
   doc=Document(OUT/(stem+'.docx'));pdf=fitz.open(OUT/(stem+'.pdf'))
   assert len(doc.tables)==6 and len(doc.inline_shapes)==8
   assert all(s._inline.docPr.get('descr') for s in doc.inline_shapes)
@@ -236,7 +236,7 @@ def main():
                    'inline_display_validation':inline_validation,
                    'docx_sha256':sha(OUT/(stem+'.docx')),'pdf_sha256':sha(OUT/(stem+'.pdf'))}
  # Contact sheet for the final, corrected Word-to-PDF rendering.
- pdf=fitz.open(OUT/'JDR_Manuscript.pdf')
+ pdf=fitz.open(OUT/'Manuscript.pdf')
  figure_indices=[i for i,p in enumerate(pdf) if p.get_image_info()]
  table_indices=[i for i,p in enumerate(pdf) if any(f'Table {n}.' in p.get_text() for n in range(1,7)) and not p.get_image_info()]
  selected=list(dict.fromkeys([0,1,5,12]+table_indices+figure_indices))
@@ -256,16 +256,16 @@ def main():
    main_table_5_reproduces_exact_forecasts=True,actual_sciscore_run=False,final_status='validated_for_author_review')
  validation['data_citation_audit']=json.loads((OUT/'references/citation_audit_validation.json').read_text())
  (OUT/'validation.json').write_text(json.dumps(validation,indent=2)+'\n')
- excluded={'Example_Manuscript_JDR.docx','Example_SciscoreReport.pdf'}
+ excluded={'Example_Manuscript.docx','Example_SciscoreReport.pdf'}
  outputs=[p for p in sorted(OUT.rglob('*')) if p.is_file() and p.name not in excluded
           and not p.name.endswith(':Zone.Identifier') and p.suffix!='.zip' and p.name!='output_manifest.csv']
  with (OUT/'output_manifest.csv').open('w',newline='') as h:
   w=csv.writer(h);w.writerow(['package_member','bytes','sha256'])
   for p in outputs:w.writerow([str(p.relative_to(OUT)),p.stat().st_size,sha(p)])
- package=OUT/'JDR_Author_Review_Package.zip'
+ package=OUT/'Author_Review_Package.zip'
  with zipfile.ZipFile(package,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
   for p in outputs+[OUT/'output_manifest.csv']:z.write(p,str(p.relative_to(OUT)))
-  for name in ['jdr_additional_analysis.py','plot_jdr_figures.py','build_jdr_references.py','build_jdr_manuscript.py','jdr_reference_metadata.py','validate_jdr_package.py','acquire_jdr_citation_evidence.py','audit_jdr_data_citations.py']:
+  for name in ['demographic_additional_analysis.py','plot_manuscript_figures.py','build_references.py','build_manuscript.py','reference_metadata.py','validate_manuscript_package.py','acquire_citation_evidence.py','audit_data_citations.py']:
    z.write(ROOT/'scripts'/name,'reporting_scripts/'+name)
  with zipfile.ZipFile(package) as z:assert z.testzip() is None
  print(json.dumps({'status':validation['final_status'],'documents':rendered,'figures':8,'tables':6,

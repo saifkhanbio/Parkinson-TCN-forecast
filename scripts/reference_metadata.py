@@ -1,4 +1,4 @@
-"""Acquire bibliographic metadata for the JDR reference-style conversion."""
+"""Acquire bibliographic metadata for the study reference-style conversion."""
 import concurrent.futures
 import json
 from pathlib import Path
@@ -7,7 +7,7 @@ from urllib.parse import quote
 import requests
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'manuscript/JDR_GBD_PARK/references'
+OUT=ROOT/'manuscript/GBD_PARK/references'
 EXTRA={
  'schrag':'10.1136/jnnp.69.3.308',
  'sturkenboom':'10.1016/S1474-4422(14)70055-9',
@@ -20,7 +20,7 @@ EXTRA={
 
 def main():
  OUT.mkdir(parents=True,exist_ok=True)
- refs=json.loads((ROOT/'manuscript/ije_draft_v2_raw_integration/references.json').read_text())
+ refs=json.loads((ROOT/'manuscript/raw_integration_draft_v2/references.json').read_text())
  dois={}
  for key,r in refs.items():
   m=re.search(r'https://doi.org/(\S+)',r['text'])

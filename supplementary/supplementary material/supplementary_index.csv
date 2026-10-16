@@ -67,15 +67,15 @@ Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit sour
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/supporting.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/tcn.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/tcn_forecasting.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/acquire_jdr_citation_evidence.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_jdr_data_citations.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/acquire_citation_evidence.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_data_citations.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_population_denominators_v2.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_source_compatibility.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/benchmark_parallel.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/benchmark_tcn.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_ije_manuscript.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_jdr_manuscript.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_jdr_references.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_initial_manuscript.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_manuscript.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_references.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/draw_study_flowchart.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/export_forecast_comparison.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/extract_existing_saudi_checkpoints.py,file,Unmodified source copy
@@ -84,11 +84,11 @@ Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit sour
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/finalize_study_cpu_recovery.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/finalize_supporting.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/jdr_additional_analysis.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/jdr_reference_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/demographic_additional_analysis.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/reference_metadata.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/monitor_secondary_resources.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_jdr_figures.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_manuscript_figures.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_standalone_forecast_comparison.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_bayesian_age_time.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_calibration.py,file,Unmodified source copy
@@ -103,7 +103,7 @@ Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit sour
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_population_sensitivity.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_primary.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_reliability_v1_3.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_saudi_raw_integration.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_secondary.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_study_synthesis.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_study_synthesis_recovery.py,file,Unmodified source copy
@@ -133,7 +133,7 @@ Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit sour
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_secondary.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_supporting.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_tcn.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/validate_jdr_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/validate_manuscript_package.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/validate_source_compatibility_package.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/verify_downloaded_gbd_hierarchy.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/verify_native_asr_export.py,file,Unmodified source copy
@@ -253,14 +253,14 @@ Supplementary Material S4,Prepared demographic and insurance tables,data/process
 Supplementary Material S4,Prepared demographic and insurance tables,data/processed/saudi_raw_integration_v1/national_population_2022_2024.csv,file,Unmodified source copy
 Supplementary Material S4,Prepared demographic and insurance tables,data/processed/saudi_raw_integration_v1/population_2022_corrected_linkage.csv,file,Unmodified source copy
 Supplementary Software S1,Saudi raw-data integration scripts,scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
-Supplementary Software S1,Saudi raw-data integration scripts,scripts/report_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,Saudi raw-data integration scripts,scripts/report_saudi_raw_integration.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,Scientific validation checks,tests/test_saudi_raw_integration.py,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/Data_Citation_Audit.docx,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/Data_Citation_Audit.docx,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_citation_audit.csv,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/provider_citation_audit/retrieval_manifest.json,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/provider_citation_audit/retrieval_manifest.json,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/Supplementary_Data_References.docx,file,Unmodified source copy
 Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_source_register.csv,file,Unmodified source copy
-Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_file_citation_crosswalk.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/data_file_citation_crosswalk.csv,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/citation_audit_validation.json,file,Unmodified source copy
 Supplementary Material S1,Provider citation and attribution audit,manuscript/GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv,file,Unmodified source copy
 Supplementary Table S12,Exact 2024–2028 changes from matched 2023 baselines,forecast_percentage_change.csv,file,Unmodified source copy
@@ -269,25 +269,25 @@ Supplementary Table S12,All demographic decompositions,manuscript/GBD_PARK/analy
 Supplementary Table S12,Baseline burden by sex and age,manuscript/GBD_PARK/analysis/saudi_2023_burden_composition.csv,file,Unmodified source copy
 Supplementary Table S12,Matched scenario baseline cells,reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv,file,Unmodified source copy
 Supplementary Table S13,Resources and reporting-rigor crosswalk,manuscript/GBD_PARK/reporting_checklist.csv,file,Unmodified source copy
-Supplementary Material S5,JDR methods reproducibility and reporting audit,manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx,file,Unmodified source copy
+Supplementary Material S5,Study methods reproducibility and reporting audit,manuscript/GBD_PARK/Reporting_Rigor_Checklist.docx,file,Unmodified source copy
 Supplementary Material S5,Full study limitations,manuscript/GBD_PARK/Limitations.docx,file,Unmodified source copy
 Supplementary Material S5,Exploratory decomposition validation,manuscript/GBD_PARK/analysis/validation.json,file,Unmodified source copy
 Supplementary Material S5,Recent literature-window verification,study_design/literature_review/saudi_forecast_window_2026-10-03/verification.json,file,Unmodified source copy
-Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/jdr_additional_analysis.py,file,Unmodified source copy
-Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/plot_jdr_figures.py,file,Unmodified source copy
-Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
-Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/build_jdr_manuscript.py,file,Unmodified source copy
-Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/build_jdr_references.py,file,Unmodified source copy
-Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/jdr_reference_metadata.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/acquire_jdr_citation_evidence.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_jdr_data_citations.py,file,Unmodified source copy
+Supplementary Software S1,Study reporting and exploratory analysis software,scripts/demographic_additional_analysis.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,Study reporting and exploratory analysis software,scripts/plot_manuscript_figures.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,Study reporting and exploratory analysis software,scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
+Supplementary Software S1,Study reporting and exploratory analysis software,scripts/build_manuscript.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,Study reporting and exploratory analysis software,scripts/build_references.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,Study reporting and exploratory analysis software,scripts/reference_metadata.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/acquire_citation_evidence.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_data_citations.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_population_denominators_v2.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_source_compatibility.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/benchmark_parallel.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/benchmark_tcn.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_ije_manuscript.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_jdr_manuscript.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_jdr_references.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_initial_manuscript.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_manuscript.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_references.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/draw_study_flowchart.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/export_forecast_comparison.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/extract_existing_saudi_checkpoints.py,file,Unmodified source copy
@@ -296,11 +296,11 @@ Supplementary Software S1,"Analysis, acquisition, reporting, test and audit sour
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/finalize_study_cpu_recovery.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/finalize_supporting.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/jdr_additional_analysis.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/jdr_reference_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/demographic_additional_analysis.py,file,Journal-neutral wording or path normalization; original source hash retained
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/reference_metadata.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/monitor_secondary_resources.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_jdr_figures.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_manuscript_figures.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_standalone_forecast_comparison.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_bayesian_age_time.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_calibration.py,file,Unmodified source copy
@@ -315,7 +315,7 @@ Supplementary Software S1,"Analysis, acquisition, reporting, test and audit sour
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_population_sensitivity.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_primary.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_reliability_v1_3.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_saudi_raw_integration.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_secondary.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_study_synthesis.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_study_synthesis_recovery.py,file,Unmodified source copy
@@ -345,7 +345,7 @@ Supplementary Software S1,"Analysis, acquisition, reporting, test and audit sour
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_secondary.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_supporting.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_tcn.py,file,Unmodified source copy
-Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/validate_jdr_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/validate_manuscript_package.py,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/validate_source_compatibility_package.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/verify_downloaded_gbd_hierarchy.py,file,Unmodified source copy
 Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/verify_native_asr_export.py,file,Unmodified source copy
@@ -452,7 +452,7 @@ Supplementary Material S1,"Locked specifications, amendments, source provenance 
 Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/bounded_extension_2026-10-01_lock.json,file,Unmodified source copy
 Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_file_citations.csv,file,Unmodified source copy
 Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_source_references.bib,file,Unmodified source copy
-Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_source_references.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_source_references.md,file,Journal-neutral wording or path normalization; original source hash retained
 Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/demography_implementation.md,file,Unmodified source copy
 Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/distribution_mixture_v1.json,file,Unmodified source copy
 Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/distribution_mixture_v1.lock.json,file,Unmodified source copy

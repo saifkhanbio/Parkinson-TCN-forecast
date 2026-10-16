@@ -1,6 +1,6 @@
-"""Build an additive IJE manuscript package from frozen study ledgers."""
+"""Build an additive initial manuscript package from frozen study ledgers."""
 import os
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/gbd_ije_matplotlib")
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/gbd_initial_matplotlib")
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -23,7 +23,7 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "manuscript/ije_draft_v1"
+OUT = ROOT / "manuscript/initial_draft_v1"
 FIG = OUT / "figures"
 TITLE = "Sex-specific transfer learning and forecast reliability for Parkinson’s disease in Saudi Arabia"
 COL = {"TCN": "#222222", "Local": "#0072B2", "Non-neural": "#D55E00",
@@ -517,7 +517,7 @@ def missing_references():
         ["R2", "Original workbook/extract history", "The original extraction date, query record and workbook construction history are incomplete; a creation timestamp is not extraction provenance.", "Recover original query/export metadata if available. Regional numerical agreement does not resolve the remaining 196 locations."],
         ["R3", "GASTAT publication date", "The 2024 population edition and official workbook/report are identified, but precise publication date is not established.", "Retain publication-date-not-stated wording; verify against the official release notice rather than infer a date from a download URL."],
         ["R4", "GCC-Stat publication/update date", "The population dataflow/version and access date are recorded; a stable original publication date is not identified.", "Retain version/access-date citation and obtain an official release/version history if required."],
-        ["R5", "Supplementary archive identifier", "No deposited supplementary archive DOI or journal-hosted URL exists in this draft.", "Supply the final archive identifier after deposition; do not claim that the supplement is already hosted by IJE."],
+        ["R5", "Supplementary archive identifier", "No deposited supplementary archive DOI or journal-hosted URL exists in this draft.", "Supply the final archive identifier after deposition; distinguish repository deposition from publisher hosting."],
         ["R6", "Software archival citation", "Public source commit and account creator are verified; no versioned archival DOI is available.", "The commit URL is citable now. Confirm preferred creator names and obtain an archival DOI if desired; do not invent either."],
     ]
     doc = document(landscape=True)
@@ -655,7 +655,7 @@ def review_package():
 
 The complete Introduction, Methods, Results, Discussion (including a separate Limitations subsection) and Conclusion contain {count} words including headings. The structured abstract contains {abstract_count} words including its four section headings. Seven keywords and three key messages are included. The package uses four main figures, four editable tables and {len(KEYS)} references. The main document is double-spaced, uses 2.5 cm margins and page fields, and includes figure captions/alt text after the references. Tables are separate and have no vertical rules. TIFF figures are 7200 pixels wide at 600 dpi; EPS masters and PNG review copies are also supplied.
 
-IJE original-article guidance currently specifies a 3000-word main-text limit, a 250-word structured abstract, eight tables/figures combined and up to 50 references. The main text is {3000-count} words below the limit. Author details, final declarations and a supplement deposit identifier remain outstanding; the package is not claimed to be submission-complete. Source code is already public; the larger archive has not been uploaded by this drafting step. Guidance checked 30 September 2026: https://academic.oup.com/ije/pages/General_Instructions
+This builder retains the initial draft layout and length checks as editable template defaults. They do not establish compliance with any publication venue. Confirm author details, declarations, supplementary links and destination-specific requirements before submission.
 
 ## Files
 

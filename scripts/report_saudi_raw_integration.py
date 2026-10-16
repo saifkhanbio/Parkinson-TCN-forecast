@@ -22,7 +22,7 @@ from PIL import Image
 
 from integrate_saudi_raw_data import ROOT, OUT, DATA, sha
 
-REV = ROOT/'manuscript/ije_draft_v2_raw_integration'
+REV = ROOT/'manuscript/raw_integration_draft_v2'
 FIG = OUT/'figures'
 COLORS = ['#0072B2','#D55E00','#009E73','#7B3294']
 
@@ -209,7 +209,7 @@ def report(pop,counts,projection,chi,national):
 
 
 def manuscript_revision(projection):
-    old=ROOT/'manuscript/ije_draft_v1'
+    old=ROOT/'manuscript/initial_draft_v1'
     REV.mkdir(parents=True,exist_ok=True)
     body=(old/'body.md').read_text();before=body
     methods=('An exploratory source-integration analysis harmonised the MOH 2022 population table and GASTAT 2023–2024 estimates.[@moh_yearbook;@gastat] '
@@ -246,7 +246,7 @@ def manuscript_revision(projection):
         assert source in body,source;body=body.replace(source,target)
     body=body.replace('source code is publicly available.[@software]','core forecasting source code is publicly available.[@software]')
     # Reuse the existing styled writer without rerunning models, figures or retired comparison exports.
-    spec=importlib.util.spec_from_file_location('ije_builder',ROOT/'scripts/build_ije_manuscript.py')
+    spec=importlib.util.spec_from_file_location('initial_builder',ROOT/'scripts/build_initial_manuscript.py')
     builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
     builder.OUT=REV;builder.BODY=body
     abstract=(old/'abstract.md').read_text()
@@ -295,13 +295,13 @@ def manuscript_revision(projection):
     m.add_heading('Additional metadata from Saudi raw-data integration',1)
     for r in missing[-2:]:m.add_paragraph(r['id']+' — '+r['item']+'. '+r['unresolved_detail']+' '+r['action'])
     m.save(REV/'missing_references.docx')
-    (REV/'revision.diff').write_text(''.join(difflib.unified_diff(before.splitlines(True),body.splitlines(True),fromfile='ije_draft_v1/body.md',tofile='ije_draft_v2_raw_integration/body.md')))
+    (REV/'revision.diff').write_text(''.join(difflib.unified_diff(before.splitlines(True),body.splitlines(True),fromfile='initial_draft_v1/body.md',tofile='raw_integration_draft_v2/body.md')))
     return {'main_text_words':count,'main_figures':4,'main_tables':4,'references':len(builder.KEYS),
             'abstract_words':builder.word_count(builder.ABSTRACT.removeprefix('# Abstract\n'),include_headings=True)}
 
 
 def supplementary_and_provenance(info):
-    old=ROOT/'manuscript/ije_draft_v1'
+    old=ROOT/'manuscript/initial_draft_v1'
     existing=pd.read_csv(old/'supplementary_index.csv').to_dict('records')
     new=[]
     def add(identifier,title,path,kind='file'):
@@ -354,17 +354,17 @@ def supplementary_and_provenance(info):
     info.update(original_primary_results_unchanged=True,new_disease_models_fitted=0,
                 source_hashes_rechecked=True,new_supplementary_tables=3,new_supplementary_figures=2,
                 docx_readback_checked=True,docx_page_rendering_performed=False,
-                ije_guidance_checked='2026-10-03',guidance_url='https://academic.oup.com/ije/pages/General_Instructions')
+                submission_format='journal-neutral; check destination requirements before submission')
     (REV/'validation.json').write_text(json.dumps(info,indent=2))
     (REV/'revision_notes.txt').write_text(
        'SAUDI RAW-DATA INTEGRATION REVISION — 3 OCTOBER 2026\n\n'
        'This revision adds new demographic and insurance analyses to Methods, Results, Discussion and Limitations. '
        'The complete technical report is Supplementary Material S4; new tables are S9–S11 and figures S34–S35.\n'
        'Original primary disease models, results, four main figures and four main tables are unchanged. '
-       'Use the original main figure files in manuscript/ije_draft_v1/figures/; no alternative main figure set was created. '
+       'Use the original main figure files in manuscript/initial_draft_v1/figures/; no alternative main figure set was created. '
        'The structured abstract retains the primary findings and adds the conditional oldest-age-composition result.\n'
        f'Main text: {info["main_text_words"]} words; abstract: {info["abstract_words"]} words; {info["references"]} references. '
-       'IJE original-article guidance checked 3 October 2026: 3000 main-text words, 250 abstract words, eight main displays, 50 references.\n'
+       'Layout and length settings are editable template defaults; check the selected destination requirements before submission.\n'
        'The additions are exploratory and supply neither new disease observations nor independent validation. '
        'Source metadata still requiring confirmation remain in the dataset citation package; no release-contradiction content was added.\n'
        'Main DOCX readback was checked; Word pagination was not rendered. Original version remains available.\n',encoding='utf-8')
