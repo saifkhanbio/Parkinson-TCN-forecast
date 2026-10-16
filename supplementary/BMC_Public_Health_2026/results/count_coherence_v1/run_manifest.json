@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-29T13:41:17.155482+00:00",
+  "code_sha256": {
+    "src/gbd_park/demography.py": "2b9c8ed71a58104ac1d69c928cd1d3b2813e7563b465d7a4545bc66167ceec1f",
+    "src/gbd_park/count_coherence.py": "3032b62ba075b0eee7844fcfded344998f3d4ec0e9f8f0beddfdbee86fe75ad2",
+    "scripts/run_demography.py": "ad6bfcc999d3c3e7def311d42b0c63325b0b72e1c9f6d5d38c769510dd97d239",
+    "scripts/run_count_coherence.py": "37da191ca5ca956990015c16cca295a8f3e4cc54ad26ff78a7b83078c06e39b5",
+    "tests/test_demography.py": "10147b9bdb4038909a9db578d860b08341dfbfef3a56a2d03fa91cdaf70f23a7",
+    "tests/test_count_coherence.py": "a5ae5170e73d269c08e658b85b4d20d26cbc31374a4bfe6a7aeeae7cf7b4bcb8",
+    "tests/test_demography_runner.py": "14d1c2fb8b3a9397016f3f3d781ea1cf9095115d61dbd66377933d8e03a2a86a",
+    "study_design/demography_implementation.md": "bbf4682571cb2e3eb1f8b2bc35e861638d1d97e9a7fd8f4caf6cd279e998d0e0",
+    "src/gbd_park/local.py": "5d5c0d57aedbf0021baf1f6bbd18719b79b6fbece2c75b1fbb7968d30a98e337",
+    "src/gbd_park/intervals.py": "d93f74e21fb67fab8be572fa520237a5fd4d89dee0a11cd2f1890d176cd1486e",
+    "scripts/run_local_baselines.py": "11647b03960ec57696c49924804f3b453638b02c124ae512a70101851f3581b0"
+  },
+  "workers": 4,
+  "source_sha256": "2dab38b3927c67ef02853935e29ffb97b6d6ce6e5f9228eab6b1cbf730ef06b1",
+  "config_sha256": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+  "final_period_scored": true,
+  "completed_utc": "2026-09-29T13:42:23.264336+00:00",
+  "output_sha256": {
+    "events.json": "d94a77b13a43bd8c82c03ff200e2c9044a43d4ada8a47a847e92c90a4f623310",
+    "fit_audit.json": "10b07ae707d2d10038b7530b02db503f29bfe237ea4a80836e0a38ce64ed61d5",
+    "independent_predictions.csv": "28f3f3005cff4a5b89aae42b1d7754d2fe3902442abe8ed63e64244150a87dbe",
+    "point_scores.csv": "641c0d2651f16ddfc6ae0affcd73d7608ca15aad80beb1e2e84655b10ef6136a",
+    "predictions.csv": "1eb6283aa91218501f7126d160aedde2affdc98e644b7fed9f284c67c8034a1c",
+    "summary.csv": "73bbc5eaa7c0379b7bfb99b625d9eba2be4565c1b3a18c7eb9513abf8d407044",
+    "validation_report.json": "b30fbe0856695d00118333611c9d5733a9a8892772c40fd885284f2a2b6a5031",
+    "weights.csv": "3115cd962691e0ad885c2db714ef8576859510651c7d6b5260739e4e25f0e1d5"
+  }
+}

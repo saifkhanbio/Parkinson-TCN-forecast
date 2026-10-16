@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-09-30T19:03:16.202444+00:00",
+  "passed": true,
+  "independent_audits": [
+    {
+      "case": "SAU_prevalence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "SAU_incidence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "BHR_prevalence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "BHR_incidence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "KWT_prevalence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "KWT_incidence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "OMN_prevalence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "OMN_incidence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "QAT_prevalence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "QAT_incidence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "ARE_prevalence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    },
+    {
+      "case": "ARE_incidence",
+      "rate_intervals_verified": 23100,
+      "burden_intervals_verified": 42525,
+      "passed": true
+    }
+  ],
+  "all_cases_committed_before_scoring": true,
+  "protected_files_unchanged": true,
+  "source_manifest_sha256": "bd9ff605d9c1e214d7f81e7ea08e8baf3ddabf60a459512f9d9c300ede3baf7e",
+  "report_code_sha256": "c4f9d087e1d006030e427a2497d906cb5a89589830af1494365b1fb7114d760c",
+  "primary_guard_pass": false,
+  "models_fitted": 0,
+  "artifact_sha256": {
+    "burden_comparison.csv": "d3b2565a37f569f2040f991ae01ca419c05be0aa0418875ff580c1074f177c49",
+    "decision_gates.csv": "19c0cafc983d7045927b97254597b5b6fceda12ccb82cf4d37c1420a03fc378b",
+    "decisions.csv": "0e0a0f5c4edf3276712acbb39263629a19435a0d0128bd49ad578a21cbb5cb6a",
+    "quantile_convention_effect.csv": "fbd8bb2023d59d49542b775365056ef5eeb3b56f38394269261a94220e33ad2d",
+    "rate_comparison.csv": "4b43fff37580dfa07e908b7e40c1c1aa6a8c6e55f722854d0db5ef03c9a4611d",
+    "report.md": "407971a7e9d9999ace9d87edbe61e1ba64136fcde2401903e195d3a595d1306c",
+    "saudi_coverage.png": "b160d6bef80dda5904f5345672b1fecaef1d1f923bedf588c9320206a0b4a409",
+    "saudi_coverage.svg": "15f95f663f228cd805cf1c5117d3062a048817756c535b2770b8444fdda746af"
+  }
+}

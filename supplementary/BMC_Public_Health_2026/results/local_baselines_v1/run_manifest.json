@@ -1,0 +1,57 @@
+{
+  "run_id": "local_baselines_v1",
+  "protocol_version": "1.0",
+  "created_utc": "2026-09-29T09:48:52.573159+00:00",
+  "scope": "Saudi prevalence local baselines; historical development only",
+  "model_origins": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013
+  ],
+  "maximum_verification_year": 2018,
+  "final_period_scored": false,
+  "source_lock_hash": "cf7199a5d5a2d6bac9a2194f4c6025653688dfb4a66c6b47644daabd335fa56f",
+  "config_sha256": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+  "code_sha256": {
+    "src/gbd_park/__init__.py": "736db342dbcfc9a4a455c0d4a4310202588f6d9f2e30279d0d6e07a034fade75",
+    "src/gbd_park/local.py": "5d5c0d57aedbf0021baf1f6bbd18719b79b6fbece2c75b1fbb7968d30a98e337",
+    "src/gbd_park/scoring.py": "6b027fe865b717f22a609202b7b153700de46a6c895098048b989191277c0079",
+    "scripts/run_local_baselines.py": "11647b03960ec57696c49924804f3b453638b02c124ae512a70101851f3581b0",
+    "tests/test_local_baselines.py": "449575239ba982b71f1e317b084171c4c904800652f744dfef46a085f06c1c6e",
+    "study_design/local_baselines_implementation.md": "a7244ee524b3f6c4fbea6e588fa59b1f0fd651eb8590533190e15b55cdf48531"
+  },
+  "test_report_sha256": "c552a5cde575eae54a8adb9c86fa8a14b2c0b2a3ce3a0768268ab5baa2f29acb",
+  "workers": 4,
+  "versions": {
+    "python": "3.9.23",
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "scipy": "1.13.1",
+    "statsmodels": "0.14.5"
+  },
+  "status": "complete",
+  "completed_utc": "2026-09-29T09:49:40.609255+00:00",
+  "output_sha256": {
+    "arima_candidate_audit.csv": "8facb64686f538f95dbb4ba7c41bc3c9573ce44a2e8af6997eafc1282248cac1",
+    "candidate_predictions.csv": "b44fd0faf90216919592690f7fc1d1500135d82ae75b587157bbd177fc7c7ab9",
+    "candidate_scores.csv": "98c8c66cf9e08f36e2f7efc7b0ba3a16e60ec3da43f620041cd514923025377b",
+    "development_predictions.csv": "c4a44239fd6aafe020616f00a3bf70445d9cd2542bccf378536279cf523ce685",
+    "development_scores.csv": "2a0d786b42fb4cab96877e52ab8ae28cfc491ba71d4d968ae9248dbbab65fe13",
+    "development_summary.csv": "5b53f71fca770ee4afc5f1cfc758c2f9b7b48968544e7487316c06d136a1e8ab",
+    "events.json": "8432b64d85115cc19d9e962ada03966322aa646710649065ec9a56ea9634fd83",
+    "fit_timings.csv": "c07cf365fe4ab1dc29de987ef4d409d4b2213bfc7ed053b49d1c0fee74630a86",
+    "fitted_parameters.jsonl": "dcab85ad45ae5905c72abcc37b181af766a06ffd06658567fa612e2e042b328d",
+    "local_champions_for_later_evaluation.csv": "422687674a5faed73a35416b077818008a8c4f94dfb23438e9e96986c6899d5a",
+    "scores_by_origin.csv": "0ca4fac88ae4774372dc700bad198fe88a717afa0bee7fb6f933a14976b70b2e",
+    "tuning_decisions.csv": "1ae5e48765803b5fbf2ec9f620ef072ad3d179243e615ffacd1d50d537a3cc34",
+    "validation_report.json": "558d042d818f85e7c90572144e0cbcf0e7d9f53846c1ad4cdce4efb6abb466ac"
+  }
+}

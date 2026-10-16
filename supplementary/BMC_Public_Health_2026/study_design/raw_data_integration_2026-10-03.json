@@ -1,0 +1,22 @@
+{
+  "title": "Saudi population denominators and insurance representation: supplementary integration",
+  "date": "2026-10-03",
+  "status": "Exploratory extension specified after the primary results and initial raw-data inspection",
+  "scope": "Use data/raw for demographic and data-coverage analyses; preserve the original >=45 primary disease forecasts and interval scores.",
+  "analyses": [
+    "Rebuild 2022 MOH population by age, sex and nationality from raw cells; reconcile to the MOH Yearbook table and combine with verified 2023/2024 GASTAT data.",
+    "Check all 840 GASTAT 2010-2024 cells against existing GCC-Stat data; record date-like age labels and the 2022 older-age aggregation ambiguity without treating duplicate values as independent observations.",
+    "Compare GBD-implied, UN and national populations at compatible ages >=45 in 2022 and 2023; aggregate all sources to 80+ without asserting unobserved national ages within 80+.",
+    "Hold GBD outcome rates fixed and quantify the count and oldest-age-share implications of substituting national broad-age populations. For 80+, use GBD-implied within-band weights as a stated reference and retain minimum/maximum rate allocation bounds as non-probabilistic sensitivity limits.",
+    "Apply the frozen 2023-origin prevalence/incidence rate projections to national-2022 and national-2024 population anchors advanced using UN WPP 2024 broad-age growth. Compare with existing GBD-aligned and unaligned UN scenarios. Use GBD-aligned and UN within-80+ weights as explicit alternative allocations, not observed national detail.",
+    "Extract both CHI subscriber and insured-person indicators in all seven quarters, preserving distinct metrics and original age groups; quantify sex, nationality and age composition, reconcile totals, and compare the Q2 2024 sex/nationality composition with GASTAT 2024. Do not describe snapshot count ratios as coverage probabilities or person-years.",
+    "Document the eligibility and exclusion of NHRSP codebooks, NPHIES aggregate service summaries and access documents for outcome modeling; quantify the data requirements for future independent validation."
+  ],
+  "restrictions": [
+    "No new model tuning, disease-outcome fitting or predictive-interval recalibration from demographic/insurance data alone.",
+    "No inference of nationality-specific Parkinson risk or individual prognosis.",
+    "No unsupported proportional splitting of mismatched CHI age categories; ambiguous 61 >=Age labels remain unresolved.",
+    "National anchors and UN growth are current-vintage retrospective/conditional scenarios, not information available at each historical forecast origin or independent validation.",
+    "Keep new figures and detailed tables supplementary; update a separate manuscript revision with concise methods, findings and limitations."
+  ]
+}

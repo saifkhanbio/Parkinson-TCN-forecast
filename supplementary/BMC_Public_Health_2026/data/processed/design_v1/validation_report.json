@@ -1,0 +1,46 @@
+{
+  "study_id": "SAU_PD_AGESEX_V1",
+  "design_version": "1.0",
+  "status": "passed",
+  "models_fitted": false,
+  "regional_panel_rows": 34496,
+  "common_period_rows": 31416,
+  "prevalence_rows": 5236,
+  "incidence_rows": 5236,
+  "population_rows": 6006,
+  "countries_with_matched_populations": 7,
+  "window_index_rows": 174,
+  "windows_per_stratum_at_2018": 17,
+  "primary_target_training_windows_at_2018": 374,
+  "primary_donor_training_windows_at_2018": 2244,
+  "maximum_relative_denominator_disagreement": 1.7247237541946128e-12,
+  "checks": [
+    "source_hashes_preserved",
+    "expected_country_sex_age_outcome_coverage",
+    "unique_keys",
+    "source_bounds_ordered",
+    "positive_finite_points",
+    "daly_component_identity",
+    "population_units_and_age_alignment",
+    "jordan_population_match",
+    "completed_training_labels_only",
+    "history_accessor_future_perturbation_invariance",
+    "global_panel_scope"
+  ],
+  "not_yet_validated": [
+    "future_row_perturbation_invariance",
+    "target_country_pretraining_exclusion",
+    "fit_only_preprocessing",
+    "frozen_tcn_adaptation_weights",
+    "deterministic_donors",
+    "metric_examples",
+    "joint_interval_and_count_accounting",
+    "forecast_before_score_ledger"
+  ],
+  "note": "The time-accessor check is not a substitute for future-perturbation tests of fitted models.",
+  "versions": {
+    "python": "3.9.23",
+    "pandas": "2.3.1",
+    "numpy": "1.26.4"
+  }
+}

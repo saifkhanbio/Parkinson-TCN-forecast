@@ -1,0 +1,5 @@
+﻿outcome,year,family,scenario,within_80plus_allocation,sex,count_45plus,count_80plus,share_80plus,value
+incidence,2028,tcn_adapted,gbd_2023_aligned_un_growth,native_age_detail,Both,4557.261422736887,788.0530637987429,17.292250557912332,4557.261422737149
+incidence,2028,tcn_adapted,un_medium_unaligned,native_age_detail,Both,5241.6409048316755,1061.344546170334,20.24832615282746,5241.640904831676
+prevalence,2028,tcn_adapted,gbd_2023_aligned_un_growth,native_age_detail,Both,31844.353450777082,7873.564716278552,24.725151755550613,31844.35345077709
+prevalence,2028,tcn_adapted,un_medium_unaligned,native_age_detail,Both,37144.3062325254,10975.666411463588,29.54871829549141,37144.3062325254

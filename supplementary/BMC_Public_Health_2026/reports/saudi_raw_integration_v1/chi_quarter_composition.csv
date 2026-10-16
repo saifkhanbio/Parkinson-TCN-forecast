@@ -1,0 +1,21 @@
+﻿file,period,indicator,metric,total,male_percent,noncitizen_percent,oldest_original_labels,over_65_percent,ambiguous_age_label
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,10438327,71.26471512149409,63.10886792490789,61 to 65 | age > 65,1.5124645932245655,False
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,10166330,71.75773361675256,64.10360474232098,61 to 65 | age > 65,1.4450839191724054,False
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,9802943,70.44243754146076,62.6400255515104,61 to 65 | age > 65,1.4280303374200993,False
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,9534473,71.01103542901637,63.755007749248435,61 to 65 | age > 65,1.3358682750478186,False
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,12095588,72.51452347748616,64.96187700837694,61 +,,False
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,11935483,72.88343504825066,65.59973316538593,61 +,,False
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,12254783,72.87530917520122,65.56108745458813,61 to 65 | age > 65,1.6747012166596504,False
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,12161034,73.08857947440983,65.97425843887946,61 to 65 | age > 65,1.6439062665230604,False
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,12424219,72.97715051545694,66.12939614152005,61 to 65 | age > 65,1.631048197073796,False
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,12381657,73.10301844090819,66.31447632574542,61 to 65 | age > 65,1.6275608345474277,False
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,14467468,73.91544947602442,67.77938613722871,61 >=Age,,True
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,14426335,74.01656068571816,67.9467723437727,61 >=Age,,True
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,14838359,73.91384721181096,68.17019321341397,61 to 65 | age > 65,1.7660308663511914,False
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,14794947,73.99220828570728,68.28912601038719,61 to 65 | age > 65,1.7685497622938426,False

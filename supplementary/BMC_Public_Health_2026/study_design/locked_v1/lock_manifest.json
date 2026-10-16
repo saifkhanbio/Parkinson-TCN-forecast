@@ -1,0 +1,44 @@
+{
+  "study_id": "SAU_PD_AGESEX_V1",
+  "version": "1.0",
+  "lock_date": "2026-09-29",
+  "source_sha256": {
+    "More data/IHME-GBD_2023_DATA-e22a15d9-1/IHME-GBD_2023_DATA-e22a15d9-1.csv": "6c4ff230c7f6876e6942de69fe4adb4f3120e64b3a1e4efbd6f19bdabf7e64ce",
+    "More data/IHME-GBD_2023_DATA-e22a15d9-1/citation.txt": "339dc2be55e1576d87c0a9640ee20865e222e4f7d19e6d30a7731a0f8e476874",
+    "age_standard/parkinsons_ml_ready_wide.csv": "569088564671e1662e158a05d1e83917af80a876e745224518a8f6bc04b1437c",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM1_ESM.docx": "1c8f94355cd5d53e3197c5ae5c12e9c21d81d83d58971077dd9737fb6f84fc78",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM2_ESM.docx": "1d68f467c29cc33543fcfd17b3adb75999ecd0b6676b118a1fc7afd4fba2ee1b",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM3_ESM.docx": "65187e50cd12366eefd21b4fdc3aa61213009c587c0ac7f1548e22d737a29668",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM4_ESM.doc": "bd586fbb8a40a9c6262d77569a701e2a25ee5e9db1a07c1a516b0140139404e9",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM5_ESM.docx": "890933bf9c1a2c23335f3512fade5388a811a07b298a352a66e65524e9aee94e",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM6_ESM.docx": "2cc826d0dce62306d4038662eac576be6d37430146199207761a498265090f5f",
+    "supporting_data/2026-09-26/raw/12889_2023_15018_MOESM7_ESM.docx": "4b9b9161f5352a1dda167d91dbbccfcf061355b62702043d27b811719c2974fc",
+    "supporting_data/2026-09-26/raw/GASTAT_Population_Estimates_2024_EN.pdf": "a3650409ad4ed48afa336600e5168aabdc112df71680b6cbd087d5cfc42dfa00",
+    "supporting_data/2026-09-26/raw/GASTAT_Population_Estimates_EN.xlsx": "1a788fea14fbf0c830cd7a0b93ffd17f93cdb108c55196b10f670cd3cf8067fe",
+    "supporting_data/2026-09-26/raw/WPP2024_CSV_files_update.zip": "eb7846bf5d937ee15060198e1130e770b885e58c24035b314966681ed929ca9f",
+    "supporting_data/2026-09-26/raw/WPP2024_Demographic_Indicators_notes.csv": "c6063ba18b23e899c02bb7f9c78b6e410f25b30cb9d40b66eda032e1127bea49",
+    "supporting_data/2026-09-26/raw/WPP2024_Locations_notes.csv": "afaf6c08ff4336fe7dd4fded31b197fddb8526fd14746e17d487f39fe131b6d9",
+    "supporting_data/2026-09-26/raw/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz": "a04d7d1486a5eb2832cc812d599448f0a71e8ac9e1e7e6fa4066673d6a2487cd",
+    "supporting_data/2026-09-26/raw/gccstat_population_age_sex_nationality.csv": "b2e2ca28f7263bbcaa8722873768b593506943b2a1d87112764850d12168952c",
+    "supporting_data/2026-09-26/raw/mena_gbd2019_article.xml": "ca420535a6fbd860ca35b67d43082fb7b92c475ce35094934fdb11d212ddf5b7",
+    "supporting_data/2026-09-26/raw/menasa_registry_questionnaire.docx": "44c1c5077abfb0d225e07e3f4f94d8929e8fbe8d1f579231515b3022c07ae4b0",
+    "supporting_data/2026-09-26/raw/saudi_moh_yearbook_2023.xlsx": "6f30cfb307b213b82c035739ec9ff24ac38968c3c48c5bf830a790d5c0edc10b",
+    "supporting_data/2026-09-26/raw/saudi_moh_yearbook_2024.xlsx": "a482e1f88c13b24246312fdb4696e3f9c49f2dd9459d56ef585f47bb47032c83"
+  },
+  "design_sha256": {
+    "study_design/locked_v1/protocol.md": "8aef57334baec5cdb8a9c1810ffa916f6e4dd0580047324d10e92df521a4d504",
+    "study_design/locked_v1/design.json": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+    "study_design/locked_v1/build_design.py": "3c4db40f046d2254783baf6ce3a298718543647537c8c596b12b951fac680fa5"
+  },
+  "output_sha256": {
+    "data/processed/design_v1/country_crosswalk.csv": "04d62725da470cc2332f869a4e150bee325495b5b915b84c567a5cb47c2a425c",
+    "data/processed/design_v1/evaluation_calendar.csv": "ef32de53ddbcdde12df9173d7fbc0085213b397e2d09a6ac2a28cb195e8b9ea4",
+    "data/processed/design_v1/learning_curve_feasibility.csv": "a479933263fc195d08e6d89be45b319cf860b449e92fb689c17ab0c5eed17653",
+    "data/processed/design_v1/regional_outcomes.csv": "2dab38b3927c67ef02853935e29ffb97b6d6ce6e5f9228eab6b1cbf730ef06b1",
+    "data/processed/design_v1/training_window_index.csv": "409c381df013239e7c6b649f138be6a585604f8beb14e3901a937e948b63b8aa",
+    "data/processed/design_v1/un_population_1990_2028.csv": "47846ac0408730ffbf5e27bbf7a70345be2127f198f86b07339889e48cadf869",
+    "data/processed/design_v1/validation_report.json": "c1e92878ccc70e80f0555aad4d997a57ed9641e584faa6f76e0a7dceb676f6c9"
+  },
+  "status": "locked_locally_not_registered",
+  "models_fitted": false
+}

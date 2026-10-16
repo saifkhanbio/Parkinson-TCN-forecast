@@ -1,0 +1,127 @@
+location_id,location_name,measure_id,measure_name,sex_id,sex_name,min,max,count
+140,Bahrain,1,Deaths,1,Male,1980,2023,44
+140,Bahrain,1,Deaths,2,Female,1980,2023,44
+140,Bahrain,1,Deaths,3,Both,1980,2023,44
+140,Bahrain,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+140,Bahrain,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+140,Bahrain,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+140,Bahrain,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+140,Bahrain,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+140,Bahrain,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+140,Bahrain,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+140,Bahrain,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+140,Bahrain,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+140,Bahrain,5,Prevalence,1,Male,1990,2023,34
+140,Bahrain,5,Prevalence,2,Female,1990,2023,34
+140,Bahrain,5,Prevalence,3,Both,1990,2023,34
+140,Bahrain,6,Incidence,1,Male,1990,2023,34
+140,Bahrain,6,Incidence,2,Female,1990,2023,34
+140,Bahrain,6,Incidence,3,Both,1990,2023,34
+144,Jordan,1,Deaths,1,Male,1980,2023,44
+144,Jordan,1,Deaths,2,Female,1980,2023,44
+144,Jordan,1,Deaths,3,Both,1980,2023,44
+144,Jordan,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+144,Jordan,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+144,Jordan,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+144,Jordan,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+144,Jordan,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+144,Jordan,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+144,Jordan,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+144,Jordan,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+144,Jordan,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+144,Jordan,5,Prevalence,1,Male,1990,2023,34
+144,Jordan,5,Prevalence,2,Female,1990,2023,34
+144,Jordan,5,Prevalence,3,Both,1990,2023,34
+144,Jordan,6,Incidence,1,Male,1990,2023,34
+144,Jordan,6,Incidence,2,Female,1990,2023,34
+144,Jordan,6,Incidence,3,Both,1990,2023,34
+145,Kuwait,1,Deaths,1,Male,1980,2023,44
+145,Kuwait,1,Deaths,2,Female,1980,2023,44
+145,Kuwait,1,Deaths,3,Both,1980,2023,44
+145,Kuwait,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+145,Kuwait,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+145,Kuwait,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+145,Kuwait,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+145,Kuwait,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+145,Kuwait,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+145,Kuwait,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+145,Kuwait,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+145,Kuwait,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+145,Kuwait,5,Prevalence,1,Male,1990,2023,34
+145,Kuwait,5,Prevalence,2,Female,1990,2023,34
+145,Kuwait,5,Prevalence,3,Both,1990,2023,34
+145,Kuwait,6,Incidence,1,Male,1990,2023,34
+145,Kuwait,6,Incidence,2,Female,1990,2023,34
+145,Kuwait,6,Incidence,3,Both,1990,2023,34
+150,Oman,1,Deaths,1,Male,1980,2023,44
+150,Oman,1,Deaths,2,Female,1980,2023,44
+150,Oman,1,Deaths,3,Both,1980,2023,44
+150,Oman,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+150,Oman,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+150,Oman,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+150,Oman,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+150,Oman,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+150,Oman,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+150,Oman,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+150,Oman,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+150,Oman,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+150,Oman,5,Prevalence,1,Male,1990,2023,34
+150,Oman,5,Prevalence,2,Female,1990,2023,34
+150,Oman,5,Prevalence,3,Both,1990,2023,34
+150,Oman,6,Incidence,1,Male,1990,2023,34
+150,Oman,6,Incidence,2,Female,1990,2023,34
+150,Oman,6,Incidence,3,Both,1990,2023,34
+151,Qatar,1,Deaths,1,Male,1980,2023,44
+151,Qatar,1,Deaths,2,Female,1980,2023,44
+151,Qatar,1,Deaths,3,Both,1980,2023,44
+151,Qatar,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+151,Qatar,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+151,Qatar,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+151,Qatar,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+151,Qatar,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+151,Qatar,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+151,Qatar,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+151,Qatar,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+151,Qatar,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+151,Qatar,5,Prevalence,1,Male,1990,2023,34
+151,Qatar,5,Prevalence,2,Female,1990,2023,34
+151,Qatar,5,Prevalence,3,Both,1990,2023,34
+151,Qatar,6,Incidence,1,Male,1990,2023,34
+151,Qatar,6,Incidence,2,Female,1990,2023,34
+151,Qatar,6,Incidence,3,Both,1990,2023,34
+152,Saudi Arabia,1,Deaths,1,Male,1980,2023,44
+152,Saudi Arabia,1,Deaths,2,Female,1980,2023,44
+152,Saudi Arabia,1,Deaths,3,Both,1980,2023,44
+152,Saudi Arabia,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+152,Saudi Arabia,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+152,Saudi Arabia,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+152,Saudi Arabia,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+152,Saudi Arabia,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+152,Saudi Arabia,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+152,Saudi Arabia,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+152,Saudi Arabia,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+152,Saudi Arabia,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+152,Saudi Arabia,5,Prevalence,1,Male,1990,2023,34
+152,Saudi Arabia,5,Prevalence,2,Female,1990,2023,34
+152,Saudi Arabia,5,Prevalence,3,Both,1990,2023,34
+152,Saudi Arabia,6,Incidence,1,Male,1990,2023,34
+152,Saudi Arabia,6,Incidence,2,Female,1990,2023,34
+152,Saudi Arabia,6,Incidence,3,Both,1990,2023,34
+156,United Arab Emirates,1,Deaths,1,Male,1980,2023,44
+156,United Arab Emirates,1,Deaths,2,Female,1980,2023,44
+156,United Arab Emirates,1,Deaths,3,Both,1980,2023,44
+156,United Arab Emirates,2,DALYs (Disability-Adjusted Life Years),1,Male,1990,2023,34
+156,United Arab Emirates,2,DALYs (Disability-Adjusted Life Years),2,Female,1990,2023,34
+156,United Arab Emirates,2,DALYs (Disability-Adjusted Life Years),3,Both,1990,2023,34
+156,United Arab Emirates,3,YLDs (Years Lived with Disability),1,Male,1990,2023,34
+156,United Arab Emirates,3,YLDs (Years Lived with Disability),2,Female,1990,2023,34
+156,United Arab Emirates,3,YLDs (Years Lived with Disability),3,Both,1990,2023,34
+156,United Arab Emirates,4,YLLs (Years of Life Lost),1,Male,1980,2023,44
+156,United Arab Emirates,4,YLLs (Years of Life Lost),2,Female,1980,2023,44
+156,United Arab Emirates,4,YLLs (Years of Life Lost),3,Both,1980,2023,44
+156,United Arab Emirates,5,Prevalence,1,Male,1990,2023,34
+156,United Arab Emirates,5,Prevalence,2,Female,1990,2023,34
+156,United Arab Emirates,5,Prevalence,3,Both,1990,2023,34
+156,United Arab Emirates,6,Incidence,1,Male,1990,2023,34
+156,United Arab Emirates,6,Incidence,2,Female,1990,2023,34
+156,United Arab Emirates,6,Incidence,3,Both,1990,2023,34

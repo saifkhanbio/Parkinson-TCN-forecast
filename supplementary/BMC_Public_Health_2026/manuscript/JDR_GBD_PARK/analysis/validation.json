@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "new_models_fitted": 0,
+  "decomposition_rows": 180,
+  "exact_additivity": true,
+  "closed_form_crosscheck": true,
+  "synthetic_boundary_checks": 4,
+  "original_forecasts_reproduced": true,
+  "source_sha256": {
+    "reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv": "98b01815b3803e2acb5989d414715ad42ecc51e375f2bbf533a9909b58eacff7",
+    "reports/saudi_raw_integration_v1/conditional_projection_cells_2024_2028.csv": "407ae2c10c98cea48bf65da829953e51e3bd95cc2f5a9fd340ee4c4a94f67843",
+    "forecast_percentage_change.csv": "50d499136f1b9aae3577dad210d2b0bf091965ffdf736afe21182dcf1557d531",
+    "data/processed/design_v1/regional_outcomes.csv": "2dab38b3927c67ef02853935e29ffb97b6d6ce6e5f9228eab6b1cbf730ef06b1"
+  },
+  "interpretation": "Order-averaged arithmetic contributions; not causal attribution or uncertainty intervals."
+}

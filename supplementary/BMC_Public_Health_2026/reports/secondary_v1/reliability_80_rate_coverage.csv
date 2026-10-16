@@ -1,0 +1,385 @@
+context,target,outcome,sex,family,covered_cells,dependent_age_origin_cells,mean_width,n_origins,mean_coverage
+Bahrain · incidence,Bahrain,incidence,Female,age_smooth_trend,19,55,8.317873579982601,5,0.34545454545454546
+Bahrain · incidence,Bahrain,incidence,Female,arima,37,55,7.513651101732494,5,0.6727272727272727
+Bahrain · incidence,Bahrain,incidence,Female,damped_ets,31,55,7.351203057541021,5,0.5636363636363636
+Bahrain · incidence,Bahrain,incidence,Female,donor_boosting_adapted,27,55,5.5006968508449345,5,0.4909090909090909
+Bahrain · incidence,Bahrain,incidence,Female,donor_boosting_unadapted,23,55,5.602317763424948,5,0.41818181818181815
+Bahrain · incidence,Bahrain,incidence,Female,donor_ridge_adapted,33,55,4.705612137446326,5,0.6
+Bahrain · incidence,Bahrain,incidence,Female,donor_ridge_unadapted,31,55,4.71662561792629,5,0.5636363636363636
+Bahrain · incidence,Bahrain,incidence,Female,local_champion,31,55,7.351203057541021,5,0.5636363636363636
+Bahrain · incidence,Bahrain,incidence,Female,log_trend,14,55,8.024638476720478,5,0.2545454545454545
+Bahrain · incidence,Bahrain,incidence,Female,nonneural_champion,26,55,4.6427816218453595,5,0.4727272727272727
+Bahrain · incidence,Bahrain,incidence,Female,persistence,13,55,5.266011920681418,5,0.23636363636363636
+Bahrain · incidence,Bahrain,incidence,Female,pooled_boosting,27,55,5.633554816628142,5,0.4909090909090909
+Bahrain · incidence,Bahrain,incidence,Female,pooled_ridge,26,55,4.709653646376924,5,0.4727272727272727
+Bahrain · incidence,Bahrain,incidence,Female,tcn_adapted,30,55,5.452313940544431,5,0.5454545454545454
+Bahrain · incidence,Bahrain,incidence,Female,tcn_intercept,30,55,5.346086808578909,5,0.5454545454545454
+Bahrain · incidence,Bahrain,incidence,Female,tcn_unadapted,30,55,5.3618268021976885,5,0.5454545454545454
+Bahrain · incidence,Bahrain,incidence,Male,age_smooth_trend,13,55,22.3172342399409,5,0.23636363636363636
+Bahrain · incidence,Bahrain,incidence,Male,arima,10,55,13.555623639571376,5,0.18181818181818182
+Bahrain · incidence,Bahrain,incidence,Male,damped_ets,19,55,16.205324440985557,5,0.34545454545454546
+Bahrain · incidence,Bahrain,incidence,Male,donor_boosting_adapted,17,55,8.929011512267566,5,0.3090909090909091
+Bahrain · incidence,Bahrain,incidence,Male,donor_boosting_unadapted,16,55,9.088300844850021,5,0.2909090909090909
+Bahrain · incidence,Bahrain,incidence,Male,donor_ridge_adapted,28,55,10.37526316675584,5,0.509090909090909
+Bahrain · incidence,Bahrain,incidence,Male,donor_ridge_unadapted,26,55,10.47238158320984,5,0.4727272727272727
+Bahrain · incidence,Bahrain,incidence,Male,local_champion,19,55,15.33909604136969,5,0.34545454545454546
+Bahrain · incidence,Bahrain,incidence,Male,log_trend,21,55,14.128466309834597,5,0.38181818181818183
+Bahrain · incidence,Bahrain,incidence,Male,nonneural_champion,25,55,10.546029599734519,5,0.45454545454545453
+Bahrain · incidence,Bahrain,incidence,Male,persistence,14,55,11.481028662448361,5,0.2545454545454545
+Bahrain · incidence,Bahrain,incidence,Male,pooled_boosting,18,55,8.890711610505587,5,0.32727272727272727
+Bahrain · incidence,Bahrain,incidence,Male,pooled_ridge,25,55,10.546029599734519,5,0.45454545454545453
+Bahrain · incidence,Bahrain,incidence,Male,tcn_adapted,24,55,10.557155726411334,5,0.43636363636363634
+Bahrain · incidence,Bahrain,incidence,Male,tcn_intercept,23,55,10.667364475052104,5,0.41818181818181815
+Bahrain · incidence,Bahrain,incidence,Male,tcn_unadapted,23,55,10.60038359314669,5,0.41818181818181815
+Bahrain · prevalence,Bahrain,prevalence,Female,age_smooth_trend,19,55,71.43638498351717,5,0.34545454545454546
+Bahrain · prevalence,Bahrain,prevalence,Female,arima,25,55,37.45016853865006,5,0.45454545454545453
+Bahrain · prevalence,Bahrain,prevalence,Female,damped_ets,20,55,46.18622284152155,5,0.36363636363636365
+Bahrain · prevalence,Bahrain,prevalence,Female,donor_boosting_adapted,21,55,40.162688311854296,5,0.38181818181818183
+Bahrain · prevalence,Bahrain,prevalence,Female,donor_boosting_unadapted,21,55,39.32769043708843,5,0.38181818181818183
+Bahrain · prevalence,Bahrain,prevalence,Female,donor_ridge_adapted,24,55,25.011977971202903,5,0.43636363636363634
+Bahrain · prevalence,Bahrain,prevalence,Female,donor_ridge_unadapted,23,55,23.941121767193156,5,0.41818181818181815
+Bahrain · prevalence,Bahrain,prevalence,Female,local_champion,23,55,39.9465958055212,5,0.41818181818181815
+Bahrain · prevalence,Bahrain,prevalence,Female,log_trend,11,55,51.56937731922691,5,0.2
+Bahrain · prevalence,Bahrain,prevalence,Female,nonneural_champion,22,55,36.38019480160968,5,0.4
+Bahrain · prevalence,Bahrain,prevalence,Female,persistence,0,55,28.50600500227219,5,0.0
+Bahrain · prevalence,Bahrain,prevalence,Female,pooled_boosting,22,55,39.25157237362767,5,0.4
+Bahrain · prevalence,Bahrain,prevalence,Female,pooled_ridge,19,55,23.237052320306475,5,0.34545454545454546
+Bahrain · prevalence,Bahrain,prevalence,Female,tcn_adapted,30,55,43.67720439974059,5,0.5454545454545454
+Bahrain · prevalence,Bahrain,prevalence,Female,tcn_intercept,28,55,42.042978243367784,5,0.509090909090909
+Bahrain · prevalence,Bahrain,prevalence,Female,tcn_unadapted,28,55,41.16749906941402,5,0.509090909090909
+Bahrain · prevalence,Bahrain,prevalence,Male,age_smooth_trend,24,55,165.88083169483343,5,0.43636363636363634
+Bahrain · prevalence,Bahrain,prevalence,Male,arima,16,55,66.97306419844104,5,0.2909090909090909
+Bahrain · prevalence,Bahrain,prevalence,Male,damped_ets,17,55,90.92653699474224,5,0.3090909090909091
+Bahrain · prevalence,Bahrain,prevalence,Male,donor_boosting_adapted,23,55,83.42333760333435,5,0.41818181818181815
+Bahrain · prevalence,Bahrain,prevalence,Male,donor_boosting_unadapted,20,55,74.13118249580447,5,0.36363636363636365
+Bahrain · prevalence,Bahrain,prevalence,Male,donor_ridge_adapted,25,55,96.20855022141254,5,0.45454545454545453
+Bahrain · prevalence,Bahrain,prevalence,Male,donor_ridge_unadapted,23,55,93.85911438727169,5,0.41818181818181815
+Bahrain · prevalence,Bahrain,prevalence,Male,local_champion,16,55,66.97306419844104,5,0.2909090909090909
+Bahrain · prevalence,Bahrain,prevalence,Male,log_trend,17,55,90.4525187429006,5,0.3090909090909091
+Bahrain · prevalence,Bahrain,prevalence,Male,nonneural_champion,24,55,93.70207273632867,5,0.43636363636363634
+Bahrain · prevalence,Bahrain,prevalence,Male,persistence,6,55,64.6844486582958,5,0.10909090909090909
+Bahrain · prevalence,Bahrain,prevalence,Male,pooled_boosting,17,55,63.40049803980203,5,0.3090909090909091
+Bahrain · prevalence,Bahrain,prevalence,Male,pooled_ridge,24,55,93.26930842844001,5,0.43636363636363634
+Bahrain · prevalence,Bahrain,prevalence,Male,tcn_adapted,29,55,80.17302180136771,5,0.5272727272727272
+Bahrain · prevalence,Bahrain,prevalence,Male,tcn_intercept,28,55,77.32637676294871,5,0.509090909090909
+Bahrain · prevalence,Bahrain,prevalence,Male,tcn_unadapted,28,55,76.69742225735781,5,0.509090909090909
+Kuwait · incidence,Kuwait,incidence,Female,age_smooth_trend,28,55,9.030872748903086,5,0.509090909090909
+Kuwait · incidence,Kuwait,incidence,Female,arima,39,55,7.717141258837342,5,0.7090909090909091
+Kuwait · incidence,Kuwait,incidence,Female,damped_ets,42,55,8.521749405951406,5,0.7636363636363637
+Kuwait · incidence,Kuwait,incidence,Female,donor_boosting_adapted,26,55,5.5055378255454785,5,0.4727272727272727
+Kuwait · incidence,Kuwait,incidence,Female,donor_boosting_unadapted,25,55,5.22944509173082,5,0.45454545454545453
+Kuwait · incidence,Kuwait,incidence,Female,donor_ridge_adapted,35,55,5.174088745065374,5,0.6363636363636364
+Kuwait · incidence,Kuwait,incidence,Female,donor_ridge_unadapted,26,55,5.103271590189222,5,0.4727272727272727
+Kuwait · incidence,Kuwait,incidence,Female,local_champion,37,55,7.254563122929265,5,0.6727272727272727
+Kuwait · incidence,Kuwait,incidence,Female,log_trend,29,55,8.293752197629356,5,0.5272727272727272
+Kuwait · incidence,Kuwait,incidence,Female,nonneural_champion,29,55,5.238482121840177,5,0.5272727272727272
+Kuwait · incidence,Kuwait,incidence,Female,persistence,24,55,5.204367440823339,5,0.43636363636363634
+Kuwait · incidence,Kuwait,incidence,Female,pooled_boosting,26,55,5.041035903799979,5,0.4727272727272727
+Kuwait · incidence,Kuwait,incidence,Female,pooled_ridge,29,55,5.305391025004144,5,0.5272727272727272
+Kuwait · incidence,Kuwait,incidence,Female,tcn_adapted,36,55,5.825833204639705,5,0.6545454545454545
+Kuwait · incidence,Kuwait,incidence,Female,tcn_intercept,33,55,5.416977857889352,5,0.6
+Kuwait · incidence,Kuwait,incidence,Female,tcn_unadapted,29,55,5.448049751318937,5,0.5272727272727272
+Kuwait · incidence,Kuwait,incidence,Male,age_smooth_trend,42,55,27.780350849878488,5,0.7636363636363637
+Kuwait · incidence,Kuwait,incidence,Male,arima,44,55,32.832875134353436,5,0.8
+Kuwait · incidence,Kuwait,incidence,Male,damped_ets,44,55,52.931021155654136,5,0.8
+Kuwait · incidence,Kuwait,incidence,Male,donor_boosting_adapted,42,55,36.682117796911356,5,0.7636363636363637
+Kuwait · incidence,Kuwait,incidence,Male,donor_boosting_unadapted,43,55,36.65231697914385,5,0.7818181818181819
+Kuwait · incidence,Kuwait,incidence,Male,donor_ridge_adapted,39,55,31.12570960619421,5,0.7090909090909091
+Kuwait · incidence,Kuwait,incidence,Male,donor_ridge_unadapted,42,55,31.122959619528235,5,0.7636363636363637
+Kuwait · incidence,Kuwait,incidence,Male,local_champion,44,55,29.081809904971472,5,0.8
+Kuwait · incidence,Kuwait,incidence,Male,log_trend,44,55,47.920941710975455,5,0.8
+Kuwait · incidence,Kuwait,incidence,Male,nonneural_champion,41,55,29.911573193948122,5,0.7454545454545455
+Kuwait · incidence,Kuwait,incidence,Male,persistence,36,55,29.50374963124125,5,0.6545454545454545
+Kuwait · incidence,Kuwait,incidence,Male,pooled_boosting,43,55,35.6349749318304,5,0.7818181818181819
+Kuwait · incidence,Kuwait,incidence,Male,pooled_ridge,40,55,29.634454134517977,5,0.7272727272727273
+Kuwait · incidence,Kuwait,incidence,Male,tcn_adapted,41,55,31.42630261635649,5,0.7454545454545455
+Kuwait · incidence,Kuwait,incidence,Male,tcn_intercept,41,55,31.418259784036195,5,0.7454545454545455
+Kuwait · incidence,Kuwait,incidence,Male,tcn_unadapted,42,55,31.432143657382092,5,0.7636363636363637
+Kuwait · prevalence,Kuwait,prevalence,Female,age_smooth_trend,37,55,79.60851790369436,5,0.6727272727272727
+Kuwait · prevalence,Kuwait,prevalence,Female,arima,37,55,48.566514770393,5,0.6727272727272727
+Kuwait · prevalence,Kuwait,prevalence,Female,damped_ets,43,55,78.06971238051092,5,0.7818181818181819
+Kuwait · prevalence,Kuwait,prevalence,Female,donor_boosting_adapted,39,55,45.563278022192286,5,0.7090909090909091
+Kuwait · prevalence,Kuwait,prevalence,Female,donor_boosting_unadapted,39,55,56.86132012244324,5,0.7090909090909091
+Kuwait · prevalence,Kuwait,prevalence,Female,donor_ridge_adapted,39,55,34.881158647025096,5,0.7090909090909091
+Kuwait · prevalence,Kuwait,prevalence,Female,donor_ridge_unadapted,42,55,59.654156924902225,5,0.7636363636363637
+Kuwait · prevalence,Kuwait,prevalence,Female,local_champion,38,55,53.33981151305905,5,0.6909090909090909
+Kuwait · prevalence,Kuwait,prevalence,Female,log_trend,35,55,78.04561911336091,5,0.6363636363636364
+Kuwait · prevalence,Kuwait,prevalence,Female,nonneural_champion,42,55,59.654156924902225,5,0.7636363636363637
+Kuwait · prevalence,Kuwait,prevalence,Female,persistence,16,55,41.758688154772095,5,0.2909090909090909
+Kuwait · prevalence,Kuwait,prevalence,Female,pooled_boosting,42,55,56.84408385262775,5,0.7636363636363637
+Kuwait · prevalence,Kuwait,prevalence,Female,pooled_ridge,42,55,46.653081860365134,5,0.7636363636363637
+Kuwait · prevalence,Kuwait,prevalence,Female,tcn_adapted,44,55,51.88595241474599,5,0.8
+Kuwait · prevalence,Kuwait,prevalence,Female,tcn_intercept,45,55,51.26554688630519,5,0.8181818181818182
+Kuwait · prevalence,Kuwait,prevalence,Female,tcn_unadapted,46,55,55.214515509174575,5,0.8363636363636363
+Kuwait · prevalence,Kuwait,prevalence,Male,age_smooth_trend,38,55,513.4218724103321,5,0.6909090909090909
+Kuwait · prevalence,Kuwait,prevalence,Male,arima,37,55,388.34419860968643,5,0.6727272727272727
+Kuwait · prevalence,Kuwait,prevalence,Male,damped_ets,34,55,483.5682653140474,5,0.6181818181818182
+Kuwait · prevalence,Kuwait,prevalence,Male,donor_boosting_adapted,42,55,380.2536441446261,5,0.7636363636363637
+Kuwait · prevalence,Kuwait,prevalence,Male,donor_boosting_unadapted,38,55,351.0597446436915,5,0.6909090909090909
+Kuwait · prevalence,Kuwait,prevalence,Male,donor_ridge_adapted,41,55,353.00503481379485,5,0.7454545454545455
+Kuwait · prevalence,Kuwait,prevalence,Male,donor_ridge_unadapted,44,55,366.0665724745716,5,0.8
+Kuwait · prevalence,Kuwait,prevalence,Male,local_champion,35,55,353.3305165118083,5,0.6363636363636364
+Kuwait · prevalence,Kuwait,prevalence,Male,log_trend,30,55,484.20855017664474,5,0.5454545454545454
+Kuwait · prevalence,Kuwait,prevalence,Male,nonneural_champion,41,55,363.8938691285731,5,0.7454545454545455
+Kuwait · prevalence,Kuwait,prevalence,Male,persistence,29,55,273.29786961826477,5,0.5272727272727272
+Kuwait · prevalence,Kuwait,prevalence,Male,pooled_boosting,41,55,374.3249679730002,5,0.7454545454545455
+Kuwait · prevalence,Kuwait,prevalence,Male,pooled_ridge,44,55,361.2536186858853,5,0.8
+Kuwait · prevalence,Kuwait,prevalence,Male,tcn_adapted,44,55,301.0885223278329,5,0.8
+Kuwait · prevalence,Kuwait,prevalence,Male,tcn_intercept,44,55,293.1543751179494,5,0.8
+Kuwait · prevalence,Kuwait,prevalence,Male,tcn_unadapted,44,55,296.867918462585,5,0.8
+Oman · incidence,Oman,incidence,Female,age_smooth_trend,15,55,7.122133134761479,5,0.2727272727272727
+Oman · incidence,Oman,incidence,Female,arima,36,55,14.13418195047007,5,0.6545454545454545
+Oman · incidence,Oman,incidence,Female,damped_ets,37,55,18.830343133665544,5,0.6727272727272727
+Oman · incidence,Oman,incidence,Female,donor_boosting_adapted,44,55,13.037128230645143,5,0.8
+Oman · incidence,Oman,incidence,Female,donor_boosting_unadapted,32,55,12.904765845363197,5,0.5818181818181818
+Oman · incidence,Oman,incidence,Female,donor_ridge_adapted,37,55,10.9986523014891,5,0.6727272727272727
+Oman · incidence,Oman,incidence,Female,donor_ridge_unadapted,35,55,12.294535629584232,5,0.6363636363636364
+Oman · incidence,Oman,incidence,Female,local_champion,34,55,13.359155416604665,5,0.6181818181818182
+Oman · incidence,Oman,incidence,Female,log_trend,34,55,15.039137261627411,5,0.6181818181818182
+Oman · incidence,Oman,incidence,Female,nonneural_champion,37,55,11.529746222193856,5,0.6727272727272727
+Oman · incidence,Oman,incidence,Female,persistence,8,55,10.453949272769304,5,0.14545454545454545
+Oman · incidence,Oman,incidence,Female,pooled_boosting,39,55,13.654932757475155,5,0.7090909090909091
+Oman · incidence,Oman,incidence,Female,pooled_ridge,35,55,12.283471531351633,5,0.6363636363636364
+Oman · incidence,Oman,incidence,Female,tcn_adapted,44,55,14.160808779687589,5,0.8
+Oman · incidence,Oman,incidence,Female,tcn_intercept,42,55,13.562469538263693,5,0.7636363636363637
+Oman · incidence,Oman,incidence,Female,tcn_unadapted,38,55,13.261208144374592,5,0.6909090909090909
+Oman · incidence,Oman,incidence,Male,age_smooth_trend,11,55,16.731267985561907,5,0.2
+Oman · incidence,Oman,incidence,Male,arima,28,55,21.700307667840846,5,0.509090909090909
+Oman · incidence,Oman,incidence,Male,damped_ets,24,55,23.181981640300233,5,0.43636363636363634
+Oman · incidence,Oman,incidence,Male,donor_boosting_adapted,21,55,10.453579558415154,5,0.38181818181818183
+Oman · incidence,Oman,incidence,Male,donor_boosting_unadapted,17,55,9.808924008266509,5,0.3090909090909091
+Oman · incidence,Oman,incidence,Male,donor_ridge_adapted,31,55,17.80908234583034,5,0.5636363636363636
+Oman · incidence,Oman,incidence,Male,donor_ridge_unadapted,21,55,17.127607389188107,5,0.38181818181818183
+Oman · incidence,Oman,incidence,Male,local_champion,24,55,23.181981640300233,5,0.43636363636363634
+Oman · incidence,Oman,incidence,Male,log_trend,9,55,16.943005820628265,5,0.16363636363636364
+Oman · incidence,Oman,incidence,Male,nonneural_champion,21,55,10.453579558415154,5,0.38181818181818183
+Oman · incidence,Oman,incidence,Male,persistence,4,55,11.37921020477321,5,0.07272727272727272
+Oman · incidence,Oman,incidence,Male,pooled_boosting,18,55,11.865425383990981,5,0.32727272727272727
+Oman · incidence,Oman,incidence,Male,pooled_ridge,20,55,15.585052677802626,5,0.36363636363636365
+Oman · incidence,Oman,incidence,Male,tcn_adapted,29,55,14.865988645654008,5,0.5272727272727272
+Oman · incidence,Oman,incidence,Male,tcn_intercept,26,55,14.561658540536092,5,0.4727272727272727
+Oman · incidence,Oman,incidence,Male,tcn_unadapted,24,55,13.360660373529623,5,0.43636363636363634
+Oman · prevalence,Oman,prevalence,Female,age_smooth_trend,18,55,60.54634967934594,5,0.32727272727272727
+Oman · prevalence,Oman,prevalence,Female,arima,45,55,75.52454841492329,5,0.8181818181818182
+Oman · prevalence,Oman,prevalence,Female,damped_ets,39,55,90.76519938526872,5,0.7090909090909091
+Oman · prevalence,Oman,prevalence,Female,donor_boosting_adapted,46,55,64.88149344551046,5,0.8363636363636363
+Oman · prevalence,Oman,prevalence,Female,donor_boosting_unadapted,39,55,67.51285183285485,5,0.7090909090909091
+Oman · prevalence,Oman,prevalence,Female,donor_ridge_adapted,38,55,54.92316220418407,5,0.6909090909090909
+Oman · prevalence,Oman,prevalence,Female,donor_ridge_unadapted,23,55,52.08600001163099,5,0.41818181818181815
+Oman · prevalence,Oman,prevalence,Female,local_champion,45,55,75.52454841492329,5,0.8181818181818182
+Oman · prevalence,Oman,prevalence,Female,log_trend,30,55,69.3983262643682,5,0.5454545454545454
+Oman · prevalence,Oman,prevalence,Female,nonneural_champion,27,55,55.981187548098035,5,0.4909090909090909
+Oman · prevalence,Oman,prevalence,Female,persistence,0,55,58.384440412484174,5,0.0
+Oman · prevalence,Oman,prevalence,Female,pooled_boosting,44,55,71.2188015863419,5,0.8
+Oman · prevalence,Oman,prevalence,Female,pooled_ridge,30,55,59.52837587820784,5,0.5454545454545454
+Oman · prevalence,Oman,prevalence,Female,tcn_adapted,47,55,76.2702213506024,5,0.8545454545454545
+Oman · prevalence,Oman,prevalence,Female,tcn_intercept,46,55,75.50160917872816,5,0.8363636363636363
+Oman · prevalence,Oman,prevalence,Female,tcn_unadapted,45,55,74.7879094002682,5,0.8181818181818182
+Oman · prevalence,Oman,prevalence,Male,age_smooth_trend,20,55,119.05556485009302,5,0.36363636363636365
+Oman · prevalence,Oman,prevalence,Male,arima,17,55,143.5260049867761,5,0.3090909090909091
+Oman · prevalence,Oman,prevalence,Male,damped_ets,14,55,164.24834951419422,5,0.2545454545454545
+Oman · prevalence,Oman,prevalence,Male,donor_boosting_adapted,15,55,107.97442761842353,5,0.2727272727272727
+Oman · prevalence,Oman,prevalence,Male,donor_boosting_unadapted,13,55,103.68818351466902,5,0.23636363636363636
+Oman · prevalence,Oman,prevalence,Male,donor_ridge_adapted,18,55,124.73132910588114,5,0.32727272727272727
+Oman · prevalence,Oman,prevalence,Male,donor_ridge_unadapted,6,55,116.23173779101042,5,0.10909090909090909
+Oman · prevalence,Oman,prevalence,Male,local_champion,14,55,164.24834951419422,5,0.2545454545454545
+Oman · prevalence,Oman,prevalence,Male,log_trend,27,55,97.20660472480478,5,0.4909090909090909
+Oman · prevalence,Oman,prevalence,Male,nonneural_champion,16,55,109.55265608626333,5,0.2909090909090909
+Oman · prevalence,Oman,prevalence,Male,persistence,0,55,66.0553199006892,5,0.0
+Oman · prevalence,Oman,prevalence,Male,pooled_boosting,15,55,111.11352494022908,5,0.2727272727272727
+Oman · prevalence,Oman,prevalence,Male,pooled_ridge,8,55,117.78009623888481,5,0.14545454545454545
+Oman · prevalence,Oman,prevalence,Male,tcn_adapted,23,55,147.9514222525308,5,0.41818181818181815
+Oman · prevalence,Oman,prevalence,Male,tcn_intercept,20,55,141.9720162925201,5,0.36363636363636365
+Oman · prevalence,Oman,prevalence,Male,tcn_unadapted,17,55,133.6354768735235,5,0.3090909090909091
+Qatar · incidence,Qatar,incidence,Female,age_smooth_trend,35,55,9.320401567338246,5,0.6363636363636364
+Qatar · incidence,Qatar,incidence,Female,arima,32,55,6.383769345741261,5,0.5818181818181818
+Qatar · incidence,Qatar,incidence,Female,damped_ets,31,55,5.442465546699708,5,0.5636363636363636
+Qatar · incidence,Qatar,incidence,Female,donor_boosting_adapted,40,55,5.472053872813047,5,0.7272727272727273
+Qatar · incidence,Qatar,incidence,Female,donor_boosting_unadapted,35,55,6.534119808975814,5,0.6363636363636364
+Qatar · incidence,Qatar,incidence,Female,donor_ridge_adapted,38,55,4.3835166712197084,5,0.6909090909090909
+Qatar · incidence,Qatar,incidence,Female,donor_ridge_unadapted,37,55,5.110630629901745,5,0.6727272727272727
+Qatar · incidence,Qatar,incidence,Female,local_champion,33,55,5.8679075975539,5,0.6
+Qatar · incidence,Qatar,incidence,Female,log_trend,29,55,7.097649872064276,5,0.5272727272727272
+Qatar · incidence,Qatar,incidence,Female,nonneural_champion,36,55,4.80264675272929,5,0.6545454545454545
+Qatar · incidence,Qatar,incidence,Female,persistence,38,55,4.3030130257877515,5,0.6909090909090909
+Qatar · incidence,Qatar,incidence,Female,pooled_boosting,40,55,6.116816048291938,5,0.7272727272727273
+Qatar · incidence,Qatar,incidence,Female,pooled_ridge,37,55,5.024824350714693,5,0.6727272727272727
+Qatar · incidence,Qatar,incidence,Female,tcn_adapted,23,55,4.024795185147957,5,0.41818181818181815
+Qatar · incidence,Qatar,incidence,Female,tcn_intercept,24,55,3.8588541726018293,5,0.43636363636363634
+Qatar · incidence,Qatar,incidence,Female,tcn_unadapted,25,55,4.103014646192966,5,0.45454545454545453
+Qatar · incidence,Qatar,incidence,Male,age_smooth_trend,13,55,7.45926166664699,5,0.23636363636363636
+Qatar · incidence,Qatar,incidence,Male,arima,29,55,15.158529865538227,5,0.5272727272727272
+Qatar · incidence,Qatar,incidence,Male,damped_ets,27,55,12.88454537355515,5,0.4909090909090909
+Qatar · incidence,Qatar,incidence,Male,donor_boosting_adapted,27,55,10.904081324375202,5,0.4909090909090909
+Qatar · incidence,Qatar,incidence,Male,donor_boosting_unadapted,23,55,10.110928331304025,5,0.41818181818181815
+Qatar · incidence,Qatar,incidence,Male,donor_ridge_adapted,35,55,11.443668334129992,5,0.6363636363636364
+Qatar · incidence,Qatar,incidence,Male,donor_ridge_unadapted,31,55,10.701504746641982,5,0.5636363636363636
+Qatar · incidence,Qatar,incidence,Male,local_champion,26,55,9.909244656783885,5,0.4727272727272727
+Qatar · incidence,Qatar,incidence,Male,log_trend,21,55,13.636090782084812,5,0.38181818181818183
+Qatar · incidence,Qatar,incidence,Male,nonneural_champion,30,55,9.748227194626896,5,0.5454545454545454
+Qatar · incidence,Qatar,incidence,Male,persistence,28,55,8.660660571506313,5,0.509090909090909
+Qatar · incidence,Qatar,incidence,Male,pooled_boosting,22,55,9.723282664159077,5,0.4
+Qatar · incidence,Qatar,incidence,Male,pooled_ridge,30,55,9.748227194626896,5,0.5454545454545454
+Qatar · incidence,Qatar,incidence,Male,tcn_adapted,32,55,10.650415838725227,5,0.5818181818181818
+Qatar · incidence,Qatar,incidence,Male,tcn_intercept,29,55,9.896718228084294,5,0.5272727272727272
+Qatar · incidence,Qatar,incidence,Male,tcn_unadapted,26,55,9.575962182850592,5,0.4727272727272727
+Qatar · prevalence,Qatar,prevalence,Female,age_smooth_trend,34,55,139.7786774592766,5,0.6181818181818182
+Qatar · prevalence,Qatar,prevalence,Female,arima,36,55,68.8842291645164,5,0.6545454545454545
+Qatar · prevalence,Qatar,prevalence,Female,damped_ets,36,55,66.33575830656756,5,0.6545454545454545
+Qatar · prevalence,Qatar,prevalence,Female,donor_boosting_adapted,43,55,69.83404217576582,5,0.7818181818181819
+Qatar · prevalence,Qatar,prevalence,Female,donor_boosting_unadapted,44,55,91.35253419224628,5,0.8
+Qatar · prevalence,Qatar,prevalence,Female,donor_ridge_adapted,34,55,55.507654242651185,5,0.6181818181818182
+Qatar · prevalence,Qatar,prevalence,Female,donor_ridge_unadapted,38,55,68.46776906184564,5,0.6909090909090909
+Qatar · prevalence,Qatar,prevalence,Female,local_champion,33,55,76.87014138552217,5,0.6
+Qatar · prevalence,Qatar,prevalence,Female,log_trend,27,55,98.27602607376839,5,0.4909090909090909
+Qatar · prevalence,Qatar,prevalence,Female,nonneural_champion,36,55,66.33937961672838,5,0.6545454545454545
+Qatar · prevalence,Qatar,prevalence,Female,persistence,28,55,59.617861518671496,5,0.509090909090909
+Qatar · prevalence,Qatar,prevalence,Female,pooled_boosting,43,55,80.33829070635662,5,0.7818181818181819
+Qatar · prevalence,Qatar,prevalence,Female,pooled_ridge,34,55,63.30021101782502,5,0.6181818181818182
+Qatar · prevalence,Qatar,prevalence,Female,tcn_adapted,30,55,50.0908178009898,5,0.5454545454545454
+Qatar · prevalence,Qatar,prevalence,Female,tcn_intercept,30,55,55.424428075036715,5,0.5454545454545454
+Qatar · prevalence,Qatar,prevalence,Female,tcn_unadapted,35,55,62.88670153003888,5,0.6363636363636364
+Qatar · prevalence,Qatar,prevalence,Male,age_smooth_trend,9,55,62.80681042618035,5,0.16363636363636364
+Qatar · prevalence,Qatar,prevalence,Male,arima,32,55,135.28316963684975,5,0.5818181818181818
+Qatar · prevalence,Qatar,prevalence,Male,damped_ets,20,55,136.40705348798022,5,0.36363636363636365
+Qatar · prevalence,Qatar,prevalence,Male,donor_boosting_adapted,29,55,118.14938553486175,5,0.5272727272727272
+Qatar · prevalence,Qatar,prevalence,Male,donor_boosting_unadapted,21,55,103.25574579383076,5,0.38181818181818183
+Qatar · prevalence,Qatar,prevalence,Male,donor_ridge_adapted,29,55,131.71577709203825,5,0.5272727272727272
+Qatar · prevalence,Qatar,prevalence,Male,donor_ridge_unadapted,29,55,122.99459082733638,5,0.5272727272727272
+Qatar · prevalence,Qatar,prevalence,Male,local_champion,15,55,113.89237496839705,5,0.2727272727272727
+Qatar · prevalence,Qatar,prevalence,Male,log_trend,16,55,128.1076952815044,5,0.2909090909090909
+Qatar · prevalence,Qatar,prevalence,Male,nonneural_champion,26,55,95.69933137168805,5,0.4727272727272727
+Qatar · prevalence,Qatar,prevalence,Male,persistence,15,55,113.89237496839705,5,0.2727272727272727
+Qatar · prevalence,Qatar,prevalence,Male,pooled_boosting,23,55,102.87731284857159,5,0.41818181818181815
+Qatar · prevalence,Qatar,prevalence,Male,pooled_ridge,26,55,95.69933137168805,5,0.4727272727272727
+Qatar · prevalence,Qatar,prevalence,Male,tcn_adapted,29,55,125.46613851206061,5,0.5272727272727272
+Qatar · prevalence,Qatar,prevalence,Male,tcn_intercept,27,55,115.37464898285816,5,0.4909090909090909
+Qatar · prevalence,Qatar,prevalence,Male,tcn_unadapted,26,55,107.30581375985744,5,0.4727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,age_smooth_trend,24,55,6.299882437874207,5,0.43636363636363634
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,arima,24,55,4.2636325973103295,5,0.43636363636363634
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,damped_ets,24,55,8.788047331395576,5,0.43636363636363634
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,donor_boosting_adapted,24,55,6.263675551697263,5,0.43636363636363634
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,donor_boosting_unadapted,12,55,3.59174135459901,5,0.21818181818181817
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,donor_ridge_adapted,23,55,2.834175313302438,5,0.41818181818181815
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,donor_ridge_unadapted,14,55,2.4223661276024657,5,0.2545454545454545
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,local_champion,24,55,4.2636325973103295,5,0.43636363636363634
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,log_trend,18,55,5.842329321503302,5,0.32727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,nonneural_champion,18,55,2.3044695888382396,5,0.32727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,persistence,4,55,2.149545190752296,5,0.07272727272727272
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,pooled_boosting,16,55,4.448140867461359,5,0.2909090909090909
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,pooled_ridge,18,55,2.3044695888382396,5,0.32727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,tcn_adapted,35,55,8.410735126367015,5,0.6363636363636364
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,tcn_intercept,32,55,6.249805487826557,5,0.5818181818181818
+Saudi Arabia · incidence,Saudi Arabia,incidence,Female,tcn_unadapted,30,55,5.193411237236879,5,0.5454545454545454
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,age_smooth_trend,26,55,22.619110169913604,5,0.4727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,arima,28,55,18.24738025392101,5,0.509090909090909
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,damped_ets,30,55,18.08907183223077,5,0.5454545454545454
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,donor_boosting_adapted,18,55,12.68800328910957,5,0.32727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,donor_boosting_unadapted,24,55,12.886453713393049,5,0.43636363636363634
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,donor_ridge_adapted,23,55,15.115846388991233,5,0.41818181818181815
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,donor_ridge_unadapted,25,55,18.20556639727815,5,0.45454545454545453
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,local_champion,30,55,18.08907183223077,5,0.5454545454545454
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,log_trend,14,55,14.928191582957941,5,0.2545454545454545
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,nonneural_champion,18,55,12.68800328910957,5,0.32727272727272727
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,persistence,12,55,12.716119884256553,5,0.21818181818181817
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,pooled_boosting,22,55,15.47956442647959,5,0.4
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,pooled_ridge,21,55,12.722597701436111,5,0.38181818181818183
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,tcn_adapted,29,55,14.009998196930411,5,0.5272727272727272
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,tcn_intercept,28,55,14.38145868970219,5,0.509090909090909
+Saudi Arabia · incidence,Saudi Arabia,incidence,Male,tcn_unadapted,27,55,14.98329226787971,5,0.4909090909090909
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,age_smooth_trend,23,55,33.084804972395794,5,0.41818181818181815
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,arima,32,55,34.1280990869199,5,0.5818181818181818
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,damped_ets,25,55,81.34488263686877,5,0.45454545454545453
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,donor_boosting_adapted,26,55,31.854068277085094,5,0.4727272727272727
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,donor_boosting_unadapted,16,55,24.081658595332616,5,0.2909090909090909
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,donor_ridge_adapted,28,55,34.28119514323042,5,0.509090909090909
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,donor_ridge_unadapted,8,55,26.55583779820292,5,0.14545454545454545
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,local_champion,25,55,55.3255511991311,5,0.45454545454545453
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,log_trend,25,55,43.15586406869155,5,0.45454545454545453
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,nonneural_champion,13,55,33.993518039444034,5,0.23636363636363636
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,persistence,0,55,23.060047571350665,5,0.0
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,pooled_boosting,19,55,47.0836050829938,5,0.34545454545454546
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,pooled_ridge,15,55,29.39112321687399,5,0.2727272727272727
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,tcn_adapted,31,55,55.37669677783797,5,0.5636363636363636
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,tcn_intercept,26,55,50.627831602454634,5,0.4727272727272727
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Female,tcn_unadapted,23,55,46.48477878409845,5,0.41818181818181815
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,age_smooth_trend,32,55,166.06774454589404,5,0.5818181818181818
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,arima,28,55,141.4529361304022,5,0.509090909090909
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,damped_ets,36,55,154.05539418654786,5,0.6545454545454545
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,donor_boosting_adapted,29,55,94.82940410600769,5,0.5272727272727272
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,donor_boosting_unadapted,25,55,75.21640830371669,5,0.45454545454545453
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,donor_ridge_adapted,23,55,96.62328079498377,5,0.41818181818181815
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,donor_ridge_unadapted,17,55,88.06574599851268,5,0.3090909090909091
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,local_champion,36,55,154.05539418654786,5,0.6545454545454545
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,log_trend,21,55,116.9379114947041,5,0.38181818181818183
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,nonneural_champion,29,55,103.7928142299897,5,0.5272727272727272
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,persistence,1,55,78.54642713077169,5,0.01818181818181818
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,pooled_boosting,30,55,108.40669099147078,5,0.5454545454545454
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,pooled_ridge,25,55,97.53089405496908,5,0.45454545454545453
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,tcn_adapted,27,55,90.93640651650094,5,0.4909090909090909
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,tcn_intercept,34,55,90.14358494944727,5,0.6181818181818182
+Saudi Arabia · prevalence,Saudi Arabia,prevalence,Male,tcn_unadapted,32,55,93.7990990094029,5,0.5818181818181818
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,age_smooth_trend,31,55,12.215256008581832,5,0.5636363636363636
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,arima,22,55,8.096798150072695,5,0.4
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,damped_ets,42,55,12.927268634343946,5,0.7636363636363637
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,donor_boosting_adapted,44,55,12.653489841230087,5,0.8
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,donor_boosting_unadapted,44,55,12.36058030374088,5,0.8
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,donor_ridge_adapted,42,55,10.091836083062233,5,0.7636363636363637
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,donor_ridge_unadapted,40,55,9.50807213603188,5,0.7272727272727273
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,local_champion,21,55,8.027072654757559,5,0.38181818181818183
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,log_trend,35,55,14.216277885959007,5,0.6363636363636364
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,nonneural_champion,40,55,9.50807213603188,5,0.7272727272727273
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,persistence,28,55,9.782880464772123,5,0.509090909090909
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,pooled_boosting,44,55,12.631240274489247,5,0.8
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,pooled_ridge,41,55,9.507390357135808,5,0.7454545454545455
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,tcn_adapted,40,55,11.684074365479596,5,0.7272727272727273
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,tcn_intercept,40,55,11.178946321711301,5,0.7272727272727273
+United Arab Emirates · incidence,United Arab Emirates,incidence,Female,tcn_unadapted,40,55,11.10072465176044,5,0.7272727272727273
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,age_smooth_trend,9,55,11.067259585386731,5,0.16363636363636364
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,arima,25,55,13.904331231645775,5,0.45454545454545453
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,damped_ets,34,55,13.367331023050706,5,0.6181818181818182
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,donor_boosting_adapted,38,55,13.471691010267747,5,0.6909090909090909
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,donor_boosting_unadapted,34,55,12.87552860718929,5,0.6181818181818182
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,donor_ridge_adapted,43,55,12.45371740965889,5,0.7818181818181819
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,donor_ridge_unadapted,35,55,11.381983184348007,5,0.6363636363636364
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,local_champion,34,55,12.275418487152594,5,0.6181818181818182
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,log_trend,18,55,13.91280242362551,5,0.32727272727272727
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,nonneural_champion,36,55,12.272393365898784,5,0.6545454545454545
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,persistence,46,55,11.792402775072373,5,0.8363636363636363
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,pooled_boosting,33,55,12.938713797748132,5,0.6
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,pooled_ridge,42,55,11.879480849782123,5,0.7636363636363637
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,tcn_adapted,47,55,10.223520593657781,5,0.8545454545454545
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,tcn_intercept,46,55,10.494239660886604,5,0.8363636363636363
+United Arab Emirates · incidence,United Arab Emirates,incidence,Male,tcn_unadapted,46,55,10.73293852632895,5,0.8363636363636363
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,age_smooth_trend,36,55,102.91490695062112,5,0.6545454545454545
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,arima,23,55,52.29075427066213,5,0.41818181818181815
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,damped_ets,30,55,54.377777523728845,5,0.5454545454545454
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,donor_boosting_adapted,37,55,55.52128320607075,5,0.6727272727272727
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,donor_boosting_unadapted,37,55,57.52304579956068,5,0.6727272727272727
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,donor_ridge_adapted,39,55,54.29647280053011,5,0.7090909090909091
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,donor_ridge_unadapted,40,55,56.560043438608545,5,0.7272727272727273
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,local_champion,26,55,58.76136906732753,5,0.4727272727272727
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,log_trend,27,55,76.83468862039989,5,0.4909090909090909
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,nonneural_champion,40,55,56.560043438608545,5,0.7272727272727273
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,persistence,18,55,50.59727424470984,5,0.32727272727272727
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,pooled_boosting,39,55,58.80360761243433,5,0.7090909090909091
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,pooled_ridge,40,55,53.35945579930069,5,0.7272727272727273
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,tcn_adapted,31,55,51.253182203568564,5,0.5636363636363636
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,tcn_intercept,32,55,49.80108750635536,5,0.5818181818181818
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Female,tcn_unadapted,33,55,48.110861201159935,5,0.6
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,age_smooth_trend,21,55,119.55761826556693,5,0.38181818181818183
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,arima,24,55,172.60672437945124,5,0.43636363636363634
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,damped_ets,24,55,163.02385236238277,5,0.43636363636363634
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,donor_boosting_adapted,34,55,156.49317563698492,5,0.6181818181818182
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,donor_boosting_unadapted,33,55,155.2841749263776,5,0.6
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,donor_ridge_adapted,29,55,124.32415107724232,5,0.5272727272727272
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,donor_ridge_unadapted,35,55,139.77732762947167,5,0.6363636363636364
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,local_champion,28,55,141.40391483898722,5,0.509090909090909
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,log_trend,9,55,156.6690523524615,5,0.16363636363636364
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,nonneural_champion,28,55,142.05469896111103,5,0.509090909090909
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,persistence,28,55,141.40391483898722,5,0.509090909090909
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,pooled_boosting,31,55,155.81899712152105,5,0.5636363636363636
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,pooled_ridge,31,55,122.47880394038941,5,0.5636363636363636
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,tcn_adapted,37,55,123.80854843509636,5,0.6727272727272727
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,tcn_intercept,39,55,127.96936147202523,5,0.7090909090909091
+United Arab Emirates · prevalence,United Arab Emirates,prevalence,Male,tcn_unadapted,40,55,132.198535301621,5,0.7272727272727273

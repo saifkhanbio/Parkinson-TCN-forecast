@@ -1,0 +1,12 @@
+{
+  "focused_unittest_checks_passed": 6,
+  "frozen_synthesis_source_and_artifact_hashes_checked": 890,
+  "frozen_synthesis_unchanged": true,
+  "supplementary_figures_visually_inspected": true,
+  "no_disease_accuracy_or_calibration_improvement_claimed": true,
+  "code_sha256": {
+    "scripts/integrate_saudi_raw_data.py": "0749cb65c4e3ef4d9f8be331e257282c268193ad89f8209ff71f144a8170116b",
+    "scripts/report_saudi_raw_integration.py": "55705eeae03ae83c3e40daaa46a95945cda2b09c25c08d1b19f679c288d728b8",
+    "tests/test_saudi_raw_integration.py": "0080c98d3a160fd2d4615499d665ea2dee092023ff444670be8e37e76a1d82d7"
+  }
+}

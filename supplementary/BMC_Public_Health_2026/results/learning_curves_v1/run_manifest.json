@@ -1,0 +1,722 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-30T09:40:35.776329+00:00",
+  "identity": {
+    "code_sha256": {
+      "src/gbd_park/__init__.py": "736db342dbcfc9a4a455c0d4a4310202588f6d9f2e30279d0d6e07a034fade75",
+      "src/gbd_park/local.py": "5d5c0d57aedbf0021baf1f6bbd18719b79b6fbece2c75b1fbb7968d30a98e337",
+      "src/gbd_park/scoring.py": "6b027fe865b717f22a609202b7b153700de46a6c895098048b989191277c0079",
+      "scripts/run_local_baselines.py": "11647b03960ec57696c49924804f3b453638b02c124ae512a70101851f3581b0",
+      "tests/test_local_baselines.py": "449575239ba982b71f1e317b084171c4c904800652f744dfef46a085f06c1c6e",
+      "study_design/local_baselines_implementation.md": "a7244ee524b3f6c4fbea6e588fa59b1f0fd651eb8590533190e15b55cdf48531",
+      "src/gbd_park/pooled.py": "f5c3cbce3447b23daeceba3ce3aa741c39f687140a54336e03cc36066ef53583",
+      "src/gbd_park/adaptation.py": "4cbca2ecdc0bf36b2273216444f40f3b2b2ff17e3db1041b6795cb0d8c5298d3",
+      "tests/test_nonneural.py": "e776d851dbfd5db61c3a00419ab3b7b075ed1e834b3c8ad106762166ad672c7a",
+      "scripts/run_nonneural.py": "1e6185dddfeeaea36527324b132a66a1028d6818750c96a288c79d680a38300f",
+      "study_design/nonneural_implementation.md": "459bc74727efb48d0ed58676172f5219be9f53a1b9f53718b422001bc81d3886",
+      "src/gbd_park/tcn.py": "1a2f04f29c7a80ce5d9685548a0aed8f44b197b02c9baa1f9d8d1acf1f723494",
+      "src/gbd_park/tcn_forecasting.py": "a30f6525f4f72d0fa06baf2fc5bc12626310ddf8e0d91cc2fbeadddf6533407a",
+      "scripts/run_tcn.py": "3dc71351c211e93f9dfc549ccf404e114c2ecd1e1dbeb1c0753426e2bc068797",
+      "tests/test_tcn.py": "ec82f5ed3801d9e44c58d368053052ccb0611988ad1d15f44307051d20064b77",
+      "study_design/tcn_implementation.md": "5f27b505e1c2883753567b8e70e55c9801d9980fde9b37a39813e549de3b37cd",
+      "src/gbd_park/intervals.py": "d93f74e21fb67fab8be572fa520237a5fd4d89dee0a11cd2f1890d176cd1486e",
+      "src/gbd_park/prequential.py": "d5242734a824483d7f75a1de0163938a6c6161aceab9a1670ab56b41fe00f295",
+      "scripts/run_intervals.py": "ee2515ea61828dc6f22d5c6945e002be532584aaf5505c2ca75b390323e77fae",
+      "tests/test_intervals.py": "da46a11e6139f328b07950c064c22fc7ca66c9b189ac9ccb19c4bb0f8d67ac23",
+      "study_design/intervals_implementation.md": "496bc6eb7ed0bbfdeacdc39c869c3920c0b5e9267de55b699bf735450cc524e1",
+      "src/gbd_park/evaluation.py": "17a4202f866b376a4efbbeac7904875fa1bdd31e1fc4a3d086ccfbee5bb27a7f",
+      "scripts/run_primary.py": "835bf67654c4697f3d44c10eb08d9edffcb5fc8bde7b8c13940ce45c61e46fe3",
+      "tests/test_primary.py": "627a3433425b4d676239f3d09d202d3a6b6dc09c4e5f37670069335b0667b1f3",
+      "study_design/primary_evaluation_implementation.md": "304b591aa7351d78f4b6d2afd3f3f091369a07aeb4fee983040409cc2cb756d1",
+      "src/gbd_park/secondary.py": "bd0efc2b8e7305979172b2c1506bdb079dcd2dd69dbcb72e06878a4cf557adfd",
+      "scripts/run_secondary.py": "99ce4762aeb636e341526ac22c4d0c8482586b73ba589eafd9c63c991ae18aad",
+      "tests/test_secondary.py": "bfb573095eafa76afb9cb2487e824bfbb792b5e804a5b6762d7a03b4831145cf",
+      "study_design/secondary_implementation.md": "4ab13b60ca9316a1eb324060efd9e74fd6076da58b513806b8e507b85fd89f76",
+      "src/gbd_park/donors.py": "5bfae53b0a23682f8570429647244bc1c96e7690d772c29d7e954155d753b818",
+      "scripts/run_donor_comparisons.py": "747ef8357a7cd17858cd686265be0a6c4d9e6ccec83a459229345d6765d3b225",
+      "tests/test_donors.py": "77ffaf821506dbd092eae980eb7a6ab66e67366670bb8632e350aad5bc92ff9f",
+      "tests/test_donor_comparisons.py": "36b67fb473407a357d16b307695251ece95ec713eacf436451506b85329517b0",
+      "study_design/donor_implementation.md": "dfd8a08163be86f5544b3b7efbcc471667bd9543725a6fb5a53a575a672d3394",
+      "study_design/donor_comparisons_implementation.md": "c423996abfe6b50cf961188cd9b31ba4c0c3bef25a30e666aa385f64b65ac5a7",
+      "src/gbd_park/demography.py": "2b9c8ed71a58104ac1d69c928cd1d3b2813e7563b465d7a4545bc66167ceec1f",
+      "src/gbd_park/count_coherence.py": "3032b62ba075b0eee7844fcfded344998f3d4ec0e9f8f0beddfdbee86fe75ad2",
+      "scripts/run_demography.py": "ad6bfcc999d3c3e7def311d42b0c63325b0b72e1c9f6d5d38c769510dd97d239",
+      "scripts/run_count_coherence.py": "37da191ca5ca956990015c16cca295a8f3e4cc54ad26ff78a7b83078c06e39b5",
+      "tests/test_demography.py": "10147b9bdb4038909a9db578d860b08341dfbfef3a56a2d03fa91cdaf70f23a7",
+      "tests/test_count_coherence.py": "a5ae5170e73d269c08e658b85b4d20d26cbc31374a4bfe6a7aeeae7cf7b4bcb8",
+      "tests/test_demography_runner.py": "14d1c2fb8b3a9397016f3f3d781ea1cf9095115d61dbd66377933d8e03a2a86a",
+      "study_design/demography_implementation.md": "bbf4682571cb2e3eb1f8b2bc35e861638d1d97e9a7fd8f4caf6cd279e998d0e0",
+      "src/gbd_park/improvements.py": "8ae34a8014df46d672a101731bd07fa4681f897d5ed576bba9e941667270eaa4",
+      "scripts/run_improvements.py": "38d850614d652db283db98910d1e3f90996221a5de30c3335d2e581f84dab943",
+      "tests/test_improvements.py": "059edf7c68c0edaecc4c319d271ed2b58be568234a8f66d1059067f9631087e8",
+      "study_design/exploratory_v1_1.md": "a4da9684b763c25f2b69503a67328bf51e0e55d26da6b273aa4e7470732c3bd6",
+      "study_design/exploratory_v1_1.json": "31b1d1d1326e3ecc6b46a8ee41d9a05f0a009a601af414e6ae3d9ef08260484f",
+      "src/gbd_park/calibration.py": "3b549dbc718e546efd16005c32fb4e6ccf82de9dcbdaa972df2475a7e7cb298e",
+      "tests/test_calibration.py": "e9f05bbc4e7bacfdd40d45df8780e2f07509c4d5ab61d15e11671c7a52ce16b2",
+      "study_design/interval_calibration_v1_2.md": "f52fefdfc5c4da708765dbbe52acb8fa20cac2e77c0a727fa344d44b06b4f5c6",
+      "study_design/interval_calibration_v1_2.json": "c4429725c8200b5b3654ff4b99e21f707cce70d1417384fd0ae9a0000b6b2f67",
+      "study_design/locked_v1/design.json": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+      "scripts/run_calibration.py": "3bfd24c8af8878d167af25bbc413852a817a0bf2f6e95935e2e8b1d9546f2315",
+      "tests/test_calibration_runner.py": "ae0a3ad35c322985d3f541fe4515d2440062ca01fa3dcdc9289040000945cd92",
+      "src/gbd_park/structured_calibration.py": "f036b285b9dcaa9e635700faea9102c152b3c607b8f9a360b1fdb1f1d548e939",
+      "src/gbd_park/dynamic_joint.py": "22837032d9f4a51451abf2f024b32c8cf65b3bb889f33731e2a5803041d8f462",
+      "scripts/run_reliability_v1_3.py": "0797946540d9eb90282dd59b0d9873a3efeba611660ecc9d5de94ce943ea3132",
+      "tests/test_structured_calibration.py": "9933788ddad963647cbc30f7bfe616825f5c136bc8edd3eeec6554f9d4bdafe7",
+      "tests/test_dynamic_joint.py": "c569e41d336d4b0ec36d39006c21c6b375362d3da7ce147b4b2a8e009e4b1295",
+      "tests/test_reliability_runner.py": "83eb63bf7f3c44338da92c338f88dfcc3bbcc2b8dc6cafa23dce6c3a88eff720",
+      "study_design/reliability_v1_3.md": "39b5792e244721574a56b0be5ccf54d5c5f381485d27d3a459490097da0f0e49",
+      "study_design/reliability_v1_3.json": "36a747392a952c54ed90f2f1f58d46102a1c4b25904a60060eb20c4ba96b8942",
+      "src/gbd_park/population_sensitivity.py": "51f83e1bb410222cc4dd30061bcb3521bbd7d6a92d285290c6e2797d6ea93d47",
+      "scripts/run_population_sensitivity.py": "1935844f60c26a9923d7c372999e2d9df18c511a9606275f71239f9512c7685b",
+      "tests/test_population_sensitivity.py": "dffc25055e0327537ef3bbcf64f8afbbc5b412e8364186d94b68ec1a7a0c54e9",
+      "study_design/population_sensitivity_implementation.md": "d0d963f6256541d88dc551c62889b66b5cf86b8a33e04c5a367f2cb8de616f56",
+      "scripts/run_release_sensitivity.py": "3ea6b67e8cac61b05e04d47a91f1f7b317b1641b759a014b7dcad1e63a35dd3e",
+      "tests/test_release_sensitivity.py": "663b4154de233ba47649b91a0c4e410ae50155814c359aad6e5c119790d848d5",
+      "src/gbd_park/supporting.py": "2a98237013bd6357b9295b903c757a28a20ce28ef67ce9630727f3238bb5f05c",
+      "scripts/run_supporting.py": "d85327a03ff650a1ae7530588116d7334fd1276dfab77b3bf369e7f8d600e7bf",
+      "tests/test_supporting.py": "5d5ae6d2cd153520f3eea1513ea4326413b08b11dfbb6b235cde3a564ac5b97b",
+      "study_design/supporting_outcomes_implementation.md": "26df5bf587b97e97f6809220b8ff302de56868eeeb5d215d4f23c49cdbd95442",
+      "scripts/run_mortality_history_sensitivity.py": "e6dd6775c39ba9ca16408f25c2eb6dee5fe10485eb9df9de407d0d7e7fc31661",
+      "tests/test_mortality_history.py": "6518ab315bb6116c518b2bfc4ffdc65814eda5471de722ff45719c77da867e15",
+      "src/gbd_park/disability_components.py": "bc2ae68e0382519c215a4367b5946bc4d56c8851740d1d4ccd0fc3a6ba275b69",
+      "scripts/run_disability_components.py": "91027698cfacd6985bda8c18a7e8d3911dd98fdb9c3834c63844f53a753ddbc8",
+      "tests/test_disability_components.py": "d1d3d5dd8bae8950a709ea0b8d5dc07c5a139f4b3934b993c0af7b62ab99b41a",
+      "src/gbd_park/learning_curves.py": "4391726fe7b596f2ff14d3b8c0b22f1644e1be856add517ff1f51517386ca511",
+      "scripts/run_learning_curves.py": "ed053e4d87cc08b1bc30e3ca660dc328b460259ed7267a5fec47076c4a343004",
+      "tests/test_learning_curves.py": "baa1933e861cb3a45d0e9fdb8ad41638453ec23b7bb15cc0b302d1d8fd1dad57",
+      "study_design/learning_curves_implementation.md": "7f71935dd1287bfcd6b04e2c0ca08c38622d2ec36eadd69e61d67f0c55a3b40e"
+    },
+    "prior_manifest_sha256": {
+      "local_baselines_v1": "7e2b9021cb7a4cbb919864aabc507219d1716cadfd62571aaba1dd3bf8599129",
+      "nonneural_v1": "fe62ef05e93c09d92e3fdf1b001d360e8f941fb49b146c29c6b3e29bf9293fe7",
+      "tcn_v1": "af116ca5d8aac0fabd5e72c18cd8e6288e73a70e615b0dde8bc2aafc9cdbb990",
+      "intervals_v1": "bcd921ce6e93816a5a06ae7736dffcc64fb01c1039311ef2f74726541985a170",
+      "primary_v1": "e71fe62722f673fc8700b97d92f17bcdaf193f370019ee19740eade609cf9514",
+      "secondary_v1": "9fa9c6187330ea65087d6bb13a5768fee7c356921b767e3ccf62c4eedd762cbd",
+      "donor_comparisons_gpu_v1": "13ee11e0ed020e90e1cee3b0f87f312105052edf2504113318c560b3e4c9e45c",
+      "demography_v1": "78951065abf333ecd4e48c93b10c67a63657627ff9d657fff6d4a37a708a088d",
+      "count_coherence_v1": "2b339e11b399ce7671961df5a1b7863f1d4b7e08840f40a537d9305f3ea35d77",
+      "improvements_v1": "e141a9b740e82b9e9c0724f5bff1cce69a0d7a4ca967691f02bc9041f3466c8a",
+      "calibration_v1_2": "e707603cf9d86fdc62780393215193c25d31be85f7d44e712d0250aa1f29e362",
+      "reliability_v1_3": "90dff3f40bccd35b095f29222fa1a9d9a89ce3abe1e9f6bb5ecd3e5274e4bbfa",
+      "population_sensitivity_v1": "ea6bae09f601ce44b603329eaf2fe5fa56df80a59b0e615098f48fd18add9ca2",
+      "release_sensitivity_v1": "890012c5a428355613bdc47a1e97fe2dd7b1009ed53e08ec78ad573e9eb3b4cd",
+      "supporting_v1": "3ff314d20fb7ce6429f9f1c18c40f79a27c58baa4e5f8a36448d35a8186be59f",
+      "mortality_history_v1": "9eafb1d1962a0bbcef3401a43957be0e5a40efd8d58758e808a444452c452fb7",
+      "disability_components_v1": "376a6f8affe14022abd72a264f472d81f189338ec5d2834a3885f93d3f26ef37"
+    },
+    "config_sha256": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+    "source_sha256": "2dab38b3927c67ef02853935e29ffb97b6d6ce6e5f9228eab6b1cbf730ef06b1",
+    "test_report_sha256": "f6c6145e79400f412046603a91b364468d89cae4ea79e3bb6f09df7013026e68",
+    "versions": {
+      "python": "3.9.23",
+      "numpy": "1.26.4",
+      "pandas": "2.3.1",
+      "torch": "2.8.0+cu128",
+      "scipy": "1.13.1",
+      "sklearn": "1.6.1",
+      "statsmodels": "0.14.5",
+      "joblib": "1.5.1"
+    },
+    "device": "cpu",
+    "workers": 8,
+    "jobs": [
+      {
+        "outcome": "prevalence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 11,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 23,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 37,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 53,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 71,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "ridge",
+        "mode": "donor",
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "boosting",
+        "mode": "donor",
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "ridge",
+        "mode": "pooled",
+        "history_years": 15,
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "boosting",
+        "mode": "pooled",
+        "history_years": 15,
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "local",
+        "history_years": 15,
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "local",
+        "history_years": 15,
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "ridge",
+        "mode": "pooled",
+        "history_years": 20,
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "boosting",
+        "mode": "pooled",
+        "history_years": 20,
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "local",
+        "history_years": 20,
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "local",
+        "history_years": 20,
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "ridge",
+        "mode": "pooled",
+        "history_years": 29,
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "boosting",
+        "mode": "pooled",
+        "history_years": 29,
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "local",
+        "history_years": 29,
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "outcome": "prevalence",
+        "kind": "local",
+        "history_years": 29,
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "outcome": "incidence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 11,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 23,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 37,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 53,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "tcn",
+        "mode": "donor",
+        "seed": 71,
+        "device": "cpu",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "ridge",
+        "mode": "donor",
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "boosting",
+        "mode": "donor",
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "ridge",
+        "mode": "pooled",
+        "history_years": 15,
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "boosting",
+        "mode": "pooled",
+        "history_years": 15,
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "local",
+        "history_years": 15,
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "outcome": "incidence",
+        "kind": "local",
+        "history_years": 15,
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "outcome": "incidence",
+        "kind": "ridge",
+        "mode": "pooled",
+        "history_years": 20,
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "boosting",
+        "mode": "pooled",
+        "history_years": 20,
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "local",
+        "history_years": 20,
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "outcome": "incidence",
+        "kind": "local",
+        "history_years": 20,
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "outcome": "incidence",
+        "kind": "ridge",
+        "mode": "pooled",
+        "history_years": 29,
+        "device": "cpu",
+        "base": {
+          "algorithm": "ridge",
+          "alpha": 1
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "boosting",
+        "mode": "pooled",
+        "history_years": 29,
+        "device": "cpu",
+        "base": {
+          "algorithm": "boosting",
+          "depth": 1,
+          "trees": 100,
+          "min_leaf": 5
+        }
+      },
+      {
+        "outcome": "incidence",
+        "kind": "local",
+        "history_years": 29,
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "outcome": "incidence",
+        "kind": "local",
+        "history_years": 29,
+        "sex": "Female",
+        "device": "cpu"
+      }
+    ]
+  },
+  "code_sha256": {
+    "src/gbd_park/__init__.py": "736db342dbcfc9a4a455c0d4a4310202588f6d9f2e30279d0d6e07a034fade75",
+    "src/gbd_park/local.py": "5d5c0d57aedbf0021baf1f6bbd18719b79b6fbece2c75b1fbb7968d30a98e337",
+    "src/gbd_park/scoring.py": "6b027fe865b717f22a609202b7b153700de46a6c895098048b989191277c0079",
+    "scripts/run_local_baselines.py": "11647b03960ec57696c49924804f3b453638b02c124ae512a70101851f3581b0",
+    "tests/test_local_baselines.py": "449575239ba982b71f1e317b084171c4c904800652f744dfef46a085f06c1c6e",
+    "study_design/local_baselines_implementation.md": "a7244ee524b3f6c4fbea6e588fa59b1f0fd651eb8590533190e15b55cdf48531",
+    "src/gbd_park/pooled.py": "f5c3cbce3447b23daeceba3ce3aa741c39f687140a54336e03cc36066ef53583",
+    "src/gbd_park/adaptation.py": "4cbca2ecdc0bf36b2273216444f40f3b2b2ff17e3db1041b6795cb0d8c5298d3",
+    "tests/test_nonneural.py": "e776d851dbfd5db61c3a00419ab3b7b075ed1e834b3c8ad106762166ad672c7a",
+    "scripts/run_nonneural.py": "1e6185dddfeeaea36527324b132a66a1028d6818750c96a288c79d680a38300f",
+    "study_design/nonneural_implementation.md": "459bc74727efb48d0ed58676172f5219be9f53a1b9f53718b422001bc81d3886",
+    "src/gbd_park/tcn.py": "1a2f04f29c7a80ce5d9685548a0aed8f44b197b02c9baa1f9d8d1acf1f723494",
+    "src/gbd_park/tcn_forecasting.py": "a30f6525f4f72d0fa06baf2fc5bc12626310ddf8e0d91cc2fbeadddf6533407a",
+    "scripts/run_tcn.py": "3dc71351c211e93f9dfc549ccf404e114c2ecd1e1dbeb1c0753426e2bc068797",
+    "tests/test_tcn.py": "ec82f5ed3801d9e44c58d368053052ccb0611988ad1d15f44307051d20064b77",
+    "study_design/tcn_implementation.md": "5f27b505e1c2883753567b8e70e55c9801d9980fde9b37a39813e549de3b37cd",
+    "src/gbd_park/intervals.py": "d93f74e21fb67fab8be572fa520237a5fd4d89dee0a11cd2f1890d176cd1486e",
+    "src/gbd_park/prequential.py": "d5242734a824483d7f75a1de0163938a6c6161aceab9a1670ab56b41fe00f295",
+    "scripts/run_intervals.py": "ee2515ea61828dc6f22d5c6945e002be532584aaf5505c2ca75b390323e77fae",
+    "tests/test_intervals.py": "da46a11e6139f328b07950c064c22fc7ca66c9b189ac9ccb19c4bb0f8d67ac23",
+    "study_design/intervals_implementation.md": "496bc6eb7ed0bbfdeacdc39c869c3920c0b5e9267de55b699bf735450cc524e1",
+    "src/gbd_park/evaluation.py": "17a4202f866b376a4efbbeac7904875fa1bdd31e1fc4a3d086ccfbee5bb27a7f",
+    "scripts/run_primary.py": "835bf67654c4697f3d44c10eb08d9edffcb5fc8bde7b8c13940ce45c61e46fe3",
+    "tests/test_primary.py": "627a3433425b4d676239f3d09d202d3a6b6dc09c4e5f37670069335b0667b1f3",
+    "study_design/primary_evaluation_implementation.md": "304b591aa7351d78f4b6d2afd3f3f091369a07aeb4fee983040409cc2cb756d1",
+    "src/gbd_park/secondary.py": "bd0efc2b8e7305979172b2c1506bdb079dcd2dd69dbcb72e06878a4cf557adfd",
+    "scripts/run_secondary.py": "99ce4762aeb636e341526ac22c4d0c8482586b73ba589eafd9c63c991ae18aad",
+    "tests/test_secondary.py": "bfb573095eafa76afb9cb2487e824bfbb792b5e804a5b6762d7a03b4831145cf",
+    "study_design/secondary_implementation.md": "4ab13b60ca9316a1eb324060efd9e74fd6076da58b513806b8e507b85fd89f76",
+    "src/gbd_park/donors.py": "5bfae53b0a23682f8570429647244bc1c96e7690d772c29d7e954155d753b818",
+    "scripts/run_donor_comparisons.py": "747ef8357a7cd17858cd686265be0a6c4d9e6ccec83a459229345d6765d3b225",
+    "tests/test_donors.py": "77ffaf821506dbd092eae980eb7a6ab66e67366670bb8632e350aad5bc92ff9f",
+    "tests/test_donor_comparisons.py": "36b67fb473407a357d16b307695251ece95ec713eacf436451506b85329517b0",
+    "study_design/donor_implementation.md": "dfd8a08163be86f5544b3b7efbcc471667bd9543725a6fb5a53a575a672d3394",
+    "study_design/donor_comparisons_implementation.md": "c423996abfe6b50cf961188cd9b31ba4c0c3bef25a30e666aa385f64b65ac5a7",
+    "src/gbd_park/demography.py": "2b9c8ed71a58104ac1d69c928cd1d3b2813e7563b465d7a4545bc66167ceec1f",
+    "src/gbd_park/count_coherence.py": "3032b62ba075b0eee7844fcfded344998f3d4ec0e9f8f0beddfdbee86fe75ad2",
+    "scripts/run_demography.py": "ad6bfcc999d3c3e7def311d42b0c63325b0b72e1c9f6d5d38c769510dd97d239",
+    "scripts/run_count_coherence.py": "37da191ca5ca956990015c16cca295a8f3e4cc54ad26ff78a7b83078c06e39b5",
+    "tests/test_demography.py": "10147b9bdb4038909a9db578d860b08341dfbfef3a56a2d03fa91cdaf70f23a7",
+    "tests/test_count_coherence.py": "a5ae5170e73d269c08e658b85b4d20d26cbc31374a4bfe6a7aeeae7cf7b4bcb8",
+    "tests/test_demography_runner.py": "14d1c2fb8b3a9397016f3f3d781ea1cf9095115d61dbd66377933d8e03a2a86a",
+    "study_design/demography_implementation.md": "bbf4682571cb2e3eb1f8b2bc35e861638d1d97e9a7fd8f4caf6cd279e998d0e0",
+    "src/gbd_park/improvements.py": "8ae34a8014df46d672a101731bd07fa4681f897d5ed576bba9e941667270eaa4",
+    "scripts/run_improvements.py": "38d850614d652db283db98910d1e3f90996221a5de30c3335d2e581f84dab943",
+    "tests/test_improvements.py": "059edf7c68c0edaecc4c319d271ed2b58be568234a8f66d1059067f9631087e8",
+    "study_design/exploratory_v1_1.md": "a4da9684b763c25f2b69503a67328bf51e0e55d26da6b273aa4e7470732c3bd6",
+    "study_design/exploratory_v1_1.json": "31b1d1d1326e3ecc6b46a8ee41d9a05f0a009a601af414e6ae3d9ef08260484f",
+    "src/gbd_park/calibration.py": "3b549dbc718e546efd16005c32fb4e6ccf82de9dcbdaa972df2475a7e7cb298e",
+    "tests/test_calibration.py": "e9f05bbc4e7bacfdd40d45df8780e2f07509c4d5ab61d15e11671c7a52ce16b2",
+    "study_design/interval_calibration_v1_2.md": "f52fefdfc5c4da708765dbbe52acb8fa20cac2e77c0a727fa344d44b06b4f5c6",
+    "study_design/interval_calibration_v1_2.json": "c4429725c8200b5b3654ff4b99e21f707cce70d1417384fd0ae9a0000b6b2f67",
+    "study_design/locked_v1/design.json": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+    "scripts/run_calibration.py": "3bfd24c8af8878d167af25bbc413852a817a0bf2f6e95935e2e8b1d9546f2315",
+    "tests/test_calibration_runner.py": "ae0a3ad35c322985d3f541fe4515d2440062ca01fa3dcdc9289040000945cd92",
+    "src/gbd_park/structured_calibration.py": "f036b285b9dcaa9e635700faea9102c152b3c607b8f9a360b1fdb1f1d548e939",
+    "src/gbd_park/dynamic_joint.py": "22837032d9f4a51451abf2f024b32c8cf65b3bb889f33731e2a5803041d8f462",
+    "scripts/run_reliability_v1_3.py": "0797946540d9eb90282dd59b0d9873a3efeba611660ecc9d5de94ce943ea3132",
+    "tests/test_structured_calibration.py": "9933788ddad963647cbc30f7bfe616825f5c136bc8edd3eeec6554f9d4bdafe7",
+    "tests/test_dynamic_joint.py": "c569e41d336d4b0ec36d39006c21c6b375362d3da7ce147b4b2a8e009e4b1295",
+    "tests/test_reliability_runner.py": "83eb63bf7f3c44338da92c338f88dfcc3bbcc2b8dc6cafa23dce6c3a88eff720",
+    "study_design/reliability_v1_3.md": "39b5792e244721574a56b0be5ccf54d5c5f381485d27d3a459490097da0f0e49",
+    "study_design/reliability_v1_3.json": "36a747392a952c54ed90f2f1f58d46102a1c4b25904a60060eb20c4ba96b8942",
+    "src/gbd_park/population_sensitivity.py": "51f83e1bb410222cc4dd30061bcb3521bbd7d6a92d285290c6e2797d6ea93d47",
+    "scripts/run_population_sensitivity.py": "1935844f60c26a9923d7c372999e2d9df18c511a9606275f71239f9512c7685b",
+    "tests/test_population_sensitivity.py": "dffc25055e0327537ef3bbcf64f8afbbc5b412e8364186d94b68ec1a7a0c54e9",
+    "study_design/population_sensitivity_implementation.md": "d0d963f6256541d88dc551c62889b66b5cf86b8a33e04c5a367f2cb8de616f56",
+    "scripts/run_release_sensitivity.py": "3ea6b67e8cac61b05e04d47a91f1f7b317b1641b759a014b7dcad1e63a35dd3e",
+    "tests/test_release_sensitivity.py": "663b4154de233ba47649b91a0c4e410ae50155814c359aad6e5c119790d848d5",
+    "src/gbd_park/supporting.py": "2a98237013bd6357b9295b903c757a28a20ce28ef67ce9630727f3238bb5f05c",
+    "scripts/run_supporting.py": "d85327a03ff650a1ae7530588116d7334fd1276dfab77b3bf369e7f8d600e7bf",
+    "tests/test_supporting.py": "5d5ae6d2cd153520f3eea1513ea4326413b08b11dfbb6b235cde3a564ac5b97b",
+    "study_design/supporting_outcomes_implementation.md": "26df5bf587b97e97f6809220b8ff302de56868eeeb5d215d4f23c49cdbd95442",
+    "scripts/run_mortality_history_sensitivity.py": "e6dd6775c39ba9ca16408f25c2eb6dee5fe10485eb9df9de407d0d7e7fc31661",
+    "tests/test_mortality_history.py": "6518ab315bb6116c518b2bfc4ffdc65814eda5471de722ff45719c77da867e15",
+    "src/gbd_park/disability_components.py": "bc2ae68e0382519c215a4367b5946bc4d56c8851740d1d4ccd0fc3a6ba275b69",
+    "scripts/run_disability_components.py": "91027698cfacd6985bda8c18a7e8d3911dd98fdb9c3834c63844f53a753ddbc8",
+    "tests/test_disability_components.py": "d1d3d5dd8bae8950a709ea0b8d5dc07c5a139f4b3934b993c0af7b62ab99b41a",
+    "src/gbd_park/learning_curves.py": "4391726fe7b596f2ff14d3b8c0b22f1644e1be856add517ff1f51517386ca511",
+    "scripts/run_learning_curves.py": "ed053e4d87cc08b1bc30e3ca660dc328b460259ed7267a5fec47076c4a343004",
+    "tests/test_learning_curves.py": "baa1933e861cb3a45d0e9fdb8ad41638453ec23b7bb15cc0b302d1d8fd1dad57",
+    "study_design/learning_curves_implementation.md": "7f71935dd1287bfcd6b04e2c0ca08c38622d2ec36eadd69e61d67f0c55a3b40e"
+  },
+  "role": "prespecified_supporting_target_history_learning_curves",
+  "final_period_scored": true,
+  "completed_utc": "2026-09-30T09:41:20.425839+00:00",
+  "elapsed_seconds": 44.649051692000285,
+  "output_sha256": {
+    "adaptation_audit.json": "89bea764fb3f22a719d645b2b549cfac233ff7ffc0fa83d6c2365b980c1a05d0",
+    "adaptation_comparisons.csv": "55c494fcd62b8b2ad4a0e569db980b9bb56705782a06b4baccd106697fdf4302",
+    "history_comparisons.csv": "dc5cfe5091277cb74c7c46fd61c98611228c1742a09a6eac465bd5d7939e891f",
+    "issued_commit.json": "cae1d84bad60fb61f69f53e14a74e94d3374377dd3e5fc1eb75b4e43bda07e0b",
+    "jobs/035a88090d46239a44a6553f89487a0964ce18dbe446c58d8f791a14caf10cdb/checkpoint.joblib": "1f67bd90ec97b8bb3a46b518017e41e22d2f93fea40cab096a0bf632e4495551",
+    "jobs/035a88090d46239a44a6553f89487a0964ce18dbe446c58d8f791a14caf10cdb/complete.json": "cf8026d034522f5c14f55afd654562996a68e98a102c95f28ff77c105ce05778",
+    "jobs/035a88090d46239a44a6553f89487a0964ce18dbe446c58d8f791a14caf10cdb/result.joblib": "686b090165766061959ca2cb9089a09cf344034f8917b7b33e996e66b63c9fcc",
+    "jobs/063c8e1f81b15372ff691fc89a4cd2f058bbee47582ed313de69611b881d3773/checkpoint.joblib": "b90bab734a96bb889e376cae35afb930d7884bd8a60a9579bede62b3dad588c9",
+    "jobs/063c8e1f81b15372ff691fc89a4cd2f058bbee47582ed313de69611b881d3773/complete.json": "b6ced9192d5f66700c546ec1029d41efc5453d1558ccc5fb09f0efc0bc286f9f",
+    "jobs/063c8e1f81b15372ff691fc89a4cd2f058bbee47582ed313de69611b881d3773/result.joblib": "76e40a1b220cb0a4f33f0f4e8711b4061166e6a7ebdcc9f7bca5f273f969c695",
+    "jobs/104e6ba6de60cbe4408802e1404063da79aef1b010781b0fbcff34776f2e9174/checkpoint.joblib": "52ae33537213b7de039fcc0717ef2ef35b3e5b500a82e77cf4eabcba8437e783",
+    "jobs/104e6ba6de60cbe4408802e1404063da79aef1b010781b0fbcff34776f2e9174/complete.json": "dc390fb898bc8a8c637f01d205836bd5ae5317a6e1fe0e5d8a36b2226cf73d91",
+    "jobs/104e6ba6de60cbe4408802e1404063da79aef1b010781b0fbcff34776f2e9174/result.joblib": "337885e8350b30f96b9566fe7d743c26a96f6b6bf38cc57b142eb121e84099fd",
+    "jobs/1b4a0ac706e6624927e1745badff87380b31a7cadc4177ea84e1f383a9305d24/checkpoint.joblib": "6411e8de84d545cc51146f83d79d5fa3996b51eb77491dc90a0d7a2095dfd0ca",
+    "jobs/1b4a0ac706e6624927e1745badff87380b31a7cadc4177ea84e1f383a9305d24/complete.json": "af0b4caf1c516cb3ad5701900e120a63b47fa9d1be5e3ab962f21aa473bc1fc4",
+    "jobs/1b4a0ac706e6624927e1745badff87380b31a7cadc4177ea84e1f383a9305d24/result.joblib": "bd97913b24077993f95d613a4c143a552f13dbed1a564602f4cb67de552f4a07",
+    "jobs/1db685f951dc37f2eb7c7f9867c0e4cc88cd4d64816e5226f46227a59b656f09/complete.json": "682f5e17ec574ec9d635add9b5f0a81bc3e97c63b1a09b2d0a40148ab8c1b2fc",
+    "jobs/1db685f951dc37f2eb7c7f9867c0e4cc88cd4d64816e5226f46227a59b656f09/result.joblib": "93f930faa31248ac0b62c6856308b7bd5ae58a96b77fb4b54c636dca6532120d",
+    "jobs/2390c0e41b83216af9db443affa71d7f169d59e3e95183455c7cd3bf6441cf44/checkpoint.joblib": "69217c5ef4e885ea193175d794b73d2d93319368c500bc0dad7400c5bd15e32f",
+    "jobs/2390c0e41b83216af9db443affa71d7f169d59e3e95183455c7cd3bf6441cf44/complete.json": "3ef6bda1e4d98e4b99bf8ff2adaa8f592d4d6f4148a96ddfe5e1e91310c21f24",
+    "jobs/2390c0e41b83216af9db443affa71d7f169d59e3e95183455c7cd3bf6441cf44/result.joblib": "832c7ad920400cee5aa59a7045e6455e7eefbc98f7969861c2fdea4726e34a4a",
+    "jobs/26a677963d493e7ae505ad54dac903a3223d6c17d12628054f391bc2cfacc8f1/checkpoint.joblib": "69b813c2f7b2242a29fa2d395f217562271e2015f72cb41db78aa5a95570fb13",
+    "jobs/26a677963d493e7ae505ad54dac903a3223d6c17d12628054f391bc2cfacc8f1/complete.json": "95ab8214c43e34f779f5cabd1fcd507d7a1373813eb34eb6551a31b24c1bcba1",
+    "jobs/26a677963d493e7ae505ad54dac903a3223d6c17d12628054f391bc2cfacc8f1/result.joblib": "ad736f3d1419e0e6686232f804a7d8f3641b8a98ec159c2afc80e7d63460d2c1",
+    "jobs/338af890afe26080e240d151d7a10aedea0b6fe997d0c8e67cf42fd3234aed5c/checkpoint.joblib": "703df8c6bbc6fef9c8f6aedfc3b61ddcf059dd16aeb2df440a37f0f592fc7f7c",
+    "jobs/338af890afe26080e240d151d7a10aedea0b6fe997d0c8e67cf42fd3234aed5c/complete.json": "55efa0be538f8edddba4ee1110038b4085051fc3ab7f2723583fc266962d7d0f",
+    "jobs/338af890afe26080e240d151d7a10aedea0b6fe997d0c8e67cf42fd3234aed5c/result.joblib": "5bca52c904d548ab0a97636397069022e4a924de848ac1bc789f1ed1880a4a28",
+    "jobs/3ce34aa5bd77902562d5005cedd1a251115e82741896f11abb699f8f5f084f81/checkpoint.joblib": "056bc5c50e04a7ba420f8a3146de29792f2ff820c642ac702577df7ad707bddb",
+    "jobs/3ce34aa5bd77902562d5005cedd1a251115e82741896f11abb699f8f5f084f81/complete.json": "e5d5c6ea401742ea4a75e52579327712bc5a8f4b6c6c16c56bf73a4ad2a419f0",
+    "jobs/3ce34aa5bd77902562d5005cedd1a251115e82741896f11abb699f8f5f084f81/result.joblib": "4632d9246f749669a955ee152aa4bc78dcfd0b074b968062cc1231de5bb7df64",
+    "jobs/4614df930e5a2e46f91b3d28910aca1211f3e441fb9e6ab62d0be24fa00a3b4d/complete.json": "3f1150db59a9edf2e19c4b395cd66fe6d697607a49dc1d892c40d0fece574950",
+    "jobs/4614df930e5a2e46f91b3d28910aca1211f3e441fb9e6ab62d0be24fa00a3b4d/result.joblib": "59de723da43254a63c9a37cd1ecdd1e806651bd3bb3f3b5609012efb12e9dccf",
+    "jobs/4fac76d35f0b3e305d0b736990281f4f88d59df24636e6858ec59b3249862b54/checkpoint.joblib": "44844a41bcf9f3cfd87eefbfbc071e150e55a2467c40142579df9dff8f5c6fc6",
+    "jobs/4fac76d35f0b3e305d0b736990281f4f88d59df24636e6858ec59b3249862b54/complete.json": "ffbb411b11c40c138accd88b4a9dfdbb78a73720a8b1a9b0d0e8fdd13a555e61",
+    "jobs/4fac76d35f0b3e305d0b736990281f4f88d59df24636e6858ec59b3249862b54/result.joblib": "8214c3ec962a902a4473a8b13141637cce98f1ee326ffbe08409e632719ad1a3",
+    "jobs/5e14e8ef5dd6aa185d50cb9216b6469b51824911f24efc9a3d66b039aad23a39/checkpoint.joblib": "ad0902176691e1c4f7ea36a60fd953a95f9dcd00693a0511d919a4bb5e3041c9",
+    "jobs/5e14e8ef5dd6aa185d50cb9216b6469b51824911f24efc9a3d66b039aad23a39/complete.json": "362a708ce46424d5c1e0027a5e3f3fa169dc5877109f617fab3fc51ca939fa19",
+    "jobs/5e14e8ef5dd6aa185d50cb9216b6469b51824911f24efc9a3d66b039aad23a39/result.joblib": "f4178193522058ade7a3b7db9e136e834beb92536bc6c5930a423b33e8565ab6",
+    "jobs/6ef19a039f211e606386c149ab4d902221d0db2cdfaabf5c31c891a55fb4ad0d/checkpoint.joblib": "0af8cf86de7127e16b9112adbb229ab0b6c2519fa6290dafc237b5f482f1569d",
+    "jobs/6ef19a039f211e606386c149ab4d902221d0db2cdfaabf5c31c891a55fb4ad0d/complete.json": "d471beb779ff6c3a75426156c541a89b8c70773c38ea93bea133f0de679428a2",
+    "jobs/6ef19a039f211e606386c149ab4d902221d0db2cdfaabf5c31c891a55fb4ad0d/result.joblib": "78a329fafd28a8c85e6951d314151dc8cbfb125b819ae8079ddef8b9a5f6ac77",
+    "jobs/6f000b2a073de4734dd9369206316a7d1657323473a69834dae44b72aa06ad43/checkpoint.joblib": "241d5a51837ac875d2cab1b65ecd28342d5224a70e33b4cc829b67cd05b40f16",
+    "jobs/6f000b2a073de4734dd9369206316a7d1657323473a69834dae44b72aa06ad43/complete.json": "aa703c934aac83313c71937980f3ae75a521bbc8d832afb1cbada4ce6382f6ee",
+    "jobs/6f000b2a073de4734dd9369206316a7d1657323473a69834dae44b72aa06ad43/result.joblib": "71afdb972426a0906256e1dd6ce6805da9f2766442ce31422dec5bca0f445f01",
+    "jobs/6f85dbaf37980c6b7665c0c320e56ff66ccd0536480143f5e781a3cb74ee3403/checkpoint.joblib": "93ea973b650c5f089083ed14527c6cc71b1719bf59a6eb03b4aed30b1aafedec",
+    "jobs/6f85dbaf37980c6b7665c0c320e56ff66ccd0536480143f5e781a3cb74ee3403/complete.json": "69a8aab97e5507f61640aa49758f68d3eead8740328ca52e8be26d99bb2ac971",
+    "jobs/6f85dbaf37980c6b7665c0c320e56ff66ccd0536480143f5e781a3cb74ee3403/result.joblib": "af3a271a0db46e9f00a4a9f783d8dfd13d694d01a1e9f0c0b50f3219b27d1222",
+    "jobs/7176f8ef72361711b7f8b0453ff2768e790a97b2f582f5942bcdf787f9ee892d/checkpoint.joblib": "4161e010644332cdc66a59ed86823d93d9be079f20426ae7b3216d9ad29b0ae5",
+    "jobs/7176f8ef72361711b7f8b0453ff2768e790a97b2f582f5942bcdf787f9ee892d/complete.json": "53aab47a6106d67d4b1f6e96eecadac003a37581d8bbfbf9c670ab9c3786cd0f",
+    "jobs/7176f8ef72361711b7f8b0453ff2768e790a97b2f582f5942bcdf787f9ee892d/result.joblib": "cc8a77ee5a69d11c018b6502dfc89699d435ba128f6911e88cf6ec78c90e0a76",
+    "jobs/726c081dbc15201d899da2b78f125dc844fac8744c2a7120e2833231cbffe67a/checkpoint.joblib": "2333d948d8e29eff271e1920ff3b12c451740ab0d538da3af64bfbaf301cf24e",
+    "jobs/726c081dbc15201d899da2b78f125dc844fac8744c2a7120e2833231cbffe67a/complete.json": "4c6e0a369f28c113a287dfb20e2809b5fe5918b099cc96f5d6904146e6cebc74",
+    "jobs/726c081dbc15201d899da2b78f125dc844fac8744c2a7120e2833231cbffe67a/result.joblib": "9b7f86812d2951594a3394fe2fdb46e25e79be2d55085e15dc1f2d092f0d9c75",
+    "jobs/74da98481ff61c1ae275e07e4dc4ab46299724ac7ba6316c9a9f9a6ce76da7dc/checkpoint.joblib": "94e0ba8751a092aaa267e95dff4805d155ec8c3fc9c6605f733a4a47e624fc1e",
+    "jobs/74da98481ff61c1ae275e07e4dc4ab46299724ac7ba6316c9a9f9a6ce76da7dc/complete.json": "214c802e12f8379fb50fcb7eec46829f64a9a5bd08d9dc6119cb648b29892ef2",
+    "jobs/74da98481ff61c1ae275e07e4dc4ab46299724ac7ba6316c9a9f9a6ce76da7dc/result.joblib": "8ca804adb7754988c350c94ef008bbc9f1a8271e0320f46c44a27f5cee75e6ed",
+    "jobs/798fb772a943581502d82bbfe3a98ae6b432ea192f54bc07848b6b5dbcedabbc/checkpoint.joblib": "3d39c4272045631a13d31dac8e113f344096fb2f1d37a7bd3b2be3fa15b47293",
+    "jobs/798fb772a943581502d82bbfe3a98ae6b432ea192f54bc07848b6b5dbcedabbc/complete.json": "7cc105b5ee953bbb338171927e76a5e28e7c554b3e7bd2d22dab8b37195b3705",
+    "jobs/798fb772a943581502d82bbfe3a98ae6b432ea192f54bc07848b6b5dbcedabbc/result.joblib": "8f494d87d6d0e8c49d8fc5a30b4d331f3a449f3d4098c6869f6ceac15b20eb40",
+    "jobs/7b20291b1a6c8dbec69caabbd5d0d06c3556c8c902034c332866f6153eaf00e8/checkpoint.joblib": "c47f96f496706ad018a740fff462bd694eee1074f974d2ffed628da541a1e1d9",
+    "jobs/7b20291b1a6c8dbec69caabbd5d0d06c3556c8c902034c332866f6153eaf00e8/complete.json": "1b63a6a29575bca35ace34ae9fcb5d5eb79ba5664d20478db9e68cf84e8a9800",
+    "jobs/7b20291b1a6c8dbec69caabbd5d0d06c3556c8c902034c332866f6153eaf00e8/result.joblib": "73642d722b9b8a0039bbd676460ba892f9a0dfe3e7c916a0b505a051b392ae4f",
+    "jobs/7b30181ed9f9edff37e64a4a4178095a3dfcebbde3586cbe7eaf638b75120956/complete.json": "33a4736ca806b124b4decd0d14a0aa6a2a886df43da3e518d7e341a2aa95c827",
+    "jobs/7b30181ed9f9edff37e64a4a4178095a3dfcebbde3586cbe7eaf638b75120956/result.joblib": "2983b66f300d74dc3f5d434e3abe9217f5bd8fb8d1a68822fb30fc726303bee4",
+    "jobs/7cd804e3f177c1f4fd2803086db39f09f57444d2b13a71372cff025ae57fe565/complete.json": "fcbb2e9cd2acda3380dfc20d73c5a45ea5e77aacdf175f5239684384b1b8babd",
+    "jobs/7cd804e3f177c1f4fd2803086db39f09f57444d2b13a71372cff025ae57fe565/result.joblib": "687909292358e4aa9148f9d25f19e413800edf30fb7224678e0d0a4260675f6f",
+    "jobs/82df86f40b47b208eea7162bf2b569adbda4a13fb94c40c5d69d1f6efd870f84/checkpoint.joblib": "b0f1c4091285f18283157b6b3a49c6b4355ef200f0131c72439b30ca89c6a25e",
+    "jobs/82df86f40b47b208eea7162bf2b569adbda4a13fb94c40c5d69d1f6efd870f84/complete.json": "ebada2e64be4217fcaf68b635857a607a24404a0d498da8358b48d9282a0c78c",
+    "jobs/82df86f40b47b208eea7162bf2b569adbda4a13fb94c40c5d69d1f6efd870f84/result.joblib": "4166ad2a294c78ae326cf65ead8b586a383bdb63e4411fb66304bbdb5dacd9a0",
+    "jobs/8e3ee314ee1e2b579e2ffab572db40e8b1d4d51c36e9f95f8fbbdba8c8c8d1ec/complete.json": "22dfec03809f610612dc64c99dc6cb39757958e544f0ef00b62aea74e3b3cc63",
+    "jobs/8e3ee314ee1e2b579e2ffab572db40e8b1d4d51c36e9f95f8fbbdba8c8c8d1ec/result.joblib": "0ef258337c9c15c413b976f872ebcfea1927e43ec5644856c41fda16bc805135",
+    "jobs/9b8e3ecb440c7c26b569b6d867540d771635ac2c3c4831c5557b07d182514f11/complete.json": "55eabf2e32d4be8fe0aacafe6ccd0a3230b16839a1a24b6a64390cc3c83855c7",
+    "jobs/9b8e3ecb440c7c26b569b6d867540d771635ac2c3c4831c5557b07d182514f11/result.joblib": "a9c183ac2597a8fa0da9fce3d5b0c466b4f1d40bacd014baaf277185c80105f6",
+    "jobs/9e7461662299e0ce18b2a85776950268e8f96be117bb715a45aed4a95b24f41a/complete.json": "6f6b433c05b7743d8da216662881da786254e2826c83320908e49f755027da5e",
+    "jobs/9e7461662299e0ce18b2a85776950268e8f96be117bb715a45aed4a95b24f41a/result.joblib": "f5441c1aa2a1fe100585bd8422d7e81f2c218bbc544ff0e5662a5cb61b5e2cfc",
+    "jobs/a29802939d3563b200bced9344e27e2d2c7c5683c31d9a2dfb52a9e77853976b/complete.json": "6596de3db69d89511c9a65f9067a40bba46bf0bba309d9286fb2fe8445d7857c",
+    "jobs/a29802939d3563b200bced9344e27e2d2c7c5683c31d9a2dfb52a9e77853976b/result.joblib": "7d65eee5cb0c74494f8b666ed7cf2ae61374d8d4285f5a54b0c7b67d7fdfd4d4",
+    "jobs/a73a1e485fc376d7abc09c97f08cedb3e34f1dc734b733a89dd01b41ec9d5bc1/complete.json": "a5321499eb99facd4e6fe3e0cd91ca5039f2a064bf7d81df80d7dc86515d8417",
+    "jobs/a73a1e485fc376d7abc09c97f08cedb3e34f1dc734b733a89dd01b41ec9d5bc1/result.joblib": "1057751f8fddbb01bf4e25f8cc2fb0cbc665dbd4aa75ed18fb1ddd56368ebf53",
+    "jobs/aa5e440a7704d867100a0e9a87fa946bb37451a4357efdd0497ad40679c5fa4f/checkpoint.joblib": "f37b0c47da489c2f25ee0341fc04f5431fd5c807b800a60a30cb71d83c52cd84",
+    "jobs/aa5e440a7704d867100a0e9a87fa946bb37451a4357efdd0497ad40679c5fa4f/complete.json": "6397e47ab7b1de80e919e21da2a670208e6d94c8793bc89c52ed4bf56ae3d8c7",
+    "jobs/aa5e440a7704d867100a0e9a87fa946bb37451a4357efdd0497ad40679c5fa4f/result.joblib": "e2bba0465a96d7a17160ee60e131a55e311989138985aa96071cee0538ca596e",
+    "jobs/aae32cf7d7c8dd038f91c11139559af6d0788f9be346e3251097ceb7f37b5505/checkpoint.joblib": "89548f6bce9006332bad3ddf40b21baad9aa8709448b3bb5fdf39536778f8010",
+    "jobs/aae32cf7d7c8dd038f91c11139559af6d0788f9be346e3251097ceb7f37b5505/complete.json": "1bcd3c996e769421b8aab5eff324d22c123afdf09aa3caaa142359c706a48e0e",
+    "jobs/aae32cf7d7c8dd038f91c11139559af6d0788f9be346e3251097ceb7f37b5505/result.joblib": "355d1e8681d9d4aba0a342f35d0b9ce47bb7b72c3e56e8a9a231ea2af1448c44",
+    "jobs/b60f8ce22d40b0687608f65ae2f007b7e06549e07435ff588ca5f6e0852c7404/complete.json": "0bc03a9248e77a95049534899a7bf47d7ba468a70a627d705a4160aef6053d4d",
+    "jobs/b60f8ce22d40b0687608f65ae2f007b7e06549e07435ff588ca5f6e0852c7404/result.joblib": "8ed885df5d1e8b4d7955e0e81dfd24ee87feec72b42aa2fcf3ca2cfc9ee7771e",
+    "jobs/ba30992af61173d91ce6622b8823c61e5a2322be7a9b0ac8f24672d7ea0b0b51/checkpoint.joblib": "73f597abd6efdbfbe4809eb83c97a98a0c8d9673af08d0163567ab2d3a159440",
+    "jobs/ba30992af61173d91ce6622b8823c61e5a2322be7a9b0ac8f24672d7ea0b0b51/complete.json": "c6d53276765ad1ef3e89460e4a84a8eac8cffda76efb9721aab34aa85895b1d3",
+    "jobs/ba30992af61173d91ce6622b8823c61e5a2322be7a9b0ac8f24672d7ea0b0b51/result.joblib": "7b596185f450bfcedaa841c65c94197c0c9c6f1e3a41af62731f6532685fc12e",
+    "jobs/ba7241d70c5289b728480010d1f0c02aa525746569b0a6f19682a981a94450ce/complete.json": "24081769726482e478d67ab3b05d6c30e1bd16c94a3026e6515a7560f0de3f35",
+    "jobs/ba7241d70c5289b728480010d1f0c02aa525746569b0a6f19682a981a94450ce/result.joblib": "2e0a866897b4c0a516b0d95206f20074ea29fd8824ac9f72bd3024850b298ad0",
+    "jobs/c4984257d0eb95a7b801a8e48fb8025780ded1f6b3a68dbf2d8536913775ca42/checkpoint.joblib": "a1b3963691d71205821153faeeb4770a7976dcbcb3ea2fbda1c7785cb58293a6",
+    "jobs/c4984257d0eb95a7b801a8e48fb8025780ded1f6b3a68dbf2d8536913775ca42/complete.json": "dd047912f09c02e8497dedb8250401ad423822f265caebe4251aa7149ee822fa",
+    "jobs/c4984257d0eb95a7b801a8e48fb8025780ded1f6b3a68dbf2d8536913775ca42/result.joblib": "eccd14edba68140a7660953c1d8df7200bc8ddb867bc484f26d8d5dbc1025346",
+    "jobs/da2663fa8fe0139dc8fa0509028199da85546f852a2fbd51cd44ae88e5082d4d/checkpoint.joblib": "d82872cf498e80cc06cf03af84582ea44cc8a961d7b0dc59bb733be48c059215",
+    "jobs/da2663fa8fe0139dc8fa0509028199da85546f852a2fbd51cd44ae88e5082d4d/complete.json": "f563ec9d1c61f0862abea31f270ca3b03e7d2f437b2c51559a996935b228f6f5",
+    "jobs/da2663fa8fe0139dc8fa0509028199da85546f852a2fbd51cd44ae88e5082d4d/result.joblib": "2746a1a0bb8f42a4f44c2e8dc566ce9da39044cc0840c7b91120b1bc2f8454a9",
+    "jobs/df57f516801c5ff14eededce89ad16344652c3403ee89659d5e72a83c4f9d6ac/checkpoint.joblib": "a2303b0d4df7e48f4791d5d31148edde7e3cb5288db7586efe9a63230ee9b1a8",
+    "jobs/df57f516801c5ff14eededce89ad16344652c3403ee89659d5e72a83c4f9d6ac/complete.json": "1f031a2e13da62887ef7ae879728b7d0df464b793e7ce2fbbc332d40d2a9cc3a",
+    "jobs/df57f516801c5ff14eededce89ad16344652c3403ee89659d5e72a83c4f9d6ac/result.joblib": "201f0c4b25470049271e16fdbce7f9ad89ae40b005f130240d50d4ac732b0fc7",
+    "jobs/eaabc6c78a8a940b920ca1d009ec2c9c2e29a6e4eb6ff6dd0288779da62a2e5d/complete.json": "dcf861f22b046439c47fbfc61dfa3ebc385c67b98418185786e0446ec08cdbda",
+    "jobs/eaabc6c78a8a940b920ca1d009ec2c9c2e29a6e4eb6ff6dd0288779da62a2e5d/result.joblib": "1cc112daaad3c2a2354de8182922bc137e9390f6c30585d3622db415f2565af1",
+    "jobs/eb4fef13ec526f400a3ce9ebcca76fc94aed4d0dca8d6ad1a3299ebad3a09f4f/checkpoint.joblib": "27e607cb6d923ba2e8e506b34a098d6c4d3870a8cc9e117ac83c96485c673ad5",
+    "jobs/eb4fef13ec526f400a3ce9ebcca76fc94aed4d0dca8d6ad1a3299ebad3a09f4f/complete.json": "b71f2ec870206798f1c81da2b43c1a875aa55122226e61a0cf635f09f3e1c1b9",
+    "jobs/eb4fef13ec526f400a3ce9ebcca76fc94aed4d0dca8d6ad1a3299ebad3a09f4f/result.joblib": "3c31174d9ea66434426b9a7c844024384c31dd020850071cd41dec4088fe709c",
+    "local_fit_audit.json": "1b20fc06ddea33d06455613e47f60ef13e119b90b52200b8315ebe39d9bfe056",
+    "point_scores.csv": "c46dc0c8617fd834c8ae765cf01aa5db6c1a940ee7681f7cc6dde05f92f8871d",
+    "predictions.csv": "a5ade8e723654902b9214a0ed80781edabb6fa697f207c78147d4db3dd6a92ae",
+    "scoring_complete.json": "f915d650a7392e1bcf7147f3ba25f88bd29db8bc892fba1c084ef4ebd0d1877c",
+    "source_fit_audit.json": "34ec1944528c413a7b9455308300cca41db8ec6e1ed0e392489e44a8d9e7fd5f",
+    "summary.csv": "1656d06c7e6f40ec2413713f5dca3380474505877a5eb2b2aa2f62f4a5ce1aea",
+    "tests_at_run.json": "f6c6145e79400f412046603a91b364468d89cae4ea79e3bb6f09df7013026e68",
+    "validation_report.json": "878802a8e4dcbc364ad3141039de3b429563348cd6f95b7464cfe437738b353d"
+  }
+}

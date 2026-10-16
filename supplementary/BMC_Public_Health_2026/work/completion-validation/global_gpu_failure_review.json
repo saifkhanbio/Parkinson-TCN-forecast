@@ -1,0 +1,230 @@
+{
+  "interpretation": "Completed numerical run but failed neural execution; no valid neural donor-scope comparison from this GPU run.",
+  "total_seed_fits": 120,
+  "successful_seed_fits": 10,
+  "failed_seed_fits": 110,
+  "failure_reasons": {
+    "AcceleratorError: CUDA error: unspecified launch failure\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n": 110
+  },
+  "ensembles": [
+    {
+      "target": "Bahrain",
+      "outcome": "incidence",
+      "scope": "global",
+      "successful_seeds": 1,
+      "failed_seeds": 4,
+      "successful_seed_ids": [
+        53
+      ]
+    },
+    {
+      "target": "Bahrain",
+      "outcome": "incidence",
+      "scope": "regional",
+      "successful_seeds": 2,
+      "failed_seeds": 3,
+      "successful_seed_ids": [
+        11,
+        53
+      ]
+    },
+    {
+      "target": "Bahrain",
+      "outcome": "prevalence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Bahrain",
+      "outcome": "prevalence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Kuwait",
+      "outcome": "incidence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Kuwait",
+      "outcome": "incidence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Kuwait",
+      "outcome": "prevalence",
+      "scope": "global",
+      "successful_seeds": 1,
+      "failed_seeds": 4,
+      "successful_seed_ids": [
+        23
+      ]
+    },
+    {
+      "target": "Kuwait",
+      "outcome": "prevalence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Oman",
+      "outcome": "incidence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Oman",
+      "outcome": "incidence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Oman",
+      "outcome": "prevalence",
+      "scope": "global",
+      "successful_seeds": 1,
+      "failed_seeds": 4,
+      "successful_seed_ids": [
+        37
+      ]
+    },
+    {
+      "target": "Oman",
+      "outcome": "prevalence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Qatar",
+      "outcome": "incidence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Qatar",
+      "outcome": "incidence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Qatar",
+      "outcome": "prevalence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Qatar",
+      "outcome": "prevalence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Saudi Arabia",
+      "outcome": "incidence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Saudi Arabia",
+      "outcome": "incidence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "Saudi Arabia",
+      "outcome": "prevalence",
+      "scope": "global",
+      "successful_seeds": 3,
+      "failed_seeds": 2,
+      "successful_seed_ids": [
+        11,
+        23,
+        37
+      ]
+    },
+    {
+      "target": "Saudi Arabia",
+      "outcome": "prevalence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "United Arab Emirates",
+      "outcome": "incidence",
+      "scope": "global",
+      "successful_seeds": 1,
+      "failed_seeds": 4,
+      "successful_seed_ids": [
+        37
+      ]
+    },
+    {
+      "target": "United Arab Emirates",
+      "outcome": "incidence",
+      "scope": "regional",
+      "successful_seeds": 1,
+      "failed_seeds": 4,
+      "successful_seed_ids": [
+        11
+      ]
+    },
+    {
+      "target": "United Arab Emirates",
+      "outcome": "prevalence",
+      "scope": "global",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    },
+    {
+      "target": "United Arab Emirates",
+      "outcome": "prevalence",
+      "scope": "regional",
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "successful_seed_ids": []
+    }
+  ],
+  "complete_successful_ensembles": 0,
+  "total_ensembles": 24,
+  "neural_forecast_cells": 720,
+  "neural_fallback_cells": 720,
+  "all_neural_points_exactly_equal_local_persistence": true,
+  "successful_checkpoint_files": 10,
+  "original_manifest_sha256": "2305e961dfef0c6823e5c73739ba93d2b64186294f127dfd0b411d8914ccea4e",
+  "all_original_output_hashes_verified": true,
+  "hardware_root_cause_identified": false,
+  "reported_error_only": "CUDA unspecified launch failure; asynchronous reporting does not identify the failing kernel or physical cause."
+}

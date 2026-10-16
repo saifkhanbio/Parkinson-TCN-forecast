@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-01T08:40:11.641910+00:00",
+  "status": "extension_specification_frozen_before_new_model_fitting",
+  "exploratory_after_original_results_inspected": true,
+  "sha256": {
+    "study_design/bounded_extension_2026-10-01.json": "f459f793d1945742bcd5f383a7745474eed054373e00f02d5f17c2900b35a2bf",
+    "data/processed/design_v1/regional_outcomes.csv": "2dab38b3927c67ef02853935e29ffb97b6d6ce6e5f9228eab6b1cbf730ef06b1",
+    "study_design/locked_v1/design.json": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55"
+  }
+}

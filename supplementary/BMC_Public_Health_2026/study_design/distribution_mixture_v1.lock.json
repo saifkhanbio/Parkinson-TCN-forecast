@@ -1,0 +1,9 @@
+{
+  "locked_utc": "2026-09-30T18:56:14.303959+00:00",
+  "candidate_results_inspected_before_lock": false,
+  "prior_results_previously_inspected": true,
+  "document_sha256": {
+    "study_design/distribution_mixture_v1.md": "fcad1180e8ce3d3a13d157f7a3be1cb8740f7def7711c6ece8f8e2d8126e65ef",
+    "study_design/distribution_mixture_v1.json": "f3397d3b12910ad2a5a578d9a4b9661d08f560c66e4b0fc7e80d1c00af1dc4e8"
+  }
+}

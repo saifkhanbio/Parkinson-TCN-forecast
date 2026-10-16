@@ -4,7 +4,13 @@ Research scripts for sex-specific Parkinson’s disease forecasting, forecast re
 
 The study evaluates whether regional pretraining with limited Saudi adaptation improves five-year forecasts of male and female GBD-estimated Parkinson’s prevalence. Saudi Arabia is the primary target; Bahrain, Kuwait, Oman, Qatar and the United Arab Emirates undergo the same evaluation. Jordan contributes regional donor data.
 
-**Repository contents:** Python source and this README. Datasets, study configuration files, lock manifests, validation records, fitted checkpoints, results and generated reports are excluded. Full study execution requires those additional local artifacts; cloning this repository alone does not reproduce the analyses.
+**Repository contents:** Python source plus the [BMC manuscript supplementary deposit](supplementary/BMC_Public_Health_2026/README.md). The deposit indexes Materials S1–S5, Tables S1–S13, Figures S1–S35 and Software S1, including study-generated results, specifications, lock manifests, selected validation records and reports. Raw provider downloads and fitted checkpoints are not distributed. Full study execution still requires authorised upstream inputs and stage-specific prerequisites; cloning this repository alone does not reproduce every analysis.
+
+## Associated manuscript
+
+**Forecasting Parkinson’s disease burden in Saudi Arabia and the Gulf: retrospective model evaluation and demographic sensitivity analysis**
+
+The [supplement index](supplementary/BMC_Public_Health_2026/README.md) provides the current manuscript mapping, provenance notes, source-access instructions and checksums. The deposit preserves historical protocol and report wording and identifies the public source-verification extract.
 
 ## Study scope
 
@@ -21,10 +27,11 @@ Age-specific errors averaged across the eleven bands are distinct from full-age 
 
 | Directory | Contents |
 |---|---|
+| [`supplementary/BMC_Public_Health_2026/`](supplementary/BMC_Public_Health_2026/) | All 54 cited supplementary labels, source-access notes and checksums. |
 | [`src/gbd_park/`](src/gbd_park/) | Forecasting models, adaptation, donor selection, scoring, intervals, demography and distribution pooling. |
 | [`scripts/`](scripts/) | Stage runners, benchmarks, source verification, reporting and finalization scripts. |
 | [`tests/`](tests/) | `unittest` checks for chronology, leakage, numerical calculations and pipeline behavior. |
-| [`study_design/locked_v1/`](study_design/locked_v1/) | Design-input builder; its required JSON specification is excluded. |
+| [`study_design/locked_v1/`](study_design/locked_v1/) | Design-input builder; the corresponding preserved specification is included in the supplementary deposit. |
 | [`study_design/literature_review/`](study_design/literature_review/) | Literature retrieval scripts. Some reference machine-specific plugin paths. |
 | [`supporting_data/`](supporting_data/) | Dated source acquisition, preparation and metadata scripts. |
 | [`work/`](work/) | Independent audit, diagnostic and validation scripts. |
@@ -52,7 +59,7 @@ The complete research workspace supplies:
 2. `study_design/locked_v1/design.json`, its protocol and lock manifest, plus specifications for later analyses.
 3. Prepared tables under `data/processed/design_v1/`, including `regional_outcomes.csv`.
 4. Stage-specific test/preflight records under `work/`, implementation documents, and the completed prior-stage outputs required by each runner.
-5. For the later extensions, the bounded-extension specification and lock, Saudi demographic and insurance downloads under `data/raw/`, and their prepared tables. JDR reporting additionally reads authoring text/JSON, reference records and the example DOCX under `manuscript/JDR_GBD_PARK/`. These inputs, templates and generated documents are excluded from this repository and must be supplied separately through the study supplementary materials or their providers.
+5. For the later extensions, the bounded-extension specification and lock, Saudi demographic and insurance downloads under `data/raw/`, and their prepared tables. JDR reporting additionally reads authoring text/JSON, reference records and the example DOCX under `manuscript/JDR_GBD_PARK/`. Selected specifications, results and supplementary reports are now included in the indexed supplementary deposit; raw inputs, manuscript authoring templates and remaining runtime prerequisites must be supplied separately through their providers or the complete study workspace.
 
 Obtain data through the relevant providers, including [GBD Results](https://vizhub.healthdata.org/gbd-results/), [UN World Population Prospects](https://population.un.org/wpp/), GASTAT and GCC-Stat, observing their access and reuse terms. The scripts preserve release identifiers, units and source hashes. Raw downloads should remain unchanged.
 

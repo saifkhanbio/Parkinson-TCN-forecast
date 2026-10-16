@@ -1,0 +1,23 @@
+criterion,applicability,evidence,manuscript_location
+Study design,Applicable,Population-level retrospective forecasting and conditional projection,"Methods: Design, setting and units of analysis"
+Inclusion and exclusion,Applicable,"Seven countries, two source sex categories, eleven ages ≥45; complete common-period grids; younger ages outside scope","Methods: Data sources, eligibility and integrity"
+Demographics / sex,Applicable,Sex-separated and age-specific reporting; citizens and non-citizens in resident totals,Methods: Design; Table 1
+Sample size / power,Applicable,All available eligible annual cells; 34 years per common stratum; no hypothesis-test power calculation,Methods: Sample-size determination
+Randomisation,No participant allocation,Calendar-time partitions; fixed computational and random-donor seeds,Methods: Sample-size determination; Donor choice
+Blinding,Analysts used labelled data,Bias-control procedures stated; prior outcome inspection disclosed in Limitations,Methods: Sample-size determination; Discussion: Limitations
+Replication,Computational and temporal,"Five seeds, five overlapping origins and six target-country applications separately defined",Methods: Sample-size determination
+Attrition / failed fits,Applicable,Status-ledger persistence fallback retains rows; CPU-recovered global benchmark identified,Methods: Computational attrition; Supplementary Tables S1–S4
+Ethics / consent,Aggregate secondary data,"No recruitment, intervention, specimens or identifiable records; no fabricated approval identifier",Methods: Ethics; separate title page
+Antibodies / cell lines / organisms,Not applicable,No wet-laboratory or experimental-animal resources,Methods: Ethics
+Protocol,Applicable,Local lock 29 September 2026; amendments and later exploratory work identified,Methods: Bias control; Supplementary Material S1
+Training/test separation,Applicable,Complete five-year labels before origin; fit-only scaling; target excluded from donors,Methods: Chronological development; TCN
+Algorithms / hyperparameters,Applicable,"Architecture, loss, optimiser, grid, seeds and two-parameter adaptation reported",Methods: Comparators; TCN; Supplementary Table S1
+Statistics,Applicable,"Loss, relative improvement, interval score and WIS defined; dependence-aware descriptive comparisons",Methods: Accuracy and predictive intervals
+Data identifiers,Applicable,"Provider URLs, hierarchy DOI and dataset citation crosswalk",References; Supplementary Material S1
+Code availability,Applicable,Public core snapshot plus supplementary later reporting scripts; blinded manuscript withholds identifying link,Methods: Resources; title page; Supplementary Software S1
+Resources / RRIDs,Applicable,Python SCR_008394; PyTorch SCR_018536; NumPy SCR_008633; SciPy SCR_008058; scikit-learn SCR_002577; Matplotlib SCR_008624,Methods: Resources
+GATHER,Applicable items mapped,"Sources, definitions, processing, models, evaluation and uncertainty documented",Methods; Limitations; source crosswalk
+TRIPOD+AI,Applicable transparency items,Used as a reporting aid for population forecasting; not labelled a clinical individual-risk validation,Methods; Limitations
+New decomposition,Exploratory,Six-order average; arithmetic identity; independent closed form and synthetic boundary checks,Methods; Figure 8; Supplementary Table S12
+Figure accessibility,Applicable,Eight figures with embedded alternative text; distinguishable markers and vector masters,Main figures; Figure_Captions.docx
+Actual SciScore assessment,Not run,"This is an author reporting crosswalk, not a new SciScore score or endorsement",Submission notes

@@ -1,0 +1,15 @@
+{
+  "created_date": "2026-09-29",
+  "role": "post_result_exploratory_amendment_before_new_results",
+  "document_sha256": {
+    "study_design/exploratory_v1_1.md": "a4da9684b763c25f2b69503a67328bf51e0e55d26da6b273aa4e7470732c3bd6",
+    "study_design/exploratory_v1_1.json": "31b1d1d1326e3ecc6b46a8ee41d9a05f0a009a601af414e6ae3d9ef08260484f"
+  },
+  "prior_manifest_sha256": {
+    "local_baselines_v1": "7e2b9021cb7a4cbb919864aabc507219d1716cadfd62571aaba1dd3bf8599129",
+    "nonneural_v1": "fe62ef05e93c09d92e3fdf1b001d360e8f941fb49b146c29c6b3e29bf9293fe7",
+    "tcn_v1": "af116ca5d8aac0fabd5e72c18cd8e6288e73a70e615b0dde8bc2aafc9cdbb990",
+    "intervals_v1": "bcd921ce6e93816a5a06ae7736dffcc64fb01c1039311ef2f74726541985a170",
+    "primary_v1": "e71fe62722f673fc8700b97d92f17bcdaf193f370019ee19740eade609cf9514"
+  }
+}

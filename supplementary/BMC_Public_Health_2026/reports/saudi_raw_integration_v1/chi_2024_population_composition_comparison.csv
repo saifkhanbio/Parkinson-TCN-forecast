@@ -1,0 +1,9 @@
+﻿period,metric,sex,nationality,chi_count,national_population,chi_composition_percent,national_composition_percent,composition_difference_pp,snapshot_count_per_100_residents,interpretation
+Q2 2024,insured_persons,Female,Citizens,2001930,9807663,16.168514440353178,27.783527496099182,-11.615013055746005,20.41189628966656,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,insured_persons,Female,Non-citizens,1328362,3576445,10.728467118738632,10.131491874851983,0.5969752438866466,37.141966394002985,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,insured_persons,Male,Citizens,2168896,9827595,17.51700923390141,27.8399916374601,-10.322982403558692,22.06944832382694,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,insured_persons,Male,Non-citizens,6882469,12088577,55.58600920700678,34.244988991588734,21.341020215418045,56.93365728654415,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,subscribers,Female,Citizens,2027700,9807663,16.32054296531637,27.783527496099182,-11.46298453078281,20.67465001601299,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,subscribers,Female,Non-citizens,1329678,3576445,10.702306519226681,10.131491874851983,0.5708146443746966,37.178762709897676,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,subscribers,Male,Citizens,2180458,9827595,17.550060893163586,27.8399916374601,-10.289930744296512,22.187096639615287,Descriptive snapshot ratio; not coverage probability or person-time
+Q2 2024,subscribers,Male,Non-citizens,6886383,12088577,55.42708962229336,34.244988991588734,21.18210063070462,56.966034960111514,Descriptive snapshot ratio; not coverage probability or person-time

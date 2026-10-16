@@ -1,0 +1,16 @@
+{
+  "status": "locked_before_new_production_scoring",
+  "document_sha256": {
+    "study_design/reliability_v1_3.md": "39b5792e244721574a56b0be5ccf54d5c5f381485d27d3a459490097da0f0e49",
+    "study_design/reliability_v1_3.json": "36a747392a952c54ed90f2f1f58d46102a1c4b25904a60060eb20c4ba96b8942"
+  },
+  "prior_manifest_sha256": {
+    "intervals_v1": "bcd921ce6e93816a5a06ae7736dffcc64fb01c1039311ef2f74726541985a170",
+    "primary_v1": "e71fe62722f673fc8700b97d92f17bcdaf193f370019ee19740eade609cf9514",
+    "secondary_v1": "9fa9c6187330ea65087d6bb13a5768fee7c356921b767e3ccf62c4eedd762cbd",
+    "demography_v1": "78951065abf333ecd4e48c93b10c67a63657627ff9d657fff6d4a37a708a088d",
+    "calibration_v1_2": "e707603cf9d86fdc62780393215193c25d31be85f7d44e712d0250aa1f29e362"
+  },
+  "tests_sha256": "89d85471abb8fb0bb76ace98ced06e2e66c26ea6ef335ca7ed254b65cf67b4b2",
+  "review_sha256": "e03205f5365d654753d0406595368af189f319d19a2b2796d05237d7586eb0b3"
+}

@@ -1,0 +1,18 @@
+{
+  "checked_date": "2026-10-03",
+  "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11881235.1/sudo080952.ww1.pdf",
+  "doi": "10.1136/bmj-2024-080952",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11881235/",
+  "file": "study_design/literature_review/saudi_forecast_window_2026-10-03/raw/su_2025_bmj_supplement.pdf",
+  "sha256": "74007fbfd7e264030febeed8e2331d1508cfded436c8c54d7f710689d26d70e0",
+  "md5_verified_against_pmc_metadata": true,
+  "pages": 61,
+  "license": "CC BY-NC",
+  "retracted": false,
+  "country_inclusion_verified": "Saudi Arabia appears in Table S4 page 38 and Table S5 page 53.",
+  "forecast_period": "2022-2050, country-, age-, sex- and year-specific prevalence models; supplementary methods section 1.3.",
+  "exact_annual_saudi_2024_2028_values": "Not tabulated in the inspected 61-page supplement; S4 reports 2021 and 2050 endpoints, S5 reports interval-average trends.",
+  "scope_limit": "Overlapping forecast period is verified; directly matched Saudi 45+ annual values remain unavailable in retrieved materials. No claim of absence from author-held outputs.",
+  "follow_up": "Request annual Saudi age-sex prevalence rates/counts, population denominators and joint draws for 2024-2028 from the corresponding authors. No request sent.",
+  "prior_access_note": "This retrieval resolves the earlier browser challenge. Earlier availability notes described that earlier attempt; forecast.csv and the standalone figures are unchanged."
+}

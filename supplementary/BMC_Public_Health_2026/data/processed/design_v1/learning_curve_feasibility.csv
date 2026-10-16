@@ -1,0 +1,5 @@
+origin,history_years,history_start,windows_per_age_sex,included,settings
+2018,10,2009,0,False,fixed_defaults_no_full_history_target_tuning
+2018,15,2004,3,True,fixed_defaults_no_full_history_target_tuning
+2018,20,1999,8,True,fixed_defaults_no_full_history_target_tuning
+2018,29,1990,17,True,fixed_defaults_no_full_history_target_tuning

@@ -1,0 +1,13 @@
+target,outcome,passed,gates_passed,gates_total
+Bahrain,incidence,False,35,38
+Bahrain,prevalence,False,29,38
+Kuwait,incidence,False,29,38
+Kuwait,prevalence,False,30,38
+Oman,incidence,False,32,38
+Oman,prevalence,False,31,38
+Qatar,incidence,False,31,38
+Qatar,prevalence,False,36,38
+Saudi Arabia,incidence,False,30,38
+Saudi Arabia,prevalence,False,36,38
+United Arab Emirates,incidence,False,33,38
+United Arab Emirates,prevalence,False,30,38

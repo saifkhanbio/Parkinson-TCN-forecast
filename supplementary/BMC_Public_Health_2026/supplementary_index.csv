@@ -1,0 +1,508 @@
+supplementary_identifier,title,archive_member,member_type,processing
+Supplementary Material S1,"Source provenance, locked protocol and amendments",study_design/locked_v1/protocol.md,file,Unmodified source copy
+Supplementary Material S1,"Source provenance, locked protocol and amendments",study_design/locked_v1/design.json,file,Unmodified source copy
+Supplementary Material S1,"Source provenance, locked protocol and amendments",results/source_asr_verification_v1/workbook_comparison_4284.csv,file,Public verification extract: source values/bounds and reconstructive differences omitted; 4284 row identifiers and match flags retained
+Supplementary Material S1,"Source provenance, locked protocol and amendments",results/source_asr_verification_v1/coverage.csv,file,Unmodified source copy
+Supplementary Material S1,"Source provenance, locked protocol and amendments",reports/source_hierarchy_verification_v1/report.md,file,Unmodified source copy
+Supplementary Material S1,"Source provenance, locked protocol and amendments",results/source_compatibility_v1/native_coverage.csv,file,Unmodified source copy
+Supplementary Material S1,"Source provenance, locked protocol and amendments",results/source_compatibility_v1/saudi_2023_population_comparison.csv,file,Unmodified source copy
+Supplementary Material S1,"Source provenance, locked protocol and amendments",results/source_compatibility_v1/forecast_draw_schema.json,file,Unmodified source copy
+Supplementary Material S2,Exploratory mixture specification and complete decision rule,study_design/distribution_mixture_v1.md,file,Unmodified source copy
+Supplementary Material S2,Exploratory mixture specification and complete decision rule,study_design/distribution_mixture_v1.json,file,Unmodified source copy
+Supplementary Material S2,Exploratory mixture specification and complete decision rule,reports/distribution_mixture_v1/decision_gates.csv,file,Unmodified source copy
+Supplementary Material S2,Exploratory mixture specification and complete decision rule,reports/distribution_mixture_v1/decisions.csv,file,Unmodified source copy
+Supplementary Material S3,Execution provenance and independent verification,reports/global_asr_cpu_recovery_v1/report.md,file,Unmodified source copy
+Supplementary Material S3,Execution provenance and independent verification,work/completion-validation/global_gpu_failure_review.json,file,Unmodified source copy
+Supplementary Material S3,Execution provenance and independent verification,reports/study_synthesis_v1_2/validation.json,file,Unmodified source copy
+Supplementary Material S3,Execution provenance and independent verification,reports/distribution_mixture_v1/validation.json,file,Unmodified source copy
+Supplementary Table S1,All primary model-family and age-specific comparisons,results/primary_v1/primary_by_family.csv,file,Unmodified source copy
+Supplementary Table S1,All primary model-family and age-specific comparisons,results/primary_v1/primary_age_contrasts.csv,file,Unmodified source copy
+Supplementary Table S1,All primary model-family and age-specific comparisons,study_design/locked_v1/design.json,file,Unmodified source copy
+Supplementary Table S2,Complete GCC endpoint and rolling model-family results,reports/secondary_v1/endpoint_contrasts.csv,file,Unmodified source copy
+Supplementary Table S2,Complete GCC endpoint and rolling model-family results,reports/secondary_v1/reliability_all_families.csv,file,Unmodified source copy
+Supplementary Table S3,"Donor selection, adaptation harm and target-history budgets",reports/donor_comparisons_gpu_v1/endpoint_percent_changes_vs_gpu_reference.csv,file,Unmodified source copy
+Supplementary Table S3,"Donor selection, adaptation harm and target-history budgets",results/learning_curves_v1/summary.csv,file,Unmodified source copy
+Supplementary Table S3,"Donor selection, adaptation harm and target-history budgets",results/learning_curves_v1/adaptation_comparisons.csv,file,Unmodified source copy
+Supplementary Table S4,Separate global standardised-rate benchmark,reports/study_synthesis_v1_2/saudi_global_asr_comparisons.csv,file,Unmodified source copy
+Supplementary Table S4,Separate global standardised-rate benchmark,results/global_asr_cpu_recovery_v1/predictions.csv,file,Unmodified source copy
+Supplementary Table S5,Original and earlier exploratory reliability procedures,reports/secondary_v1/reliability_80_rate_coverage.csv,file,Unmodified source copy
+Supplementary Table S5,Original and earlier exploratory reliability procedures,reports/reliability_v1_3/saudi_all_procedures.csv,file,Unmodified source copy
+Supplementary Table S5,Original and earlier exploratory reliability procedures,reports/reliability_v1_3/burden_endpoint_summary.csv,file,Unmodified source copy
+Supplementary Table S6,"Complete mixture interval, derived-burden and quantile-control results",reports/distribution_mixture_v1/rate_comparison.csv,file,Unmodified source copy
+Supplementary Table S6,"Complete mixture interval, derived-burden and quantile-control results",reports/distribution_mixture_v1/burden_comparison.csv,file,Unmodified source copy
+Supplementary Table S6,"Complete mixture interval, derived-burden and quantile-control results",reports/distribution_mixture_v1/quantile_convention_effect.csv,file,Unmodified source copy
+Supplementary Table S7,"Demographic scenarios, accounting and native-count coherence",reports/population_sensitivity_v1/saudi_population_source_comparison.csv,file,Unmodified source copy
+Supplementary Table S7,"Demographic scenarios, accounting and native-count coherence",reports/population_sensitivity_v1/saudi_80plus_share_endpoint.csv,file,Unmodified source copy
+Supplementary Table S7,"Demographic scenarios, accounting and native-count coherence",reports/population_sensitivity_v1/final_2018_error_accounting.csv,file,Unmodified source copy
+Supplementary Table S7,"Demographic scenarios, accounting and native-count coherence",results/count_coherence_v1/summary.csv,file,Unmodified source copy
+Supplementary Table S7,"Demographic scenarios, accounting and native-count coherence",reports/study_synthesis_v1_2/saudi_2028_scenario_totals.csv,file,Unmodified source copy
+Supplementary Table S8,"Mortality, disability, component and history sensitivities",reports/supporting_v1/endpoint_tcn_comparisons.csv,file,Unmodified source copy
+Supplementary Table S8,"Mortality, disability, component and history sensitivities",reports/supporting_v1/rate_interval_five_origin.csv,file,Unmodified source copy
+Supplementary Table S8,"Mortality, disability, component and history sensitivities",reports/supporting_v1/component_daly_comparison.csv,file,Unmodified source copy
+Supplementary Table S8,"Mortality, disability, component and history sensitivities",reports/supporting_v1/prevalence_ratio_yld_comparison.csv,file,Unmodified source copy
+Supplementary Table S8,"Mortality, disability, component and history sensitivities",reports/supporting_v1/mortality_history_comparison.csv,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/__init__.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/adaptation.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/count_coherence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/disability_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/donors.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/dynamic_joint.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/evaluation.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/learning_curves.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/local.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/pooled.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/prequential.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/scoring.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/structured_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",src/gbd_park/tcn_forecasting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/acquire_jdr_citation_evidence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_jdr_data_citations.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_population_denominators_v2.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/audit_source_compatibility.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/benchmark_parallel.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/benchmark_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_ije_manuscript.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_jdr_manuscript.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/build_jdr_references.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/draw_study_flowchart.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/export_forecast_comparison.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/extract_existing_saudi_checkpoints.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/finalize_bounded_extension.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/finalize_study.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/finalize_study_cpu_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/finalize_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/jdr_additional_analysis.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/jdr_reference_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/monitor_secondary_resources.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_jdr_figures.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/plot_standalone_forecast_comparison.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_donor_comparisons.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_local_baselines.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_parallel_execution.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_primary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_reliability_v1_3.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_study_synthesis.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_study_synthesis_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_study_synthesis_verified.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/report_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_count_coherence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_disability_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_donor_comparisons.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_global_asr_cpu_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_learning_curves.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_local_baselines.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_mortality_history_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_primary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_release_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_reliability_v1_3.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/run_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/validate_jdr_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/validate_source_compatibility_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/verify_downloaded_gbd_hierarchy.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",scripts/verify_native_asr_export.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_calibration_runner.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_count_coherence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_demography_runner.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_disability_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_donor_comparisons.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_donors.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_dynamic_joint.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_global_asr_cpu_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_learning_curves.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_local_baselines.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_mortality_history.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_primary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_release_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_reliability_runner.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_structured_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_supporting_report_pipeline.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",tests/test_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",study_design/locked_v1/build_design.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",supporting_data/2026-09-26/acquire.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",supporting_data/2026-09-26/discover_more.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",supporting_data/2026-09-26/prepare_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",supporting_data/2026-09-26/probe_sources.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",supporting_data/2026-09-30_source_audit/acquire_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/completion-validation/audit_learning.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/completion-validation/test_finalize_study.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/completion-validation/test_report_review.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/donor-comparison-validation/synthetic_end_to_end.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/global-asr-cpu-recovery-validation/test_supervisor.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/global-asr-cpu-recovery-validation/test_synthesis_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/global-asr-validation/audit_projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/global-asr-validation/benchmark.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/hardware-assessment-2026-09-26/benchmark.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/learning-curves-validation/audit_global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/modeling-options-2026-09-29/inspect_modeling_options.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/new-data-review-2026-09-27/audit_new_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/new-data-review-2026-09-27/plot_new_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/new-data-review-2026-09-27/refresh_pubmed.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/population-sensitivity-validation/audit.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/primary-error-diagnostics/report.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/primary-validation/replay_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/reliability-validation/dynamic_fit_diagnostic.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/secondary-validation/synthetic_pipeline.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/supporting-validation/audit_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/supporting-validation/audit_history.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, plotting, acquisition, tests and audit source",work/supporting-validation/audit_rates.py,file,Unmodified source copy
+Supplementary Figure S1,saudi derived coverage,reports/calibration_v1_2/saudi_derived_coverage.svg,file,Unmodified source copy
+Supplementary Figure S2,saudi rate coverage 45plus,reports/calibration_v1_2/saudi_rate_coverage_45plus.svg,file,Unmodified source copy
+Supplementary Figure S3,saudi rate coverage 80plus,reports/calibration_v1_2/saudi_rate_coverage_80plus.svg,file,Unmodified source copy
+Supplementary Figure S4,saudi age shares,reports/demography_v1/saudi_age_shares.svg,file,Unmodified source copy
+Supplementary Figure S5,saudi count forecasts,reports/demography_v1/saudi_count_forecasts.svg,file,Unmodified source copy
+Supplementary Figure S6,saudi sex rate ratios,reports/demography_v1/saudi_sex_rate_ratios.svg,file,Unmodified source copy
+Supplementary Figure S7,saudi coverage,reports/distribution_mixture_v1/saudi_coverage.svg,file,Unmodified source copy
+Supplementary Figure S8,donor endpoint comparison,reports/donor_comparisons_gpu_v1/donor_endpoint_comparison.svg,file,Unmodified source copy
+Supplementary Figure S9,donor rolling origins,reports/donor_comparisons_gpu_v1/donor_rolling_origins.svg,file,Unmodified source copy
+Supplementary Figure S10,interval coverage all variants,reports/improvements_v1/interval_coverage_all_variants.svg,file,Unmodified source copy
+Supplementary Figure S11,point errors and age bias,reports/improvements_v1/point_errors_and_age_bias.svg,file,Unmodified source copy
+Supplementary Figure S12,development coverage,reports/intervals_v1/development_coverage.svg,file,Unmodified source copy
+Supplementary Figure S13,learning curves,reports/learning_curves_v1/learning_curves.svg,file,Unmodified source copy
+Supplementary Figure S14,development errors,reports/local_baselines_v1/development_errors.svg,file,Unmodified source copy
+Supplementary Figure S15,development errors,reports/nonneural_v1/development_errors.svg,file,Unmodified source copy
+Supplementary Figure S16,utilization,reports/parallel_execution_v1/utilization.svg,file,Unmodified source copy
+Supplementary Figure S17,saudi 80plus share population scenarios,reports/population_sensitivity_v1/saudi_80plus_share_population_scenarios.svg,file,Unmodified source copy
+Supplementary Figure S18,saudi population sources 2023,reports/population_sensitivity_v1/saudi_population_sources_2023.svg,file,Unmodified source copy
+Supplementary Figure S19,age80plus trajectories,reports/primary_error_diagnostics/age80plus_trajectories.svg,file,Unmodified source copy
+Supplementary Figure S20,primary age errors,reports/primary_v1/primary_age_errors.svg,file,Unmodified source copy
+Supplementary Figure S21,primary summary,reports/primary_v1/primary_summary.svg,file,Unmodified source copy
+Supplementary Figure S22,saudi 45plus coverage,reports/reliability_v1_3/saudi_45plus_coverage.svg,file,Unmodified source copy
+Supplementary Figure S23,saudi 80plus coverage,reports/reliability_v1_3/saudi_80plus_coverage.svg,file,Unmodified source copy
+Supplementary Figure S24,saudi derived coverage,reports/reliability_v1_3/saudi_derived_coverage.svg,file,Unmodified source copy
+Supplementary Figure S25,saudi dynamic preorigin tracking,reports/reliability_v1_3/saudi_dynamic_preorigin_tracking.svg,file,Unmodified source copy
+Supplementary Figure S26,endpoint comparisons,reports/secondary_v1/endpoint_comparisons.svg,file,Unmodified source copy
+Supplementary Figure S27,endpoint coverage,reports/secondary_v1/endpoint_coverage.svg,file,Unmodified source copy
+Supplementary Figure S28,saudi projection scenarios,reports/study_synthesis_v1/saudi_projection_scenarios.svg,file,Unmodified source copy
+Supplementary Figure S29,saudi projection scenarios,reports/study_synthesis_v1_1/saudi_projection_scenarios.svg,file,Unmodified source copy
+Supplementary Figure S30,saudi projection scenarios,reports/study_synthesis_v1_2/saudi_projection_scenarios.svg,file,Unmodified source copy
+Supplementary Figure S31,gcc disability accounting comparison,reports/supporting_v1/gcc_disability_accounting_comparison.svg,file,Unmodified source copy
+Supplementary Figure S32,saudi supporting rate errors,reports/supporting_v1/saudi_supporting_rate_errors.svg,file,Unmodified source copy
+Supplementary Figure S33,development errors,reports/tcn_v1/development_errors.svg,file,Unmodified source copy
+Supplementary Table S9,National population and fixed-rate burden sensitivity,reports/saudi_raw_integration_v1/population_comparison_2022_2023.csv,file,Unmodified source copy
+Supplementary Table S9,National population and fixed-rate burden sensitivity,reports/saudi_raw_integration_v1/national_denominator_count_sensitivity_cells.csv,file,Unmodified source copy
+Supplementary Table S9,National population and fixed-rate burden sensitivity,reports/saudi_raw_integration_v1/national_denominator_count_sensitivity_summary.csv,file,Unmodified source copy
+Supplementary Table S9,National population and fixed-rate burden sensitivity,reports/saudi_raw_integration_v1/moh_2022_source_cells.csv,file,Unmodified source copy
+Supplementary Table S9,National population and fixed-rate burden sensitivity,reports/saudi_raw_integration_v1/moh_gccstat_age_key_audit.csv,file,Unmodified source copy
+Supplementary Table S9,National population and fixed-rate burden sensitivity,reports/saudi_raw_integration_v1/gastat_840_cell_duplicate_check.csv,file,Unmodified source copy
+Supplementary Table S10,Insurance composition and source eligibility,reports/saudi_raw_integration_v1/chi_quarter_composition.csv,file,Unmodified source copy
+Supplementary Table S10,Insurance composition and source eligibility,reports/saudi_raw_integration_v1/chi_2024_population_composition_comparison.csv,file,Unmodified source copy
+Supplementary Table S10,Insurance composition and source eligibility,reports/saudi_raw_integration_v1/chi_original_age_composition.csv,file,Unmodified source copy
+Supplementary Table S10,Insurance composition and source eligibility,reports/saudi_raw_integration_v1/chi_excluded_total_rows.csv,file,Unmodified source copy
+Supplementary Table S11,Nationally anchored conditional projections,reports/saudi_raw_integration_v1/conditional_projection_cells_2024_2028.csv,file,Unmodified source copy
+Supplementary Table S11,Nationally anchored conditional projections,reports/saudi_raw_integration_v1/conditional_projection_summary_2024_2028.csv,file,Unmodified source copy
+Supplementary Table S11,Nationally anchored conditional projections,reports/saudi_raw_integration_v1/original_projection_reproduction.csv,file,Unmodified source copy
+Supplementary Figure S34,demographic integration,reports/saudi_raw_integration_v1/figures/supplementary_figure_S34_demographic_integration.pdf,file,Unmodified source copy
+Supplementary Figure S35,insurance composition,reports/saudi_raw_integration_v1/figures/supplementary_figure_S35_insurance_composition.pdf,file,Unmodified source copy
+Supplementary Material S4,Saudi raw-data integration methods and interpretation,reports/saudi_raw_integration_v1/raw_data_integration_report.docx,file,Unmodified source copy
+Supplementary Material S4,Source eligibility and hash validation,reports/saudi_raw_integration_v1/validation.json,file,Unmodified source copy
+Supplementary Material S4,Scientific validation checks,reports/saudi_raw_integration_v1/scientific_validation.json,file,Unmodified source copy
+Supplementary Material S4,Source eligibility and hash validation,reports/saudi_raw_integration_v1/data_use_and_eligibility.csv,file,Unmodified source copy
+Supplementary Material S4,Exploratory analysis specification,study_design/raw_data_integration_2026-10-03.json,file,Unmodified source copy
+Supplementary Material S4,Prepared demographic and insurance tables,data/processed/saudi_raw_integration_v1/chi_beneficiary_class_by_original_age.csv,file,Unmodified source copy
+Supplementary Material S4,Prepared demographic and insurance tables,data/processed/saudi_raw_integration_v1/chi_category_cells.csv,file,Unmodified source copy
+Supplementary Material S4,Prepared demographic and insurance tables,data/processed/saudi_raw_integration_v1/national_population_2022_2024.csv,file,Unmodified source copy
+Supplementary Material S4,Prepared demographic and insurance tables,data/processed/saudi_raw_integration_v1/population_2022_corrected_linkage.csv,file,Unmodified source copy
+Supplementary Software S1,Saudi raw-data integration scripts,scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
+Supplementary Software S1,Saudi raw-data integration scripts,scripts/report_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,Scientific validation checks,tests/test_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/Data_Citation_Audit.docx,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/data_citation_audit.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/provider_citation_audit/retrieval_manifest.json,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/Supplementary_Data_References.docx,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/data_source_register.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/data_file_citation_crosswalk.csv,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/citation_audit_validation.json,file,Unmodified source copy
+Supplementary Material S1,Provider citation and attribution audit,manuscript/JDR_GBD_PARK/references/provider_citation_audit/unresolved_metadata.csv,file,Unmodified source copy
+Supplementary Table S12,Exact 2024–2028 changes from matched 2023 baselines,forecast_percentage_change.csv,file,Unmodified source copy
+Supplementary Table S12,Exact forecasts and published projection context,forecast.csv,file,Unmodified source copy
+Supplementary Table S12,All demographic decompositions,manuscript/JDR_GBD_PARK/analysis/forecast_growth_decomposition.csv,file,Unmodified source copy
+Supplementary Table S12,Baseline burden by sex and age,manuscript/JDR_GBD_PARK/analysis/saudi_2023_burden_composition.csv,file,Unmodified source copy
+Supplementary Table S12,Matched scenario baseline cells,reports/forecast_percentage_change_v1/scenario_baseline_2023_age_cells.csv,file,Unmodified source copy
+Supplementary Table S13,Resources and reporting-rigor crosswalk,manuscript/JDR_GBD_PARK/reporting_checklist.csv,file,Unmodified source copy
+Supplementary Material S5,JDR methods reproducibility and reporting audit,manuscript/JDR_GBD_PARK/Reporting_Rigor_Checklist.docx,file,Unmodified source copy
+Supplementary Material S5,Full study limitations,manuscript/JDR_GBD_PARK/Limitations.docx,file,Unmodified source copy
+Supplementary Material S5,Exploratory decomposition validation,manuscript/JDR_GBD_PARK/analysis/validation.json,file,Unmodified source copy
+Supplementary Material S5,Recent literature-window verification,study_design/literature_review/saudi_forecast_window_2026-10-03/verification.json,file,Unmodified source copy
+Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/jdr_additional_analysis.py,file,Unmodified source copy
+Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/plot_jdr_figures.py,file,Unmodified source copy
+Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
+Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/build_jdr_manuscript.py,file,Unmodified source copy
+Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/build_jdr_references.py,file,Unmodified source copy
+Supplementary Software S1,JDR reporting and exploratory analysis software,scripts/jdr_reference_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/acquire_jdr_citation_evidence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_jdr_data_citations.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_population_denominators_v2.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/audit_source_compatibility.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/benchmark_parallel.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/benchmark_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_ije_manuscript.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_jdr_manuscript.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/build_jdr_references.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/draw_study_flowchart.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/export_forecast_comparison.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/extract_existing_saudi_checkpoints.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/finalize_bounded_extension.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/finalize_study.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/finalize_study_cpu_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/finalize_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/integrate_saudi_raw_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/jdr_additional_analysis.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/jdr_reference_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/monitor_secondary_resources.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_forecast_percentage_change.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_jdr_figures.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/plot_standalone_forecast_comparison.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_donor_comparisons.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_local_baselines.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_parallel_execution.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_primary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_reliability_v1_3.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_study_synthesis.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_study_synthesis_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_study_synthesis_verified.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/report_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_count_coherence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_disability_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_donor_comparisons.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_global_asr_cpu_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_learning_curves.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_local_baselines.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_mortality_history_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_primary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_release_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_reliability_v1_3.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/run_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/validate_jdr_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/validate_source_compatibility_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/verify_downloaded_gbd_hierarchy.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",scripts/verify_native_asr_export.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/__init__.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/adaptation.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/count_coherence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/disability_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/donors.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/dynamic_joint.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/evaluation.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/learning_curves.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/local.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/pooled.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/prequential.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/scoring.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/structured_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",src/gbd_park/tcn_forecasting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",study_design/dataset_citations_2026-10-01/acquire_references.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",study_design/dataset_citations_2026-10-01/build_citation_package.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",study_design/literature_review/check_preprint.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",study_design/literature_review/search_pubmed.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",study_design/locked_v1/build_design.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-09-26/acquire.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-09-26/discover_more.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-09-26/prepare_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-09-26/probe_sources.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-09-30_source_audit/acquire_metadata.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-10-01_saudi_evidence/acquire_public.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",supporting_data/2026-10-01_saudi_evidence/prepare_public.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_bayesian_age_time.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_calibration_runner.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_count_coherence.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_demography.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_demography_runner.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_disability_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_distribution_mixture.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_donor_comparisons.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_donors.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_dynamic_joint.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_global_asr_cpu_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_improvements.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_intervals.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_learning_curves.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_local_baselines.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_mortality_history.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_population_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_primary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_release_sensitivity.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_reliability_runner.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_saudi_raw_integration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_secondary.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_structured_calibration.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_supporting.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_supporting_report_pipeline.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",tests/test_tcn.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/completion-validation/audit_learning.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/completion-validation/test_finalize_study.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/completion-validation/test_report_review.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/donor-comparison-validation/synthetic_end_to_end.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/global-asr-cpu-recovery-validation/test_supervisor.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/global-asr-cpu-recovery-validation/test_synthesis_recovery.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/global-asr-validation/audit_projections.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/global-asr-validation/benchmark.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/hardware-assessment-2026-09-26/benchmark.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/learning-curves-validation/audit_global_asr.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/modeling-options-2026-09-29/inspect_modeling_options.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/new-data-review-2026-09-27/audit_new_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/new-data-review-2026-09-27/plot_new_data.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/new-data-review-2026-09-27/refresh_pubmed.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/population-sensitivity-validation/audit.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/primary-error-diagnostics/report.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/primary-validation/replay_nonneural.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/reliability-validation/dynamic_fit_diagnostic.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/secondary-validation/synthetic_pipeline.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/supporting-validation/audit_components.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/supporting-validation/audit_history.py,file,Unmodified source copy
+Supplementary Software S1,"Analysis, acquisition, reporting, test and audit source",work/supporting-validation/audit_rates.py,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",data/processed/design_v1/country_crosswalk.csv,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",data/processed/design_v1/evaluation_calendar.csv,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",data/processed/design_v1/learning_curve_feasibility.csv,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",data/processed/design_v1/validation_report.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",results/source_asr_verification_v1/checks.csv,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",results/source_asr_verification_v1/summary.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",results/source_asr_verification_v1/validation.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/locked_v1/lock_manifest.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/bounded_extension_2026-10-01.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/bounded_extension_2026-10-01.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/bounded_extension_2026-10-01_lock.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_file_citations.csv,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_source_references.bib,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/data_source_references.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/demography_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/distribution_mixture_v1.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/distribution_mixture_v1.lock.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/distribution_mixture_v1.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/donor_comparisons_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/donor_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/exploratory_v1_1.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/exploratory_v1_1.lock.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/exploratory_v1_1.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/forecast_comparison_2026-10-03.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/global_asr_cpu_recovery_2026-09-30.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/global_asr_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/interval_calibration_v1_2.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/interval_calibration_v1_2.lock.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/interval_calibration_v1_2.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/intervals_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/learning_curves_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/local_baselines_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/nonneural_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/population_sensitivity_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/primary_evaluation_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/projections_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/raw_data_integration_2026-10-03.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/release_sensitivity_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/reliability_v1_3.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/reliability_v1_3.lock.json,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/reliability_v1_3.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/secondary_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/supporting_outcomes_implementation.md,file,Unmodified source copy
+Supplementary Material S1,"Locked specifications, amendments, source provenance and validation metadata",study_design/tcn_implementation.md,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/bayesian_age_time_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/calibration_v1_2/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/count_coherence_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/demography_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/disability_components_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/distribution_mixture_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/donor_comparisons_gpu_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/global_asr_cpu_recovery_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/global_asr_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/improvements_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/intervals_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/learning_curves_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/local_baselines_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/mortality_history_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/nonneural_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/population_sensitivity_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/primary_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/projections_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/release_sensitivity_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/reliability_v1_3/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/secondary_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/supporting_v1/run_manifest.json,file,Unmodified source copy
+Supplementary Material S3,Original execution manifest,results/tcn_v1/run_manifest.json,file,Unmodified source copy

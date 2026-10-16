@@ -1,0 +1,17 @@
+target,outcome,sex,year,age_group,gbd_population,un_population,un_minus_gbd_percent,gastat_population,gastat_source_cells,un_minus_gastat_percent,gbd_minus_gastat_percent,role
+Saudi Arabia,incidence,Female,2023,45-64,1699686.1217794595,1792125,5.438585220885561,1743868,Q13|Q14|Q15|Q16,2.7672392635222476,-2.533556336863829,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Female,2023,65-79,330139.14997078606,348448,5.545797894867688,336993,Q17|Q18|Q19,3.399180398405899,-2.033825637094522,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Female,2023,80+,40805.3973069104,73030,78.97142245845099,81046,Q20,-9.890679367272902,-49.651559229437105,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Female,2023,45+,2070630.6690571562,2213603,6.904772206814891,2161907,Q13|Q14|Q15|Q16|Q17|Q18|Q19|Q20,2.3912221941091882,-4.222028558251756,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Male,2023,45-64,3376809.2156465333,3522946,4.327658893974173,3395317,R13|R14|R15|R16,3.7589715481647135,-0.5450973901248934,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Male,2023,65-79,408594.73325212585,450363,10.222419269927485,421142,R17|R18|R19,6.938514800233642,-2.9793434869650026,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Male,2023,80+,51263.562737104265,66051,28.845902378518606,81878,R20,-19.329978748870268,-37.390309073127995,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,incidence,Male,2023,45+,3836667.511635763,4039360,5.283035023220428,3898337,R13|R14|R15|R16|R17|R18|R19|R20,3.6175169052855116,-1.58194348934525,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Female,2023,45-64,1699686.1217792765,1792125,5.438585220896908,1743868,Q13|Q14|Q15|Q16,2.7672392635222476,-2.533556336874321,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Female,2023,65-79,330139.1499707847,348448,5.54579789486811,336993,Q17|Q18|Q19,3.399180398405899,-2.0338256370949215,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Female,2023,80+,40805.397306910265,73030,78.97142245845158,81046,Q20,-9.890679367272902,-49.65155922943728,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Female,2023,45+,2070630.6690569716,2213603,6.904772206824417,2161907,Q13|Q14|Q15|Q16|Q17|Q18|Q19|Q20,2.3912221941091882,-4.222028558260293,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Male,2023,45-64,3376809.2156457347,3522946,4.3276588939988425,3395317,R13|R14|R15|R16,3.7589715481647135,-0.545097390148408,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Male,2023,65-79,408594.73325212114,450363,10.222419269928773,421142,R17|R18|R19,6.938514800233642,-2.979343486966124,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Male,2023,80+,51263.5627371037,66051,28.845902378520027,81878,R20,-19.329978748870268,-37.39030907312868,source_comparison_reference_date_comparability_unverified
+Saudi Arabia,prevalence,Male,2023,45+,3836667.51163496,4039360,5.283035023242477,3898337,R13|R14|R15|R16|R17|R18|R19|R20,3.6175169052855116,-1.5819434893658557,source_comparison_reference_date_comparability_unverified

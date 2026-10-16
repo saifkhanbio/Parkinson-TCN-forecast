@@ -1,0 +1,16 @@
+{
+  "locked_utc": "2026-09-29T19:22:04.139385+00:00",
+  "status": "exploratory_after_results_viewed",
+  "document_sha256": {
+    "study_design/interval_calibration_v1_2.md": "f52fefdfc5c4da708765dbbe52acb8fa20cac2e77c0a727fa344d44b06b4f5c6",
+    "study_design/interval_calibration_v1_2.json": "c4429725c8200b5b3654ff4b99e21f707cce70d1417384fd0ae9a0000b6b2f67"
+  },
+  "prior_manifest_sha256": {
+    "intervals_v1": "bcd921ce6e93816a5a06ae7736dffcc64fb01c1039311ef2f74726541985a170",
+    "primary_v1": "e71fe62722f673fc8700b97d92f17bcdaf193f370019ee19740eade609cf9514",
+    "secondary_v1": "9fa9c6187330ea65087d6bb13a5768fee7c356921b767e3ccf62c4eedd762cbd",
+    "demography_v1": "78951065abf333ecd4e48c93b10c67a63657627ff9d657fff6d4a37a708a088d"
+  },
+  "original_design_lock_sha256": "cf7199a5d5a2d6bac9a2194f4c6025653688dfb4a66c6b47644daabd335fa56f",
+  "review": "Independent pre-implementation review found no design blocker; see work/calibration-validation/review.md."
+}

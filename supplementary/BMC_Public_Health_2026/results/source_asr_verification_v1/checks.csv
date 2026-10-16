@@ -1,0 +1,13 @@
+check,passed,detail
+native_schema,True,Native ID/name schema and marginal bounds
+unique_keys,True,One row per location/outcome/sex/year for this single age/metric/cause
+correct_estimand,True,"Age-standardized Rate, Parkinson disease, All Population"
+complete_regional_export,True,"7 locations x 3 sexes; 44 fatal years, 34 years for other measures"
+finite_ordered_bounds,True,All 4704 point/lower/upper triplets
+workbook_comparison_unique,True,7 countries x 34 years x 6 measures x 3 sexes
+all_overlapping_points_match,True,Tolerance 0.005000001 per 100000 for workbook display precision of 0.01
+additional_rows_are_earlier_fatal_history,True,"Earlier years are absent from workbook, not mismatched"
+all_saudi_checkpoints_match,True,All requested Saudi points and source bounds now available
+prior_local_extraction_reproduced,True,Previously extracted workbook checkpoints agree
+daly_point_identity,True,Point DALY ASR approximately equals YLD plus YLL ASR; marginal bounds are not added
+published_release_asr_points_linked,True,36 GCC published old-release ASR points linked to native new-release points

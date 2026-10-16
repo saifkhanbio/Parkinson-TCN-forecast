@@ -1,0 +1,52 @@
+﻿file_path,file_kind,reference_labels,bibtex_keys,retrieval_date,citation_status
+supporting_data/2026-09-26/raw/gccstat_population_age_sex_nationality.csv,original,D3,GCCSTAT_Population_v1,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/saudi_moh_yearbook_2023.xlsx,original,D5,SaudiMOH_Yearbook2023,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/saudi_moh_yearbook_2024.xlsx,original,D6,SaudiMOH_Yearbook2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/mena_gbd2019_article.xml,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM1_ESM.docx,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM2_ESM.docx,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM3_ESM.docx,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM4_ESM.doc,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM5_ESM.docx,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM6_ESM.docx,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/menasa_registry_questionnaire.docx,original,D8,Khalil2025_MENASA,2026-09-26,documentation only
+supporting_data/2026-09-26/raw/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz,original,D2,UN_WPP2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/WPP2024_Demographic_Indicators_notes.csv,original,D2,UN_WPP2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/WPP2024_Locations_notes.csv,original,D2,UN_WPP2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/12889_2023_15018_MOESM7_ESM.docx,original,D7,Safiri2023_MENA_PD,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/WPP2024_CSV_files_update.zip,original,D2,UN_WPP2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/GASTAT_Population_Estimates_2024_EN.pdf,original,D4,GASTAT_Population2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/raw/GASTAT_Population_Estimates_EN.xlsx,original,D4,GASTAT_Population2024,2026-09-26,available; cite if used
+supporting_data/2026-09-26/processed/gastat_saudi_population_age_sex_nationality_2023_2024.csv,derived,D4,GASTAT_Population2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/gastat_vs_gccstat_population_comparison_2023_2024.csv,derived,D4;D3,GASTAT_Population2024;GCCSTAT_Population_v1,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/gccstat_coverage_and_quality.csv,derived,D3,GCCSTAT_Population_v1,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/gccstat_population_labeled.csv,derived,D3,GCCSTAT_Population_v1,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/gccstat_saudi_population_age_sex_nationality_2010_2024.csv,derived,D3,GCCSTAT_Population_v1,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/published_gcc_gbd2019_tables_1990_2019.csv,derived,D7,Safiri2023_MENA_PD,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/published_mena_gbd2019_tables_1990_2019.csv,derived,D7,Safiri2023_MENA_PD,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/saudi_moh_neurologists_2023_2024.csv,derived,D5;D6,SaudiMOH_Yearbook2023;SaudiMOH_Yearbook2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/saudi_moh_relevant_sheet_index.csv,derived,D5;D6,SaudiMOH_Yearbook2023;SaudiMOH_Yearbook2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/un_wpp2024_gcc_45plus_gbd_age_bands.csv,derived,D2,UN_WPP2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/un_wpp2024_gcc_age_sex_1990_2050.csv,derived,D2,UN_WPP2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/un_wpp2024_gcc_demographic_features_1990_2050.csv,derived,D2,UN_WPP2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/un_wpp2024_global_demographic_features_1990_2023.csv,derived,D2,UN_WPP2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+supporting_data/2026-09-26/processed/un_wpp2024_saudi_age_sex_1990_2050.csv,derived,D2,UN_WPP2024,2026-09-26 (underlying originals),available; cite original source(s) if used
+More data/IHME-GBD_2023_DATA-e22a15d9-1/IHME-GBD_2023_DATA-e22a15d9-1.csv,user_supplied,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+More data/IHME-GBD_2023_DATA-e22a15d9-1/citation.txt,source_citation,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/audit_summary.json,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/coverage.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/implied_population_consistency.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/age_specific_sex_rate_ratios.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/age_group_counts.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/new_45plus_vs_previous_all_age_counts.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/relative_ui_width_2023.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/saudi_age_counts_2023.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/saudi_age_rates_2023.csv,derived_audit,D1,IHME_GBD2023_AgeSpecific_Export,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/un_vs_gbd_population_comparison.csv,derived_audit,D1;D2,IHME_GBD2023_AgeSpecific_Export;UN_WPP2024,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/new_data_findings.png,derived_audit,D1;D2,IHME_GBD2023_AgeSpecific_Export;UN_WPP2024,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/new-data-review-2026-09-27/new_data_findings.svg,derived_audit,D1;D2,IHME_GBD2023_AgeSpecific_Export;UN_WPP2024,,Inspected/derived 2026-09-27; source GBD download date unverified; preserve supplied citation.
+work/modeling-options-2026-09-29/saudi_2023_burden_composition.csv,derived,D1,IHME_GBD2023_AgeSpecific_Export,,derived 2026-09-29; source extraction date unverified; descriptive GBD estimates
+work/modeling-options-2026-09-29/yld_prevalence_relationship.csv,derived,D1,IHME_GBD2023_AgeSpecific_Export,,"derived 2026-09-29; aggregate modeled burden relationship, not clinical severity"
+work/modeling-options-2026-09-29/moh_rehabilitation_context_by_edition.csv,derived,D5;D6,SaudiMOH_Yearbook2023;SaudiMOH_Yearbook2024,2026-09-26,derived 2026-09-29; rehabilitation for all conditions; raw source retrieval date retained
+data/processed/design_v1/regional_outcomes.csv,derived,D1,IHME_GBD2023_AgeSpecific_Export,,derived 2026-09-29; design v1.0; source extraction date unverified
+data/processed/design_v1/un_population_1990_2028.csv,derived,D2,UN_WPP2024,2026-09-26,derived 2026-09-29 from preserved raw file; includes Jordan; source retrieval date retained

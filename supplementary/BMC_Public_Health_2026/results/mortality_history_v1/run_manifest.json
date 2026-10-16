@@ -1,0 +1,2945 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-30T06:19:18.406410+00:00",
+  "identity": {
+    "code_sha256": {
+      "src/gbd_park/__init__.py": "736db342dbcfc9a4a455c0d4a4310202588f6d9f2e30279d0d6e07a034fade75",
+      "src/gbd_park/local.py": "5d5c0d57aedbf0021baf1f6bbd18719b79b6fbece2c75b1fbb7968d30a98e337",
+      "src/gbd_park/scoring.py": "6b027fe865b717f22a609202b7b153700de46a6c895098048b989191277c0079",
+      "scripts/run_local_baselines.py": "11647b03960ec57696c49924804f3b453638b02c124ae512a70101851f3581b0",
+      "tests/test_local_baselines.py": "449575239ba982b71f1e317b084171c4c904800652f744dfef46a085f06c1c6e",
+      "study_design/local_baselines_implementation.md": "a7244ee524b3f6c4fbea6e588fa59b1f0fd651eb8590533190e15b55cdf48531",
+      "src/gbd_park/pooled.py": "f5c3cbce3447b23daeceba3ce3aa741c39f687140a54336e03cc36066ef53583",
+      "src/gbd_park/adaptation.py": "4cbca2ecdc0bf36b2273216444f40f3b2b2ff17e3db1041b6795cb0d8c5298d3",
+      "tests/test_nonneural.py": "e776d851dbfd5db61c3a00419ab3b7b075ed1e834b3c8ad106762166ad672c7a",
+      "scripts/run_nonneural.py": "1e6185dddfeeaea36527324b132a66a1028d6818750c96a288c79d680a38300f",
+      "study_design/nonneural_implementation.md": "459bc74727efb48d0ed58676172f5219be9f53a1b9f53718b422001bc81d3886",
+      "src/gbd_park/tcn.py": "1a2f04f29c7a80ce5d9685548a0aed8f44b197b02c9baa1f9d8d1acf1f723494",
+      "src/gbd_park/tcn_forecasting.py": "a30f6525f4f72d0fa06baf2fc5bc12626310ddf8e0d91cc2fbeadddf6533407a",
+      "scripts/run_tcn.py": "3dc71351c211e93f9dfc549ccf404e114c2ecd1e1dbeb1c0753426e2bc068797",
+      "tests/test_tcn.py": "ec82f5ed3801d9e44c58d368053052ccb0611988ad1d15f44307051d20064b77",
+      "study_design/tcn_implementation.md": "5f27b505e1c2883753567b8e70e55c9801d9980fde9b37a39813e549de3b37cd",
+      "src/gbd_park/intervals.py": "d93f74e21fb67fab8be572fa520237a5fd4d89dee0a11cd2f1890d176cd1486e",
+      "src/gbd_park/prequential.py": "d5242734a824483d7f75a1de0163938a6c6161aceab9a1670ab56b41fe00f295",
+      "scripts/run_intervals.py": "ee2515ea61828dc6f22d5c6945e002be532584aaf5505c2ca75b390323e77fae",
+      "tests/test_intervals.py": "da46a11e6139f328b07950c064c22fc7ca66c9b189ac9ccb19c4bb0f8d67ac23",
+      "study_design/intervals_implementation.md": "496bc6eb7ed0bbfdeacdc39c869c3920c0b5e9267de55b699bf735450cc524e1",
+      "src/gbd_park/evaluation.py": "17a4202f866b376a4efbbeac7904875fa1bdd31e1fc4a3d086ccfbee5bb27a7f",
+      "scripts/run_primary.py": "835bf67654c4697f3d44c10eb08d9edffcb5fc8bde7b8c13940ce45c61e46fe3",
+      "tests/test_primary.py": "627a3433425b4d676239f3d09d202d3a6b6dc09c4e5f37670069335b0667b1f3",
+      "study_design/primary_evaluation_implementation.md": "304b591aa7351d78f4b6d2afd3f3f091369a07aeb4fee983040409cc2cb756d1",
+      "src/gbd_park/secondary.py": "bd0efc2b8e7305979172b2c1506bdb079dcd2dd69dbcb72e06878a4cf557adfd",
+      "scripts/run_secondary.py": "99ce4762aeb636e341526ac22c4d0c8482586b73ba589eafd9c63c991ae18aad",
+      "tests/test_secondary.py": "bfb573095eafa76afb9cb2487e824bfbb792b5e804a5b6762d7a03b4831145cf",
+      "study_design/secondary_implementation.md": "4ab13b60ca9316a1eb324060efd9e74fd6076da58b513806b8e507b85fd89f76",
+      "src/gbd_park/donors.py": "5bfae53b0a23682f8570429647244bc1c96e7690d772c29d7e954155d753b818",
+      "scripts/run_donor_comparisons.py": "747ef8357a7cd17858cd686265be0a6c4d9e6ccec83a459229345d6765d3b225",
+      "tests/test_donors.py": "77ffaf821506dbd092eae980eb7a6ab66e67366670bb8632e350aad5bc92ff9f",
+      "tests/test_donor_comparisons.py": "36b67fb473407a357d16b307695251ece95ec713eacf436451506b85329517b0",
+      "study_design/donor_implementation.md": "dfd8a08163be86f5544b3b7efbcc471667bd9543725a6fb5a53a575a672d3394",
+      "study_design/donor_comparisons_implementation.md": "c423996abfe6b50cf961188cd9b31ba4c0c3bef25a30e666aa385f64b65ac5a7",
+      "src/gbd_park/demography.py": "2b9c8ed71a58104ac1d69c928cd1d3b2813e7563b465d7a4545bc66167ceec1f",
+      "src/gbd_park/count_coherence.py": "3032b62ba075b0eee7844fcfded344998f3d4ec0e9f8f0beddfdbee86fe75ad2",
+      "scripts/run_demography.py": "ad6bfcc999d3c3e7def311d42b0c63325b0b72e1c9f6d5d38c769510dd97d239",
+      "scripts/run_count_coherence.py": "37da191ca5ca956990015c16cca295a8f3e4cc54ad26ff78a7b83078c06e39b5",
+      "tests/test_demography.py": "10147b9bdb4038909a9db578d860b08341dfbfef3a56a2d03fa91cdaf70f23a7",
+      "tests/test_count_coherence.py": "a5ae5170e73d269c08e658b85b4d20d26cbc31374a4bfe6a7aeeae7cf7b4bcb8",
+      "tests/test_demography_runner.py": "14d1c2fb8b3a9397016f3f3d781ea1cf9095115d61dbd66377933d8e03a2a86a",
+      "study_design/demography_implementation.md": "bbf4682571cb2e3eb1f8b2bc35e861638d1d97e9a7fd8f4caf6cd279e998d0e0",
+      "src/gbd_park/improvements.py": "8ae34a8014df46d672a101731bd07fa4681f897d5ed576bba9e941667270eaa4",
+      "scripts/run_improvements.py": "38d850614d652db283db98910d1e3f90996221a5de30c3335d2e581f84dab943",
+      "tests/test_improvements.py": "059edf7c68c0edaecc4c319d271ed2b58be568234a8f66d1059067f9631087e8",
+      "study_design/exploratory_v1_1.md": "a4da9684b763c25f2b69503a67328bf51e0e55d26da6b273aa4e7470732c3bd6",
+      "study_design/exploratory_v1_1.json": "31b1d1d1326e3ecc6b46a8ee41d9a05f0a009a601af414e6ae3d9ef08260484f",
+      "src/gbd_park/calibration.py": "3b549dbc718e546efd16005c32fb4e6ccf82de9dcbdaa972df2475a7e7cb298e",
+      "tests/test_calibration.py": "e9f05bbc4e7bacfdd40d45df8780e2f07509c4d5ab61d15e11671c7a52ce16b2",
+      "study_design/interval_calibration_v1_2.md": "f52fefdfc5c4da708765dbbe52acb8fa20cac2e77c0a727fa344d44b06b4f5c6",
+      "study_design/interval_calibration_v1_2.json": "c4429725c8200b5b3654ff4b99e21f707cce70d1417384fd0ae9a0000b6b2f67",
+      "study_design/locked_v1/design.json": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+      "scripts/run_calibration.py": "3bfd24c8af8878d167af25bbc413852a817a0bf2f6e95935e2e8b1d9546f2315",
+      "tests/test_calibration_runner.py": "ae0a3ad35c322985d3f541fe4515d2440062ca01fa3dcdc9289040000945cd92",
+      "src/gbd_park/structured_calibration.py": "f036b285b9dcaa9e635700faea9102c152b3c607b8f9a360b1fdb1f1d548e939",
+      "src/gbd_park/dynamic_joint.py": "22837032d9f4a51451abf2f024b32c8cf65b3bb889f33731e2a5803041d8f462",
+      "scripts/run_reliability_v1_3.py": "0797946540d9eb90282dd59b0d9873a3efeba611660ecc9d5de94ce943ea3132",
+      "tests/test_structured_calibration.py": "9933788ddad963647cbc30f7bfe616825f5c136bc8edd3eeec6554f9d4bdafe7",
+      "tests/test_dynamic_joint.py": "c569e41d336d4b0ec36d39006c21c6b375362d3da7ce147b4b2a8e009e4b1295",
+      "tests/test_reliability_runner.py": "83eb63bf7f3c44338da92c338f88dfcc3bbcc2b8dc6cafa23dce6c3a88eff720",
+      "study_design/reliability_v1_3.md": "39b5792e244721574a56b0be5ccf54d5c5f381485d27d3a459490097da0f0e49",
+      "study_design/reliability_v1_3.json": "36a747392a952c54ed90f2f1f58d46102a1c4b25904a60060eb20c4ba96b8942",
+      "src/gbd_park/population_sensitivity.py": "51f83e1bb410222cc4dd30061bcb3521bbd7d6a92d285290c6e2797d6ea93d47",
+      "scripts/run_population_sensitivity.py": "1935844f60c26a9923d7c372999e2d9df18c511a9606275f71239f9512c7685b",
+      "tests/test_population_sensitivity.py": "dffc25055e0327537ef3bbcf64f8afbbc5b412e8364186d94b68ec1a7a0c54e9",
+      "study_design/population_sensitivity_implementation.md": "d0d963f6256541d88dc551c62889b66b5cf86b8a33e04c5a367f2cb8de616f56",
+      "scripts/run_release_sensitivity.py": "3ea6b67e8cac61b05e04d47a91f1f7b317b1641b759a014b7dcad1e63a35dd3e",
+      "tests/test_release_sensitivity.py": "663b4154de233ba47649b91a0c4e410ae50155814c359aad6e5c119790d848d5",
+      "scripts/run_mortality_history_sensitivity.py": "e6dd6775c39ba9ca16408f25c2eb6dee5fe10485eb9df9de407d0d7e7fc31661",
+      "tests/test_mortality_history.py": "6518ab315bb6116c518b2bfc4ffdc65814eda5471de722ff45719c77da867e15",
+      "scripts/run_supporting.py": "d85327a03ff650a1ae7530588116d7334fd1276dfab77b3bf369e7f8d600e7bf",
+      "src/gbd_park/supporting.py": "2a98237013bd6357b9295b903c757a28a20ce28ef67ce9630727f3238bb5f05c",
+      "study_design/supporting_outcomes_implementation.md": "26df5bf587b97e97f6809220b8ff302de56868eeeb5d215d4f23c49cdbd95442"
+    },
+    "prior_manifest_sha256": {
+      "local_baselines_v1": "7e2b9021cb7a4cbb919864aabc507219d1716cadfd62571aaba1dd3bf8599129",
+      "nonneural_v1": "fe62ef05e93c09d92e3fdf1b001d360e8f941fb49b146c29c6b3e29bf9293fe7",
+      "tcn_v1": "af116ca5d8aac0fabd5e72c18cd8e6288e73a70e615b0dde8bc2aafc9cdbb990",
+      "intervals_v1": "bcd921ce6e93816a5a06ae7736dffcc64fb01c1039311ef2f74726541985a170",
+      "primary_v1": "e71fe62722f673fc8700b97d92f17bcdaf193f370019ee19740eade609cf9514",
+      "secondary_v1": "9fa9c6187330ea65087d6bb13a5768fee7c356921b767e3ccf62c4eedd762cbd",
+      "donor_comparisons_gpu_v1": "13ee11e0ed020e90e1cee3b0f87f312105052edf2504113318c560b3e4c9e45c",
+      "demography_v1": "78951065abf333ecd4e48c93b10c67a63657627ff9d657fff6d4a37a708a088d",
+      "count_coherence_v1": "2b339e11b399ce7671961df5a1b7863f1d4b7e08840f40a537d9305f3ea35d77",
+      "improvements_v1": "e141a9b740e82b9e9c0724f5bff1cce69a0d7a4ca967691f02bc9041f3466c8a",
+      "calibration_v1_2": "e707603cf9d86fdc62780393215193c25d31be85f7d44e712d0250aa1f29e362",
+      "reliability_v1_3": "90dff3f40bccd35b095f29222fa1a9d9a89ce3abe1e9f6bb5ecd3e5274e4bbfa",
+      "population_sensitivity_v1": "ea6bae09f601ce44b603329eaf2fe5fa56df80a59b0e615098f48fd18add9ca2",
+      "release_sensitivity_v1": "890012c5a428355613bdc47a1e97fe2dd7b1009ed53e08ec78ad573e9eb3b4cd"
+    },
+    "config_sha256": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+    "source_sha256": "2dab38b3927c67ef02853935e29ffb97b6d6ce6e5f9228eab6b1cbf730ef06b1",
+    "test_report_sha256": "ab160739b8f991a6f7da5270ec47100a579af0f3ccce1cae9cb751473c91a6b1",
+    "versions": {
+      "python": "3.9.23",
+      "numpy": "1.26.4",
+      "pandas": "2.3.1",
+      "torch": "2.8.0+cu128",
+      "scipy": "1.13.1",
+      "sklearn": "1.6.1",
+      "statsmodels": "0.14.5",
+      "joblib": "1.5.1"
+    },
+    "device": "cuda:0",
+    "cpu_workers": 2,
+    "gpu_workers": 4,
+    "jobs": [
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_deaths_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_deaths_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_ylls_history1980",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "SAU_ylls_history1990",
+        "target": "Saudi Arabia",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_deaths_history1980",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_deaths_history1990",
+        "target": "Bahrain",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_ylls_history1980",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "BHR_ylls_history1990",
+        "target": "Bahrain",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_deaths_history1980",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_deaths_history1990",
+        "target": "Kuwait",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_ylls_history1980",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "KWT_ylls_history1990",
+        "target": "Kuwait",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_deaths_history1980",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_deaths_history1990",
+        "target": "Oman",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_ylls_history1980",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "OMN_ylls_history1990",
+        "target": "Oman",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_deaths_history1980",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_deaths_history1990",
+        "target": "Qatar",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_ylls_history1980",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "QAT_ylls_history1990",
+        "target": "Qatar",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_deaths_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_deaths_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "deaths",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_ylls_history1980",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1980,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 11,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 23,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 37,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 53,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "tcn",
+        "base": {
+          "channels": 16,
+          "weight_decay": 0.001,
+          "epochs": 50
+        },
+        "seed": 71,
+        "device": "cuda:0"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Male",
+        "device": "cpu"
+      },
+      {
+        "trial_id": "ARE_ylls_history1990",
+        "target": "United Arab Emirates",
+        "outcome": "ylls",
+        "history_start": 1990,
+        "origin": 2018,
+        "kind": "local",
+        "sex": "Female",
+        "device": "cpu"
+      }
+    ]
+  },
+  "role": "prespecified_supporting_mortality_available_history_sensitivity",
+  "code_sha256": {
+    "src/gbd_park/__init__.py": "736db342dbcfc9a4a455c0d4a4310202588f6d9f2e30279d0d6e07a034fade75",
+    "src/gbd_park/local.py": "5d5c0d57aedbf0021baf1f6bbd18719b79b6fbece2c75b1fbb7968d30a98e337",
+    "src/gbd_park/scoring.py": "6b027fe865b717f22a609202b7b153700de46a6c895098048b989191277c0079",
+    "scripts/run_local_baselines.py": "11647b03960ec57696c49924804f3b453638b02c124ae512a70101851f3581b0",
+    "tests/test_local_baselines.py": "449575239ba982b71f1e317b084171c4c904800652f744dfef46a085f06c1c6e",
+    "study_design/local_baselines_implementation.md": "a7244ee524b3f6c4fbea6e588fa59b1f0fd651eb8590533190e15b55cdf48531",
+    "src/gbd_park/pooled.py": "f5c3cbce3447b23daeceba3ce3aa741c39f687140a54336e03cc36066ef53583",
+    "src/gbd_park/adaptation.py": "4cbca2ecdc0bf36b2273216444f40f3b2b2ff17e3db1041b6795cb0d8c5298d3",
+    "tests/test_nonneural.py": "e776d851dbfd5db61c3a00419ab3b7b075ed1e834b3c8ad106762166ad672c7a",
+    "scripts/run_nonneural.py": "1e6185dddfeeaea36527324b132a66a1028d6818750c96a288c79d680a38300f",
+    "study_design/nonneural_implementation.md": "459bc74727efb48d0ed58676172f5219be9f53a1b9f53718b422001bc81d3886",
+    "src/gbd_park/tcn.py": "1a2f04f29c7a80ce5d9685548a0aed8f44b197b02c9baa1f9d8d1acf1f723494",
+    "src/gbd_park/tcn_forecasting.py": "a30f6525f4f72d0fa06baf2fc5bc12626310ddf8e0d91cc2fbeadddf6533407a",
+    "scripts/run_tcn.py": "3dc71351c211e93f9dfc549ccf404e114c2ecd1e1dbeb1c0753426e2bc068797",
+    "tests/test_tcn.py": "ec82f5ed3801d9e44c58d368053052ccb0611988ad1d15f44307051d20064b77",
+    "study_design/tcn_implementation.md": "5f27b505e1c2883753567b8e70e55c9801d9980fde9b37a39813e549de3b37cd",
+    "src/gbd_park/intervals.py": "d93f74e21fb67fab8be572fa520237a5fd4d89dee0a11cd2f1890d176cd1486e",
+    "src/gbd_park/prequential.py": "d5242734a824483d7f75a1de0163938a6c6161aceab9a1670ab56b41fe00f295",
+    "scripts/run_intervals.py": "ee2515ea61828dc6f22d5c6945e002be532584aaf5505c2ca75b390323e77fae",
+    "tests/test_intervals.py": "da46a11e6139f328b07950c064c22fc7ca66c9b189ac9ccb19c4bb0f8d67ac23",
+    "study_design/intervals_implementation.md": "496bc6eb7ed0bbfdeacdc39c869c3920c0b5e9267de55b699bf735450cc524e1",
+    "src/gbd_park/evaluation.py": "17a4202f866b376a4efbbeac7904875fa1bdd31e1fc4a3d086ccfbee5bb27a7f",
+    "scripts/run_primary.py": "835bf67654c4697f3d44c10eb08d9edffcb5fc8bde7b8c13940ce45c61e46fe3",
+    "tests/test_primary.py": "627a3433425b4d676239f3d09d202d3a6b6dc09c4e5f37670069335b0667b1f3",
+    "study_design/primary_evaluation_implementation.md": "304b591aa7351d78f4b6d2afd3f3f091369a07aeb4fee983040409cc2cb756d1",
+    "src/gbd_park/secondary.py": "bd0efc2b8e7305979172b2c1506bdb079dcd2dd69dbcb72e06878a4cf557adfd",
+    "scripts/run_secondary.py": "99ce4762aeb636e341526ac22c4d0c8482586b73ba589eafd9c63c991ae18aad",
+    "tests/test_secondary.py": "bfb573095eafa76afb9cb2487e824bfbb792b5e804a5b6762d7a03b4831145cf",
+    "study_design/secondary_implementation.md": "4ab13b60ca9316a1eb324060efd9e74fd6076da58b513806b8e507b85fd89f76",
+    "src/gbd_park/donors.py": "5bfae53b0a23682f8570429647244bc1c96e7690d772c29d7e954155d753b818",
+    "scripts/run_donor_comparisons.py": "747ef8357a7cd17858cd686265be0a6c4d9e6ccec83a459229345d6765d3b225",
+    "tests/test_donors.py": "77ffaf821506dbd092eae980eb7a6ab66e67366670bb8632e350aad5bc92ff9f",
+    "tests/test_donor_comparisons.py": "36b67fb473407a357d16b307695251ece95ec713eacf436451506b85329517b0",
+    "study_design/donor_implementation.md": "dfd8a08163be86f5544b3b7efbcc471667bd9543725a6fb5a53a575a672d3394",
+    "study_design/donor_comparisons_implementation.md": "c423996abfe6b50cf961188cd9b31ba4c0c3bef25a30e666aa385f64b65ac5a7",
+    "src/gbd_park/demography.py": "2b9c8ed71a58104ac1d69c928cd1d3b2813e7563b465d7a4545bc66167ceec1f",
+    "src/gbd_park/count_coherence.py": "3032b62ba075b0eee7844fcfded344998f3d4ec0e9f8f0beddfdbee86fe75ad2",
+    "scripts/run_demography.py": "ad6bfcc999d3c3e7def311d42b0c63325b0b72e1c9f6d5d38c769510dd97d239",
+    "scripts/run_count_coherence.py": "37da191ca5ca956990015c16cca295a8f3e4cc54ad26ff78a7b83078c06e39b5",
+    "tests/test_demography.py": "10147b9bdb4038909a9db578d860b08341dfbfef3a56a2d03fa91cdaf70f23a7",
+    "tests/test_count_coherence.py": "a5ae5170e73d269c08e658b85b4d20d26cbc31374a4bfe6a7aeeae7cf7b4bcb8",
+    "tests/test_demography_runner.py": "14d1c2fb8b3a9397016f3f3d781ea1cf9095115d61dbd66377933d8e03a2a86a",
+    "study_design/demography_implementation.md": "bbf4682571cb2e3eb1f8b2bc35e861638d1d97e9a7fd8f4caf6cd279e998d0e0",
+    "src/gbd_park/improvements.py": "8ae34a8014df46d672a101731bd07fa4681f897d5ed576bba9e941667270eaa4",
+    "scripts/run_improvements.py": "38d850614d652db283db98910d1e3f90996221a5de30c3335d2e581f84dab943",
+    "tests/test_improvements.py": "059edf7c68c0edaecc4c319d271ed2b58be568234a8f66d1059067f9631087e8",
+    "study_design/exploratory_v1_1.md": "a4da9684b763c25f2b69503a67328bf51e0e55d26da6b273aa4e7470732c3bd6",
+    "study_design/exploratory_v1_1.json": "31b1d1d1326e3ecc6b46a8ee41d9a05f0a009a601af414e6ae3d9ef08260484f",
+    "src/gbd_park/calibration.py": "3b549dbc718e546efd16005c32fb4e6ccf82de9dcbdaa972df2475a7e7cb298e",
+    "tests/test_calibration.py": "e9f05bbc4e7bacfdd40d45df8780e2f07509c4d5ab61d15e11671c7a52ce16b2",
+    "study_design/interval_calibration_v1_2.md": "f52fefdfc5c4da708765dbbe52acb8fa20cac2e77c0a727fa344d44b06b4f5c6",
+    "study_design/interval_calibration_v1_2.json": "c4429725c8200b5b3654ff4b99e21f707cce70d1417384fd0ae9a0000b6b2f67",
+    "study_design/locked_v1/design.json": "4274a0442c827da2b547d7fb1bb01cdc14ab4f97f9b7b5f391593f56d5de1c55",
+    "scripts/run_calibration.py": "3bfd24c8af8878d167af25bbc413852a817a0bf2f6e95935e2e8b1d9546f2315",
+    "tests/test_calibration_runner.py": "ae0a3ad35c322985d3f541fe4515d2440062ca01fa3dcdc9289040000945cd92",
+    "src/gbd_park/structured_calibration.py": "f036b285b9dcaa9e635700faea9102c152b3c607b8f9a360b1fdb1f1d548e939",
+    "src/gbd_park/dynamic_joint.py": "22837032d9f4a51451abf2f024b32c8cf65b3bb889f33731e2a5803041d8f462",
+    "scripts/run_reliability_v1_3.py": "0797946540d9eb90282dd59b0d9873a3efeba611660ecc9d5de94ce943ea3132",
+    "tests/test_structured_calibration.py": "9933788ddad963647cbc30f7bfe616825f5c136bc8edd3eeec6554f9d4bdafe7",
+    "tests/test_dynamic_joint.py": "c569e41d336d4b0ec36d39006c21c6b375362d3da7ce147b4b2a8e009e4b1295",
+    "tests/test_reliability_runner.py": "83eb63bf7f3c44338da92c338f88dfcc3bbcc2b8dc6cafa23dce6c3a88eff720",
+    "study_design/reliability_v1_3.md": "39b5792e244721574a56b0be5ccf54d5c5f381485d27d3a459490097da0f0e49",
+    "study_design/reliability_v1_3.json": "36a747392a952c54ed90f2f1f58d46102a1c4b25904a60060eb20c4ba96b8942",
+    "src/gbd_park/population_sensitivity.py": "51f83e1bb410222cc4dd30061bcb3521bbd7d6a92d285290c6e2797d6ea93d47",
+    "scripts/run_population_sensitivity.py": "1935844f60c26a9923d7c372999e2d9df18c511a9606275f71239f9512c7685b",
+    "tests/test_population_sensitivity.py": "dffc25055e0327537ef3bbcf64f8afbbc5b412e8364186d94b68ec1a7a0c54e9",
+    "study_design/population_sensitivity_implementation.md": "d0d963f6256541d88dc551c62889b66b5cf86b8a33e04c5a367f2cb8de616f56",
+    "scripts/run_release_sensitivity.py": "3ea6b67e8cac61b05e04d47a91f1f7b317b1641b759a014b7dcad1e63a35dd3e",
+    "tests/test_release_sensitivity.py": "663b4154de233ba47649b91a0c4e410ae50155814c359aad6e5c119790d848d5",
+    "scripts/run_mortality_history_sensitivity.py": "e6dd6775c39ba9ca16408f25c2eb6dee5fe10485eb9df9de407d0d7e7fc31661",
+    "tests/test_mortality_history.py": "6518ab315bb6116c518b2bfc4ffdc65814eda5471de722ff45719c77da867e15",
+    "scripts/run_supporting.py": "d85327a03ff650a1ae7530588116d7334fd1276dfab77b3bf369e7f8d600e7bf",
+    "src/gbd_park/supporting.py": "2a98237013bd6357b9295b903c757a28a20ce28ef67ce9630727f3238bb5f05c",
+    "study_design/supporting_outcomes_implementation.md": "26df5bf587b97e97f6809220b8ff302de56868eeeb5d215d4f23c49cdbd95442"
+  },
+  "final_period_scored": true,
+  "completed_utc": "2026-09-30T06:46:32.878404+00:00",
+  "elapsed_seconds": 1634.4684565940001,
+  "output_sha256": {
+    "adaptation_audit.json": "c337540eb03bd97e70ac90ade6cdc7c4f84487f7a90db1db7e6a1896d23267f4",
+    "history_comparisons.csv": "916c6daa837910aff199a6c5a63ada78becee2e95653c6caa015b468268ebe0d",
+    "issued_commit.json": "815e9b0f68c6d38bc81050f97d143b704f4532a4d6a29bf839d1eb2958e4e521",
+    "jobs/ARE_deaths_history1980/450e84ad2aa031d198ad39daad906c22faf263df9808f8545a9a2c7174381fe2/complete.json": "de986d3b7dee572cae9a450c53e33602064385595f3e078ac9581be85fb09621",
+    "jobs/ARE_deaths_history1980/450e84ad2aa031d198ad39daad906c22faf263df9808f8545a9a2c7174381fe2/result.joblib": "e882d54aef23c88ef02cefca1f89d13af61d312f2e0e3d3b70a069687789e9cf",
+    "jobs/ARE_deaths_history1980/51d50bd183a3d2bc32e465d685e17a64c23f533a4836210a7b14aebb2a9ac6d2/checkpoint.joblib": "b61b64ee3dd1a1c1a18232cf7b7c4faeb7519ab012daa64d9724e61a3b8476e8",
+    "jobs/ARE_deaths_history1980/51d50bd183a3d2bc32e465d685e17a64c23f533a4836210a7b14aebb2a9ac6d2/complete.json": "683079e504169d946e79885cf768f71d422c4fcf44b6db83e137ba6b9e249d3a",
+    "jobs/ARE_deaths_history1980/51d50bd183a3d2bc32e465d685e17a64c23f533a4836210a7b14aebb2a9ac6d2/result.joblib": "042f60e6f27c66988d8f614ba09190cbdd98fd7edb0ed4189512f0c71b2f11fe",
+    "jobs/ARE_deaths_history1980/6124786e47b911d94a73c568cb99feefb45092538e9304d5481a42b078f6a5f4/checkpoint.joblib": "c3b5190a4b9ab1a99e7a6eeb5ea80cc992f23cf3ede68c7d20f5c8fa5899be86",
+    "jobs/ARE_deaths_history1980/6124786e47b911d94a73c568cb99feefb45092538e9304d5481a42b078f6a5f4/complete.json": "a5cdc984c1ad2966038b1d65370b981b1cdeb0745b4ff63f146a75eb2d6ca75b",
+    "jobs/ARE_deaths_history1980/6124786e47b911d94a73c568cb99feefb45092538e9304d5481a42b078f6a5f4/result.joblib": "7c6f3448b99e6dbf1d3c6183d885f22e6eae1dc528aa31baceca82b135695f76",
+    "jobs/ARE_deaths_history1980/c5845e5771153957534dd52319c54cb0c9c302fd5d066820380de04e247b1f5a/complete.json": "b8945801d24efcc0cffd0fae157d4ea6333b223bd548dd480af5ea86693b4399",
+    "jobs/ARE_deaths_history1980/c5845e5771153957534dd52319c54cb0c9c302fd5d066820380de04e247b1f5a/result.joblib": "dfb5d47f3256881e8c6cc532e1d35f1071d2da7a6435742780035bde5e09a1aa",
+    "jobs/ARE_deaths_history1980/cb97cf5709ff443879362fd3ad0f383503f2d91d3b96f70638c36ab49f211675/checkpoint.joblib": "46c2d3e2a80cf7c11c436cdd4df27f8bc1afa985bd160b1f5889c2c20441e42b",
+    "jobs/ARE_deaths_history1980/cb97cf5709ff443879362fd3ad0f383503f2d91d3b96f70638c36ab49f211675/complete.json": "f3014e4dd2d25e39351f84c47693a9417b1b6ee1a9465be7ffc1a57ac2a896d8",
+    "jobs/ARE_deaths_history1980/cb97cf5709ff443879362fd3ad0f383503f2d91d3b96f70638c36ab49f211675/result.joblib": "df78a91203e8d6dd81860395c4d286a29abb46f273106a6f6cecaab05b99fa40",
+    "jobs/ARE_deaths_history1980/d2b929c2fbc0e02bef13721a855f155c2134e9faeb88d4768e009a202530e369/checkpoint.joblib": "a5b5f2f3f4cf8326c5f0b0980b8d738c966f9fe010c0489e908ce95b6a270eed",
+    "jobs/ARE_deaths_history1980/d2b929c2fbc0e02bef13721a855f155c2134e9faeb88d4768e009a202530e369/complete.json": "ee0b2c46b956718c3901e46183a82b3922e7c7296ee5da56962f14fbb4262edc",
+    "jobs/ARE_deaths_history1980/d2b929c2fbc0e02bef13721a855f155c2134e9faeb88d4768e009a202530e369/result.joblib": "a2147e2e6db8ac03d0215300de2b0a4d64f76a225c32f1d198b2cd93a8819076",
+    "jobs/ARE_deaths_history1980/f940e1353bf1467d3848a283fe69d102b8804b32aa2aef86c0ae890105e885ea/checkpoint.joblib": "13d4830d4fdbf224f1d170383663ea02616fb0169f0381beb9ea765c036e1d46",
+    "jobs/ARE_deaths_history1980/f940e1353bf1467d3848a283fe69d102b8804b32aa2aef86c0ae890105e885ea/complete.json": "c982948dd9fd15973db153bcfc93e59d0410775e4b3d4ffa4cd7e59349093f02",
+    "jobs/ARE_deaths_history1980/f940e1353bf1467d3848a283fe69d102b8804b32aa2aef86c0ae890105e885ea/result.joblib": "01ea37df485832a7950df5243c2b03c8424b433e7ebefd3ec64226a106fa5786",
+    "jobs/ARE_deaths_history1990/5b7d1b2f941e7f37363e1995fa9de5e86919f7e82294876d1edafc654e06d613/checkpoint.joblib": "c2b1e629438f61096726d2be7f48fe0503e4de05fc00049ce84341dbf7828cac",
+    "jobs/ARE_deaths_history1990/5b7d1b2f941e7f37363e1995fa9de5e86919f7e82294876d1edafc654e06d613/complete.json": "2af4f698fbe1cb0976b7b993a71f1b75f3d916bf7917ddf49a24ce737604b108",
+    "jobs/ARE_deaths_history1990/5b7d1b2f941e7f37363e1995fa9de5e86919f7e82294876d1edafc654e06d613/result.joblib": "e16a412dbeeb99bf1bacc17a995e785ee2861b3c0828290fc9721c4a4985859c",
+    "jobs/ARE_deaths_history1990/5d06c6a8a0d05a694eb23e65406ad85361ab4eba971d0285b17e313350370502/checkpoint.joblib": "4a6f269ef5bb7296c7dc0e28485bfc2683389739f94adcf93a2fbddbebb2066c",
+    "jobs/ARE_deaths_history1990/5d06c6a8a0d05a694eb23e65406ad85361ab4eba971d0285b17e313350370502/complete.json": "92fe3959ff0d8d2a7863859d0af30563eaea23e1a07d549981d71cb4563933f7",
+    "jobs/ARE_deaths_history1990/5d06c6a8a0d05a694eb23e65406ad85361ab4eba971d0285b17e313350370502/result.joblib": "1254fcc5d061116afd803a37bd5329c5249df20aa96fbc22a47d3273bacadc3a",
+    "jobs/ARE_deaths_history1990/6946df066384b588bf62bbc34609b9ca258366627fee97ccdb07b1d808c16936/checkpoint.joblib": "bb84f1a88e83c9b41ecee951ad987046fc7343cd2d5a8687247726a7304aa6bc",
+    "jobs/ARE_deaths_history1990/6946df066384b588bf62bbc34609b9ca258366627fee97ccdb07b1d808c16936/complete.json": "1be881ed839a082a686ff7d4742cf13d51060d65cbb1b23d6d39dbf61cc9ce00",
+    "jobs/ARE_deaths_history1990/6946df066384b588bf62bbc34609b9ca258366627fee97ccdb07b1d808c16936/result.joblib": "1f7584f27c9a490c9bbdc84114f20216ae0a5dc98341451bcd75000c80d5b346",
+    "jobs/ARE_deaths_history1990/b6acf4f130348e7c30cc4c16b55693de9708399043cb058a7875eaee4f71220d/checkpoint.joblib": "685fe4624646baf37626d25ad622037094fe9f7f25f89c0908b8b03d24ce78cd",
+    "jobs/ARE_deaths_history1990/b6acf4f130348e7c30cc4c16b55693de9708399043cb058a7875eaee4f71220d/complete.json": "509977cb4896e1a14bb4df33d88aa50b0b1f36daaf251fa0efe64da702d27058",
+    "jobs/ARE_deaths_history1990/b6acf4f130348e7c30cc4c16b55693de9708399043cb058a7875eaee4f71220d/result.joblib": "7d2b3e542ede89b66b9246e49525fdf7899e29d058cfcb29794af15db7a7979c",
+    "jobs/ARE_deaths_history1990/c4921490ee01018ef50c68b5bc59a13b5f29b9c0e64cccec26e6b4ae457711df/checkpoint.joblib": "7c7373a81bc126688345777373d14350d94f238640043413e03569c5b752c350",
+    "jobs/ARE_deaths_history1990/c4921490ee01018ef50c68b5bc59a13b5f29b9c0e64cccec26e6b4ae457711df/complete.json": "b71c512b07dc921bcb4a0f0fa2a8f433ec1b6feb545cabaca99e22703f79edbf",
+    "jobs/ARE_deaths_history1990/c4921490ee01018ef50c68b5bc59a13b5f29b9c0e64cccec26e6b4ae457711df/result.joblib": "37bac97f98126017cda247bb827871349efd8367c54b6af7149ef84f00d4e7f2",
+    "jobs/ARE_deaths_history1990/df81dcc6cdffe85629534674366651034e5963ab69d0855236bb569b45c31897/complete.json": "36968d60c7e4d39e8f9fd6b48cb58d85d6b191144407bed9f37eeddfe13fa91c",
+    "jobs/ARE_deaths_history1990/df81dcc6cdffe85629534674366651034e5963ab69d0855236bb569b45c31897/result.joblib": "158996d0b1556d0645f73b4bd429fd6d41e18ba9fc37578c4687c5fc153d3784",
+    "jobs/ARE_deaths_history1990/e9bac312ff409979fda5f9c62bf955668b2a330ca750884dd241466ff61fdf29/complete.json": "012ad1b5ef8ea22275b1d473cd36a772b461a3d4427a5bb40fb4693e3341eaee",
+    "jobs/ARE_deaths_history1990/e9bac312ff409979fda5f9c62bf955668b2a330ca750884dd241466ff61fdf29/result.joblib": "1c56d8ad371d42f33d55e70665edaa0df7000fca83940da8ac05635622ea2cf1",
+    "jobs/ARE_ylls_history1980/047b36bfeba9241135f07a6133927fb73d026635806bd176c6f44f1e9867c75f/checkpoint.joblib": "31faa7abd8ffc5179fbe6120b1c39be2e42bf899fd2d27ccb5370bc5889ca23d",
+    "jobs/ARE_ylls_history1980/047b36bfeba9241135f07a6133927fb73d026635806bd176c6f44f1e9867c75f/complete.json": "802feaee01202d0be132ecb6adbfb2f9539f4fce2406093e37ff39a1446c41ed",
+    "jobs/ARE_ylls_history1980/047b36bfeba9241135f07a6133927fb73d026635806bd176c6f44f1e9867c75f/result.joblib": "03a132035b91b6f9c2d39127a66049d333b27eb66c60fadb128ec625c0f1e060",
+    "jobs/ARE_ylls_history1980/1f760ffc3725c83f166c435e0c1c866d2b27d4b8f11371ffb54cee9337f83061/checkpoint.joblib": "49376d5bc8d72dbed186fe860c75ed97a5ae417c7777c60b19a06bfd094d2806",
+    "jobs/ARE_ylls_history1980/1f760ffc3725c83f166c435e0c1c866d2b27d4b8f11371ffb54cee9337f83061/complete.json": "746051ce979d6ca6923dcf9ee8fb4019f6e969d1e9d5cf5f4a0a297a369dd227",
+    "jobs/ARE_ylls_history1980/1f760ffc3725c83f166c435e0c1c866d2b27d4b8f11371ffb54cee9337f83061/result.joblib": "6c2cd0b2ab92cdb665ff3a37bff8fec5ba3b74d234118f7d2cbb93347fdad144",
+    "jobs/ARE_ylls_history1980/3f537a8cd8548ab17ef5d53080d787b5e52de28df745f34aeda30538891128b0/complete.json": "42a4d657a5f03550b6e50cd8f96be0eaa479b27bb6a9b65f4e404823e94fb333",
+    "jobs/ARE_ylls_history1980/3f537a8cd8548ab17ef5d53080d787b5e52de28df745f34aeda30538891128b0/result.joblib": "ac1b3732b56a4fa11cd50578ea48bed0e112e42c9dad9133c5d9caead290f5ab",
+    "jobs/ARE_ylls_history1980/72f97d6910a6f95f59f94aa609d9645eeb3ad04924bcc39cb7d39e9f9bf8a451/checkpoint.joblib": "8ee4978753e863d16878ad57a8a785e6d66c1290903fec3b2c2251335e0e9288",
+    "jobs/ARE_ylls_history1980/72f97d6910a6f95f59f94aa609d9645eeb3ad04924bcc39cb7d39e9f9bf8a451/complete.json": "5538f78257032f7bbb24613bdb6b9f8cd10293364cf3934e7af1517a8b64b54b",
+    "jobs/ARE_ylls_history1980/72f97d6910a6f95f59f94aa609d9645eeb3ad04924bcc39cb7d39e9f9bf8a451/result.joblib": "40e0affab4afa04b29131acc5bbbd5abd815df995c811675d5db3852105fe577",
+    "jobs/ARE_ylls_history1980/98f8de489bae96beae4d341ed47c15c6f563f8e5a2ce10fe90cfe6e72e868d31/checkpoint.joblib": "c0097965d4b4086aef663730b58457f3ca0ec460205a4d9a44eced384f89ab45",
+    "jobs/ARE_ylls_history1980/98f8de489bae96beae4d341ed47c15c6f563f8e5a2ce10fe90cfe6e72e868d31/complete.json": "2bd5d4d81b51369772eabdba8585047e8fa344fd0e4f7288c8c4c953cc6159db",
+    "jobs/ARE_ylls_history1980/98f8de489bae96beae4d341ed47c15c6f563f8e5a2ce10fe90cfe6e72e868d31/result.joblib": "01a92d2845f9931ff949df530658203ba8e7910b6fbe7152c26f78dd7e07b6d9",
+    "jobs/ARE_ylls_history1980/9e7d114a7dd32f09dedb58c9fb5aa3366291296247409bffb4064f21790dae01/checkpoint.joblib": "cbdc0aa23b7f4eb1c2f82aeabdb1ba7cea77b86e960437bae2177f2b5ccedf9b",
+    "jobs/ARE_ylls_history1980/9e7d114a7dd32f09dedb58c9fb5aa3366291296247409bffb4064f21790dae01/complete.json": "ad0dc41ca330bd10a6f54ac6642d552e9b584cbd7b4093090b3818936506adef",
+    "jobs/ARE_ylls_history1980/9e7d114a7dd32f09dedb58c9fb5aa3366291296247409bffb4064f21790dae01/result.joblib": "6b972d62fdcba11d3f26b363a79ef3bf7135916ee2c40cff78aecd3f6fc8dc4f",
+    "jobs/ARE_ylls_history1980/fb265fc42e2cf5a9629c5e24bc7bd2b2171e14622683513078ccf17e579c98c9/complete.json": "1eccbc05ac9b02e04bb057b510aaa9f06dbcf3a3c2977ad8efda17ab2064cc44",
+    "jobs/ARE_ylls_history1980/fb265fc42e2cf5a9629c5e24bc7bd2b2171e14622683513078ccf17e579c98c9/result.joblib": "2ddcb09d8a46225e420cac6988694f251499c8c3d14d0f699a44705ef2e42a21",
+    "jobs/ARE_ylls_history1990/1f6f19b6f8e8534f571c51179cb8e010c184960959e0542c12c8a7cf21a6aace/checkpoint.joblib": "e989ff51c4b47392cc1eb5742c2af4e4ca8c7d74c33e99d79140f57f695ebe9d",
+    "jobs/ARE_ylls_history1990/1f6f19b6f8e8534f571c51179cb8e010c184960959e0542c12c8a7cf21a6aace/complete.json": "5ded93a22b424212743523412513c66e30dc22476ab4b865bb16c95874d50d57",
+    "jobs/ARE_ylls_history1990/1f6f19b6f8e8534f571c51179cb8e010c184960959e0542c12c8a7cf21a6aace/result.joblib": "969f092531f4bca043e162228ed42d0a558bd7e1c6d2baee1da92d8689d630e6",
+    "jobs/ARE_ylls_history1990/2f7e0ebd9fa895d87d31257c87aa2199f71690810c91f75ad2e04b13f8348854/complete.json": "aa1699e47a5016139a9e0e39b6e57d612051cdf5c37cab1668686619646acb08",
+    "jobs/ARE_ylls_history1990/2f7e0ebd9fa895d87d31257c87aa2199f71690810c91f75ad2e04b13f8348854/result.joblib": "cef25f560dede6be6d518ada61aa4a83d6512fcf38beb99e924737ec0024583c",
+    "jobs/ARE_ylls_history1990/4a70f1ffbf5fc9aa89acbb021a730190f9af6ca814222f9fddda4b3811a652df/checkpoint.joblib": "142b503beca9955a958b34de969f3f8428ae48971f8d39712962efa9bc6b7f81",
+    "jobs/ARE_ylls_history1990/4a70f1ffbf5fc9aa89acbb021a730190f9af6ca814222f9fddda4b3811a652df/complete.json": "c37890fd85fa5eeae6588ad5baab0c774c91b4faee8948738b39ec042d2e0859",
+    "jobs/ARE_ylls_history1990/4a70f1ffbf5fc9aa89acbb021a730190f9af6ca814222f9fddda4b3811a652df/result.joblib": "838fa2eb2fd7ead1767283a3d0b4f6f364c79af0e6f549330991a3f2532e841b",
+    "jobs/ARE_ylls_history1990/c19cc855bd7498d16d7d8c6c0f3fa95bef126c9990c82cb9b9c2f429de4f7212/checkpoint.joblib": "f6d2e21042e509453e6f76e89a895d15ffaa2bc2c5b1f746db4f7cfb303a0765",
+    "jobs/ARE_ylls_history1990/c19cc855bd7498d16d7d8c6c0f3fa95bef126c9990c82cb9b9c2f429de4f7212/complete.json": "5d5867319ae33d75258328af070c0d3c92e029f2ce28619ae1de293c3ea4081a",
+    "jobs/ARE_ylls_history1990/c19cc855bd7498d16d7d8c6c0f3fa95bef126c9990c82cb9b9c2f429de4f7212/result.joblib": "2d931a4e834bf47d8d03d9266c9b48a171d15f3a7878a1d92972a75551641b6c",
+    "jobs/ARE_ylls_history1990/ca70bf6cba434c13c94ed78515d79a67c38aa1f177a97a306b400892836cbae8/checkpoint.joblib": "0eb20a3139b6394f7406a897f2ab47b10d07302ae7e6f23d718dee71af69b4bd",
+    "jobs/ARE_ylls_history1990/ca70bf6cba434c13c94ed78515d79a67c38aa1f177a97a306b400892836cbae8/complete.json": "d1a792898a6cdf2066e2cd1f945cf854d26a559b5a940397bf063ae2d3596969",
+    "jobs/ARE_ylls_history1990/ca70bf6cba434c13c94ed78515d79a67c38aa1f177a97a306b400892836cbae8/result.joblib": "c1dc8af7c7091dd81d597a3a14a6fef96b133ada2cd78851cc2aa8ca08855558",
+    "jobs/ARE_ylls_history1990/e964ad38bff7e22e1cb4afa3058704a8dd053ea7ca54bd3fa8b4582de0a3a1d9/complete.json": "9bc9778e4bb59dd0ac5e04018255a7c1b27f3f40ee57c8df870d265745ce8716",
+    "jobs/ARE_ylls_history1990/e964ad38bff7e22e1cb4afa3058704a8dd053ea7ca54bd3fa8b4582de0a3a1d9/result.joblib": "ae90772237feaf549e4970604bb476f2f6f69d419bc44564b1e2cbc322190e89",
+    "jobs/ARE_ylls_history1990/f3028ef1aa30aa854432bf8484d7e14c2c62a1c6fc59db422f0539c16258a69e/checkpoint.joblib": "fab63f8acba6087818667b1ff49b2b36407b92105ff23bd59f324487f4ba3c15",
+    "jobs/ARE_ylls_history1990/f3028ef1aa30aa854432bf8484d7e14c2c62a1c6fc59db422f0539c16258a69e/complete.json": "b07fea92daf115dc0e4a52fc5a54db8a6cd9de1fb9414a2814cf0e17bc9e5ccb",
+    "jobs/ARE_ylls_history1990/f3028ef1aa30aa854432bf8484d7e14c2c62a1c6fc59db422f0539c16258a69e/result.joblib": "ba8d7ab8ed783d056abe46237fb11153f73f8772747b450129efd1ece9b38a47",
+    "jobs/BHR_deaths_history1980/0c8d3c1c3fc1ae7c539a372290e82b2c401b20d37b7eab2ecc7e2119641968fa/checkpoint.joblib": "8ed02aab238ed1bd9dd7178726ee207deca4776530623539b2dd8508719e70f1",
+    "jobs/BHR_deaths_history1980/0c8d3c1c3fc1ae7c539a372290e82b2c401b20d37b7eab2ecc7e2119641968fa/complete.json": "7236446ea18e924d2e5dbd711817e7bec6033e52b5277ac13250e0e0016e7915",
+    "jobs/BHR_deaths_history1980/0c8d3c1c3fc1ae7c539a372290e82b2c401b20d37b7eab2ecc7e2119641968fa/result.joblib": "0fe6af1a843cc108927ed277fb2f66d26e5f68dd84a2070eb34ed545fe3997a4",
+    "jobs/BHR_deaths_history1980/1a4ba0e39678bd7ddac64e773778b12d34228dd0c2d8c6a920d4008ceeefac43/complete.json": "33b4f6bc1ce7be70489016cc604a5c3cfb2b77573154e6abe3b1d7c72ba84cd8",
+    "jobs/BHR_deaths_history1980/1a4ba0e39678bd7ddac64e773778b12d34228dd0c2d8c6a920d4008ceeefac43/result.joblib": "c2259eda93a02ea14bcfe64e1a2db2bebcbf0b9da5a07822a0c1edf647e21cc9",
+    "jobs/BHR_deaths_history1980/58dfbc4fac1aa98cfa14cfb6d29093d4b48a39e3d01623b681be3dae4db02277/checkpoint.joblib": "379a3e25d9c1aa67819e5508bac6264fc6e614720b78dbce21e59a253c3e2733",
+    "jobs/BHR_deaths_history1980/58dfbc4fac1aa98cfa14cfb6d29093d4b48a39e3d01623b681be3dae4db02277/complete.json": "205009e74d7481f78604c94d77b2ec87bd98e259ddea5b150b783883798bcddf",
+    "jobs/BHR_deaths_history1980/58dfbc4fac1aa98cfa14cfb6d29093d4b48a39e3d01623b681be3dae4db02277/result.joblib": "f16f290a223e59f61765cc4d4998ba5125e3ddeb14ff87afaaf2ebb38f56307f",
+    "jobs/BHR_deaths_history1980/8a83e5981fe72cf5465a7a52848efbb02120e3aaa8898a4ae9abec32d95e1532/checkpoint.joblib": "37df11afbfacbf16472091057af2ef40db56a915f570cca3da618c4ec8eba569",
+    "jobs/BHR_deaths_history1980/8a83e5981fe72cf5465a7a52848efbb02120e3aaa8898a4ae9abec32d95e1532/complete.json": "d210eae89c7bf5869be97a60c873a65930c8e1ac2dc1b3e8e43131979ad29190",
+    "jobs/BHR_deaths_history1980/8a83e5981fe72cf5465a7a52848efbb02120e3aaa8898a4ae9abec32d95e1532/result.joblib": "052b532032630deff798aadebb44ec40d7093d63909a213d3f50583d487dc34c",
+    "jobs/BHR_deaths_history1980/b2712954eb022698cc75331c6bd3f6cf83ab2f7a7263fefb40a9fdc0095e6552/checkpoint.joblib": "03234cfdadf138fbbdf21ff54180f74f574a3b7d823690f25d8dc9220c76691d",
+    "jobs/BHR_deaths_history1980/b2712954eb022698cc75331c6bd3f6cf83ab2f7a7263fefb40a9fdc0095e6552/complete.json": "572008126a4446262829dc6fa95b23f692aa4ab694e09b39ef1427a9dc3c8c28",
+    "jobs/BHR_deaths_history1980/b2712954eb022698cc75331c6bd3f6cf83ab2f7a7263fefb40a9fdc0095e6552/result.joblib": "5773b73fab8dea6b394a99ed5151e72274545c1fc78997d3a1fe89f471467107",
+    "jobs/BHR_deaths_history1980/e90a1a97ec8dca3d3910856990c6941a5c421a23be31c019996556a414201969/checkpoint.joblib": "34a7f7d5f2a05f1a9a24da10b4f1313385b7ffd83b1411cbefee4572ac4ed312",
+    "jobs/BHR_deaths_history1980/e90a1a97ec8dca3d3910856990c6941a5c421a23be31c019996556a414201969/complete.json": "8dfd80cc6c309aa3bf583ededf159d4df04a6272ed4903f7b043763d6da73c32",
+    "jobs/BHR_deaths_history1980/e90a1a97ec8dca3d3910856990c6941a5c421a23be31c019996556a414201969/result.joblib": "e6d182188d5b4180080f7d9061cafb43ae9b08637ce9c832919c0e1170a673d1",
+    "jobs/BHR_deaths_history1980/e96ff33af13a30b1bdd9825e50e00dadd9845adca4f0f4aae4be3c9f79ff05b8/complete.json": "c54d4dd55103a381180202aceb9da0005bbfff53fb9bf078672da43237e869bf",
+    "jobs/BHR_deaths_history1980/e96ff33af13a30b1bdd9825e50e00dadd9845adca4f0f4aae4be3c9f79ff05b8/result.joblib": "9ebf63b4a424275014f64719018f373da2f134796a859637add25cd8b76d02ab",
+    "jobs/BHR_deaths_history1990/3410672db9b8f2406e66801e51d0a1ba28763c92381afd990389677a1fd8b940/checkpoint.joblib": "90477721e5d95a0e5bcf9a1d053c2e9edc924c3a56f7bc604222748e78ea831a",
+    "jobs/BHR_deaths_history1990/3410672db9b8f2406e66801e51d0a1ba28763c92381afd990389677a1fd8b940/complete.json": "6c5d1b9ddd5a82a69a90d389af4584e30bbb2fbec312b45c2b28bbae386a241b",
+    "jobs/BHR_deaths_history1990/3410672db9b8f2406e66801e51d0a1ba28763c92381afd990389677a1fd8b940/result.joblib": "671c62a17b121daf1e30568590b8ffda29f59c285fdc28188ef95182fe513e5f",
+    "jobs/BHR_deaths_history1990/47517de2573b265ed42a09219c9879be526977ee7d0f1b5f636c294d055bd7ac/checkpoint.joblib": "a4c66172a7210f405d3e052dfc7f6db851277c3f2af4fcc65ec77c555c6f29ea",
+    "jobs/BHR_deaths_history1990/47517de2573b265ed42a09219c9879be526977ee7d0f1b5f636c294d055bd7ac/complete.json": "bc64d745ef57d94df9b9e5bdf64d5b6607b9d3ace1cfaf609a9a19bb3e20f8eb",
+    "jobs/BHR_deaths_history1990/47517de2573b265ed42a09219c9879be526977ee7d0f1b5f636c294d055bd7ac/result.joblib": "fdc80bc64c6d2370a9a1fc16b826047f1a7e2b24021103190c3b2f5898d6cc97",
+    "jobs/BHR_deaths_history1990/60eb22451abcc7666cbca29f7d4d2f47aae0c6ddd8af767c3fa18bb9df692e9c/checkpoint.joblib": "18737a8754fafea0d1bbdbf96f2972a495b3f2e10351e31592055b8b2b201e12",
+    "jobs/BHR_deaths_history1990/60eb22451abcc7666cbca29f7d4d2f47aae0c6ddd8af767c3fa18bb9df692e9c/complete.json": "259ad2dbd3be69d062d0f515d9a15b99fd379303ff421e6cc61b7daca5537a32",
+    "jobs/BHR_deaths_history1990/60eb22451abcc7666cbca29f7d4d2f47aae0c6ddd8af767c3fa18bb9df692e9c/result.joblib": "47ad559061bed6b711d6e7cc067a5452f91e685eae7fccd18fe3be2a44501010",
+    "jobs/BHR_deaths_history1990/628c9726255efd7e0fb12cde24baf6f9b8e3bdd1c0b7d0a0958c9c4f8ccc398d/checkpoint.joblib": "acb5f614da4d4851f8548222f08a334a08d016092c4d4b7b7652ccaed459b03e",
+    "jobs/BHR_deaths_history1990/628c9726255efd7e0fb12cde24baf6f9b8e3bdd1c0b7d0a0958c9c4f8ccc398d/complete.json": "f4f30ef97f7c14b27100042e233742e3a2fc869558f879367c75d85cfb0bcb91",
+    "jobs/BHR_deaths_history1990/628c9726255efd7e0fb12cde24baf6f9b8e3bdd1c0b7d0a0958c9c4f8ccc398d/result.joblib": "f62e5b770c87e8a913d2190de7381edb3ded86b9994720698bda093bd48b2aab",
+    "jobs/BHR_deaths_history1990/8bf851b7b63680a94a93c2fb901aa39522b717ec58ccb136b09ca9d3378c5269/complete.json": "ea4cc275b0098c7bf5644da8a4a5c1ae8ed73347c84bfbffbfb2aaf08e932692",
+    "jobs/BHR_deaths_history1990/8bf851b7b63680a94a93c2fb901aa39522b717ec58ccb136b09ca9d3378c5269/result.joblib": "2e6dd9e8cdb1b229bf9dc90dc4ef68a720f055269cd827db3e0cb9e43688a3e8",
+    "jobs/BHR_deaths_history1990/db77d365f3d1d7baf10f0972c29d19fd8d123ebe9b10749791824e0eb245e66a/complete.json": "9cf2c23040a786373c902a49b1dd1d55d033cae561bf23149c5c9214054ce349",
+    "jobs/BHR_deaths_history1990/db77d365f3d1d7baf10f0972c29d19fd8d123ebe9b10749791824e0eb245e66a/result.joblib": "9638c64f9a27e2b9dbb0891f7c93b9aa01a554dcd0a8d56898e63abb32fdf97e",
+    "jobs/BHR_deaths_history1990/e545d7dc0bd8ac4b9b38ac0ef3eba451c66af9de1699d8eb958d91e828f1d295/checkpoint.joblib": "b51789814be3cbca02a5815228e354c62cbceee9eeb912d18be41ead3dfefe2e",
+    "jobs/BHR_deaths_history1990/e545d7dc0bd8ac4b9b38ac0ef3eba451c66af9de1699d8eb958d91e828f1d295/complete.json": "fbfcd033167300c4f846067983f14539626214ea57680fb46b965bd20d9413ed",
+    "jobs/BHR_deaths_history1990/e545d7dc0bd8ac4b9b38ac0ef3eba451c66af9de1699d8eb958d91e828f1d295/result.joblib": "493ed7c2ccdfc3c89e0f77efa9560c0e596d3ac013d0be838e7f1846a43089ff",
+    "jobs/BHR_ylls_history1980/0ca8a471cc299e92902233ed9af78044f4f33051a8bbe7f29789bd5285c47471/checkpoint.joblib": "926b871611d839dbd763f82fa102d349d876df38762f08565135b351011b1598",
+    "jobs/BHR_ylls_history1980/0ca8a471cc299e92902233ed9af78044f4f33051a8bbe7f29789bd5285c47471/complete.json": "a4b580cf53c5104d69d5533734e3df33dce26862ef5c6f460967fb253c4afec9",
+    "jobs/BHR_ylls_history1980/0ca8a471cc299e92902233ed9af78044f4f33051a8bbe7f29789bd5285c47471/result.joblib": "bb4088aa49c64fc0d8735e27151a2ba19cab986822f64eb506bf6b381ab00c6c",
+    "jobs/BHR_ylls_history1980/3cd7606c0f35ae698dec2066014d5709b541d84678557c18394f4110d4881bad/checkpoint.joblib": "84480ef84b74b3f9d6d91352932b51f5df7f8eb8852e40c4b1af9596bb90f768",
+    "jobs/BHR_ylls_history1980/3cd7606c0f35ae698dec2066014d5709b541d84678557c18394f4110d4881bad/complete.json": "129d272ae7b35b6dc5f01179cf859e018e707c9aec1787c3f5aec9cf37085ba5",
+    "jobs/BHR_ylls_history1980/3cd7606c0f35ae698dec2066014d5709b541d84678557c18394f4110d4881bad/result.joblib": "617d3b21cf985f5ca468421655136f46ca0ac0daad5741086284006111a31c36",
+    "jobs/BHR_ylls_history1980/450a4ee38057151bdab8a566e8631bdbd9478aceca72bd9f647e9072b6c70d5f/complete.json": "cfe57072ec819e09ec9481f232ed6191889e94a207ae2e6605e76b2a2705a286",
+    "jobs/BHR_ylls_history1980/450a4ee38057151bdab8a566e8631bdbd9478aceca72bd9f647e9072b6c70d5f/result.joblib": "c4b6ea55ae46487aee41e144f44930ba1c9a0fa318fecca2f8fe8e9f5d2661ba",
+    "jobs/BHR_ylls_history1980/4d85ebc9d833261cfff9189efe5334c646f8d65882bcc8a6d6c93c473bf87435/checkpoint.joblib": "179203ad2527f35876b3880a6d0588e5f6e25fc5eafe17ce3e62c63c8296d60e",
+    "jobs/BHR_ylls_history1980/4d85ebc9d833261cfff9189efe5334c646f8d65882bcc8a6d6c93c473bf87435/complete.json": "f0531409ba54c0aec18cbb731c8588dec37ed61e910329c5168723cd291f75a6",
+    "jobs/BHR_ylls_history1980/4d85ebc9d833261cfff9189efe5334c646f8d65882bcc8a6d6c93c473bf87435/result.joblib": "5c1087af57d917ff64c79afff77be1bd3fe6f9209e3459887ac6f007b6fcb45d",
+    "jobs/BHR_ylls_history1980/517f05061fec10053680033f150c5a33b20f35f57002386e92c2ab57423eef96/complete.json": "42f64536917763d145c170a339080dea323096e96715d1e8af9e7430a82f233e",
+    "jobs/BHR_ylls_history1980/517f05061fec10053680033f150c5a33b20f35f57002386e92c2ab57423eef96/result.joblib": "486ee886b557941000e9b595e9e81eb44ecddf052ad209d6ee6c6f60d97a9b60",
+    "jobs/BHR_ylls_history1980/7698c5414f062d180328e83bab826cd7d32914f173b3b90ab85ecc46dacc73ee/checkpoint.joblib": "9480cf6fb23ba74adc4a9b8fa1cb78b8d78dacd9688ecd212fbdf575f2a16352",
+    "jobs/BHR_ylls_history1980/7698c5414f062d180328e83bab826cd7d32914f173b3b90ab85ecc46dacc73ee/complete.json": "8667c04696be7c2e75f217aeb540b577c8fd822cf2a9a3ff5106f5fd25c3a212",
+    "jobs/BHR_ylls_history1980/7698c5414f062d180328e83bab826cd7d32914f173b3b90ab85ecc46dacc73ee/result.joblib": "488cea6bede9a9d08ca1b029ec95459e5816f66e7a1540af27aee1c261066229",
+    "jobs/BHR_ylls_history1980/f383b825488409bc5eee75521d3cacab57a99fdc0903a0da048bd37a9d1107f9/checkpoint.joblib": "3e96f942164da3ff51e9c8102bc0bff3634efba7af913869522769e41b78a306",
+    "jobs/BHR_ylls_history1980/f383b825488409bc5eee75521d3cacab57a99fdc0903a0da048bd37a9d1107f9/complete.json": "b002f3d0e49bd36388bafac723aacda349fdb1cfd6ca9e445e7cb90633a4353f",
+    "jobs/BHR_ylls_history1980/f383b825488409bc5eee75521d3cacab57a99fdc0903a0da048bd37a9d1107f9/result.joblib": "cd1f55c9d7405c1ee3123f033e15f4d90edfc162fb576be55e52f3785e1ae3e1",
+    "jobs/BHR_ylls_history1990/08435af9a17fc37c0e30bcb5f8cb84b1995a55f78b434287fe4912664a9cb9f8/checkpoint.joblib": "08aa17e984b951c587935c8eeb3b882ff61cd4ef06c49197f37a340fd7b57a4b",
+    "jobs/BHR_ylls_history1990/08435af9a17fc37c0e30bcb5f8cb84b1995a55f78b434287fe4912664a9cb9f8/complete.json": "4630354f228cf525ab525b1e9485c1d2c641874c2b2612371ffa06904bb520cc",
+    "jobs/BHR_ylls_history1990/08435af9a17fc37c0e30bcb5f8cb84b1995a55f78b434287fe4912664a9cb9f8/result.joblib": "9f5c0c9c14653b93024a815ea8a3a079343649788059949a75887b446d9687b3",
+    "jobs/BHR_ylls_history1990/1fb87625355d05487ac407cf4cd7bac7c6591c537ccb12481e75a27c00bdecbf/complete.json": "1835f6e678fe4e2765f9ddfec15a38d1589324d5f9918a722de12522496d86da",
+    "jobs/BHR_ylls_history1990/1fb87625355d05487ac407cf4cd7bac7c6591c537ccb12481e75a27c00bdecbf/result.joblib": "903196de8f7bc3d52bc3f86e3ab14d691904cd9d43ec99e909849bdb8888f75e",
+    "jobs/BHR_ylls_history1990/36130b0f623e25eb1aa00da21726416d1f47a2d9f36ed2185466e052619b2fdf/checkpoint.joblib": "475a593b8ab11fd721b1960ddbc06d3e8f0d81541032a5efcc86d05eac0fa8fe",
+    "jobs/BHR_ylls_history1990/36130b0f623e25eb1aa00da21726416d1f47a2d9f36ed2185466e052619b2fdf/complete.json": "b7eee78b4242f708c092bdc7b9bff84334afb25592ecce00f62970558cea5457",
+    "jobs/BHR_ylls_history1990/36130b0f623e25eb1aa00da21726416d1f47a2d9f36ed2185466e052619b2fdf/result.joblib": "6ecfc4d1639ec560a423ef887f7e57aa4a113ad30a2001a3bca96b3df9d039a4",
+    "jobs/BHR_ylls_history1990/4006600a3be208658470960f974c6e51931c9ba2612717bb0d4552cf358b9cf7/checkpoint.joblib": "35d991dfac310ad7dd0750e039c50aa8422c3105b54897cf1b079ad3767c912f",
+    "jobs/BHR_ylls_history1990/4006600a3be208658470960f974c6e51931c9ba2612717bb0d4552cf358b9cf7/complete.json": "7f48802921e55f13dc4229fdfced5a6a4719b23812a5a2ecbd6693b600904431",
+    "jobs/BHR_ylls_history1990/4006600a3be208658470960f974c6e51931c9ba2612717bb0d4552cf358b9cf7/result.joblib": "b351a4d3fc443daffc2d10dee6768c07e5df45056539338a928f366eb3dd58d4",
+    "jobs/BHR_ylls_history1990/5cd850d546c4dbb59d3f84cbaf5f23320fa3ff82d1fda7ae15d37d58bdc47fc9/checkpoint.joblib": "94f66058fcab36219be19d724a11f7c355a60305f1790a8f700ed5384db19c61",
+    "jobs/BHR_ylls_history1990/5cd850d546c4dbb59d3f84cbaf5f23320fa3ff82d1fda7ae15d37d58bdc47fc9/complete.json": "1df860d5f6985941a3848f518a4a928264f8a3eb97d4537f97a189b0fe0cfceb",
+    "jobs/BHR_ylls_history1990/5cd850d546c4dbb59d3f84cbaf5f23320fa3ff82d1fda7ae15d37d58bdc47fc9/result.joblib": "b7c5acb4e270bcfe1dadcc9ea5b0d134b3d89fb46db6d813ff63012eaea14518",
+    "jobs/BHR_ylls_history1990/aaa2a79cf852b7a5efcaa2697c470f0ee88d7297608e8337c6a65f577a30aed7/checkpoint.joblib": "6711761b03f4f87cb84a3f2787b2f9d87eb20df1cb968721964a9cc022390842",
+    "jobs/BHR_ylls_history1990/aaa2a79cf852b7a5efcaa2697c470f0ee88d7297608e8337c6a65f577a30aed7/complete.json": "4c4738ce0111935cda4e9e51953265c5d076b85daf41cedbbb78038e06131cd2",
+    "jobs/BHR_ylls_history1990/aaa2a79cf852b7a5efcaa2697c470f0ee88d7297608e8337c6a65f577a30aed7/result.joblib": "19bc9ca6e9ede4e5d4ff4bcbfbc0abfc04086cd5a1da34df42cc2a851ff4b970",
+    "jobs/BHR_ylls_history1990/d00ae80c71a532f28834836f8a16e2c5d622472d7609950a30316acfc1121bfb/complete.json": "58fad1d70f7d78bac6df9df03a047e18ba6ade8e12698f0999cd393bce5c466a",
+    "jobs/BHR_ylls_history1990/d00ae80c71a532f28834836f8a16e2c5d622472d7609950a30316acfc1121bfb/result.joblib": "c834fdb8ad5f3dbd5e0302d4c674a45dce55211e0c16c7fe477a6f447ecb37e1",
+    "jobs/KWT_deaths_history1980/2b3de6439c29750c9459ec2c959e459e9271992913c1d3aa43354460199c8b8c/complete.json": "dbbc90a0162777ead61c140d8d8218200379574b53cdb6f90d5adf1ac20fcc6e",
+    "jobs/KWT_deaths_history1980/2b3de6439c29750c9459ec2c959e459e9271992913c1d3aa43354460199c8b8c/result.joblib": "99942f47e4179ba617fde019d453209402e54177207d8c69757602a7564877a4",
+    "jobs/KWT_deaths_history1980/35eee4597f066f38f8a5a510310cd9ffeae82fb113a256112c55c22f1cd77686/checkpoint.joblib": "a354eede4014df01190f38061c07ce9ab4dbf48deb6fbd3da2c0bb6f873e2429",
+    "jobs/KWT_deaths_history1980/35eee4597f066f38f8a5a510310cd9ffeae82fb113a256112c55c22f1cd77686/complete.json": "ebdd02f6727b7978c476c442c5ff63316d4f89bf1df3f4be46b516b755e7e2a7",
+    "jobs/KWT_deaths_history1980/35eee4597f066f38f8a5a510310cd9ffeae82fb113a256112c55c22f1cd77686/result.joblib": "2285ae751c5ebc988d9956c1c089de56a50fe723eff01743d284f4fbc5c66da4",
+    "jobs/KWT_deaths_history1980/485c021ec432b79d12c7300bfb064104497a750250475cb6616252619cbc5a8d/complete.json": "8d8ef49ae8e5f4498133ba2138e978fb2dd1224f6c9b1dabf87a5a34ab9e899a",
+    "jobs/KWT_deaths_history1980/485c021ec432b79d12c7300bfb064104497a750250475cb6616252619cbc5a8d/result.joblib": "5f38260ce78b5d2945a41a8bbd4542cab9777f56196a9c1c7195028388d468c5",
+    "jobs/KWT_deaths_history1980/89f8723942e74c65a7d57cc7c437ea42f01e6ed003ade209ad9b11c765c97118/checkpoint.joblib": "2935dff0eaa4d65634c3b78176b76bde95591d04dec2f24c3b2d14b80479cbfa",
+    "jobs/KWT_deaths_history1980/89f8723942e74c65a7d57cc7c437ea42f01e6ed003ade209ad9b11c765c97118/complete.json": "d47e9f4d07fb715120ef5bce0260b81fd7183afb7293353259c921587c1886d1",
+    "jobs/KWT_deaths_history1980/89f8723942e74c65a7d57cc7c437ea42f01e6ed003ade209ad9b11c765c97118/result.joblib": "1ee71199336d6bfa5675074a4da128bbb845e85ee974770fe37b12ebff20d03e",
+    "jobs/KWT_deaths_history1980/a15f9bef5c6e8b7aad437931d6d0498b94adc20fa5e05a617eea49e29d8eff71/checkpoint.joblib": "2297e20e0194eb53aa2a1fa168fc82568ab000d1322e3933584f79589474a51e",
+    "jobs/KWT_deaths_history1980/a15f9bef5c6e8b7aad437931d6d0498b94adc20fa5e05a617eea49e29d8eff71/complete.json": "510e15bf8e6c364c41ba0e823553d2f6e540df38ac78f4e9ba48c1c596bb737b",
+    "jobs/KWT_deaths_history1980/a15f9bef5c6e8b7aad437931d6d0498b94adc20fa5e05a617eea49e29d8eff71/result.joblib": "d361b31cfe7fc340ce80ce6c636fb6feb212d153b4d2041b27f2987e66ed3ed3",
+    "jobs/KWT_deaths_history1980/db3323f1a1ad19cbf8e8d11f9446ee09577903be20ac10f12ba4f289149d23ab/checkpoint.joblib": "08b98da3f6d0d13147c324a282503814a17b31cc3a67c09c71dcc1ce85397ec4",
+    "jobs/KWT_deaths_history1980/db3323f1a1ad19cbf8e8d11f9446ee09577903be20ac10f12ba4f289149d23ab/complete.json": "53213a935da3f73d303746731e7ef95a91dd683d5398ce19063d2642ee875fa1",
+    "jobs/KWT_deaths_history1980/db3323f1a1ad19cbf8e8d11f9446ee09577903be20ac10f12ba4f289149d23ab/result.joblib": "328aa97df4b27821c25ba1b9eeee460457388c4510cfb8d3bdcfea1d18fd31f5",
+    "jobs/KWT_deaths_history1980/def4e251649c3b483431b22c57259f17927d74d6fff82099f7a8423a60c92879/checkpoint.joblib": "b5bdd2c50c034c2e4d50574738c1b4bfa4318ad8602649bcb03b4fbdbd07e8b2",
+    "jobs/KWT_deaths_history1980/def4e251649c3b483431b22c57259f17927d74d6fff82099f7a8423a60c92879/complete.json": "018e38baabba62cce76f2059157040e54086b3dd16b862b4c14f729cc3c105e1",
+    "jobs/KWT_deaths_history1980/def4e251649c3b483431b22c57259f17927d74d6fff82099f7a8423a60c92879/result.joblib": "b231df23166db80df90d84ce1b2c7be3bd4d054a5d0684377aaebd4b7dfda21b",
+    "jobs/KWT_deaths_history1990/106ed60f02dedc6ea6ae06de45399abff14f5845810eb3e8f7dbdd5815be2b68/checkpoint.joblib": "fc6bde78a583b57953f6db27e8355d3fae0a067eb38eb1e938af94dc039bd338",
+    "jobs/KWT_deaths_history1990/106ed60f02dedc6ea6ae06de45399abff14f5845810eb3e8f7dbdd5815be2b68/complete.json": "2e7197477f6919cb2033c17e6b75234863142651d2a802fd46c0fa7e68831157",
+    "jobs/KWT_deaths_history1990/106ed60f02dedc6ea6ae06de45399abff14f5845810eb3e8f7dbdd5815be2b68/result.joblib": "d01481b5b02ea0ece6b9f55f1ebe2d17ff06bee81752dc5fba8b678d80a83f60",
+    "jobs/KWT_deaths_history1990/1fba9a8399b5015eb932edceeb89fd88e4e785ef5e26e6cd8f51c49ec4b7094c/checkpoint.joblib": "2cebca305e7adc0ae20078af0c5b8ce13ca34a52686349e166194f610708b38e",
+    "jobs/KWT_deaths_history1990/1fba9a8399b5015eb932edceeb89fd88e4e785ef5e26e6cd8f51c49ec4b7094c/complete.json": "82003e6c8ff8b5203fe9c6f6756a6847f02ca47b83e67261305998f6f178f989",
+    "jobs/KWT_deaths_history1990/1fba9a8399b5015eb932edceeb89fd88e4e785ef5e26e6cd8f51c49ec4b7094c/result.joblib": "79d3b65d5ae3232ee8ce8ad6bce805501a1395f003fbced9ab4288d240cfc5a4",
+    "jobs/KWT_deaths_history1990/34784fbb94c60e84d5fd68020cbce32ad3b5fd39e99df24cf50aae95bef529ce/checkpoint.joblib": "89af8dc098735372dfcf5dfe3720a309b22a9f733511a82fbff66394d826b3ef",
+    "jobs/KWT_deaths_history1990/34784fbb94c60e84d5fd68020cbce32ad3b5fd39e99df24cf50aae95bef529ce/complete.json": "df1ded4219dc2bdf5bfcaf4a73b3a0b1c8307afb930ccf88178189a310df7986",
+    "jobs/KWT_deaths_history1990/34784fbb94c60e84d5fd68020cbce32ad3b5fd39e99df24cf50aae95bef529ce/result.joblib": "676df8496f156ced25c028897ebacdfbe518f7b418446bdf020f1775ab02ecf7",
+    "jobs/KWT_deaths_history1990/4fb8ff0ddb545b34f55ca22d3a7b877fad57535433ea8408144159f11bffba5e/complete.json": "c9246e6f2b911a54fd4c8e51f2eb8ee88d05a30e5312d86a4a523787c206ddac",
+    "jobs/KWT_deaths_history1990/4fb8ff0ddb545b34f55ca22d3a7b877fad57535433ea8408144159f11bffba5e/result.joblib": "621b997ba04e3aa3fa06feb0d6ca3de5743c9068cdeda9363d69596ac424b403",
+    "jobs/KWT_deaths_history1990/550dab7dff51910afa77dfc0afe362c0ca9d329cd58d1404da5326129a30270b/checkpoint.joblib": "641d4b1a5e508b092c67658866169533302680d600fb32437718e80efc9f8161",
+    "jobs/KWT_deaths_history1990/550dab7dff51910afa77dfc0afe362c0ca9d329cd58d1404da5326129a30270b/complete.json": "c45d1366984c671c7756452f6f764db92bf8a9bcf16d9aee07dee76003ad9901",
+    "jobs/KWT_deaths_history1990/550dab7dff51910afa77dfc0afe362c0ca9d329cd58d1404da5326129a30270b/result.joblib": "19f3530c4adc7756e40cf83ebf9c6f120c2330471b919ba3dab1385695fa3190",
+    "jobs/KWT_deaths_history1990/629061840c9d2e343fe8126aa8a31c36b0cfc9a24676889afade2dbdf798a859/checkpoint.joblib": "b6208e5e6ce6f7b5567b158ef1bdd9b99c15375e7acd892003ac94b233aaa24a",
+    "jobs/KWT_deaths_history1990/629061840c9d2e343fe8126aa8a31c36b0cfc9a24676889afade2dbdf798a859/complete.json": "fb676c8277e0011f18012917eec5c49b17060a322220db88176017d37c214a89",
+    "jobs/KWT_deaths_history1990/629061840c9d2e343fe8126aa8a31c36b0cfc9a24676889afade2dbdf798a859/result.joblib": "91ff3e5fdfb9cd5497c10f58a95e14ab3851f16ff9634b981a6d63b6a475fb87",
+    "jobs/KWT_deaths_history1990/75e842da40b4def36732562062079f5d0f9d045fbe52f2a566ceb0224aba1e02/complete.json": "91a7ff9238ec55d5d2944e33b7b85513355d57289e16c6d4c0d359e6d2a90a3e",
+    "jobs/KWT_deaths_history1990/75e842da40b4def36732562062079f5d0f9d045fbe52f2a566ceb0224aba1e02/result.joblib": "57b06b743aa993f624037329e9882ae2a4d5abf00093bfeeedbe6819f43725c4",
+    "jobs/KWT_ylls_history1980/142c4319a7722da868435de11a60051b6b1a924437c4024ce19a812910a9c374/checkpoint.joblib": "7595a2dfd877e3fabdedb2b7aef5d39dbe6decd45190ac9be232ba9261262c76",
+    "jobs/KWT_ylls_history1980/142c4319a7722da868435de11a60051b6b1a924437c4024ce19a812910a9c374/complete.json": "e42744665523f38fb9e4bf3187244aa0c1279c33d7beba79878e7d71e4540441",
+    "jobs/KWT_ylls_history1980/142c4319a7722da868435de11a60051b6b1a924437c4024ce19a812910a9c374/result.joblib": "d1c4f3075c736a720ea78d23352b75207e1605ce9b6617390dbe10fa6004a8a0",
+    "jobs/KWT_ylls_history1980/331b749ab668af086b4e54ddd3e5135eb26131b2c57e5d5053fa25598a03ca65/checkpoint.joblib": "f01f9b2a22ad11919497c57118eedbbc4868845607f224a083756f992bf99641",
+    "jobs/KWT_ylls_history1980/331b749ab668af086b4e54ddd3e5135eb26131b2c57e5d5053fa25598a03ca65/complete.json": "dc7c9ac087596c7549dfc0f4e89dbc18cf674abc374eb23fd071fc928620f345",
+    "jobs/KWT_ylls_history1980/331b749ab668af086b4e54ddd3e5135eb26131b2c57e5d5053fa25598a03ca65/result.joblib": "c5e355c6fa81b9684cd7a2a9649c818b630f1213f82525e325b4635e86555e24",
+    "jobs/KWT_ylls_history1980/34ff985591087c6ea94289d626e6f20fdb68f292ee365d20f2fed97ca059854e/complete.json": "0231728882a238ace79e135aba6b0f29a1eb6a8fcaab997d6dd462bb23558f4f",
+    "jobs/KWT_ylls_history1980/34ff985591087c6ea94289d626e6f20fdb68f292ee365d20f2fed97ca059854e/result.joblib": "df745bd5e4ebc003b73b2aee84277b4f722346903c66a0bcde47ef518a9ae099",
+    "jobs/KWT_ylls_history1980/4f680b67e34b6534e7a84f7f2af3e2123bf168ed7f02b1c53a299f63be2da338/checkpoint.joblib": "ae02e8a7ceb14eacac7ce82750263bf19d2f6fcef427147b4f37bc11b155f2ef",
+    "jobs/KWT_ylls_history1980/4f680b67e34b6534e7a84f7f2af3e2123bf168ed7f02b1c53a299f63be2da338/complete.json": "e1ee514544897a9ff5e73b72b1a0b47b32f453e399047ec435a60b69e55438bd",
+    "jobs/KWT_ylls_history1980/4f680b67e34b6534e7a84f7f2af3e2123bf168ed7f02b1c53a299f63be2da338/result.joblib": "fbef6aae7e36c5061f9e32bd3bbe70a7e243e7886abe05e1960c9d52343529fc",
+    "jobs/KWT_ylls_history1980/892f8e9912533c89688aa72edfc4c5407a92b2411fb96124680d0555d3d61f53/checkpoint.joblib": "70b7e7282722c49c5359140a9421b5fd5a9c3acc2b4fa98decbf8cc1bb97c92e",
+    "jobs/KWT_ylls_history1980/892f8e9912533c89688aa72edfc4c5407a92b2411fb96124680d0555d3d61f53/complete.json": "20731cb7aa560cc0a68d0d6378faca680f6cea6db415d14d7f1dccd7b6def51b",
+    "jobs/KWT_ylls_history1980/892f8e9912533c89688aa72edfc4c5407a92b2411fb96124680d0555d3d61f53/result.joblib": "039b08edb2fdd22f82048e85c3b21d1484387c8c548070da5c0f166b86d4a45c",
+    "jobs/KWT_ylls_history1980/9dbcb015623f4791d8cf4630de714eb7c14a3307d480f07d059e654082b0f4fe/checkpoint.joblib": "7e24e6936ff3f22c56e4b7169cda9b057de5697528a987f4af5d606e4dce0f8d",
+    "jobs/KWT_ylls_history1980/9dbcb015623f4791d8cf4630de714eb7c14a3307d480f07d059e654082b0f4fe/complete.json": "88e8c526902bafde1a0fb342358c01319373234410f24b05a2ecbbb4c4ff0863",
+    "jobs/KWT_ylls_history1980/9dbcb015623f4791d8cf4630de714eb7c14a3307d480f07d059e654082b0f4fe/result.joblib": "650755aa67c45b46e98676b39d8a1b69f5114292e53abbccf2c605b278b5bba2",
+    "jobs/KWT_ylls_history1980/ab96a146206308807ee907148cd1376c9969a9f3da7515167c21f316eedc7cfa/complete.json": "45a446db147a7088e06a38158a2500aeed53d99788037ed7948a52323081bccf",
+    "jobs/KWT_ylls_history1980/ab96a146206308807ee907148cd1376c9969a9f3da7515167c21f316eedc7cfa/result.joblib": "08f4a9036b27bda04595cbcbc9de04b4d427a36a56f344fa1ca00a036adbc275",
+    "jobs/KWT_ylls_history1990/1b15acfd025d6fdd92f531ff2f15ba9cefb77177441b7d98d3e67539a827d2d6/checkpoint.joblib": "0d9216ff648a495d6f95d054fc7712c52d3eaab90ca5bd8a45df90d32aff0771",
+    "jobs/KWT_ylls_history1990/1b15acfd025d6fdd92f531ff2f15ba9cefb77177441b7d98d3e67539a827d2d6/complete.json": "e328d3ab91170da006a41132b030f49f86dcc495c31bcb9bc7613212c1e7f1c6",
+    "jobs/KWT_ylls_history1990/1b15acfd025d6fdd92f531ff2f15ba9cefb77177441b7d98d3e67539a827d2d6/result.joblib": "14f28773c2d6bba336b07f6e68eb337ba77ba0ee4dac7bbcd7d4c02c0d206ee8",
+    "jobs/KWT_ylls_history1990/56d9bb01720415101bde5bb7d40b40f214880fc27da890c4c245f22a1ea66dbc/complete.json": "e09afa44244b175e4cc347d793ff4527037ea2fbcfc3f435af4b48ff206aed07",
+    "jobs/KWT_ylls_history1990/56d9bb01720415101bde5bb7d40b40f214880fc27da890c4c245f22a1ea66dbc/result.joblib": "326f73315f341219cc6cd11e05c68f6e414da47d4e11e17392523fd0f63ac54b",
+    "jobs/KWT_ylls_history1990/6a1afd17f14dd05d6fc66ff7663687fc080d6beb472f536e0fa0f3c5911c0776/checkpoint.joblib": "b64d5c7477ce8fe769ff22c51f0dbb3e761c0b7e0187ed5cddf518f4531058a4",
+    "jobs/KWT_ylls_history1990/6a1afd17f14dd05d6fc66ff7663687fc080d6beb472f536e0fa0f3c5911c0776/complete.json": "b6eaa17dfb70d4ec8ac54b54880bb855e5bc460b67d57f9eed401f11fbcc0ac4",
+    "jobs/KWT_ylls_history1990/6a1afd17f14dd05d6fc66ff7663687fc080d6beb472f536e0fa0f3c5911c0776/result.joblib": "4d0b83422164ecec503823877517c1b8933f4296e403792e3fd767e813b5c30d",
+    "jobs/KWT_ylls_history1990/ac1d3dcd1daf651c56d2aa6e5c39a694de56dcee923c0396e4957011e7864f82/checkpoint.joblib": "0d8af89366a5d390d6fdf031f5c4ad3ce04a7dce5d1b9237645a6bd527517506",
+    "jobs/KWT_ylls_history1990/ac1d3dcd1daf651c56d2aa6e5c39a694de56dcee923c0396e4957011e7864f82/complete.json": "28eb4381783c3cec1c804797eabff76afd949bbb82f003b13ff27248bff378fb",
+    "jobs/KWT_ylls_history1990/ac1d3dcd1daf651c56d2aa6e5c39a694de56dcee923c0396e4957011e7864f82/result.joblib": "af365336950dd3b26c9062a56ae29f1036039acc6ab7b7df7b8db0f0217f9da6",
+    "jobs/KWT_ylls_history1990/bfe0abb48863c4c7931464ce0a208a112c0427774247e9cc8ed9afddc0114488/checkpoint.joblib": "a57f78ce03b54feba2847bcfa0c3ce7180afc45fc28e0d235375388625055e3b",
+    "jobs/KWT_ylls_history1990/bfe0abb48863c4c7931464ce0a208a112c0427774247e9cc8ed9afddc0114488/complete.json": "54e13d6580815d2fcb4f159fce6a1354e4be6c0a43a733b034c36bd16b849f68",
+    "jobs/KWT_ylls_history1990/bfe0abb48863c4c7931464ce0a208a112c0427774247e9cc8ed9afddc0114488/result.joblib": "7982794e70565ce2523a8ebd35a18b205575180c60cf5c53f297fd229b188109",
+    "jobs/KWT_ylls_history1990/db9bc7fe73fc446976c7f9625bf5b2dfe47970957513e4804b7901146f74e2b4/checkpoint.joblib": "f4ae941fec2d24447345650bf578df2720e4ea7255d4589fdd52b6a3022e2427",
+    "jobs/KWT_ylls_history1990/db9bc7fe73fc446976c7f9625bf5b2dfe47970957513e4804b7901146f74e2b4/complete.json": "6841e6a70addf8d917ac5858d8cbff2cfa7ffc5c970c2d41096abe8851e3dde0",
+    "jobs/KWT_ylls_history1990/db9bc7fe73fc446976c7f9625bf5b2dfe47970957513e4804b7901146f74e2b4/result.joblib": "f73a76aa240879cd4953ba56a2dbc33903879cc47e4d6da530c50bc0f8847ee0",
+    "jobs/KWT_ylls_history1990/f8e6b84d2659d1d2e8943ba35510684edb38154f428c8b4bd808c55b127a4713/complete.json": "16f76f9d506d95e8d9af27e43979d2314dd6be958d8ada1ec2ab2872cc0cbb89",
+    "jobs/KWT_ylls_history1990/f8e6b84d2659d1d2e8943ba35510684edb38154f428c8b4bd808c55b127a4713/result.joblib": "0765bcfe6d4339ae4693cefda6cd5af5468641c20584ecb5e97a315921113cc0",
+    "jobs/OMN_deaths_history1980/26d869e0ba983554652affab1c78917e5248b6bcec30913b14fb6142a4856d64/complete.json": "e861a4e490fd619d446a36f18e8986729072da6f7f6e78ec88e54757046983b3",
+    "jobs/OMN_deaths_history1980/26d869e0ba983554652affab1c78917e5248b6bcec30913b14fb6142a4856d64/result.joblib": "5025d5d9d1413e3597222b77c4b315a625470b87e809eef462afb77d16b70947",
+    "jobs/OMN_deaths_history1980/283f5a9bf798dcce90e46f68267b4f2b1bd5c2f775e0aeba9cd7216243b32fee/complete.json": "a3497e2dc34187edf54c31b7014fe98de1988f8f68513bcd695850e011664bbf",
+    "jobs/OMN_deaths_history1980/283f5a9bf798dcce90e46f68267b4f2b1bd5c2f775e0aeba9cd7216243b32fee/result.joblib": "2fbbe1fd9f448188e1fa63f52bdb9210233200c8d3589b05b541be4f7661e61f",
+    "jobs/OMN_deaths_history1980/605d009b0f1faa5b4c4ee7fe76eab64a94d445cc2ffe2af5ac7719325c2d60a6/checkpoint.joblib": "a27c8a1998971d93b5fe8a576ae2a4e8269238cd2d5266790959b10ce745e52b",
+    "jobs/OMN_deaths_history1980/605d009b0f1faa5b4c4ee7fe76eab64a94d445cc2ffe2af5ac7719325c2d60a6/complete.json": "c5028f53b4200687448c417561542478301d82089b7dac2c102f95e55d5574a0",
+    "jobs/OMN_deaths_history1980/605d009b0f1faa5b4c4ee7fe76eab64a94d445cc2ffe2af5ac7719325c2d60a6/result.joblib": "f1f478f1484d620e7dfb9e961757de1919f44aa67fca23475073b18d0a4c9bd9",
+    "jobs/OMN_deaths_history1980/897134a0ad8ee09f3a77d711047952a8027c5d2de73acfa88e7bd179e144a24a/checkpoint.joblib": "5808714da066bb28bb18a5105135abf9edb879788bbea2f28a07d88dcb77a64b",
+    "jobs/OMN_deaths_history1980/897134a0ad8ee09f3a77d711047952a8027c5d2de73acfa88e7bd179e144a24a/complete.json": "926782417cfd1ec23c019affa7fd70765b0b4dadaf0e5d68960ad94151d61b38",
+    "jobs/OMN_deaths_history1980/897134a0ad8ee09f3a77d711047952a8027c5d2de73acfa88e7bd179e144a24a/result.joblib": "9abc22f8da87290cafe755c856dbdc5d8f570db0ca98b10c1e34f9ea57c522be",
+    "jobs/OMN_deaths_history1980/8ed2da6dae3d978cbf38ef61777ed78eae40fbf2ac4c13e131e8acdd1f316f53/checkpoint.joblib": "dd802c0cb435dffc3294d49c0f37ff5fcf93cf2c677e66a6bbc85b23b9ecf6e7",
+    "jobs/OMN_deaths_history1980/8ed2da6dae3d978cbf38ef61777ed78eae40fbf2ac4c13e131e8acdd1f316f53/complete.json": "5232982622f9788386d6ad692cd8a52b207852404a75d15a8a2676636740d2b5",
+    "jobs/OMN_deaths_history1980/8ed2da6dae3d978cbf38ef61777ed78eae40fbf2ac4c13e131e8acdd1f316f53/result.joblib": "1a3a34eb98ed1dcc50cbb8fc3934007c9067be99cf25d87c95be9c6b450c98c0",
+    "jobs/OMN_deaths_history1980/d22481b4560401fd2067a17990a31c1df3498bd7a1c9e51058c2bee3b9c674a8/checkpoint.joblib": "418955f1c5c5c71fb4feb306df7f7972a0201b9fe43261d2de7c20673380762d",
+    "jobs/OMN_deaths_history1980/d22481b4560401fd2067a17990a31c1df3498bd7a1c9e51058c2bee3b9c674a8/complete.json": "1aa4ab2a86af6f56b3b6ec73c78d95a58556df4c8295187931c66a5e306ac1a4",
+    "jobs/OMN_deaths_history1980/d22481b4560401fd2067a17990a31c1df3498bd7a1c9e51058c2bee3b9c674a8/result.joblib": "188aab69f83d5362498d6fba5c7c06d5aebe71189f2901df9581726012d7e3ef",
+    "jobs/OMN_deaths_history1980/e58f5e6dde3e42dfc6d1e5fec250e07aad8291f19693ac451be501fae31824e7/checkpoint.joblib": "1e8cda925c939f339ac90f4220485b2c4b08d56fa69d232ffea5152af900e1c6",
+    "jobs/OMN_deaths_history1980/e58f5e6dde3e42dfc6d1e5fec250e07aad8291f19693ac451be501fae31824e7/complete.json": "9685055fd172339e973f7d2b35decc3d7cfaef82a53976c89bc3a34b55d8e9c5",
+    "jobs/OMN_deaths_history1980/e58f5e6dde3e42dfc6d1e5fec250e07aad8291f19693ac451be501fae31824e7/result.joblib": "632d3d947c1d6e7956e0fd19a82d5957bbe0945b1080488b092b0ea685c745bc",
+    "jobs/OMN_deaths_history1990/2d51098089cec7a01bd286125b7f4cc5b0ef80fe1c2d00d88067ea741533b3aa/complete.json": "b29f4a6d84a63935053023bdbfb4c8e028cda5851ce2134e4eac9806f7a27f97",
+    "jobs/OMN_deaths_history1990/2d51098089cec7a01bd286125b7f4cc5b0ef80fe1c2d00d88067ea741533b3aa/result.joblib": "a82849d32f2b811396497cfb39e42228f6d9467545f1c0027d39a268cef0afb9",
+    "jobs/OMN_deaths_history1990/66b69e994b15a86d406c41f49a81f2981632663ff770ba7066da558dfa900195/checkpoint.joblib": "87b08586d781f84a70e7b1396d4aa34e1bf965ac3d96759f49c094dd8e13d83d",
+    "jobs/OMN_deaths_history1990/66b69e994b15a86d406c41f49a81f2981632663ff770ba7066da558dfa900195/complete.json": "02b4eaaf275122bc1e7e60214698528781ac9efd4b684b4e15d3e3d698f1e5a5",
+    "jobs/OMN_deaths_history1990/66b69e994b15a86d406c41f49a81f2981632663ff770ba7066da558dfa900195/result.joblib": "57511dfa7a41cfdced33651b8d6237168262a14e2a1b35ad5395f1acb1799b27",
+    "jobs/OMN_deaths_history1990/94c6969ea0c6b46d2ddc3b4ed4f70268af8e255b1d00ffd9e0fe0677faa9da82/checkpoint.joblib": "eda907ce047e823a95665e4ffd8822ebce29c1d3fd89145569e93a7d9028dca4",
+    "jobs/OMN_deaths_history1990/94c6969ea0c6b46d2ddc3b4ed4f70268af8e255b1d00ffd9e0fe0677faa9da82/complete.json": "aab10faae0deb4fcec0f65678e85f2781314da8348bd328daa502573828026ed",
+    "jobs/OMN_deaths_history1990/94c6969ea0c6b46d2ddc3b4ed4f70268af8e255b1d00ffd9e0fe0677faa9da82/result.joblib": "5db978f26cefd79e4d5501edaf763137a3a61f5ec37b20fdaeb490e151c40db8",
+    "jobs/OMN_deaths_history1990/c2d50683ba4a8fee3f7c5adc743e597f345e0dcfe4c40caeb59c23883b69de4c/checkpoint.joblib": "71c0e5e303ffdff473d008206d5300ebb62a4bbf37e2431d77a8289c29709fb9",
+    "jobs/OMN_deaths_history1990/c2d50683ba4a8fee3f7c5adc743e597f345e0dcfe4c40caeb59c23883b69de4c/complete.json": "d02f8d035e78c8bf89e995bd0f8d56a24c8f79c51d5dc865131b934a420da51f",
+    "jobs/OMN_deaths_history1990/c2d50683ba4a8fee3f7c5adc743e597f345e0dcfe4c40caeb59c23883b69de4c/result.joblib": "5f763b570aeb32910bd7dbc33344fd25db41a955333495c918e18c8511674772",
+    "jobs/OMN_deaths_history1990/c7c887aef093c892105d9f47b1232a6d0a614768eb9a669168b2d1559984ffd0/complete.json": "4dabc284a9224cfe53bb0e7092fb400416fe879dbe7fa9ae383a98d29d791f6d",
+    "jobs/OMN_deaths_history1990/c7c887aef093c892105d9f47b1232a6d0a614768eb9a669168b2d1559984ffd0/result.joblib": "3a8150046881dcf55e85d0674eb471b489aefe863b080ad62479059e3f99ede7",
+    "jobs/OMN_deaths_history1990/e3ceaffda311cf5165dd3c15c85f2992f511f0609addda895ac7f9a8f118534c/checkpoint.joblib": "8d9b3062404eba3df40834c05a44139e3d6503713be90ad5e82d5ed22e8ec05b",
+    "jobs/OMN_deaths_history1990/e3ceaffda311cf5165dd3c15c85f2992f511f0609addda895ac7f9a8f118534c/complete.json": "e476beefb9940ab217eec7e7908014222d59cc2186ae96ac9eaa28d399b78ca8",
+    "jobs/OMN_deaths_history1990/e3ceaffda311cf5165dd3c15c85f2992f511f0609addda895ac7f9a8f118534c/result.joblib": "9e3fb270505aab7f988f3cda003e7ab9419b8b34ff663f9eb0374f51ca286053",
+    "jobs/OMN_deaths_history1990/f5a51951f63e9fc5c7e83c10add55765298af4fb36972eb4ef8c6acc3b21fcb5/checkpoint.joblib": "b3a08b49af0705ee829d0bee56bc271f93fd4f032ce08a1fd7ab721fceb3e6c3",
+    "jobs/OMN_deaths_history1990/f5a51951f63e9fc5c7e83c10add55765298af4fb36972eb4ef8c6acc3b21fcb5/complete.json": "f38b336e9aa50807d3ce5978cd75511615045707b099a22f8a817957b37a2684",
+    "jobs/OMN_deaths_history1990/f5a51951f63e9fc5c7e83c10add55765298af4fb36972eb4ef8c6acc3b21fcb5/result.joblib": "8afa7b2f589b17879befd4b821e0903eec14ffc7f8cfbe7c34fe15a5520f65c3",
+    "jobs/OMN_ylls_history1980/29c0a0a4cba5ec1adc3bf51e631e6647f1482d6c1b66d2fdf6e7a351dc2fa376/checkpoint.joblib": "fd973ff8d061b8816378b753e722f121e820d5bc45773749e9f189f08df38345",
+    "jobs/OMN_ylls_history1980/29c0a0a4cba5ec1adc3bf51e631e6647f1482d6c1b66d2fdf6e7a351dc2fa376/complete.json": "1ca984d0c90613109b23fb3695fd55d5243224374fa920a26b99bc7cfb483bfa",
+    "jobs/OMN_ylls_history1980/29c0a0a4cba5ec1adc3bf51e631e6647f1482d6c1b66d2fdf6e7a351dc2fa376/result.joblib": "400ed85f29fba8993a2f10ce9cca6aaba4d900bdad5084558da67ca1ea58151a",
+    "jobs/OMN_ylls_history1980/396146c12e8be2b3c07164a7a1764da353564a050c0f9a0adb634920a0760ef1/checkpoint.joblib": "7b631ec78f74718208984b65330dc36dd3bbd1fa8e0f9ca264048cad14b873e2",
+    "jobs/OMN_ylls_history1980/396146c12e8be2b3c07164a7a1764da353564a050c0f9a0adb634920a0760ef1/complete.json": "fa088d3fdfe825fa6bdaad0c778058470b979f3be18268f5b996d5a6fb15b1af",
+    "jobs/OMN_ylls_history1980/396146c12e8be2b3c07164a7a1764da353564a050c0f9a0adb634920a0760ef1/result.joblib": "b349866c3516c04bff1e77ae4f9ce487cd146e7a8323f5d4b10cc9aee8117d2d",
+    "jobs/OMN_ylls_history1980/73dc6df3372bc60ecef63de0603ba98eb2f5885334041a91be5d7104982fe818/complete.json": "3f8dad61784f052c6b1bae37b164d6fe5aa4383a45a41e83b52be573b268393c",
+    "jobs/OMN_ylls_history1980/73dc6df3372bc60ecef63de0603ba98eb2f5885334041a91be5d7104982fe818/result.joblib": "987d91d40a025ac731127901e74972babd766d84fc8dbefb46baee3fa2ad5781",
+    "jobs/OMN_ylls_history1980/7af5049a4d27907452475ce6686185c04a004d3df0eb5e4ef6b56be0650e6683/checkpoint.joblib": "53558e4680c3ce81c1cc2c5250299661c0c5bcdbb5fd67284a3e7bea70e19b60",
+    "jobs/OMN_ylls_history1980/7af5049a4d27907452475ce6686185c04a004d3df0eb5e4ef6b56be0650e6683/complete.json": "5494635d3e0c82a5f2bcc0115ad7890e145b4a05b7aefb5efd9c739fccc30cea",
+    "jobs/OMN_ylls_history1980/7af5049a4d27907452475ce6686185c04a004d3df0eb5e4ef6b56be0650e6683/result.joblib": "68c0ca0fbdbb087f08d97395facb32c30c08f89cf7ff54634c87b41061475bdd",
+    "jobs/OMN_ylls_history1980/9409411d86dd94ff7307b0f60ceadba45dd625b3ff5bb42502707d09bd1ec4c6/checkpoint.joblib": "5c913f905df5e99ca9d2b45649e833d5954888230592256c31f43f9307e06b8c",
+    "jobs/OMN_ylls_history1980/9409411d86dd94ff7307b0f60ceadba45dd625b3ff5bb42502707d09bd1ec4c6/complete.json": "592f06958450b66864feddf5d90bc55e825d2651609368c0718c2be8c01a14b5",
+    "jobs/OMN_ylls_history1980/9409411d86dd94ff7307b0f60ceadba45dd625b3ff5bb42502707d09bd1ec4c6/result.joblib": "608002434161c839556e297b1ac12ceba89fdaf64f2e6e5e57d7b920138a003f",
+    "jobs/OMN_ylls_history1980/95d7787b7359169c85f072ea82cf8fc81430ad8d81df0def0800b36ed446bf01/complete.json": "ddc63593a1e81eebeaa93c9c386f06404bd5d8945d32c818f513f56d2a5927e6",
+    "jobs/OMN_ylls_history1980/95d7787b7359169c85f072ea82cf8fc81430ad8d81df0def0800b36ed446bf01/result.joblib": "bc71e4114f0e340275f4a3add6086a3eac14b9b0a10e4240b09409f479fa2e8f",
+    "jobs/OMN_ylls_history1980/ae6b85f3562f85a5f83178ded86aa5c19d2533485a8e8c5ef2c24d328fb05c2b/checkpoint.joblib": "588f1444dc13aa74cc0cd41ce943eb4aae8c7a3661901e101340bac2dfe9616c",
+    "jobs/OMN_ylls_history1980/ae6b85f3562f85a5f83178ded86aa5c19d2533485a8e8c5ef2c24d328fb05c2b/complete.json": "f5a2028fdedbdf716856551203b2c2ec143a1ba4718f70498037a6ed093512d1",
+    "jobs/OMN_ylls_history1980/ae6b85f3562f85a5f83178ded86aa5c19d2533485a8e8c5ef2c24d328fb05c2b/result.joblib": "e26dce0b258e8a55d6804ae8413fd872be2f23a9b742586282f3e89c550cb990",
+    "jobs/OMN_ylls_history1990/3fa96ebe0064e6bf976cd7935668f5153b70daf601a79b61c1cc51434f0abbb0/complete.json": "55bc57467bc85d46d0114c703c1d01a31624c61a91b9efbd5430b15f5e8045ff",
+    "jobs/OMN_ylls_history1990/3fa96ebe0064e6bf976cd7935668f5153b70daf601a79b61c1cc51434f0abbb0/result.joblib": "f0d508c33a88059a6068f2ca795b809dc661c7b54723b8f8247925c4efd447f8",
+    "jobs/OMN_ylls_history1990/65418ee9f1e5bd9e02fbc657938076816b756a70675136ed722d11efd248547a/checkpoint.joblib": "a7c4eb47ecf9c489dbaf9eb798aa5b036ce720b85727f9811f32f64eb2654fa1",
+    "jobs/OMN_ylls_history1990/65418ee9f1e5bd9e02fbc657938076816b756a70675136ed722d11efd248547a/complete.json": "f936ea558eb1046398233b9fda79ab2846d99c7068ce1dcc7af5963badbddf50",
+    "jobs/OMN_ylls_history1990/65418ee9f1e5bd9e02fbc657938076816b756a70675136ed722d11efd248547a/result.joblib": "88f14fd2e120296b14b8677347fd542c9273af93ee744458b6ae5e6ad09c2146",
+    "jobs/OMN_ylls_history1990/71d2a39e9e4badffe6d7e7f3aa002c326e0ce1499c5be35fe74bfdffa6fdd4cc/checkpoint.joblib": "3658622844b4eafb87cf01939970bf3104445ede4fe3c2918ef8472e14d4e6db",
+    "jobs/OMN_ylls_history1990/71d2a39e9e4badffe6d7e7f3aa002c326e0ce1499c5be35fe74bfdffa6fdd4cc/complete.json": "49d60959ae2ff0d00c4ed05e6523040ced92720711aa267482460b96c0ff786a",
+    "jobs/OMN_ylls_history1990/71d2a39e9e4badffe6d7e7f3aa002c326e0ce1499c5be35fe74bfdffa6fdd4cc/result.joblib": "2d94cd1f932056ee0a02b6797fa6107bf125960f0cc4912a60b05b3722db8962",
+    "jobs/OMN_ylls_history1990/cb7b121236cf4d8724778a9cfbe866a895c1a720e9204763e533ccf0dab44c26/checkpoint.joblib": "eb3b19e57dacfb9cff21ba305088ff4ab89dd167c14de7a9dee62b8d37a7aa5b",
+    "jobs/OMN_ylls_history1990/cb7b121236cf4d8724778a9cfbe866a895c1a720e9204763e533ccf0dab44c26/complete.json": "62cd9f864d88a1e1cc2913d36a19ce1156fda7d9e6971e7b37611aebb1822129",
+    "jobs/OMN_ylls_history1990/cb7b121236cf4d8724778a9cfbe866a895c1a720e9204763e533ccf0dab44c26/result.joblib": "f9571446b4c71424d3d89f2077f02d6139328cdef6a9730e65fe15e8fda1ff77",
+    "jobs/OMN_ylls_history1990/cca09dc159c958fde059de9526f0863262e7e9a6ebc0e32f1f12bc4dad7d8da9/checkpoint.joblib": "c09bb63f0a6fa88403980728545ca2b9856b21c9a8c63ef65e49318f54991254",
+    "jobs/OMN_ylls_history1990/cca09dc159c958fde059de9526f0863262e7e9a6ebc0e32f1f12bc4dad7d8da9/complete.json": "21c42f82058bfd773616cd9a8b2662792f6efe94d72fc9326779ba2a0dea8cc8",
+    "jobs/OMN_ylls_history1990/cca09dc159c958fde059de9526f0863262e7e9a6ebc0e32f1f12bc4dad7d8da9/result.joblib": "9ed460b3bd180f81e43546e52715670e649310f6b4f0be0ad9b297613a9ad5fe",
+    "jobs/OMN_ylls_history1990/d89c5d9582644b32260eae22f2cac26fc27073768ab4ae7c7290f155ce3922be/complete.json": "9d26aa72b2496c41f7940af4ce75028b24464fbc033fea32592010c737b52dd0",
+    "jobs/OMN_ylls_history1990/d89c5d9582644b32260eae22f2cac26fc27073768ab4ae7c7290f155ce3922be/result.joblib": "66c4f62d84be8c8662e0b116b86bac9522a34fc1fac2fd9085eed134d6a8ec17",
+    "jobs/OMN_ylls_history1990/def0934fd26c72b59eeb24450ba127bee0e760427c31a80939e9ebd1e96a374b/checkpoint.joblib": "dd3f3f03b8078de895adf6b6329aa87a9417f2d5676f42ceb2a5cc3f76d5fb48",
+    "jobs/OMN_ylls_history1990/def0934fd26c72b59eeb24450ba127bee0e760427c31a80939e9ebd1e96a374b/complete.json": "d523b06eb87263f8194bec2668a66c2cad73f2bd8ced3e518279cf6425e58f1f",
+    "jobs/OMN_ylls_history1990/def0934fd26c72b59eeb24450ba127bee0e760427c31a80939e9ebd1e96a374b/result.joblib": "af9b85b6cee3552beb164b9b48a69a2c4ab4dfa63b582ff271f089d694687810",
+    "jobs/QAT_deaths_history1980/128a951a92d15a96b8d983837d19dff5349108c2ee1a1dfbfb61ce8860d1a916/checkpoint.joblib": "16dfa5535f1586f721eccb6d78fe282964fedad3a73e43e05a289488108ca121",
+    "jobs/QAT_deaths_history1980/128a951a92d15a96b8d983837d19dff5349108c2ee1a1dfbfb61ce8860d1a916/complete.json": "990544c72941e39a92f55b2cfd232c36a3d97de2adf37dccd901f280c77532e3",
+    "jobs/QAT_deaths_history1980/128a951a92d15a96b8d983837d19dff5349108c2ee1a1dfbfb61ce8860d1a916/result.joblib": "77c3b7855698412a4e247f80816b197b290bd0de73eccc902cc83b9bf2e430d9",
+    "jobs/QAT_deaths_history1980/1d782bcc6789eb109853eef36aa481b8a7f51ffcf3d9819c2f8f3fe54455eb8a/checkpoint.joblib": "42bc12a462764138a7882f91600d89773447e22749c9f06451d5d16b67b338fd",
+    "jobs/QAT_deaths_history1980/1d782bcc6789eb109853eef36aa481b8a7f51ffcf3d9819c2f8f3fe54455eb8a/complete.json": "d4a0a30c8e06b9413ffb89aaf285d00349dc4491481de428af31e1c6c94d7012",
+    "jobs/QAT_deaths_history1980/1d782bcc6789eb109853eef36aa481b8a7f51ffcf3d9819c2f8f3fe54455eb8a/result.joblib": "864957a7f5a7e1fc4ac80402a9cbb0e8b89a031b850b4e529374f71831ef72e1",
+    "jobs/QAT_deaths_history1980/3820dff6941cb85cb6560319f993ab60e6e1146b763ed79dc611321ee0805886/complete.json": "10efb2ee04f063b42e570c1b4cd3536211d8c345097ec495aa2586bbc76deaed",
+    "jobs/QAT_deaths_history1980/3820dff6941cb85cb6560319f993ab60e6e1146b763ed79dc611321ee0805886/result.joblib": "c71868192c864d32210aac19c91e330a88ad6131ed30bf1c7f2170c44eedf709",
+    "jobs/QAT_deaths_history1980/4ef8798bc9a9318ba9ae802b46c2c964cdbc2a1355c92ca0a9a70a2be5b14151/checkpoint.joblib": "8a7e40dc4558cc343be1a4e6896edfd4b1c2c082f8558f947db52d356055197f",
+    "jobs/QAT_deaths_history1980/4ef8798bc9a9318ba9ae802b46c2c964cdbc2a1355c92ca0a9a70a2be5b14151/complete.json": "cbfa16f4e8565d193b27f27b06b54ada9fc2ad348b98e51e0b8c60325f9b318b",
+    "jobs/QAT_deaths_history1980/4ef8798bc9a9318ba9ae802b46c2c964cdbc2a1355c92ca0a9a70a2be5b14151/result.joblib": "156ee459084e3f73fa4cc1ee578fc1a06dea183f6410f1fd61f78adae4835298",
+    "jobs/QAT_deaths_history1980/8347152ddf79680bd5441d88d16a8c7b2d8306a1d109fb7b1630c93a5377d1c3/checkpoint.joblib": "5a5b19f7696db351e86a99f1a3d588f7c789915ccd0e6fc71a2cc631c6b15d0e",
+    "jobs/QAT_deaths_history1980/8347152ddf79680bd5441d88d16a8c7b2d8306a1d109fb7b1630c93a5377d1c3/complete.json": "2efd045452e6ecf762b7cc9a11b4ce09d0e9ef1e373383819a7c0e2454d1eeab",
+    "jobs/QAT_deaths_history1980/8347152ddf79680bd5441d88d16a8c7b2d8306a1d109fb7b1630c93a5377d1c3/result.joblib": "ddad1362f04c96908c8c1e7584fe2a5f5499f6bf8eca12551a6429e3610b29f5",
+    "jobs/QAT_deaths_history1980/a63e21d80955586276ecd530fa7cd4042203d023cf5fb07c6c37dc44e073b35e/checkpoint.joblib": "42b5e538a59c0e71d379492c3b2f34239843886752d7bd53bceb56b52b38d0de",
+    "jobs/QAT_deaths_history1980/a63e21d80955586276ecd530fa7cd4042203d023cf5fb07c6c37dc44e073b35e/complete.json": "c4f828f128eb867f8bad9bb3d39343df05ac65de25664716a86427fe49082227",
+    "jobs/QAT_deaths_history1980/a63e21d80955586276ecd530fa7cd4042203d023cf5fb07c6c37dc44e073b35e/result.joblib": "8d412849cc03902aae2c72bb5f53cea25a3ce944ee3842354c4ed2d5693a693a",
+    "jobs/QAT_deaths_history1980/dfb2b416f1be8da3349b7ee82ad56b5a48413e3aa07c80f3eaccb3e1da90f5c0/complete.json": "5676fde7a631938c612a2904195fa317cdb11ff7196a937890149baabb2b9600",
+    "jobs/QAT_deaths_history1980/dfb2b416f1be8da3349b7ee82ad56b5a48413e3aa07c80f3eaccb3e1da90f5c0/result.joblib": "40ee1e7d193e0fbbf53ba285c2ad9341125d4773a848fc19efa7012e7508cb10",
+    "jobs/QAT_deaths_history1990/0d2245bdf50e1343dca8ba8a2829c583fe1bb42f4ae7421a1d950b03a86d1cc6/complete.json": "2c6ddd41acdc326a74201bed4d506de44608574c2cdfa426e3b644519fb33b4c",
+    "jobs/QAT_deaths_history1990/0d2245bdf50e1343dca8ba8a2829c583fe1bb42f4ae7421a1d950b03a86d1cc6/result.joblib": "60238b97de66c31632fdea387f6a13e96b194525c21c77120b2f2af8fa6c9498",
+    "jobs/QAT_deaths_history1990/18b0a78a82c4c1f606236001bf8816f443ef4b8ac4564c37616c6dfb1b15ce54/checkpoint.joblib": "959c40283867a12d9a966386a97a2c76cf09c67450e645c6686f335947f569e3",
+    "jobs/QAT_deaths_history1990/18b0a78a82c4c1f606236001bf8816f443ef4b8ac4564c37616c6dfb1b15ce54/complete.json": "2ecbfd1a0ecfd6ee2ed1d1fe56628098373579a7bfa51974506eb470198269b4",
+    "jobs/QAT_deaths_history1990/18b0a78a82c4c1f606236001bf8816f443ef4b8ac4564c37616c6dfb1b15ce54/result.joblib": "578381af5da7d6afb9041d3a5d596c8ffc1d2673dec9f1b31f1db8dadfe8031e",
+    "jobs/QAT_deaths_history1990/1c41c3ad1d1d5dc8bb3261683e521880b31f0092a5835cebf8b6e284ea83c114/checkpoint.joblib": "1b24da273109235afc15d0940ea5928c86d76b3efdbaf7801648071244e32f5b",
+    "jobs/QAT_deaths_history1990/1c41c3ad1d1d5dc8bb3261683e521880b31f0092a5835cebf8b6e284ea83c114/complete.json": "90416e307b881725c86c6aa43d907fd20f4c769583fdb5ecc45c635c53609d27",
+    "jobs/QAT_deaths_history1990/1c41c3ad1d1d5dc8bb3261683e521880b31f0092a5835cebf8b6e284ea83c114/result.joblib": "0ba435192f7d1c8fb6e1e188078c6a5898575e0eef302f5fe9e9ae20ed5a28a7",
+    "jobs/QAT_deaths_history1990/676cf4ff9600d013696d374b6a59f8e7ed0566cdca1f5b0f68457dc1d71e092d/checkpoint.joblib": "889f5cb5c5be31287f7c73f744947ba7c78ada8b560609ce2fc817661b0a4c02",
+    "jobs/QAT_deaths_history1990/676cf4ff9600d013696d374b6a59f8e7ed0566cdca1f5b0f68457dc1d71e092d/complete.json": "b8f23593361a2d9f1bffe8f6ee092ce43aad69b778688dbdb64bdced78173540",
+    "jobs/QAT_deaths_history1990/676cf4ff9600d013696d374b6a59f8e7ed0566cdca1f5b0f68457dc1d71e092d/result.joblib": "9ce81b738b31cb00d7120cfa68aaaf038d01ea48783317561c018f805fe99579",
+    "jobs/QAT_deaths_history1990/7e6ae7f288f8a377adce5959136e1d165a0ac27e96667a76e4e0278a43225604/checkpoint.joblib": "df68b1519b14ab9522d72ac7cc0bec28171cf9470f190b479c1f9939c8a7806b",
+    "jobs/QAT_deaths_history1990/7e6ae7f288f8a377adce5959136e1d165a0ac27e96667a76e4e0278a43225604/complete.json": "0115b4ae0ce46774d0b9d40477f7aa82a671fb8e37c26d6c6f463696fe18775c",
+    "jobs/QAT_deaths_history1990/7e6ae7f288f8a377adce5959136e1d165a0ac27e96667a76e4e0278a43225604/result.joblib": "97792cf861a5e86b05bcd4e75ab19df9de0a5ee4d1f81551ff84033189293121",
+    "jobs/QAT_deaths_history1990/eba55b3deb2ba0e58d3d70150a0dc3b0161fae79ed153188b7f59d6d1af619f9/checkpoint.joblib": "c5502433200262a4560e1f7c13b09513766b30f1d01032021c580b07d4caa1a4",
+    "jobs/QAT_deaths_history1990/eba55b3deb2ba0e58d3d70150a0dc3b0161fae79ed153188b7f59d6d1af619f9/complete.json": "8892a3b431b92e31d8be56e554133c5a88522d25582e5b4db2d6fb92094c60e0",
+    "jobs/QAT_deaths_history1990/eba55b3deb2ba0e58d3d70150a0dc3b0161fae79ed153188b7f59d6d1af619f9/result.joblib": "1cb77c503e9365cfef2e3a430eb9a1e35892af9b93d1f88896c368b9a07d9b93",
+    "jobs/QAT_deaths_history1990/f08293fb95c8bafb596a2a7a6c69eb737172bbfd14fafc1a4bccc8c628005422/complete.json": "4bd66fa7b83ad96e9144e5cdec3faa70b13059abf0305aa87570e55542e9a7c5",
+    "jobs/QAT_deaths_history1990/f08293fb95c8bafb596a2a7a6c69eb737172bbfd14fafc1a4bccc8c628005422/result.joblib": "005641a2376f4dcd9d8efe326b6948dbbfbfeb4ff47218f02fa86b6aeb0643cf",
+    "jobs/QAT_ylls_history1980/08c0ba95a29dd219058e63ed24a527713b9bee5664940aabe8cbbacf8b580400/checkpoint.joblib": "68db9e3ffee0eb9902119506909e2e121248ce53c0903f75b485af448e576bdc",
+    "jobs/QAT_ylls_history1980/08c0ba95a29dd219058e63ed24a527713b9bee5664940aabe8cbbacf8b580400/complete.json": "69f9876c5836e95ee306adc0646e964e22db77bbc46710dd2e81e20d8a029799",
+    "jobs/QAT_ylls_history1980/08c0ba95a29dd219058e63ed24a527713b9bee5664940aabe8cbbacf8b580400/result.joblib": "3e953aeb8cf30a978acb81824b506d18adab9df1b67d306d8fcfded8f6615301",
+    "jobs/QAT_ylls_history1980/1cf196138659aaeba01c4afbf5c1645ffc2943650f12b370edbf88d1546a8373/checkpoint.joblib": "837d31571b6476cc7d1336f5c70194bc98c233973db6fa4455da0320402dd6ca",
+    "jobs/QAT_ylls_history1980/1cf196138659aaeba01c4afbf5c1645ffc2943650f12b370edbf88d1546a8373/complete.json": "8d02991b5610eeccf42082b0b2270350b837d5022b7cd58aa9a7da500f55644b",
+    "jobs/QAT_ylls_history1980/1cf196138659aaeba01c4afbf5c1645ffc2943650f12b370edbf88d1546a8373/result.joblib": "53516f0ea4581bedda4e91ff550049deaaffbe170a76dc47def9436a41558959",
+    "jobs/QAT_ylls_history1980/274bc069c076089b6bd8da95a24756df18445e73550e49c54494343dd79e75de/checkpoint.joblib": "f50d6e89ca4eb16a0fb3a42a9b4276a27cc3453124aa1c185f9804a1923f925a",
+    "jobs/QAT_ylls_history1980/274bc069c076089b6bd8da95a24756df18445e73550e49c54494343dd79e75de/complete.json": "2c81a158de8161de7cc9c7154665ade61cb3812a0107cf2058a4a695c99612a9",
+    "jobs/QAT_ylls_history1980/274bc069c076089b6bd8da95a24756df18445e73550e49c54494343dd79e75de/result.joblib": "d833af72fd2f3a04f4d16be54ca68936999c57c6c08e8c446ecf63751a92c475",
+    "jobs/QAT_ylls_history1980/32447430a81b4368ab328842325acb7e0dddd64eb48d5224afb1843df7041a0e/complete.json": "fe2e52ab789db950b055cc3d1642e5fbb33ebbf46715e04b0aaeff50117857c7",
+    "jobs/QAT_ylls_history1980/32447430a81b4368ab328842325acb7e0dddd64eb48d5224afb1843df7041a0e/result.joblib": "8e9fa152a51847128f7e2920e54e2c1ebd7a7d333f0e49060831021f89d25576",
+    "jobs/QAT_ylls_history1980/6ea189d9911958488293615b2f484ba9eda77e40e96a2081af75e0c2b2dc772e/checkpoint.joblib": "5fe7f9ea44f276a2f59170cfca3acc03a94704382d73d7c58172ea43062a2567",
+    "jobs/QAT_ylls_history1980/6ea189d9911958488293615b2f484ba9eda77e40e96a2081af75e0c2b2dc772e/complete.json": "c30cd6ed89ceaac712e3b932033d94f79aaa552f012d80c0ae84b8159a9b7d6c",
+    "jobs/QAT_ylls_history1980/6ea189d9911958488293615b2f484ba9eda77e40e96a2081af75e0c2b2dc772e/result.joblib": "03362bfb0e47e3e9b89592b165297785383c5b5942c819ac57f20345b9499e07",
+    "jobs/QAT_ylls_history1980/725a62e60ee1e12418857eb69c21d4e99c6d05d115d10bed69126e7733f080a8/checkpoint.joblib": "02e11a3ef18bdcd9105ea9eb13d4e6f55935159946829e864afd41545c5cf1ea",
+    "jobs/QAT_ylls_history1980/725a62e60ee1e12418857eb69c21d4e99c6d05d115d10bed69126e7733f080a8/complete.json": "6b4adeb96b8bbad0c2d4a52842d75b68357b9ac7d71c87ffe28b0c9ee0d78f13",
+    "jobs/QAT_ylls_history1980/725a62e60ee1e12418857eb69c21d4e99c6d05d115d10bed69126e7733f080a8/result.joblib": "7857da92e7807e5b8a311ec72a999cd6f10e51c99fce637feb7f1cd850cb6079",
+    "jobs/QAT_ylls_history1980/a9c828775d02b65bf3e55a39ab3e84d891f6dc63d07b79ebe4efdb9571724ca1/complete.json": "882267084ecf420218778e1da77431142facd861441764af1bf486c37af0e244",
+    "jobs/QAT_ylls_history1980/a9c828775d02b65bf3e55a39ab3e84d891f6dc63d07b79ebe4efdb9571724ca1/result.joblib": "24fd4078091ed7e2d53ff1d6bede0f72820c0e2e3766259a90970d41c9d4fc26",
+    "jobs/QAT_ylls_history1990/084f56cb2a6d00fc3346ccc87384ca51a861a1ff42b9636cd43b6bf17c622d3a/checkpoint.joblib": "264832c8307ac6f7541049b1205a1285faa850259a7752719d87b2cb7469130a",
+    "jobs/QAT_ylls_history1990/084f56cb2a6d00fc3346ccc87384ca51a861a1ff42b9636cd43b6bf17c622d3a/complete.json": "1525ac37ae415f90d5543810033f2e3e68b05c79ee7f004585afab50cc211324",
+    "jobs/QAT_ylls_history1990/084f56cb2a6d00fc3346ccc87384ca51a861a1ff42b9636cd43b6bf17c622d3a/result.joblib": "79034f1e922b0ed072609df8a6ab884fd791060dc9e671f32209296447551ffd",
+    "jobs/QAT_ylls_history1990/5b5cea96483a351a636ae46edb3c0cde61f4b6d1d8cf8b24cbfa642ee79e0a2e/complete.json": "8062a3c73e154c984c52d7a2c67c90072f754a90e716787b92b766e44e4c874d",
+    "jobs/QAT_ylls_history1990/5b5cea96483a351a636ae46edb3c0cde61f4b6d1d8cf8b24cbfa642ee79e0a2e/result.joblib": "3f9a3b037d14dc93a8708d4b669a0944687f16fdf0a7f65aead33421fc5f2519",
+    "jobs/QAT_ylls_history1990/6caf06bd3486f5794b330dbacef4865405e6e3c5245b96c7d56ef8db3e030acf/complete.json": "bfa41d4d718da18bc5b1f6939f0138579cf09da192bb06117d76d60840602638",
+    "jobs/QAT_ylls_history1990/6caf06bd3486f5794b330dbacef4865405e6e3c5245b96c7d56ef8db3e030acf/result.joblib": "da58b33d58b5c4844a0bcb41a0eb53ec68fc54b86b69863333bcce48ac3160a1",
+    "jobs/QAT_ylls_history1990/8568910ba9bcbca0e378b7991bae8913dac074141808e5d6138468e29e4aafde/checkpoint.joblib": "ccd5119e64e482a6f99d62953673a9851cf8af71967d2f60d29d596ae64b362b",
+    "jobs/QAT_ylls_history1990/8568910ba9bcbca0e378b7991bae8913dac074141808e5d6138468e29e4aafde/complete.json": "de8b73d96aafe6a37af2a6da1e1c91ca1f5a11daecdf5dd4418c6905ea811e69",
+    "jobs/QAT_ylls_history1990/8568910ba9bcbca0e378b7991bae8913dac074141808e5d6138468e29e4aafde/result.joblib": "b6535107548cd966cfa323c707917ccd0215016bf1d252b1e3139a24315118ae",
+    "jobs/QAT_ylls_history1990/9ecc113d5ac1f1154cfa4826cca89b02751a6b7f162963c7cabd426611933cea/checkpoint.joblib": "3b9486ab3b6425f70fc93ef40b4813cdb56a5388a2fe34550e7d83c5bdf6e1ec",
+    "jobs/QAT_ylls_history1990/9ecc113d5ac1f1154cfa4826cca89b02751a6b7f162963c7cabd426611933cea/complete.json": "4a14af6b43d39b9430860fce15277bffcbd43e9cc5c30218bf1f5e5d706bbad2",
+    "jobs/QAT_ylls_history1990/9ecc113d5ac1f1154cfa4826cca89b02751a6b7f162963c7cabd426611933cea/result.joblib": "876f345682116d482a78f8d0f7b6c24f4a5bdadb9ed594a53613f0b1465644d3",
+    "jobs/QAT_ylls_history1990/ab3e8349cbfb99bc2264fe9ec9f2885e2a09f7e898305d24ed24d73db8e7b4bc/checkpoint.joblib": "9498c65993264dffe015cd63ade70de0d7827d2a2edb3e88aa6d95c945f99f42",
+    "jobs/QAT_ylls_history1990/ab3e8349cbfb99bc2264fe9ec9f2885e2a09f7e898305d24ed24d73db8e7b4bc/complete.json": "3805ec27463015968219f9a0c3c60b1fe6185de6b993737e3ef567f0178453d7",
+    "jobs/QAT_ylls_history1990/ab3e8349cbfb99bc2264fe9ec9f2885e2a09f7e898305d24ed24d73db8e7b4bc/result.joblib": "4215648ca9639acbff2804318a152cd2b95827f5ecc0f132edb80d6fd35de983",
+    "jobs/QAT_ylls_history1990/e177fcf413e00901c9670e5e2067a4434630bab0e80d86d7e7359a963bfdd5ec/checkpoint.joblib": "54102ce217ddfc9562b6398c53119880fa3cbfba356271e2a4baf44268b30aeb",
+    "jobs/QAT_ylls_history1990/e177fcf413e00901c9670e5e2067a4434630bab0e80d86d7e7359a963bfdd5ec/complete.json": "2315800d7fe85177a27b26bba594cbe063a474f6c1c322aa92b0e14558d76d03",
+    "jobs/QAT_ylls_history1990/e177fcf413e00901c9670e5e2067a4434630bab0e80d86d7e7359a963bfdd5ec/result.joblib": "b1213e74f5e3cadffbd8054f4f4ae91ea227c1a08597af5335755aa90b10db06",
+    "jobs/SAU_deaths_history1980/2f9d19ebc3aa1fe86fd38dc2439fa648fa7100b8ad5ea2371deaf1f9b9639832/checkpoint.joblib": "eb8d035f75933c2d35100cf36d4e60ed6129b22e9e5f47366930e20e39d992d5",
+    "jobs/SAU_deaths_history1980/2f9d19ebc3aa1fe86fd38dc2439fa648fa7100b8ad5ea2371deaf1f9b9639832/complete.json": "228e006ff720ef7b2b00a1a21bd669e1967f7c2d937ef422dfbbf0383f9cca8f",
+    "jobs/SAU_deaths_history1980/2f9d19ebc3aa1fe86fd38dc2439fa648fa7100b8ad5ea2371deaf1f9b9639832/result.joblib": "37d8f2167efee25e61585775564d9d5944aea322be9dbb464e8026936597bca6",
+    "jobs/SAU_deaths_history1980/50900012966cf51200ba44e113434d89793f7612a40825300efb8b487e6bd5a6/complete.json": "3346f29f913ace3dbb25ef209d77d70b0c2c2cfebebdd785ad5b0a9e5f56a6e5",
+    "jobs/SAU_deaths_history1980/50900012966cf51200ba44e113434d89793f7612a40825300efb8b487e6bd5a6/result.joblib": "5f5bc4c2ec03eb2d53c4165ed965eae410a86516ebb513ec1d6768ba3a7d3d43",
+    "jobs/SAU_deaths_history1980/668444209c73f08d3754d5d09ae0c7bb6e076c74083c1ffdb124a64e68d368b8/checkpoint.joblib": "84c2bd5168a1e2ff62401a9ff4caafb40b3090392847b50bb91e4228009b17a1",
+    "jobs/SAU_deaths_history1980/668444209c73f08d3754d5d09ae0c7bb6e076c74083c1ffdb124a64e68d368b8/complete.json": "112e7f5d62af63a7c9b6dcaf11c5404c7b06f5dd0210741a78d89b35ae58b1a7",
+    "jobs/SAU_deaths_history1980/668444209c73f08d3754d5d09ae0c7bb6e076c74083c1ffdb124a64e68d368b8/result.joblib": "bf8b24b898bdd90eca9ccf7f618a71977befbc2e85e091699ded2445d0b843e7",
+    "jobs/SAU_deaths_history1980/676a667427c16bbaf1b1184f591329081b9db86544e6fbb8eb8845f1b34a3c44/checkpoint.joblib": "c8dfea70d76e1b6aaa755574f678e7700ee73501652dea9b36d8bc648c22650b",
+    "jobs/SAU_deaths_history1980/676a667427c16bbaf1b1184f591329081b9db86544e6fbb8eb8845f1b34a3c44/complete.json": "49423009bb05d1bb11286aae52d6c37df13b9b26155100164860a7f8ee669403",
+    "jobs/SAU_deaths_history1980/676a667427c16bbaf1b1184f591329081b9db86544e6fbb8eb8845f1b34a3c44/result.joblib": "f6797ad1a0f08214cd729cfcaaa222f1ca5df88961981ec232cb39182ba98920",
+    "jobs/SAU_deaths_history1980/68ddc7ee2f4cafe9e8fc39ad61af54b5bc3f118544b82532f1fee71f5d002fb7/complete.json": "3ed2e9a5c567b3d58e931dc3ff17758447af29fe110ab91a06e069dc302fbb62",
+    "jobs/SAU_deaths_history1980/68ddc7ee2f4cafe9e8fc39ad61af54b5bc3f118544b82532f1fee71f5d002fb7/result.joblib": "ff36dedd80e76e4b3cc39c0be0d73ad140c017e3b1c2d34355aa80f8815c7625",
+    "jobs/SAU_deaths_history1980/824826cb88b8395d0ea9dca1d039d6a81da5ad16103a849510032a51426d9fce/checkpoint.joblib": "c1a2b764ced1249d3ce9b151bc375a9d376493a9e6c4b71dd808ba02ab15cc85",
+    "jobs/SAU_deaths_history1980/824826cb88b8395d0ea9dca1d039d6a81da5ad16103a849510032a51426d9fce/complete.json": "de79ee660c6e4dfbcdae68735f4d76b5a87e80c603837dc85c6f25834e108810",
+    "jobs/SAU_deaths_history1980/824826cb88b8395d0ea9dca1d039d6a81da5ad16103a849510032a51426d9fce/result.joblib": "81ac8ab30651099bdb937bb0ba2864ec39a8cdd122d92ebc6035bba305215dff",
+    "jobs/SAU_deaths_history1980/bd5459c51f05cb18456188703645534d743031931db999298107bd1262aa50d7/checkpoint.joblib": "d2237f10f8450726c4ef45677cb3687886847cd5d02f451ffeb61dcd595c99e5",
+    "jobs/SAU_deaths_history1980/bd5459c51f05cb18456188703645534d743031931db999298107bd1262aa50d7/complete.json": "17150aa6106837b3d85ae6f9143b3b1b736339c77fb98f8784e046fcbb437583",
+    "jobs/SAU_deaths_history1980/bd5459c51f05cb18456188703645534d743031931db999298107bd1262aa50d7/result.joblib": "8109cb9c47c94ca02394026a60826a9b3466859cc00767346f04785d4519f653",
+    "jobs/SAU_deaths_history1990/161ac15bbc25655f12f09cfb474dfe0ebb0e3c6c2cbddbb9ea829ef44f2b820a/complete.json": "425764807397e7a1b6b878a069044d6cf6e8200464544e36376502548fd8f4bb",
+    "jobs/SAU_deaths_history1990/161ac15bbc25655f12f09cfb474dfe0ebb0e3c6c2cbddbb9ea829ef44f2b820a/result.joblib": "7b0e35c47767df14f7be0ad99e96eaf8e8dc861a16b4bcac22f0ac5c1daa6250",
+    "jobs/SAU_deaths_history1990/3bc62f765cfe0fb5a4a5fa6966e63c5999d34508ca12ac9211e675263c022be6/checkpoint.joblib": "857eb51ef87dbc4976e98791e9f79857339c463d7bfc1c971ede1524145d5ac1",
+    "jobs/SAU_deaths_history1990/3bc62f765cfe0fb5a4a5fa6966e63c5999d34508ca12ac9211e675263c022be6/complete.json": "4d2e8d11818cacd811a4b59ed5364d033e646c536f78b5f1a4643a3ecef829aa",
+    "jobs/SAU_deaths_history1990/3bc62f765cfe0fb5a4a5fa6966e63c5999d34508ca12ac9211e675263c022be6/result.joblib": "853f077a7508f99fed42496406ebde744f8f6f2b42bc5756c88bfbdd368c849d",
+    "jobs/SAU_deaths_history1990/593b085b4d340a7f4c94be909eda8c38dcc0658209f8049658ae3c99f76e7a30/checkpoint.joblib": "e50aa02d1ba7dc30b075a78ca6f8cde8c449b391c8d8a5b131cedab222c82e8a",
+    "jobs/SAU_deaths_history1990/593b085b4d340a7f4c94be909eda8c38dcc0658209f8049658ae3c99f76e7a30/complete.json": "1971ac8d14a48b7246599ba85957538702ed06480ef1bef722eb7da78adddc05",
+    "jobs/SAU_deaths_history1990/593b085b4d340a7f4c94be909eda8c38dcc0658209f8049658ae3c99f76e7a30/result.joblib": "a9c5c190c6f66a960cbfe4d1a2a352ab1b82d2705af8a62a6d421ca5bf4d1e81",
+    "jobs/SAU_deaths_history1990/5e77a785c495e0f8baaef3ce9e8fe21488b4e4ced188de22ddf69e618e5cad81/checkpoint.joblib": "af3741051467544d702cead9d684e4e70c829617f1f533ebcb27309a5ab8cf2c",
+    "jobs/SAU_deaths_history1990/5e77a785c495e0f8baaef3ce9e8fe21488b4e4ced188de22ddf69e618e5cad81/complete.json": "c64d30b7cd02900fd74ae7d74a81b612d55189b747b56fb4280912b84b9dcbf4",
+    "jobs/SAU_deaths_history1990/5e77a785c495e0f8baaef3ce9e8fe21488b4e4ced188de22ddf69e618e5cad81/result.joblib": "ba0f99623dc30911543ef32b459e22205aa26925105d41d885ac8ebe1beb53b1",
+    "jobs/SAU_deaths_history1990/9a9f83cb79fbde199730fc8d021d11136106bb6d294bb5995fef1e8d0656dedd/checkpoint.joblib": "3431e44106a5a796731b30d35e6dd3cdbe97b610869351cf133d4b835dafcf5c",
+    "jobs/SAU_deaths_history1990/9a9f83cb79fbde199730fc8d021d11136106bb6d294bb5995fef1e8d0656dedd/complete.json": "42a7b7a8efdd44a9806854458efde86c9626819b3563d468af4a009a3849b1d3",
+    "jobs/SAU_deaths_history1990/9a9f83cb79fbde199730fc8d021d11136106bb6d294bb5995fef1e8d0656dedd/result.joblib": "a81d1aa7e8a5d38a04ab681ada6fd12161d7afc294d3f7864f6934813e7cf226",
+    "jobs/SAU_deaths_history1990/f1b749841256d044d46b1e57fbcb27720ff10066315587de3a8cb52588defd75/complete.json": "69e3f40610630f63166e271fd1c464f3fa469dda2224adf1aceeea1f7ce1f234",
+    "jobs/SAU_deaths_history1990/f1b749841256d044d46b1e57fbcb27720ff10066315587de3a8cb52588defd75/result.joblib": "9e635148dc86033cec33d4144c610841368ba8c0065328721251584c71781178",
+    "jobs/SAU_deaths_history1990/f504fdd6db0ad8774cdbb075840114c5c008f76436685e094849aa0e2976ecfa/checkpoint.joblib": "599001065633a24829ab2f93df551d6b57d509a22327b679ebc9d901005b90ee",
+    "jobs/SAU_deaths_history1990/f504fdd6db0ad8774cdbb075840114c5c008f76436685e094849aa0e2976ecfa/complete.json": "e9f2688ece38ffb45e538f85eea06a9a9fcc6f6ec1635d49ded9e24a2ba3b7f9",
+    "jobs/SAU_deaths_history1990/f504fdd6db0ad8774cdbb075840114c5c008f76436685e094849aa0e2976ecfa/result.joblib": "c8e60e6d820174b366cdf46623053fafae2ab57ef891008393639aba31fdce62",
+    "jobs/SAU_ylls_history1980/25a1c580830a56fdb345832546a62a62d14d9d5ccf0c31fa57343fc0ffc4c5f9/checkpoint.joblib": "56c63b6487ff8fd00f6e9e157f10892d5a7e055103df9f676f41070a9335e895",
+    "jobs/SAU_ylls_history1980/25a1c580830a56fdb345832546a62a62d14d9d5ccf0c31fa57343fc0ffc4c5f9/complete.json": "259bd9b57d9ebba34190026d2e122a55f81a6f707a549ff5cf171289caca05a9",
+    "jobs/SAU_ylls_history1980/25a1c580830a56fdb345832546a62a62d14d9d5ccf0c31fa57343fc0ffc4c5f9/result.joblib": "0f0a4552791b4e4552d16fd0efa7feff0be30bccebcb25de12c04a412be562eb",
+    "jobs/SAU_ylls_history1980/3618b6540b155a292fafc3133b071aec9b9de5aac18ee360246a6509e9d7d0c8/checkpoint.joblib": "191792cd77723fae20e545702a37da977ca3ddfbb183569c97a92949a8f38d80",
+    "jobs/SAU_ylls_history1980/3618b6540b155a292fafc3133b071aec9b9de5aac18ee360246a6509e9d7d0c8/complete.json": "b6857dfdc86712b4feda21d14d005b2c6788d57bace5b6e46a480b3557259e09",
+    "jobs/SAU_ylls_history1980/3618b6540b155a292fafc3133b071aec9b9de5aac18ee360246a6509e9d7d0c8/result.joblib": "b9b8e41ba576855bc8accdcae7449618b68be30556b75227554b8e47cf3194bf",
+    "jobs/SAU_ylls_history1980/7e6d438dba2ae9b8c164ed3e9432ec756d4cf0c11f6e86eabde6e7b3a1b6f1aa/checkpoint.joblib": "58b92d8e45f82ed243975ac5dcb38524e007975cfa7a806ff8291e952c7a2229",
+    "jobs/SAU_ylls_history1980/7e6d438dba2ae9b8c164ed3e9432ec756d4cf0c11f6e86eabde6e7b3a1b6f1aa/complete.json": "25fb3a6ca32f6b92e3e6424acb376229fee7abc3b2da7e89d75500398eacde69",
+    "jobs/SAU_ylls_history1980/7e6d438dba2ae9b8c164ed3e9432ec756d4cf0c11f6e86eabde6e7b3a1b6f1aa/result.joblib": "c6b5243bd47ee8dd71912265354c8abe632c4bfcd71d472282c0ab55f698843d",
+    "jobs/SAU_ylls_history1980/80bd5fb12ee6229167d386ec3b55198028261a6a39f52669689d755ddc8eb32a/complete.json": "a33bffd281e4ee0e909d67ad3d4f5e22ab96c2c1f42ce568aef339448b9bf6c7",
+    "jobs/SAU_ylls_history1980/80bd5fb12ee6229167d386ec3b55198028261a6a39f52669689d755ddc8eb32a/result.joblib": "16183526efb0cc34f8f464942e045011bec8f25546bd32fec279c4cdd8cf7d53",
+    "jobs/SAU_ylls_history1980/8bcfa5a4c9ef0ea344a20f252e75006ee7e806a1d538ecd7a93ff04edaa2825a/checkpoint.joblib": "fbc4771e43e47d3c4f7ececb14e02c0f707c42e977f424c04e98c9098bf22a6b",
+    "jobs/SAU_ylls_history1980/8bcfa5a4c9ef0ea344a20f252e75006ee7e806a1d538ecd7a93ff04edaa2825a/complete.json": "e9826307044c399a3d64dfefd38d1c5a0ff311f283e1d65b61e7164d81986e03",
+    "jobs/SAU_ylls_history1980/8bcfa5a4c9ef0ea344a20f252e75006ee7e806a1d538ecd7a93ff04edaa2825a/result.joblib": "4a51956510316719e18e79f7b1729ea7188e984f514ea88dc5818f5197ccf9c5",
+    "jobs/SAU_ylls_history1980/a248b895646d95c41f94dc79848b028244140bc1166f8daec0202d2fb74575b7/complete.json": "75627cc662c61781e6e7f869921358da3c901a6a1e96025b5215ea9d1e782a4b",
+    "jobs/SAU_ylls_history1980/a248b895646d95c41f94dc79848b028244140bc1166f8daec0202d2fb74575b7/result.joblib": "b506449af29e0120c690f78a070b55210fa0ba089bb5ff653155304f09e5e5f8",
+    "jobs/SAU_ylls_history1980/b87b6cecf984fa05f539a89c7c9444ed07c3436215508afa33ac11f45d33f1e1/checkpoint.joblib": "4d0442f06ea9241580b53bbaf884e3117504f36fdb7ff937513fedbf7532eeb2",
+    "jobs/SAU_ylls_history1980/b87b6cecf984fa05f539a89c7c9444ed07c3436215508afa33ac11f45d33f1e1/complete.json": "a621e4a3a67888074a4a1f41f3803127a445b88723eb8daf5c5dc31cae0844c9",
+    "jobs/SAU_ylls_history1980/b87b6cecf984fa05f539a89c7c9444ed07c3436215508afa33ac11f45d33f1e1/result.joblib": "3b3a47bd7b72cff5cb76a7c075e3d026185fc4d197710013da80ba5d9c2ba817",
+    "jobs/SAU_ylls_history1990/1b35cc636ca00c539563c2a09cd2f37d1f8ff5e8e8fc1d6afdbf27ca4d533d9d/complete.json": "7ca35cee3b2bac424e5d5155e63e5e6eb30b749650cf902ce4868880ccde0035",
+    "jobs/SAU_ylls_history1990/1b35cc636ca00c539563c2a09cd2f37d1f8ff5e8e8fc1d6afdbf27ca4d533d9d/result.joblib": "3f8c027c4ee0a65343099a199c06d897ea3cf205428b98ba843d6503c75e2165",
+    "jobs/SAU_ylls_history1990/3c27bd7b91ff331947836e58f537759cdfd8b1f4cbceedb50b8d67d7b0d66882/checkpoint.joblib": "1f68a7c77c3ec697a5ff20304a71b219a719babbd9e9adc6399cd64d83709af1",
+    "jobs/SAU_ylls_history1990/3c27bd7b91ff331947836e58f537759cdfd8b1f4cbceedb50b8d67d7b0d66882/complete.json": "7da380e13d47b1c2b235abc92c5e59d4477413e0fd88d0f2dec3c815325f00a6",
+    "jobs/SAU_ylls_history1990/3c27bd7b91ff331947836e58f537759cdfd8b1f4cbceedb50b8d67d7b0d66882/result.joblib": "0e3a26c82492df1163e46eef4aa4794946518825d61953e02b4fd6499af7194b",
+    "jobs/SAU_ylls_history1990/46309f3b268789b05ba2e497dc734821ac50d8ae1f709ceb6f4e7de0accc54bc/checkpoint.joblib": "57440a2043057e88c2333b2dfab3d801f7ff0f0e7b888dfaa7c3d57f24521e13",
+    "jobs/SAU_ylls_history1990/46309f3b268789b05ba2e497dc734821ac50d8ae1f709ceb6f4e7de0accc54bc/complete.json": "8c94598f37fec2c05b55ac22323251cd198ea530b83513b4e311f10d33817b5e",
+    "jobs/SAU_ylls_history1990/46309f3b268789b05ba2e497dc734821ac50d8ae1f709ceb6f4e7de0accc54bc/result.joblib": "a97b9077422b2d94739b4a11d6e893249104033727fd9c5fcbf8c3d1436d9a30",
+    "jobs/SAU_ylls_history1990/5872aee6680e48a412729ab77c71b9eac3d34cf667efb23feb5e003902d62ad4/complete.json": "81e39d354079130f4059cf09026b2d59df58bad97e8d39cc6b0529729d9e5659",
+    "jobs/SAU_ylls_history1990/5872aee6680e48a412729ab77c71b9eac3d34cf667efb23feb5e003902d62ad4/result.joblib": "ae37455bdd605012013e903facb7c308b9df52362198e1237bd00d4fe9250e92",
+    "jobs/SAU_ylls_history1990/650c9299ee567dee9b443692c91dd572232e363f3b2841cc0aa889af416dc5bb/checkpoint.joblib": "e42df6a7e3afe3f89a4ba5b0c0110ff842c29d8628bda3ce9f594710933f9245",
+    "jobs/SAU_ylls_history1990/650c9299ee567dee9b443692c91dd572232e363f3b2841cc0aa889af416dc5bb/complete.json": "b8fd1af64dca4a25e2df6fc52df9d157a99e67b0d8818d077c2eb03d6b9a539a",
+    "jobs/SAU_ylls_history1990/650c9299ee567dee9b443692c91dd572232e363f3b2841cc0aa889af416dc5bb/result.joblib": "1cbe3e9c62c1f160d2d3053c543c6dae249fe1979506fc54daad38eef76af701",
+    "jobs/SAU_ylls_history1990/a0c0c11e88d22c2e0a2052aaac61aa814bfb287d5cc790e38417cfdf49f98a26/checkpoint.joblib": "62b3a17b168efe70618868ae3ec2f84d22af996a8880085942cd532d0ca1f3d2",
+    "jobs/SAU_ylls_history1990/a0c0c11e88d22c2e0a2052aaac61aa814bfb287d5cc790e38417cfdf49f98a26/complete.json": "d5ab3a35e51debf568ed444a13399ffe31bf1ef54bb5ee5be57f9f0a85d613ed",
+    "jobs/SAU_ylls_history1990/a0c0c11e88d22c2e0a2052aaac61aa814bfb287d5cc790e38417cfdf49f98a26/result.joblib": "4c008adbac2f789413e5cb5ae678ec7fe1b12a4fb1f2a2569860f486d67e961d",
+    "jobs/SAU_ylls_history1990/eb7b8f242c914bc2d5c2d28a9c19358d67eff957ce522623d9e9857898c2746b/checkpoint.joblib": "3e5a97aeed53758aa43da64745dc74fb5a1d59d44ba1374fb2ccd62ee9754b3d",
+    "jobs/SAU_ylls_history1990/eb7b8f242c914bc2d5c2d28a9c19358d67eff957ce522623d9e9857898c2746b/complete.json": "a27661f8402e1db74861dc4214558af889639adaf06dde621c68a50f6f98f1d8",
+    "jobs/SAU_ylls_history1990/eb7b8f242c914bc2d5c2d28a9c19358d67eff957ce522623d9e9857898c2746b/result.joblib": "b1a5b61c51c08399f9d3da571f8622c8600ea33a2d436089506f4c0477a55a64",
+    "local_fit_audit.json": "e9a0a4f3d922bc13ddb6ec1f40415d543c94c22f4ba003aec0ef86498df8ff56",
+    "point_scores.csv": "d60433e92525b13e03962b491a1f5c45774e83604c3b3aceb54dedc2e25685a6",
+    "predictions.csv": "159b7a826036e437bead8e61ba000e842bcc498921b7589c97be299170c622b7",
+    "scoring_complete.json": "7ba2620fe77c21b1892bb66146a922212247858b25717b4f9f912440171143e0",
+    "seed_audit.json": "fc7f9d824dd305852caf0650364a8930f48090feb3a1b36cf9f017287c89e7c8",
+    "summary.csv": "f2a5071e4435ee2caa92e8fc147e23e8c36511349109e2109a72b6fc432fb858",
+    "tests_at_run.json": "ab160739b8f991a6f7da5270ec47100a579af0f3ccce1cae9cb751473c91a6b1",
+    "validation_report.json": "5b704935e1361fab6dff3e8c0a1cbdfd870016ed24ca0faf0e91809144f9fa3f"
+  }
+}

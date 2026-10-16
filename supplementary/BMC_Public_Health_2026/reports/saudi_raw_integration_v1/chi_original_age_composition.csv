@@ -1,0 +1,429 @@
+﻿file,period,indicator,metric,sex,age_original,count
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,0 to 20,1076425
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,21 to 25,286892
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,26 to 30,413872
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,31 to 35,377805
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,36 to 40,286442
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,41 to 45,177636
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,46 to 50,113725
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,51 to 55,90061
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,56 to 60,69846
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,61 to 65,48102
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Female,age > 65,58677
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,0 to 20,1148610
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,21 to 25,698581
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,26 to 30,1132176
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,31 to 35,1272986
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,36 to 40,1094731
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,41 to 45,777707
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,46 to 50,517035
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,51 to 55,362612
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,56 to 60,220017
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,61 to 65,115190
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,3,subscribers,Male,age > 65,99199
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,0 to 20,1055074
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,21 to 25,268459
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,26 to 30,385367
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,31 to 35,357205
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,36 to 40,273785
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,41 to 45,171690
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,46 to 50,109842
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,51 to 55,85575
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,56 to 60,65227
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,61 to 65,44437
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Female,age > 65,54541
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,0 to 20,1124369
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,21 to 25,677350
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,26 to 30,1109828
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,31 to 35,1250962
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,36 to 40,1078223
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,41 to 45,767499
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,46 to 50,511101
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,51 to 55,357595
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,56 to 60,215031
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,61 to 65,110799
+data/raw/chi/Open Data - CHI 03.2022 - F.xlsx,3/31/2022,4,insured_persons,Male,age > 65,92371
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,0 to 20,1064059
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,21 to 25,268150
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,26 to 30,394140
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,31 to 35,363216
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,36 to 40,270306
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,41 to 45,170849
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,46 to 50,109581
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,51 to 55,86671
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,56 to 60,67108
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,61 to 65,51554
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Female,age > 65,51877
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,0 to 20,1130398
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,21 to 25,554071
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,26 to 30,1029442
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,31 to 35,1187627
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,36 to 40,1012314
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,41 to 45,739535
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,46 to 50,492151
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,51 to 55,350590
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,56 to 60,206273
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,61 to 65,114919
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,3,subscribers,Male,age > 65,88112
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,0 to 20,1033856
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,21 to 25,251666
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,26 to 30,368428
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,31 to 35,344338
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,36 to 40,258579
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,41 to 45,164842
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,46 to 50,105147
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,51 to 55,81642
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,56 to 60,61957
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,61 to 65,46720
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Female,age > 65,46770
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,0 to 20,1098174
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,21 to 25,539035
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,26 to 30,1011334
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,31 to 35,1169879
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,36 to 40,999392
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,41 to 45,730523
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,46 to 50,486197
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,51 to 55,345262
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,56 to 60,200609
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,61 to 65,109525
+data/raw/chi/Open Data - CHI 12.2021 - F.xlsx,12/31/2021,4,insured_persons,Male,age > 65,80598
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Female,0 to 20,1138686
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Female,21 to 40,1522749
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Female,41 to 60,523809
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Female,61 +,139286
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Male,0 to 20,1218869
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Male,21 to 40,5148262
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Male,41 to 60,2157013
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",3,subscribers,Male,61 +,246914
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Female,0 to 20,1128350
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Female,21 to 40,1467369
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Female,41 to 60,508842
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Female,61 +,131932
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Male,0 to 20,1205361
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Male,21 to 40,5112924
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Male,41 to 60,2143959
+data/raw/chi/Open-Data-CHI-12.2023-F.xlsx,"الربع الحالي
+Q4 2023",4,insured_persons,Male,61 +,236746
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,0 to 5,361094
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,11 to 15,255111
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,16 to 20,189901
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,21 to 25,304644
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,26 to 30,456957
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,31 to 35,423003
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,36 to 40,338521
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,41 to 45,215936
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,46 to 50,129136
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,51 to 55,100182
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,56 to 60,81192
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,6 to 10,329219
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,61 to 65,60746
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Female,age > 65,78430
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,0 to 5,380067
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,11 to 15,266801
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,16 to 20,221450
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,21 to 25,999438
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,26 to 30,1412008
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,31 to 35,1467834
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,36 to 40,1360934
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,41 to 45,974665
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,46 to 50,603637
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,51 to 55,397928
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,56 to 60,246054
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,6 to 10,345196
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,61 to 65,127898
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",3,subscribers,Male,age > 65,126801
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,0 to 5,359074
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,11 to 15,253635
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,16 to 20,187873
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,21 to 25,298280
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,26 to 30,446485
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,31 to 35,414225
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,36 to 40,332640
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,41 to 45,212672
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,46 to 50,127238
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,51 to 55,98391
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,56 to 60,79327
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,6 to 10,327312
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,61 to 65,59176
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Female,age > 65,76379
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,0 to 5,377996
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,11 to 15,265230
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,16 to 20,217406
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,21 to 25,991675
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,26 to 30,1408199
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,31 to 35,1463868
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,36 to 40,1357230
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,41 to 45,971848
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,46 to 50,601849
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,51 to 55,396018
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,56 to 60,244071
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,6 to 10,343308
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,61 to 65,126092
+data/raw/chi/OpenData-CHI Q1-2024- F.ods,"الربع الحالي
+Q1 2024",4,insured_persons,Male,age > 65,123537
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,0 to 5,360792
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,11 to 15,256348
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,16 to 20,191909
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,21 to 25,308390
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,26 to 30,465407
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,31 to 35,429403
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,36 to 40,341824
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,41 to 45,222300
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,46 to 50,130660
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,51 to 55,100541
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,56 to 60,81067
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,6 to 10,331229
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,61 to 65,60324
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Female,age > 65,77184
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,0 to 5,379692
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,11 to 15,268560
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,16 to 20,221447
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,21 to 25,1020902
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,26 to 30,1436356
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,31 to 35,1484155
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,36 to 40,1388295
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,41 to 45,1000196
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,46 to 50,616160
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,51 to 55,401857
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,56 to 60,249060
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,6 to 10,346654
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,61 to 65,128046
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",3,subscribers,Male,age > 65,125461
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,0 to 5,360648
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,11 to 15,256199
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,16 to 20,190931
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,21 to 25,303686
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,26 to 30,458330
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,31 to 35,423626
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,36 to 40,338180
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,41 to 45,220373
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,46 to 50,129763
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,51 to 55,99979
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,56 to 60,80648
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,6 to 10,331048
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,61 to 65,60051
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Female,age > 65,76830
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,0 to 5,379525
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,11 to 15,268401
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,16 to 20,219304
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,21 to 25,1016195
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,26 to 30,1434732
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,31 to 35,1482665
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,36 to 40,1387018
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,41 to 45,999384
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,46 to 50,615728
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,51 to 55,401294
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,56 to 60,248442
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,6 to 10,346470
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,61 to 65,127518
+data/raw/chi/OpenData-CHI Q2-2024- F.xlsx,"الربع الحالي
+Q2 2024",4,insured_persons,Male,age > 65,124689
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,0 to10,727699
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,11 to 20,503888
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,21 to 30,850055
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,31 to 40,893516
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,41 to 50,420479
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,51 to 60,204330
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Female,61 >=Age,173807
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,0 to10,763965
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,11 to 20,551144
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,21 to 30,3162069
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,31 to 40,3298257
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,41 to 50,1920501
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,51 to 60,706644
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,3,subscribers,Male,61 >=Age,291114
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,0 to10,726961
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,11 to 20,502479
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,21 to 30,839547
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,31 to 40,885381
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,41 to 50,417774
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,51 to 60,203053
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Female,61 >=Age,173263
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,0 to10,763168
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,11 to 20,547931
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,21 to 30,3155796
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,31 to 40,3295977
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,41 to 50,1919365
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,51 to 60,705489
+data/raw/chi/OpenData-CHI%20Q4-2025.xlsx,Q4 2025,4,insured_persons,Male,61 >=Age,290151
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,0 to 5,378014
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,11 to 15,288837
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,16 to 20,222944
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,21 to 25,350020
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,26 to 30,526220
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,31 to 35,507616
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,36 to 40,414899
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,41 to 45,278517
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,46 to 50,168278
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,51 to 55,116067
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,56 to 60,95521
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,6 to 10,348233
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,61 to 65,73925
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Female,age > 65,101666
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,0 to 5,399059
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,11 to 15,302393
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,16 to 20,256915
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,21 to 25,1394180
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,26 to 30,1841706
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,31 to 35,1676492
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,36 to 40,1664296
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,41 to 45,1245500
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,46 to 50,775191
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,51 to 55,453789
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,56 to 60,287434
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,6 to 10,364216
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,61 to 65,146047
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,3,subscribers,Male,age > 65,160384
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,0 to 5,377966
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,11 to 15,288785
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,16 to 20,221792
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,21 to 25,345769
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,26 to 30,520882
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,31 to 35,502782
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,36 to 40,411772
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,41 to 45,276673
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,46 to 50,167300
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,51 to 55,115470
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,56 to 60,95143
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,6 to 10,348184
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,61 to 65,73772
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Female,age > 65,101549
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,0 to 5,399008
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,11 to 15,302336
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,16 to 20,254228
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,21 to 25,1389462
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,26 to 30,1839242
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,31 to 35,1673875
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,36 to 40,1661494
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,41 to 45,1243411
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,46 to 50,774142
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,51 to 55,453096
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,56 to 60,286792
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,6 to 10,364167
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,61 to 65,145748
+data/raw/chi/OpenData-CHIQ2-2026.xlsx,Q2 2026,4,insured_persons,Male,age > 65,160107

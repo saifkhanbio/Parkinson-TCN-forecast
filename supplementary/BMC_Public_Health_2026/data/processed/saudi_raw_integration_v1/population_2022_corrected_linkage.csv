@@ -1,0 +1,69 @@
+﻿year,sex,nationality,age,age_start,population,reference_id,reference_date,population_persons_original,difference,source_flag
+2022,Male,Citizens,0-4,0,1106938,moh_population;D5,2022 reference year; exact date not established from export,1106938.0,0.0,exact age-cell match
+2022,Male,Citizens,5-9,5,1148999,moh_population;D5,2022 reference year; exact date not established from export,1148999.0,0.0,exact age-cell match
+2022,Male,Citizens,10-14,10,1068186,moh_population;D5,2022 reference year; exact date not established from export,1068186.0,0.0,exact age-cell match
+2022,Male,Citizens,15-19,15,941806,moh_population;D5,2022 reference year; exact date not established from export,941806.0,0.0,exact age-cell match
+2022,Male,Citizens,20-24,20,868712,moh_population;D5,2022 reference year; exact date not established from export,868712.0,0.0,exact age-cell match
+2022,Male,Citizens,25-29,25,859531,moh_population;D5,2022 reference year; exact date not established from export,859531.0,0.0,exact age-cell match
+2022,Male,Citizens,30-34,30,770595,moh_population;D5,2022 reference year; exact date not established from export,770595.0,0.0,exact age-cell match
+2022,Male,Citizens,35-39,35,679028,moh_population;D5,2022 reference year; exact date not established from export,679028.0,0.0,exact age-cell match
+2022,Male,Citizens,40-44,40,534889,moh_population;D5,2022 reference year; exact date not established from export,534889.0,0.0,exact age-cell match
+2022,Male,Citizens,45-49,45,381557,moh_population;D5,2022 reference year; exact date not established from export,381557.0,0.0,exact age-cell match
+2022,Male,Citizens,50-54,50,310703,moh_population;D5,2022 reference year; exact date not established from export,310703.0,0.0,exact age-cell match
+2022,Male,Citizens,55-59,55,252068,moh_population;D5,2022 reference year; exact date not established from export,252068.0,0.0,exact age-cell match
+2022,Male,Citizens,60-64,60,186840,moh_population;D5,2022 reference year; exact date not established from export,186840.0,0.0,exact age-cell match
+2022,Male,Citizens,65-69,65,127205,moh_population;D5,2022 reference year; exact date not established from export,324279.0,-197074.0,GCC 65-69 value equals 65+ total
+2022,Male,Citizens,70-74,70,75465,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Male,Citizens,75-79,75,54159,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Male,Citizens,80+,80,67450,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Female,Citizens,0-4,0,1067017,moh_population;D5,2022 reference year; exact date not established from export,1067017.0,0.0,exact age-cell match
+2022,Female,Citizens,5-9,5,1108681,moh_population;D5,2022 reference year; exact date not established from export,1108681.0,0.0,exact age-cell match
+2022,Female,Citizens,10-14,10,1031817,moh_population;D5,2022 reference year; exact date not established from export,1031817.0,0.0,exact age-cell match
+2022,Female,Citizens,15-19,15,916439,moh_population;D5,2022 reference year; exact date not established from export,916439.0,0.0,exact age-cell match
+2022,Female,Citizens,20-24,20,850780,moh_population;D5,2022 reference year; exact date not established from export,850780.0,0.0,exact age-cell match
+2022,Female,Citizens,25-29,25,842731,moh_population;D5,2022 reference year; exact date not established from export,842731.0,0.0,exact age-cell match
+2022,Female,Citizens,30-34,30,758562,moh_population;D5,2022 reference year; exact date not established from export,758562.0,0.0,exact age-cell match
+2022,Female,Citizens,35-39,35,675023,moh_population;D5,2022 reference year; exact date not established from export,675023.0,0.0,exact age-cell match
+2022,Female,Citizens,40-44,40,543104,moh_population;D5,2022 reference year; exact date not established from export,543104.0,0.0,exact age-cell match
+2022,Female,Citizens,45-49,45,404356,moh_population;D5,2022 reference year; exact date not established from export,404356.0,0.0,exact age-cell match
+2022,Female,Citizens,50-54,50,343291,moh_population;D5,2022 reference year; exact date not established from export,343291.0,0.0,exact age-cell match
+2022,Female,Citizens,55-59,55,276936,moh_population;D5,2022 reference year; exact date not established from export,276936.0,0.0,exact age-cell match
+2022,Female,Citizens,60-64,60,203802,moh_population;D5,2022 reference year; exact date not established from export,203802.0,0.0,exact age-cell match
+2022,Female,Citizens,65-69,65,129931,moh_population;D5,2022 reference year; exact date not established from export,335592.0,-205661.0,GCC 65-69 value equals 65+ total
+2022,Female,Citizens,70-74,70,80111,moh_population;D5,2022 reference year; exact date not established from export,80111.0,0.0,exact age-cell match
+2022,Female,Citizens,75-79,75,56412,moh_population;D5,2022 reference year; exact date not established from export,56412.0,0.0,exact age-cell match
+2022,Female,Citizens,80+,80,69138,moh_population;D5,2022 reference year; exact date not established from export,69138.0,0.0,exact age-cell match
+2022,Male,Non-citizens,0-4,0,207304,moh_population;D5,2022 reference year; exact date not established from export,207304.0,0.0,exact age-cell match
+2022,Male,Non-citizens,5-9,5,258552,moh_population;D5,2022 reference year; exact date not established from export,258552.0,0.0,exact age-cell match
+2022,Male,Non-citizens,10-14,10,229199,moh_population;D5,2022 reference year; exact date not established from export,229199.0,0.0,exact age-cell match
+2022,Male,Non-citizens,15-19,15,175010,moh_population;D5,2022 reference year; exact date not established from export,175010.0,0.0,exact age-cell match
+2022,Male,Non-citizens,20-24,20,696723,moh_population;D5,2022 reference year; exact date not established from export,696723.0,0.0,exact age-cell match
+2022,Male,Non-citizens,25-29,25,1643796,moh_population;D5,2022 reference year; exact date not established from export,1643796.0,0.0,exact age-cell match
+2022,Male,Non-citizens,30-34,30,1871377,moh_population;D5,2022 reference year; exact date not established from export,1871377.0,0.0,exact age-cell match
+2022,Male,Non-citizens,35-39,35,1672645,moh_population;D5,2022 reference year; exact date not established from export,1672645.0,0.0,exact age-cell match
+2022,Male,Non-citizens,40-44,40,1279957,moh_population;D5,2022 reference year; exact date not established from export,1279957.0,0.0,exact age-cell match
+2022,Male,Non-citizens,45-49,45,851367,moh_population;D5,2022 reference year; exact date not established from export,851367.0,0.0,exact age-cell match
+2022,Male,Non-citizens,50-54,50,613826,moh_population;D5,2022 reference year; exact date not established from export,613826.0,0.0,exact age-cell match
+2022,Male,Non-citizens,55-59,55,391870,moh_population;D5,2022 reference year; exact date not established from export,391870.0,0.0,exact age-cell match
+2022,Male,Non-citizens,60-64,60,207766,moh_population;D5,2022 reference year; exact date not established from export,207766.0,0.0,exact age-cell match
+2022,Male,Non-citizens,65-69,65,85139,moh_population;D5,2022 reference year; exact date not established from export,145072.0,-59933.0,GCC 65-69 value equals 65+ total
+2022,Male,Non-citizens,70-74,70,35014,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Male,Non-citizens,75-79,75,13233,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Male,Non-citizens,80+,80,11686,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Female,Non-citizens,0-4,0,196900,moh_population;D5,2022 reference year; exact date not established from export,196900.0,0.0,exact age-cell match
+2022,Female,Non-citizens,5-9,5,246085,moh_population;D5,2022 reference year; exact date not established from export,246085.0,0.0,exact age-cell match
+2022,Female,Non-citizens,10-14,10,217212,moh_population;D5,2022 reference year; exact date not established from export,217212.0,0.0,exact age-cell match
+2022,Female,Non-citizens,15-19,15,163445,moh_population;D5,2022 reference year; exact date not established from export,163445.0,0.0,exact age-cell match
+2022,Female,Non-citizens,20-24,20,199767,moh_population;D5,2022 reference year; exact date not established from export,199767.0,0.0,exact age-cell match
+2022,Female,Non-citizens,25-29,25,399657,moh_population;D5,2022 reference year; exact date not established from export,399657.0,0.0,exact age-cell match
+2022,Female,Non-citizens,30-34,30,492298,moh_population;D5,2022 reference year; exact date not established from export,492298.0,0.0,exact age-cell match
+2022,Female,Non-citizens,35-39,35,438260,moh_population;D5,2022 reference year; exact date not established from export,438260.0,0.0,exact age-cell match
+2022,Female,Non-citizens,40-44,40,295927,moh_population;D5,2022 reference year; exact date not established from export,295927.0,0.0,exact age-cell match
+2022,Female,Non-citizens,45-49,45,187900,moh_population;D5,2022 reference year; exact date not established from export,187900.0,0.0,exact age-cell match
+2022,Female,Non-citizens,50-54,50,120552,moh_population;D5,2022 reference year; exact date not established from export,120552.0,0.0,exact age-cell match
+2022,Female,Non-citizens,55-59,55,74345,moh_population;D5,2022 reference year; exact date not established from export,74345.0,0.0,exact age-cell match
+2022,Female,Non-citizens,60-64,60,49244,moh_population;D5,2022 reference year; exact date not established from export,49244.0,0.0,exact age-cell match
+2022,Female,Non-citizens,65-69,65,26184,moh_population;D5,2022 reference year; exact date not established from export,56906.0,-30722.0,GCC 65-69 value equals 65+ total
+2022,Female,Non-citizens,70-74,70,14753,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Female,Non-citizens,75-79,75,7688,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent
+2022,Female,Non-citizens,80+,80,8281,moh_population;D5,2022 reference year; exact date not established from export,,,GCC age key absent

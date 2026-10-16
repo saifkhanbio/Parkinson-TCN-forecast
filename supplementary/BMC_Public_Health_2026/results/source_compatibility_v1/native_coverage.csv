@@ -1,0 +1,13 @@
+measure_id,measure_name,metric_id,metric_name,min,max,nunique,size
+1,Deaths,1,Number,1980,2023,44,6776
+1,Deaths,3,Rate,1980,2023,44,6776
+2,DALYs (Disability-Adjusted Life Years),1,Number,1990,2023,34,5236
+2,DALYs (Disability-Adjusted Life Years),3,Rate,1990,2023,34,5236
+3,YLDs (Years Lived with Disability),1,Number,1990,2023,34,5236
+3,YLDs (Years Lived with Disability),3,Rate,1990,2023,34,5236
+4,YLLs (Years of Life Lost),1,Number,1980,2023,44,6776
+4,YLLs (Years of Life Lost),3,Rate,1980,2023,44,6776
+5,Prevalence,1,Number,1990,2023,34,5236
+5,Prevalence,3,Rate,1990,2023,34,5236
+6,Incidence,1,Number,1990,2023,34,5236
+6,Incidence,3,Rate,1990,2023,34,5236

@@ -1,0 +1,457 @@
+gate,endpoint,metric,candidate_value,reference_value,maximum_ratio,observed_ratio,comparator,passed,target,outcome
+rate_wis,Male 45+,WIS,37.70149576812053,43.51600706043231,0.95,0.8663822421887893,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.07272727272727275,0.1454545454545455,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+width,Male 45+,width80,139.40111678502254,110.12235763489609,2.0,1.2658747939923187,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+comparator_wis,Male 45+,WIS,37.70149576812053,37.48731825159697,1.05,1.0057133325751952,local_champion__cdf,True,Saudi Arabia,prevalence
+comparator_wis,Male 45+,WIS,37.70149576812053,39.95781255238694,1.05,0.9435325249271779,nonneural_champion__cdf,True,Saudi Arabia,prevalence
+point_accuracy,Male 45+,ALE,0.014458316595885538,0.015190134347588147,1.05,0.9518228255947713,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+log_wis,Male 45+,log_WIS,0.010152508310000705,0.010878821101113276,1.05,0.9332360754569037,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+rate_wis,Male 80+,WIS,85.60292026410978,99.63542260269655,1.05,0.8591615113176929,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.10000000000000009,0.20000000000000007,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+width,Male 80+,width80,305.7364539473723,247.7955702840678,2.0,1.2338253407713555,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+rate_wis,Female 45+,WIS,32.79085539839776,36.73164738584838,0.95,0.8927139873130522,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.21818181818181825,0.18181818181818188,,,tcn_adapted__cdf,False,Saudi Arabia,prevalence
+width,Female 45+,width80,69.88049548880021,61.837875811545246,2.0,1.1300597663115943,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+comparator_wis,Female 45+,WIS,32.79085539839776,37.73416010409163,1.05,0.8689965619465888,local_champion__cdf,True,Saudi Arabia,prevalence
+comparator_wis,Female 45+,WIS,32.79085539839776,35.01979859694821,1.05,0.9363519126936186,nonneural_champion__cdf,True,Saudi Arabia,prevalence
+point_accuracy,Female 45+,ALE,0.025292768220499102,0.02547202524038348,1.05,0.9929625925621265,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+log_wis,Female 45+,log_WIS,0.019949877294788552,0.02101759229208312,1.05,0.9491989861418735,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+rate_wis,Female 80+,WIS,78.38299523906485,89.52992342685889,1.05,0.8754949433537663,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.35000000000000003,0.35000000000000003,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+width,Female 80+,width80,157.0690112447684,150.0540293163468,2.0,1.0467497071580296,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_wis,Both__45+,WIS,369.48396672694366,365.8080353977662,1.05,1.0100487987509088,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_width,Both__45+,width80,2555.0905467724237,2570.797190449985,2.0,0.9938903606492537,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_wis,Male__45+,WIS,245.34165070088912,236.1896865694892,1.05,1.038748364775476,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_width,Male__45+,width80,1636.488772624085,1571.808580172777,2.0,1.0411501713804094,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_wis,Female__45+,WIS,129.97570385111632,133.4392568608746,1.05,0.9740439725817013,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_width,Female__45+,width80,950.288290686008,998.9886102772092,2.0,0.9512503755396298,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_wis,Male__80+_within_45+,WIS,1.9152914994991566,1.8309772518432665,1.05,1.0460487685311273,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.6000000000000001,0.6000000000000001,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_width,Male__80+_within_45+,width80,2.027723667254726,2.1994826115188735,2.0,0.9219093875238515,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_wis,Female__80+_within_45+,WIS,2.5487538546458346,2.5321346730129966,1.05,1.0065633087410248,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.4,0.20000000000000007,,,tcn_adapted__cdf,False,Saudi Arabia,prevalence
+derived_width,Female__80+_within_45+,width80,5.084392828727518,5.11990445464456,2.0,0.9930640061290934,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.046593431079847814,0.04660709172840587,1.05,0.9997068976404351,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.07272727272727275,0.21818181818181814,,,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.13844873679662886,0.11177842261286107,2.0,1.238599843872722,tcn_adapted__cdf,True,Saudi Arabia,prevalence
+rate_wis,Male 45+,WIS,6.245596582678905,5.489987675457295,0.95,1.137633989708123,tcn_adapted__cdf,False,Saudi Arabia,incidence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.09090909090909094,0.20000000000000007,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+width,Male 45+,width80,20.78601159563412,16.632401849404893,2.0,1.2497300019466426,tcn_adapted__cdf,True,Saudi Arabia,incidence
+comparator_wis,Male 45+,WIS,6.245596582678905,7.7140414025474895,1.05,0.8096400131604629,local_champion__cdf,True,Saudi Arabia,incidence
+comparator_wis,Male 45+,WIS,6.245596582678905,7.915890852764481,1.05,0.7889947826273708,nonneural_champion__cdf,True,Saudi Arabia,incidence
+point_accuracy,Male 45+,ALE,0.024459717231827494,0.021009961283114283,1.05,1.1641962068481193,tcn_adapted__cdf,False,Saudi Arabia,incidence
+log_wis,Male 45+,log_WIS,0.017673783637506824,0.016711684473603706,1.05,1.0575704481150756,tcn_adapted__cdf,False,Saudi Arabia,incidence
+rate_wis,Male 80+,WIS,12.628378709832381,9.550323778721944,1.05,1.3222984898133319,tcn_adapted__cdf,False,Saudi Arabia,incidence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.20000000000000007,0.0,,,tcn_adapted__cdf,False,Saudi Arabia,incidence
+width,Male 80+,width80,41.183410566648874,35.5424275132224,2.0,1.1587112487273958,tcn_adapted__cdf,True,Saudi Arabia,incidence
+rate_wis,Female 45+,WIS,2.599271071128793,2.597747334509491,0.95,1.0005865607478681,tcn_adapted__cdf,False,Saudi Arabia,incidence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.1636363636363637,0.10909090909090913,,,tcn_adapted__cdf,False,Saudi Arabia,incidence
+width,Female 45+,width80,7.3696005885897,9.19774269113691,2.0,0.8012401342441514,tcn_adapted__cdf,True,Saudi Arabia,incidence
+comparator_wis,Female 45+,WIS,2.599271071128793,3.547351554583925,1.05,0.7327356849562845,local_champion__cdf,True,Saudi Arabia,incidence
+comparator_wis,Female 45+,WIS,2.599271071128793,2.9319883756723266,1.05,0.8865216153978649,nonneural_champion__cdf,True,Saudi Arabia,incidence
+point_accuracy,Female 45+,ALE,0.023449032527401464,0.025506754589205448,1.05,0.9193263864829428,tcn_adapted__cdf,True,Saudi Arabia,incidence
+log_wis,Female 45+,log_WIS,0.01846766968859173,0.019891921873946273,1.05,0.9284004736002922,tcn_adapted__cdf,True,Saudi Arabia,incidence
+rate_wis,Female 80+,WIS,4.242501694753768,4.065551122366899,1.05,1.0435243751857808,tcn_adapted__cdf,True,Saudi Arabia,incidence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.20000000000000007,0.050000000000000044,,,tcn_adapted__cdf,False,Saudi Arabia,incidence
+width,Female 80+,width80,13.901634548314371,19.08106236453623,2.0,0.7285566328922931,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_wis,Both__45+,WIS,65.27260151577376,75.04655322877275,1.05,0.8697614841389988,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_width,Both__45+,width80,469.7547929849923,471.29800205844367,2.0,0.9967256193179024,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_wis,Male__45+,WIS,42.86355681934854,50.08163156901996,1.05,0.8558738099471891,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_width,Male__45+,width80,322.4497825885467,310.5324771337637,2.0,1.0383770018671818,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_wis,Female__45+,WIS,21.58408316600154,25.20091129435439,1.05,0.8564802643004776,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_width,Female__45+,width80,138.85320373452723,162.2921861659972,2.0,0.8555754100970955,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_wis,Male__80+_within_45+,WIS,1.7951625818341472,1.8652492107479275,1.05,0.962425059069894,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.6000000000000001,0.6000000000000001,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_width,Male__80+_within_45+,width80,2.5664718739529273,2.613710907777336,2.0,0.9819264503645584,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_wis,Female__80+_within_45+,WIS,1.5938368964886644,1.586604830351338,1.05,1.0045582025208666,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_width,Female__80+_within_45+,width80,5.019821579659807,4.826294425825165,2.0,1.0400984972651257,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.05961304317683692,0.06395800259443901,1.05,0.9320654297922074,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.1454545454545455,0.25454545454545463,,,tcn_adapted__cdf,True,Saudi Arabia,incidence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.186084227855237,0.16062584338211272,2.0,1.1584949466230123,tcn_adapted__cdf,True,Saudi Arabia,incidence
+rate_wis,Male 45+,WIS,32.414460034130386,33.57572389934904,0.95,0.9654135866526716,tcn_adapted__cdf,False,Bahrain,prevalence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.20000000000000007,0.21818181818181825,,,tcn_adapted__cdf,True,Bahrain,prevalence
+width,Male 45+,width80,125.62928628839715,89.54234372488077,2.0,1.4030153898405169,tcn_adapted__cdf,True,Bahrain,prevalence
+comparator_wis,Male 45+,WIS,32.414460034130386,50.04273963594759,1.05,0.647735521075386,local_champion__cdf,True,Bahrain,prevalence
+comparator_wis,Male 45+,WIS,32.414460034130386,34.71968297048029,1.05,0.9336047239166937,nonneural_champion__cdf,True,Bahrain,prevalence
+point_accuracy,Male 45+,ALE,0.028495268812839102,0.02441026951203968,1.05,1.1673475706109926,tcn_adapted__cdf,False,Bahrain,prevalence
+log_wis,Male 45+,log_WIS,0.02034198956523791,0.019427679308768764,1.05,1.0470622477310745,tcn_adapted__cdf,True,Bahrain,prevalence
+rate_wis,Male 80+,WIS,42.29771176830989,48.143418308509744,1.05,0.8785772438770394,tcn_adapted__cdf,True,Bahrain,prevalence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.04999999999999993,0.050000000000000044,,,tcn_adapted__cdf,True,Bahrain,prevalence
+width,Male 80+,width80,215.6388916350258,179.3249513314415,2.0,1.2025035558853503,tcn_adapted__cdf,True,Bahrain,prevalence
+rate_wis,Female 45+,WIS,18.579414543889776,21.685462745175034,0.95,0.8567681843922678,tcn_adapted__cdf,True,Bahrain,prevalence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.21818181818181825,0.18181818181818188,,,tcn_adapted__cdf,False,Bahrain,prevalence
+width,Female 45+,width80,49.353499681119914,49.475457393603406,2.0,0.9975349856492836,tcn_adapted__cdf,True,Bahrain,prevalence
+comparator_wis,Female 45+,WIS,18.579414543889776,18.57583665933055,1.05,1.0001926096048777,local_champion__cdf,True,Bahrain,prevalence
+comparator_wis,Female 45+,WIS,18.579414543889776,18.897865054029378,1.05,0.9831488631531051,nonneural_champion__cdf,True,Bahrain,prevalence
+point_accuracy,Female 45+,ALE,0.02140017427601438,0.02139972021672564,1.05,1.0000212180011767,tcn_adapted__cdf,True,Bahrain,prevalence
+log_wis,Female 45+,log_WIS,0.015434928070403389,0.01614137378096727,1.05,0.956233854679899,tcn_adapted__cdf,True,Bahrain,prevalence
+rate_wis,Female 80+,WIS,42.742607777936634,51.18707589152331,1.05,0.8350273390985966,tcn_adapted__cdf,True,Bahrain,prevalence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.35000000000000003,0.25,,,tcn_adapted__cdf,False,Bahrain,prevalence
+width,Female 80+,width80,94.44072119092024,93.98664568605479,2.0,1.004831276843119,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_wis,Both__45+,WIS,57.50905926806168,50.86855276899284,1.05,1.1305424695140254,tcn_adapted__cdf,False,Bahrain,prevalence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.20000000000000007,0.0,,,tcn_adapted__cdf,False,Bahrain,prevalence
+derived_width,Both__45+,width80,242.60807002167934,257.3154140751688,2.0,0.9428431285146678,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_wis,Male__45+,WIS,48.65399274572469,41.8134033049021,1.05,1.1635980068625655,tcn_adapted__cdf,False,Bahrain,prevalence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.4,0.20000000000000007,,,tcn_adapted__cdf,False,Bahrain,prevalence
+derived_width,Male__45+,width80,180.4493897058737,191.01540960896685,2.0,0.9446849868043465,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_wis,Female__45+,WIS,11.466682383498792,11.439699025571485,1.05,1.002358747189676,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.0,0.19999999999999996,,,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_width,Female__45+,width80,63.389390821520365,66.83004278832945,2.0,0.9485163883897748,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_wis,Male__80+_within_45+,WIS,1.4378436266336951,1.572135687281702,1.05,0.9145798535492796,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_width,Male__80+_within_45+,width80,5.614452223727876,5.775006511509767,2.0,0.9721984230733072,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_wis,Female__80+_within_45+,WIS,2.093184149077454,2.1270170167527622,1.05,0.9840937484708233,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_width,Female__80+_within_45+,width80,5.465108710635437,5.689932942364739,2.0,0.9604873670732813,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.04151788182019005,0.036787186217548444,1.05,1.128596288247372,tcn_adapted__cdf,False,Bahrain,prevalence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.21818181818181814,0.290909090909091,,,tcn_adapted__cdf,True,Bahrain,prevalence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.12523512244569954,0.08701200003408859,2.0,1.439285643320879,tcn_adapted__cdf,True,Bahrain,prevalence
+rate_wis,Male 45+,WIS,4.678616115134953,5.300866035305976,0.95,0.8826135359719376,tcn_adapted__cdf,True,Bahrain,incidence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.290909090909091,0.3272727272727274,,,tcn_adapted__cdf,True,Bahrain,incidence
+width,Male 45+,width80,17.878501289189025,12.555969788562782,2.0,1.423904452643278,tcn_adapted__cdf,True,Bahrain,incidence
+comparator_wis,Male 45+,WIS,4.678616115134953,7.296616113415695,1.05,0.6412035445489261,local_champion__cdf,True,Bahrain,incidence
+comparator_wis,Male 45+,WIS,4.678616115134953,3.854283650238762,1.05,1.2138743641364138,nonneural_champion__cdf,False,Bahrain,incidence
+point_accuracy,Male 45+,ALE,0.042448122931736984,0.04011409104208431,1.05,1.058184838021233,tcn_adapted__cdf,False,Bahrain,incidence
+log_wis,Male 45+,log_WIS,0.029337681358212724,0.030955013143509007,1.05,0.9477521854764445,tcn_adapted__cdf,True,Bahrain,incidence
+rate_wis,Male 80+,WIS,7.2781784227640625,8.921263935292977,1.05,0.8158236854725501,tcn_adapted__cdf,True,Bahrain,incidence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.25,0.45000000000000007,,,tcn_adapted__cdf,True,Bahrain,incidence
+width,Male 80+,width80,25.809544398571177,17.866764100972212,2.0,1.4445561743979574,tcn_adapted__cdf,True,Bahrain,incidence
+rate_wis,Female 45+,WIS,1.4243300100940202,1.5802274859635177,0.95,0.9013449156819079,tcn_adapted__cdf,True,Bahrain,incidence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.09090909090909094,0.12727272727272732,,,tcn_adapted__cdf,True,Bahrain,incidence
+width,Female 45+,width80,7.57917735916389,6.53637351036493,2.0,1.159538595391673,tcn_adapted__cdf,True,Bahrain,incidence
+comparator_wis,Female 45+,WIS,1.4243300100940202,1.8150019512821352,1.05,0.7847539828196105,local_champion__cdf,True,Bahrain,incidence
+comparator_wis,Female 45+,WIS,1.4243300100940202,1.4495799032342371,1.05,0.9825812339948419,nonneural_champion__cdf,True,Bahrain,incidence
+point_accuracy,Female 45+,ALE,0.022785744514086638,0.021787327803518452,1.05,1.0458255697794638,tcn_adapted__cdf,True,Bahrain,incidence
+log_wis,Female 45+,log_WIS,0.016060377356809114,0.01659826492720983,1.05,0.9675937471320302,tcn_adapted__cdf,True,Bahrain,incidence
+rate_wis,Female 80+,WIS,2.4293481047071115,2.818198154730484,1.05,0.8620217498295254,tcn_adapted__cdf,True,Bahrain,incidence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.09999999999999998,0.0,,,tcn_adapted__cdf,False,Bahrain,incidence
+width,Female 80+,width80,13.548375008831636,11.808762201292506,2.0,1.147315423740917,tcn_adapted__cdf,True,Bahrain,incidence
+derived_wis,Both__45+,WIS,5.865452711821699,6.3103189911449675,1.05,0.9295017763844375,tcn_adapted__cdf,True,Bahrain,incidence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.0,0.0,,,tcn_adapted__cdf,True,Bahrain,incidence
+derived_width,Both__45+,width80,32.45853069025726,36.28544385383492,2.0,0.8945331031640887,tcn_adapted__cdf,True,Bahrain,incidence
+derived_wis,Male__45+,WIS,4.523291468162243,4.996576494345917,1.05,0.9052781385976498,tcn_adapted__cdf,True,Bahrain,incidence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.0,0.0,,,tcn_adapted__cdf,True,Bahrain,incidence
+derived_width,Male__45+,width80,25.289332803431613,28.94490127604587,2.0,0.873705961621658,tcn_adapted__cdf,True,Bahrain,incidence
+derived_wis,Female__45+,WIS,1.4001287287335564,1.3827299728493463,1.05,1.0125829021036965,tcn_adapted__cdf,True,Bahrain,incidence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Bahrain,incidence
+derived_width,Female__45+,width80,7.419460368136399,7.485113554485605,2.0,0.9912288322854017,tcn_adapted__cdf,True,Bahrain,incidence
+derived_wis,Male__80+_within_45+,WIS,1.2867458268393892,1.3077778675192007,1.05,0.9839177270068744,tcn_adapted__cdf,True,Bahrain,incidence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Bahrain,incidence
+derived_width,Male__80+_within_45+,width80,4.597730170565778,4.798924960632393,2.0,0.9580750289456283,tcn_adapted__cdf,True,Bahrain,incidence
+derived_wis,Female__80+_within_45+,WIS,1.5558352183003352,1.6049036998018984,1.05,0.9694259029326059,tcn_adapted__cdf,True,Bahrain,incidence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Bahrain,incidence
+derived_width,Female__80+_within_45+,width80,4.995329452637453,5.056577710830651,2.0,0.9878874088967304,tcn_adapted__cdf,True,Bahrain,incidence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.05505779378027071,0.05889939024568289,1.05,0.9347769739315128,tcn_adapted__cdf,True,Bahrain,incidence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.3272727272727273,0.4181818181818182,,,tcn_adapted__cdf,True,Bahrain,incidence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.12451415660369265,0.08530749550063034,2.0,1.4595922183974164,tcn_adapted__cdf,True,Bahrain,incidence
+rate_wis,Male 45+,WIS,54.43396654727208,53.13664081002561,0.95,1.024414899351366,tcn_adapted__cdf,False,Kuwait,prevalence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.05454545454545445,0.036363636363636265,,,tcn_adapted__cdf,False,Kuwait,prevalence
+width,Male 45+,width80,395.270529787157,322.06738541096115,2.0,1.2272913920879878,tcn_adapted__cdf,True,Kuwait,prevalence
+comparator_wis,Male 45+,WIS,54.43396654727208,68.15764355128412,1.05,0.7986480123291545,local_champion__cdf,True,Kuwait,prevalence
+comparator_wis,Male 45+,WIS,54.43396654727208,68.03001833173263,1.05,0.8001462866265513,nonneural_champion__cdf,True,Kuwait,prevalence
+point_accuracy,Male 45+,ALE,0.0211254941624714,0.018334439485848654,1.05,1.1522301611007528,tcn_adapted__cdf,False,Kuwait,prevalence
+log_wis,Male 45+,log_WIS,0.02146688089624287,0.02095516152375609,1.05,1.024419729330488,tcn_adapted__cdf,True,Kuwait,prevalence
+rate_wis,Male 80+,WIS,107.56689947465111,101.53997150521153,1.05,1.0593552261252137,tcn_adapted__cdf,False,Kuwait,prevalence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.1499999999999999,0.1499999999999999,,,tcn_adapted__cdf,True,Kuwait,prevalence
+width,Male 80+,width80,792.6861755549712,651.8939149521182,2.0,1.2159741905447825,tcn_adapted__cdf,True,Kuwait,prevalence
+rate_wis,Female 45+,WIS,13.919541001004887,14.110792790587936,0.95,0.9864464178291515,tcn_adapted__cdf,False,Kuwait,prevalence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.09090909090909094,0.0,,,tcn_adapted__cdf,False,Kuwait,prevalence
+width,Female 45+,width80,70.33411168052324,60.75554774607908,2.0,1.1576574368891657,tcn_adapted__cdf,True,Kuwait,prevalence
+comparator_wis,Female 45+,WIS,13.919541001004887,23.103793779107004,1.05,0.6024785857287417,local_champion__cdf,True,Kuwait,prevalence
+comparator_wis,Female 45+,WIS,13.919541001004887,13.664935213550507,1.05,1.0186320522911743,nonneural_champion__cdf,True,Kuwait,prevalence
+point_accuracy,Female 45+,ALE,0.014354372000365833,0.014758784232483188,1.05,0.9725985402491848,tcn_adapted__cdf,True,Kuwait,prevalence
+log_wis,Female 45+,log_WIS,0.012269862952821266,0.014462733146194878,1.05,0.8483778846496555,tcn_adapted__cdf,True,Kuwait,prevalence
+rate_wis,Female 80+,WIS,26.342452187995455,25.067087886325165,1.05,1.0508780400600917,tcn_adapted__cdf,False,Kuwait,prevalence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.09999999999999998,0.15000000000000002,,,tcn_adapted__cdf,True,Kuwait,prevalence
+width,Female 80+,width80,141.94760357923582,106.91854396237622,2.0,1.3276237995645175,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_wis,Both__45+,WIS,129.39630942524252,133.17480329168365,1.05,0.971627561873207,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.19999999999999996,0.20000000000000007,,,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_width,Both__45+,width80,677.0743680243002,611.105851476941,2.0,1.1079494107083483,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_wis,Male__45+,WIS,113.96341927251635,114.1693121047385,1.05,0.9981966009216797,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_width,Male__45+,width80,669.5746568600741,637.4795781591429,2.0,1.050346834315246,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_wis,Female__45+,WIS,41.9309411735005,43.38235455927709,1.05,0.9665436926943788,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.8,0.8,,,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_width,Female__45+,width80,87.93858719292567,101.41876176978595,2.0,0.867084015406741,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_wis,Male__80+_within_45+,WIS,3.401360447389309,3.3874337558572107,1.05,1.004111280850295,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_width,Male__80+_within_45+,width80,8.969366322581939,9.000389337673662,2.0,0.996553147433093,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_wis,Female__80+_within_45+,WIS,2.235612104184828,2.23852973465472,1.05,0.9986966309070083,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_width,Female__80+_within_45+,width80,14.750761939069454,14.963853969991428,2.0,0.9857595488869839,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.04402694909329016,0.05069472208621017,1.05,0.8684720476111703,tcn_adapted__cdf,True,Kuwait,prevalence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.1454545454545454,0.1272727272727272,,,tcn_adapted__cdf,False,Kuwait,prevalence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.2819560930968727,0.25945136495937277,2.0,1.086739679095633,tcn_adapted__cdf,True,Kuwait,prevalence
+rate_wis,Male 45+,WIS,6.663018947726637,7.016729029328259,0.95,0.9495904601527011,tcn_adapted__cdf,True,Kuwait,incidence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.10909090909090913,0.036363636363636376,,,tcn_adapted__cdf,False,Kuwait,incidence
+width,Male 45+,width80,33.91424559670774,32.58653245168759,2.0,1.0407442291378686,tcn_adapted__cdf,True,Kuwait,incidence
+comparator_wis,Male 45+,WIS,6.663018947726637,7.022473400873376,1.05,0.9488136967379565,local_champion__cdf,True,Kuwait,incidence
+comparator_wis,Male 45+,WIS,6.663018947726637,7.057026606055646,1.05,0.9441680355872669,nonneural_champion__cdf,True,Kuwait,incidence
+point_accuracy,Male 45+,ALE,0.0391782989435666,0.03717472160193193,1.05,1.0538962298921573,tcn_adapted__cdf,False,Kuwait,incidence
+log_wis,Male 45+,log_WIS,0.03163876563190372,0.03229837507993686,1.05,0.9795776274688545,tcn_adapted__cdf,True,Kuwait,incidence
+rate_wis,Male 80+,WIS,11.923318793228862,13.21940427245254,1.05,0.901955833068473,tcn_adapted__cdf,True,Kuwait,incidence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.04999999999999993,0.0,,,tcn_adapted__cdf,False,Kuwait,incidence
+width,Male 80+,width80,52.870645636039285,55.86731431064253,2.0,0.9463609677397292,tcn_adapted__cdf,True,Kuwait,incidence
+rate_wis,Female 45+,WIS,2.1438246572514252,2.208557653752229,0.95,0.9706899222708424,tcn_adapted__cdf,False,Kuwait,incidence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.036363636363636376,0.09090909090909094,,,tcn_adapted__cdf,True,Kuwait,incidence
+width,Female 45+,width80,7.1142826693964185,6.680590284790822,2.0,1.0649182731042421,tcn_adapted__cdf,True,Kuwait,incidence
+comparator_wis,Female 45+,WIS,2.1438246572514252,2.4317421750823085,1.05,0.8816003107643853,local_champion__cdf,True,Kuwait,incidence
+comparator_wis,Female 45+,WIS,2.1438246572514252,2.2875294044257486,1.05,0.9371790601264868,nonneural_champion__cdf,True,Kuwait,incidence
+point_accuracy,Female 45+,ALE,0.0280322337343534,0.027276276409932687,1.05,1.0277148285586897,tcn_adapted__cdf,True,Kuwait,incidence
+log_wis,Female 45+,log_WIS,0.021046048762816807,0.022143447710924784,1.05,0.9504413692739203,tcn_adapted__cdf,True,Kuwait,incidence
+rate_wis,Female 80+,WIS,4.128112745863031,4.309897770787171,1.05,0.9578214995825901,tcn_adapted__cdf,True,Kuwait,incidence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.10000000000000009,0.15000000000000002,,,tcn_adapted__cdf,True,Kuwait,incidence
+width,Female 80+,width80,13.240467625290474,13.329069615927637,2.0,0.9933527250445683,tcn_adapted__cdf,True,Kuwait,incidence
+derived_wis,Both__45+,WIS,15.636115053348158,13.508381666631323,1.05,1.157512086882532,tcn_adapted__cdf,False,Kuwait,incidence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Kuwait,incidence
+derived_width,Both__45+,width80,79.09154283085834,70.79176299437424,2.0,1.1172421689391134,tcn_adapted__cdf,True,Kuwait,incidence
+derived_wis,Male__45+,WIS,14.005979003706027,12.732010222290487,1.05,1.1000603014899522,tcn_adapted__cdf,False,Kuwait,incidence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Kuwait,incidence
+derived_width,Male__45+,width80,81.44301484325578,74.25663216735109,2.0,1.096777654280211,tcn_adapted__cdf,True,Kuwait,incidence
+derived_wis,Female__45+,WIS,4.0102866695566375,3.9655313299059727,1.05,1.0112860890325448,tcn_adapted__cdf,True,Kuwait,incidence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.6000000000000001,0.4,,,tcn_adapted__cdf,False,Kuwait,incidence
+derived_width,Female__45+,width80,9.316047574151563,10.347003318484013,2.0,0.9003619006779733,tcn_adapted__cdf,True,Kuwait,incidence
+derived_wis,Male__80+_within_45+,WIS,3.259014194138294,3.0742961525261863,1.05,1.0600846608288934,tcn_adapted__cdf,False,Kuwait,incidence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.6000000000000001,0.4,,,tcn_adapted__cdf,False,Kuwait,incidence
+derived_width,Male__80+_within_45+,width80,5.1972812743226955,5.383313714604364,2.0,0.9654427644116332,tcn_adapted__cdf,True,Kuwait,incidence
+derived_wis,Female__80+_within_45+,WIS,2.025882162762641,2.0664510443332724,1.05,0.9803678477252672,tcn_adapted__cdf,True,Kuwait,incidence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Kuwait,incidence
+derived_width,Female__80+_within_45+,width80,12.710228790442775,12.83560487408143,2.0,0.9902321639791342,tcn_adapted__cdf,True,Kuwait,incidence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.0667938847620099,0.07310840789687224,1.05,0.9136279490073194,tcn_adapted__cdf,True,Kuwait,incidence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.054545454545454564,0.05454545454545445,,,tcn_adapted__cdf,True,Kuwait,incidence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.35634797987139566,0.2909283992750715,2.0,1.2248648834535751,tcn_adapted__cdf,True,Kuwait,incidence
+rate_wis,Male 45+,WIS,86.25917382290525,86.0838222442099,0.95,1.0020369864409355,tcn_adapted__cdf,False,Oman,prevalence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.290909090909091,0.3818181818181819,,,tcn_adapted__cdf,True,Oman,prevalence
+width,Male 45+,width80,225.51449574608205,153.10912038487555,2.0,1.4729004724160042,tcn_adapted__cdf,True,Oman,prevalence
+comparator_wis,Male 45+,WIS,86.25917382290525,101.5971635241759,1.05,0.8490313196822582,local_champion__cdf,True,Oman,prevalence
+comparator_wis,Male 45+,WIS,86.25917382290525,114.683772487391,1.05,0.752148032385219,nonneural_champion__cdf,True,Oman,prevalence
+point_accuracy,Male 45+,ALE,0.039300493035684794,0.04156150025575949,1.05,0.9455985177108381,tcn_adapted__cdf,True,Oman,prevalence
+log_wis,Male 45+,log_WIS,0.03281170748191091,0.03320447235317188,1.05,0.98817132622728,tcn_adapted__cdf,True,Oman,prevalence
+rate_wis,Male 80+,WIS,139.29304909305168,130.915198742574,1.05,1.063994482160559,tcn_adapted__cdf,False,Oman,prevalence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.20000000000000007,0.35000000000000003,,,tcn_adapted__cdf,True,Oman,prevalence
+width,Male 80+,width80,497.3543828988617,340.64220066803836,2.0,1.4600492303170094,tcn_adapted__cdf,True,Oman,prevalence
+rate_wis,Female 45+,WIS,13.83297009687557,13.875493178585899,0.95,0.9969353823202511,tcn_adapted__cdf,False,Oman,prevalence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.09090909090909094,0.1090909090909089,,,tcn_adapted__cdf,True,Oman,prevalence
+width,Female 45+,width80,83.34006614954231,82.68315253148202,2.0,1.0079449512742051,tcn_adapted__cdf,True,Oman,prevalence
+comparator_wis,Female 45+,WIS,13.83297009687557,16.790082022062723,1.05,0.8238774580552132,local_champion__cdf,True,Oman,prevalence
+comparator_wis,Female 45+,WIS,13.83297009687557,19.09124102937668,1.05,0.7245715496226811,nonneural_champion__cdf,True,Oman,prevalence
+point_accuracy,Female 45+,ALE,0.017651070894184575,0.01496907874967083,1.05,1.179168817892198,tcn_adapted__cdf,False,Oman,prevalence
+log_wis,Female 45+,log_WIS,0.013336290593429565,0.013010768164975586,1.05,1.0250194626732547,tcn_adapted__cdf,True,Oman,prevalence
+rate_wis,Female 80+,WIS,25.22607355922251,26.232049320248525,1.05,0.9616508893855463,tcn_adapted__cdf,True,Oman,prevalence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.19999999999999996,0.1499999999999999,,,tcn_adapted__cdf,False,Oman,prevalence
+width,Female 80+,width80,166.49768787645172,161.30921295389945,2.0,1.032164777370993,tcn_adapted__cdf,True,Oman,prevalence
+derived_wis,Both__45+,WIS,144.10409046472168,140.5294310623471,1.05,1.0254370872731182,tcn_adapted__cdf,True,Oman,prevalence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.4,0.20000000000000007,,,tcn_adapted__cdf,False,Oman,prevalence
+derived_width,Both__45+,width80,390.99180550916464,370.9321996923318,2.0,1.0540789013018315,tcn_adapted__cdf,True,Oman,prevalence
+derived_wis,Male__45+,WIS,135.11228142634903,135.81371475811713,1.05,0.9948353276911883,tcn_adapted__cdf,True,Oman,prevalence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.4,0.6000000000000001,,,tcn_adapted__cdf,True,Oman,prevalence
+derived_width,Male__45+,width80,295.10828611790106,275.3553122491243,2.0,1.0717363093794445,tcn_adapted__cdf,True,Oman,prevalence
+derived_wis,Female__45+,WIS,22.098922768993237,21.67743496500787,1.05,1.0194436198132177,tcn_adapted__cdf,True,Oman,prevalence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.0,0.19999999999999996,,,tcn_adapted__cdf,True,Oman,prevalence
+derived_width,Female__45+,width80,127.58611978974,128.7296106438559,2.0,0.9911171109086977,tcn_adapted__cdf,True,Oman,prevalence
+derived_wis,Male__80+_within_45+,WIS,1.340849329278528,1.4095021559845993,1.05,0.9512928544205637,tcn_adapted__cdf,True,Oman,prevalence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.0,,,tcn_adapted__cdf,False,Oman,prevalence
+derived_width,Male__80+_within_45+,width80,8.670280063082199,9.084714233129107,2.0,0.954381155046617,tcn_adapted__cdf,True,Oman,prevalence
+derived_wis,Female__80+_within_45+,WIS,1.8430999853361723,1.877461032695582,1.05,0.9816981302082869,tcn_adapted__cdf,True,Oman,prevalence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Oman,prevalence
+derived_width,Female__80+_within_45+,width80,9.858511439196855,10.242794984754635,2.0,0.96248255030685,tcn_adapted__cdf,True,Oman,prevalence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.04657046157015721,0.05400562421259478,1.05,0.8623261419372021,tcn_adapted__cdf,True,Oman,prevalence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.054545454545454675,0.21818181818181814,,,tcn_adapted__cdf,True,Oman,prevalence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.19696368859097743,0.15694098681711935,2.0,1.2550175233732654,tcn_adapted__cdf,True,Oman,prevalence
+rate_wis,Male 45+,WIS,8.437829435961383,7.985948438454402,0.95,1.0565845122829816,tcn_adapted__cdf,False,Oman,incidence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.2545454545454545,0.23636363636363633,,,tcn_adapted__cdf,False,Oman,incidence
+width,Male 45+,width80,22.126425769215686,17.710346443663965,2.0,1.2493502506909802,tcn_adapted__cdf,True,Oman,incidence
+comparator_wis,Male 45+,WIS,8.437829435961383,10.643491451112705,1.05,0.7927689400341713,local_champion__cdf,True,Oman,incidence
+comparator_wis,Male 45+,WIS,8.437829435961383,8.726863198507377,1.05,0.9668799938796532,nonneural_champion__cdf,True,Oman,incidence
+point_accuracy,Male 45+,ALE,0.04256228578837389,0.037953160948939434,1.05,1.1214424496983368,tcn_adapted__cdf,False,Oman,incidence
+log_wis,Male 45+,log_WIS,0.0330250286494029,0.0312838323969226,1.05,1.0556580226613022,tcn_adapted__cdf,False,Oman,incidence
+rate_wis,Male 80+,WIS,14.151097753678645,13.031519422926781,1.05,1.0859131076290423,tcn_adapted__cdf,False,Oman,incidence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Oman,incidence
+width,Male 80+,width80,37.61263360590131,31.94196534243133,2.0,1.1775303492655516,tcn_adapted__cdf,True,Oman,incidence
+rate_wis,Female 45+,WIS,2.4869715484759007,2.6427230272192097,0.95,0.9410640172507228,tcn_adapted__cdf,True,Oman,incidence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.0,0.018181818181818077,,,tcn_adapted__cdf,True,Oman,incidence
+width,Female 45+,width80,15.139968079726625,14.773735934265838,2.0,1.0247894064907006,tcn_adapted__cdf,True,Oman,incidence
+comparator_wis,Female 45+,WIS,2.4869715484759007,3.132893975182376,1.05,0.7938256347571182,local_champion__cdf,True,Oman,incidence
+comparator_wis,Female 45+,WIS,2.4869715484759007,2.558197712689234,1.05,0.9721576780949981,nonneural_champion__cdf,True,Oman,incidence
+point_accuracy,Female 45+,ALE,0.023237393156712676,0.02434855523381337,1.05,0.9543643527745088,tcn_adapted__cdf,True,Oman,incidence
+log_wis,Female 45+,log_WIS,0.018413555395244956,0.01882964650066258,1.05,0.9779023411085821,tcn_adapted__cdf,True,Oman,incidence
+rate_wis,Female 80+,WIS,5.066764940655396,5.483413751877295,1.05,0.9240165287401019,tcn_adapted__cdf,True,Oman,incidence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.09999999999999998,0.09999999999999998,,,tcn_adapted__cdf,True,Oman,incidence
+width,Female 80+,width80,31.37344806152013,30.38385992137436,2.0,1.0325695333873501,tcn_adapted__cdf,True,Oman,incidence
+derived_wis,Both__45+,WIS,13.464880288080263,13.711655677284577,1.05,0.9820025097615939,tcn_adapted__cdf,True,Oman,incidence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Oman,incidence
+derived_width,Both__45+,width80,49.15202418478343,48.378101637217114,2.0,1.0159973732200136,tcn_adapted__cdf,True,Oman,incidence
+derived_wis,Male__45+,WIS,12.767401649207818,13.143922948160744,1.05,0.9713539633153727,tcn_adapted__cdf,True,Oman,incidence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.4,0.4,,,tcn_adapted__cdf,True,Oman,incidence
+derived_width,Male__45+,width80,36.66566855287493,33.54515339960011,2.0,1.0930243220563727,tcn_adapted__cdf,True,Oman,incidence
+derived_wis,Female__45+,WIS,2.317344211960085,2.4089340198807383,1.05,0.9619791130994996,tcn_adapted__cdf,True,Oman,incidence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Oman,incidence
+derived_width,Female__45+,width80,15.432778336092312,16.918954773860683,2.0,0.9121590867974615,tcn_adapted__cdf,True,Oman,incidence
+derived_wis,Male__80+_within_45+,WIS,1.1347599830395325,1.133605337413369,1.05,1.0010185605060735,tcn_adapted__cdf,True,Oman,incidence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Oman,incidence
+derived_width,Male__80+_within_45+,width80,7.189747052665508,7.412118515879568,2.0,0.9699989331339406,tcn_adapted__cdf,True,Oman,incidence
+derived_wis,Female__80+_within_45+,WIS,1.7073855188410114,1.863320690398254,1.05,0.9163132935941832,tcn_adapted__cdf,True,Oman,incidence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.0,0.20000000000000007,,,tcn_adapted__cdf,True,Oman,incidence
+derived_width,Female__80+_within_45+,width80,8.661950637775778,9.05998057088892,2.0,0.9560672420874641,tcn_adapted__cdf,True,Oman,incidence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.06067468791532138,0.05610031684679175,1.05,1.0815391307151097,tcn_adapted__cdf,False,Oman,incidence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.018181818181818188,0.054545454545454675,,,tcn_adapted__cdf,True,Oman,incidence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.26975839542395696,0.22516844135357142,2.0,1.1980293233027626,tcn_adapted__cdf,True,Oman,incidence
+rate_wis,Male 45+,WIS,55.97597065489938,70.70819662466062,0.95,0.7916475504535334,tcn_adapted__cdf,True,Qatar,prevalence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.10909090909090913,0.1636363636363637,,,tcn_adapted__cdf,True,Qatar,prevalence
+width,Male 45+,width80,212.1456621869026,143.14660654825326,2.0,1.4820167051280426,tcn_adapted__cdf,True,Qatar,prevalence
+comparator_wis,Male 45+,WIS,55.97597065489938,73.37422407065908,1.05,0.7628833062819819,local_champion__cdf,True,Qatar,prevalence
+comparator_wis,Male 45+,WIS,55.97597065489938,73.97733363652007,1.05,0.7566638036716961,nonneural_champion__cdf,True,Qatar,prevalence
+point_accuracy,Male 45+,ALE,0.03350879999011242,0.03377694265559402,1.05,0.9920613695497632,tcn_adapted__cdf,True,Qatar,prevalence
+log_wis,Male 45+,log_WIS,0.022676472705237954,0.026018436621284963,1.05,0.871554007464344,tcn_adapted__cdf,True,Qatar,prevalence
+rate_wis,Male 80+,WIS,119.7583841996915,155.4924626466106,1.05,0.7701877130331886,tcn_adapted__cdf,True,Qatar,prevalence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.25,0.5,,,tcn_adapted__cdf,True,Qatar,prevalence
+width,Male 80+,width80,447.4932118313137,268.2270885909032,2.0,1.668337132472944,tcn_adapted__cdf,True,Qatar,prevalence
+rate_wis,Female 45+,WIS,29.8205453196063,33.0775475186241,0.95,0.9015343505384138,tcn_adapted__cdf,True,Qatar,prevalence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.036363636363636376,0.18181818181818188,,,tcn_adapted__cdf,True,Qatar,prevalence
+width,Female 45+,width80,84.79503119227266,57.14100882194852,2.0,1.4839610454987613,tcn_adapted__cdf,True,Qatar,prevalence
+comparator_wis,Female 45+,WIS,29.8205453196063,38.30426005254625,1.05,0.7785177230599969,local_champion__cdf,True,Qatar,prevalence
+comparator_wis,Female 45+,WIS,29.8205453196063,23.691553350595957,1.05,1.2586994562286127,nonneural_champion__cdf,False,Qatar,prevalence
+point_accuracy,Female 45+,ALE,0.024346725096001852,0.023895870736531773,1.05,1.0188674589196207,tcn_adapted__cdf,True,Qatar,prevalence
+log_wis,Female 45+,log_WIS,0.018300120572874994,0.02083642795474357,1.05,0.8782753268757293,tcn_adapted__cdf,True,Qatar,prevalence
+rate_wis,Female 80+,WIS,73.98000663523814,81.4041651086827,1.05,0.9087987885689562,tcn_adapted__cdf,True,Qatar,prevalence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.4,0.7000000000000001,,,tcn_adapted__cdf,True,Qatar,prevalence
+width,Female 80+,width80,181.4392335404542,115.36476472446903,2.0,1.5727439307295765,tcn_adapted__cdf,True,Qatar,prevalence
+derived_wis,Both__45+,WIS,384.71483668851783,404.5188944258777,1.05,0.9510429351749633,tcn_adapted__cdf,True,Qatar,prevalence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.8,0.8,,,tcn_adapted__cdf,True,Qatar,prevalence
+derived_width,Both__45+,width80,189.15876642323656,156.84871744994362,2.0,1.205994983565003,tcn_adapted__cdf,True,Qatar,prevalence
+derived_wis,Male__45+,WIS,368.2802432147504,387.19747063848905,1.05,0.9511432050613757,tcn_adapted__cdf,True,Qatar,prevalence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.8,0.8,,,tcn_adapted__cdf,True,Qatar,prevalence
+derived_width,Male__45+,width80,199.83669384479018,178.77434576818598,2.0,1.1178152714591132,tcn_adapted__cdf,True,Qatar,prevalence
+derived_wis,Female__45+,WIS,10.546309221818357,11.212933705809501,1.05,0.9405486109629132,tcn_adapted__cdf,True,Qatar,prevalence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Qatar,prevalence
+derived_width,Female__45+,width80,64.28860780822768,71.92467684893957,2.0,0.893832417811906,tcn_adapted__cdf,True,Qatar,prevalence
+derived_wis,Male__80+_within_45+,WIS,1.8595792069460733,1.8554798991913466,1.05,1.0022092978514687,tcn_adapted__cdf,True,Qatar,prevalence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Qatar,prevalence
+derived_width,Male__80+_within_45+,width80,8.519434036623371,8.725357329233498,2.0,0.9763994430439886,tcn_adapted__cdf,True,Qatar,prevalence
+derived_wis,Female__80+_within_45+,WIS,2.4093523321582557,2.445667871161249,1.05,0.9851510749144567,tcn_adapted__cdf,True,Qatar,prevalence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.4,0.4,,,tcn_adapted__cdf,True,Qatar,prevalence
+derived_width,Female__80+_within_45+,width80,8.094841157210782,8.240205236844266,2.0,0.9823591675868071,tcn_adapted__cdf,True,Qatar,prevalence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.029633413001597095,0.028092685299219454,1.05,1.054844443881641,tcn_adapted__cdf,False,Qatar,prevalence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.0181818181818183,0.1454545454545455,,,tcn_adapted__cdf,True,Qatar,prevalence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.17051322396795376,0.09620967150618392,2.0,1.7723085558710585,tcn_adapted__cdf,True,Qatar,prevalence
+rate_wis,Male 45+,WIS,4.335541102939133,4.15872155416192,0.95,1.0425177657302538,tcn_adapted__cdf,False,Qatar,incidence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.21818181818181825,0.1636363636363637,,,tcn_adapted__cdf,False,Qatar,incidence
+width,Male 45+,width80,12.394666445856178,11.58859293435431,2.0,1.0695574964163481,tcn_adapted__cdf,True,Qatar,incidence
+comparator_wis,Male 45+,WIS,4.335541102939133,4.913483501398855,1.05,0.8823762411545325,local_champion__cdf,True,Qatar,incidence
+comparator_wis,Male 45+,WIS,4.335541102939133,4.740533790718539,1.05,0.914568125519464,nonneural_champion__cdf,True,Qatar,incidence
+point_accuracy,Male 45+,ALE,0.03243631205020633,0.030770260555365702,1.05,1.054144861459423,tcn_adapted__cdf,False,Qatar,incidence
+log_wis,Male 45+,log_WIS,0.02212816641027137,0.02197555931429509,1.05,1.0069444009953827,tcn_adapted__cdf,True,Qatar,incidence
+rate_wis,Male 80+,WIS,7.3976505550352085,7.007335911920447,1.05,1.0557008609292988,tcn_adapted__cdf,False,Qatar,incidence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.35000000000000003,0.25,,,tcn_adapted__cdf,False,Qatar,incidence
+width,Male 80+,width80,18.494790838181125,18.80992777283561,2.0,0.9832462442992689,tcn_adapted__cdf,True,Qatar,incidence
+rate_wis,Female 45+,WIS,1.9654725583122734,2.0830901214325737,0.95,0.9435369781123955,tcn_adapted__cdf,True,Qatar,incidence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.054545454545454564,0.30909090909090914,,,tcn_adapted__cdf,True,Qatar,incidence
+width,Female 45+,width80,6.610077450968655,4.547157691247715,2.0,1.4536723597010082,tcn_adapted__cdf,True,Qatar,incidence
+comparator_wis,Female 45+,WIS,1.9654725583122734,2.384692081756803,1.05,0.8242039185471315,local_champion__cdf,True,Qatar,incidence
+comparator_wis,Female 45+,WIS,1.9654725583122734,2.0624684598199634,1.05,0.9529709649396738,nonneural_champion__cdf,True,Qatar,incidence
+point_accuracy,Female 45+,ALE,0.025090625066881627,0.02679789544602093,1.05,0.9362908784169912,tcn_adapted__cdf,True,Qatar,incidence
+log_wis,Female 45+,log_WIS,0.01750894772669366,0.02033568978713193,1.05,0.8609960080022965,tcn_adapted__cdf,True,Qatar,incidence
+rate_wis,Female 80+,WIS,4.127940241060312,3.4373127019302343,1.05,1.200920777077469,tcn_adapted__cdf,False,Qatar,incidence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.45000000000000007,0.45000000000000007,,,tcn_adapted__cdf,True,Qatar,incidence
+width,Female 80+,width80,10.653389946094741,7.984995193240756,2.0,1.334176125129388,tcn_adapted__cdf,True,Qatar,incidence
+derived_wis,Both__45+,WIS,46.341256824839,45.86318085922112,1.05,1.0104239600625469,tcn_adapted__cdf,True,Qatar,incidence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.8,0.8,,,tcn_adapted__cdf,True,Qatar,incidence
+derived_width,Both__45+,width80,23.591548579693885,19.94998559410581,2.0,1.1825346173013762,tcn_adapted__cdf,True,Qatar,incidence
+derived_wis,Male__45+,WIS,45.07848933747979,44.919654911072804,1.05,1.003535967200136,tcn_adapted__cdf,True,Qatar,incidence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.8,0.8,,,tcn_adapted__cdf,True,Qatar,incidence
+derived_width,Male__45+,width80,23.535661008828548,21.60193708463762,2.0,1.0895162279481923,tcn_adapted__cdf,True,Qatar,incidence
+derived_wis,Female__45+,WIS,1.1743207579436867,1.1764639910292334,1.05,0.9981782416615474,tcn_adapted__cdf,True,Qatar,incidence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,Qatar,incidence
+derived_width,Female__45+,width80,7.493664618938178,7.692353890119582,2.0,0.9741705498707476,tcn_adapted__cdf,True,Qatar,incidence
+derived_wis,Male__80+_within_45+,WIS,1.397026933559094,1.373697751084311,1.05,1.016982762369938,tcn_adapted__cdf,True,Qatar,incidence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,Qatar,incidence
+derived_width,Male__80+_within_45+,width80,6.747297021672336,6.815159251278058,2.0,0.9900424587154003,tcn_adapted__cdf,True,Qatar,incidence
+derived_wis,Female__80+_within_45+,WIS,1.9520926140669062,1.9335202957725302,1.05,1.0096054426400296,tcn_adapted__cdf,True,Qatar,incidence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.4,0.4,,,tcn_adapted__cdf,True,Qatar,incidence
+derived_width,Female__80+_within_45+,width80,5.8579778228746076,6.102458102006955,2.0,0.9599374096395772,tcn_adapted__cdf,True,Qatar,incidence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.034255237992207574,0.0292311021801919,1.05,1.1718763726747266,tcn_adapted__cdf,False,Qatar,incidence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.054545454545454675,0.10909090909090913,,,tcn_adapted__cdf,True,Qatar,incidence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.15233986364018112,0.11524930181140931,2.0,1.3218289503346905,tcn_adapted__cdf,True,Qatar,incidence
+rate_wis,Male 45+,WIS,40.52746941340934,36.77989337111702,0.95,1.1018919768058726,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.054545454545454564,0.036363636363636376,,,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+width,Male 45+,width80,194.68843911417403,136.97769041665478,2.0,1.4213149493320874,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+comparator_wis,Male 45+,WIS,40.52746941340934,58.63951743280013,1.05,0.6911289721961494,local_champion__cdf,True,United Arab Emirates,prevalence
+comparator_wis,Male 45+,WIS,40.52746941340934,45.20170039418058,1.05,0.896591700311942,nonneural_champion__cdf,True,United Arab Emirates,prevalence
+point_accuracy,Male 45+,ALE,0.035297969304454425,0.032323756546097406,1.05,1.0920132149280188,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+log_wis,Male 45+,log_WIS,0.024957043410525785,0.022726829794311888,1.05,1.098131311599477,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+rate_wis,Male 80+,WIS,90.62556224360297,79.9922479149551,1.05,1.132929310099559,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+width,Male 80+,width80,404.54206765685865,276.46094261629133,2.0,1.4632883177944418,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+rate_wis,Female 45+,WIS,21.473892338788964,21.30733469631084,0.95,1.0078169158579446,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.07272727272727275,0.18181818181818188,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+width,Female 45+,width80,67.79232231330016,56.03596607467873,2.0,1.2098001883817586,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+comparator_wis,Female 45+,WIS,21.473892338788964,29.78444503588928,1.05,0.7209767485314441,local_champion__cdf,True,United Arab Emirates,prevalence
+comparator_wis,Female 45+,WIS,21.473892338788964,18.111353832668488,1.05,1.1856591471398052,nonneural_champion__cdf,False,United Arab Emirates,prevalence
+point_accuracy,Female 45+,ALE,0.026355679224030353,0.025649769472703282,1.05,1.0275210953485685,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+log_wis,Female 45+,log_WIS,0.01934739841081818,0.01900669047562425,1.05,1.0179256844125957,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+rate_wis,Female 80+,WIS,47.79577586595912,46.548939797855546,1.05,1.0267854879943155,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.30000000000000004,0.35000000000000003,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+width,Female 80+,width80,133.26911098640085,115.30917332248039,2.0,1.1557546303249668,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_wis,Both__45+,WIS,471.94982921746816,493.42376407081264,1.05,0.9564797311824189,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.20000000000000007,0.20000000000000007,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_width,Both__45+,width80,1930.301290203011,1995.6726769390389,2.0,0.9672434325070309,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_wis,Male__45+,WIS,468.99114533257955,487.37126161073485,1.05,0.9622872382392633,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.20000000000000007,0.4,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_width,Male__45+,width80,1815.6895473511827,1872.8459077514576,2.0,0.9694815466858686,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_wis,Female__45+,WIS,17.00929180820923,17.224801799862856,1.05,0.9874883906266287,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_width,Female__45+,width80,128.91383824183353,123.04884262039893,2.0,1.0476639641343715,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_wis,Male__80+_within_45+,WIS,0.4051461768650289,0.40713257742153497,1.05,0.9951209982529858,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_width,Male__80+_within_45+,width80,2.550099656603055,2.607211858846738,2.0,0.9780945295834356,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_wis,Female__80+_within_45+,WIS,0.8951194788849088,0.9383114780594857,1.05,0.9539683781084061,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_width,Female__80+_within_45+,width80,5.993903838923872,6.439732008426285,2.0,0.9307691424240864,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.04006817542099669,0.03462644310576464,1.05,1.1571553941769466,tcn_adapted__cdf,False,United Arab Emirates,prevalence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.036363636363636265,0.07272727272727275,,,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.20532500292529174,0.14197615875702654,2.0,1.4461935350475172,tcn_adapted__cdf,True,United Arab Emirates,prevalence
+rate_wis,Male 45+,WIS,2.9024158667419817,2.437893348200733,0.95,1.190542592391946,tcn_adapted__cdf,False,United Arab Emirates,incidence
+coverage_distance,Male 45+,abs(coverage80-0.8),0.036363636363636265,0.09090909090909094,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+width,Male 45+,width80,13.742468459777438,11.126633208975864,2.0,1.2350967450505492,tcn_adapted__cdf,True,United Arab Emirates,incidence
+comparator_wis,Male 45+,WIS,2.9024158667419817,3.7641973260696098,1.05,0.7710583732262893,local_champion__cdf,True,United Arab Emirates,incidence
+comparator_wis,Male 45+,WIS,2.9024158667419817,3.3745790181837902,1.05,0.8600823543032848,nonneural_champion__cdf,True,United Arab Emirates,incidence
+point_accuracy,Male 45+,ALE,0.03956935350369832,0.030930047803800313,1.05,1.2793175670047465,tcn_adapted__cdf,False,United Arab Emirates,incidence
+log_wis,Male 45+,log_WIS,0.02564532830417396,0.022062828156687343,1.05,1.1623771948928834,tcn_adapted__cdf,False,United Arab Emirates,incidence
+rate_wis,Male 80+,WIS,4.95499918250548,4.078483669652753,1.05,1.2149121055393006,tcn_adapted__cdf,False,United Arab Emirates,incidence
+coverage_distance,Male 80+,abs(coverage80-0.8),0.0,0.04999999999999993,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+width,Male 80+,width80,23.396973272589776,19.067508602105345,2.0,1.2270597989926377,tcn_adapted__cdf,True,United Arab Emirates,incidence
+rate_wis,Female 45+,WIS,2.533710306860756,2.738814076773205,0.95,0.9251121966796312,tcn_adapted__cdf,True,United Arab Emirates,incidence
+coverage_distance,Female 45+,abs(coverage80-0.8),0.0,0.036363636363636376,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+width,Female 45+,width80,13.039540446677602,12.589825866884668,2.0,1.0357204765616201,tcn_adapted__cdf,True,United Arab Emirates,incidence
+comparator_wis,Female 45+,WIS,2.533710306860756,4.111523539294486,1.05,0.6162460904444989,local_champion__cdf,True,United Arab Emirates,incidence
+comparator_wis,Female 45+,WIS,2.533710306860756,2.142650412662816,1.05,1.1825122249933173,nonneural_champion__cdf,False,United Arab Emirates,incidence
+point_accuracy,Female 45+,ALE,0.03738730344818847,0.03766656464024837,1.05,0.9925859659693654,tcn_adapted__cdf,True,United Arab Emirates,incidence
+log_wis,Female 45+,log_WIS,0.02670754392942698,0.028573380861333337,1.05,0.9347001693302844,tcn_adapted__cdf,True,United Arab Emirates,incidence
+rate_wis,Female 80+,WIS,4.430516370293359,4.729969389526966,1.05,0.9366902838955679,tcn_adapted__cdf,True,United Arab Emirates,incidence
+coverage_distance,Female 80+,abs(coverage80-0.8),0.04999999999999993,0.04999999999999993,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+width,Female 80+,width80,24.205064674639015,24.288252230119163,2.0,0.9965749879945256,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_wis,Both__45+,WIS,60.647328027438526,59.05324867676442,1.05,1.0269939315176293,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_coverage_distance,Both__45+,abs(coverage80-0.8),0.4,0.4,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_width,Both__45+,width80,225.37057424471828,226.94726758152387,2.0,0.9930526004846513,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_wis,Male__45+,WIS,60.958234956852245,58.30804975766732,1.05,1.045451446416049,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_coverage_distance,Male__45+,abs(coverage80-0.8),0.4,0.4,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_width,Male__45+,width80,210.49529421256162,210.92072833706516,2.0,0.9979829667389368,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_wis,Female__45+,WIS,2.340668657099654,2.503089775066757,1.05,0.9351117488533662,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_coverage_distance,Female__45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_width,Female__45+,width80,16.396250541550295,17.07136037591804,2.0,0.9604536592572845,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_wis,Male__80+_within_45+,WIS,0.2994602541337147,0.30362918674418904,1.05,0.986269657883757,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_coverage_distance,Male__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_width,Male__80+_within_45+,width80,1.972054423506491,1.9918710878773211,2.0,0.9900512314820794,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_wis,Female__80+_within_45+,WIS,0.7959880221480269,0.8251371804498053,1.05,0.9646735609636589,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_coverage_distance,Female__80+_within_45+,abs(coverage80-0.8),0.19999999999999996,0.19999999999999996,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_width,Female__80+_within_45+,width80,5.432413889459404,5.666111455948078,2.0,0.9587552118758013,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_wis,sex_rate_ratio_mean_11_ages,WIS,0.04904516701378528,0.046789191371981335,1.05,1.0482157433298769,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_coverage_distance,sex_rate_ratio_mean_11_ages,abs(coverage80-0.8),0.036363636363636265,0.036363636363636265,,,tcn_adapted__cdf,True,United Arab Emirates,incidence
+derived_width,sex_rate_ratio_mean_11_ages,width80,0.25510927414253215,0.22147191433344593,2.0,1.1518809277028335,tcn_adapted__cdf,True,United Arab Emirates,incidence

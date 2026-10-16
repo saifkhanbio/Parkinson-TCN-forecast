@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-03",
+  "main_source_references": 14,
+  "supplementary_source_records": 35,
+  "crosswalk_files": 157,
+  "orphan_crosswalk_reference_ids": [],
+  "gbd_citation_year_resolved": true,
+  "unresolved_metadata_items": [
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8"
+  ],
+  "all_analytical_providers_credited": true,
+  "all_export_metadata_complete": false,
+  "blanket_redistribution_clearance": false,
+  "verification_basis": "Provider policies, provider suggested citations, retained source files and manuscript citation checks"
+}
