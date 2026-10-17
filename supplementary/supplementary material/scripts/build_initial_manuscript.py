@@ -463,7 +463,6 @@ def manuscript():
         ("Conflict of interest", "To be declared by all authors; no absence of conflicts is assumed."),
         ("Funding", "Funding sources and grant numbers, or confirmation of no funding, must be supplied by the authors."),
         ("Data availability", "Analysis source code is available from the versioned public repository cited above. GBD and demographic source data are available through their providers subject to access/reuse terms. The supplementary index identifies the analytical tables, source citations, figures, scripts and provenance records intended for deposition. Repository code alone omits the original data and locked execution artifacts; a supplementary archive DOI/URL remains to be supplied."),
-        ("Use of artificial intelligence tools", "OpenAI Codex assisted code development, literature retrieval, computational checks, figure coding and manuscript drafting. Figures were plotted from retained numerical outputs rather than generated as synthetic images. Authors must review and take responsibility for the final data, analyses, references and text; AI tools are not authors."),
     ]
     for heading, content in declarations:
         doc.add_heading(heading, 2)
